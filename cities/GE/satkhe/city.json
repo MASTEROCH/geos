@@ -1,0 +1,39 @@
+{
+ "id": 612076,
+ "name": "Satkhe",
+ "ascii": "Satkhe",
+ "name_ru": "Сатхе",
+ "alt_ru": [
+  "Сатхе"
+ ],
+ "lat": 41.28715,
+ "lon": 43.65663,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 1516,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-04-02",
+ "geohash": "szr4ck",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.2691,
+  43.6327,
+  41.3052,
+  43.6806
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 02:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

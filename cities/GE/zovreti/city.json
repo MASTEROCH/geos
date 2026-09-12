@@ -1,0 +1,39 @@
+{
+ "id": 610830,
+ "name": "Zovreti",
+ "ascii": "Zovreti",
+ "name_ru": "Зоврети",
+ "alt_ru": [
+  "Зоврети"
+ ],
+ "lat": 42.18605,
+ "lon": 43.04129,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 1513,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szqxgr",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.168,
+  43.017,
+  42.2041,
+  43.0656
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 02:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

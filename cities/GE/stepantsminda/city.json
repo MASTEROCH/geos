@@ -1,0 +1,48 @@
+{
+ "id": 614087,
+ "name": "Stepantsminda",
+ "ascii": "Stepantsminda",
+ "name_ru": "Степанцминда",
+ "alt_ru": [
+  "Казбеги",
+  "Степанцминда"
+ ],
+ "lat": 42.65691,
+ "lon": 44.64311,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 1552,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szxdxv",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.6389,
+  44.6186,
+  42.6749,
+  44.6676
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 100,
+ "osm_named": 67,
+ "osm_with_site": 9,
+ "osm_with_hours": 11,
+ "osm_with_socials": 9,
+ "niches": {
+  "food": 33,
+  "shop": 31,
+  "med": 6,
+  "coffee": 12,
+  "travel": 8,
+  "art": 6,
+  "gym": 2,
+  "bar": 1,
+  "spa": 1
+ },
+ "collected": "2026-09-13 02:47",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

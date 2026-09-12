@@ -1,0 +1,48 @@
+{
+ "id": 612660,
+ "name": "Akhali Atoni",
+ "ascii": "Akhali Atoni",
+ "name_ru": "Новый Афон",
+ "alt_ru": [
+  "Новый Афон"
+ ],
+ "lat": 43.08427,
+ "lon": 40.8185,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1518,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-06-10",
+ "geohash": "sztj0g",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.0663,
+  40.7938,
+  43.1023,
+  40.8432
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 126,
+ "osm_named": 85,
+ "osm_with_site": 2,
+ "osm_with_hours": 13,
+ "osm_with_socials": 2,
+ "niches": {
+  "travel": 28,
+  "coffee": 48,
+  "bar": 4,
+  "shop": 15,
+  "sea": 10,
+  "med": 3,
+  "food": 6,
+  "kids": 5,
+  "art": 5,
+  "gym": 2
+ },
+ "collected": "2026-09-13 02:47",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
