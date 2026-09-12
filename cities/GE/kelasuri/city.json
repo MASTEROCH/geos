@@ -1,0 +1,45 @@
+{
+ "id": 865372,
+ "name": "Kelasuri",
+ "ascii": "Kelasuri",
+ "name_ru": "Келасури",
+ "alt_ru": [
+  "Келасури"
+ ],
+ "lat": 42.97877,
+ "lon": 41.07067,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1373,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2017-12-08",
+ "geohash": "szthw8",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9608,
+  41.046,
+  42.9968,
+  41.0953
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 30,
+ "osm_named": 16,
+ "osm_with_site": 0,
+ "osm_with_hours": 6,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 5,
+  "med": 1,
+  "shop": 10,
+  "sea": 5,
+  "travel": 3,
+  "coffee": 5,
+  "music": 1
+ },
+ "collected": "2026-09-13 03:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

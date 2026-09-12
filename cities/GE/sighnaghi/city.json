@@ -1,0 +1,51 @@
+{
+ "id": 611902,
+ "name": "Sighnaghi",
+ "ascii": "Sighnaghi",
+ "name_ru": "Сигънагъи",
+ "alt_ru": [
+  "Сигнаги",
+  "Сигнахи",
+  "Сигънагъи",
+  "Сиҕнаҕь"
+ ],
+ "lat": 41.61918,
+ "lon": 45.92227,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 1407,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2sub",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6012,
+  45.8982,
+  41.6372,
+  45.9464
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 103,
+ "osm_named": 58,
+ "osm_with_site": 9,
+ "osm_with_hours": 14,
+ "osm_with_socials": 6,
+ "niches": {
+  "food": 32,
+  "music": 1,
+  "travel": 10,
+  "bar": 2,
+  "shop": 30,
+  "coffee": 13,
+  "beauty": 1,
+  "kids": 5,
+  "art": 7,
+  "med": 2
+ },
+ "collected": "2026-09-13 03:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
