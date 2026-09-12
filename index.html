@@ -328,7 +328,7 @@ function draw(now){st.t=now/1000;
  // контур планеты: побережье, границы, озёра; при сильном зуме уступает уличной сетке OSM
  const neA=Math.max(0.12,Math.min(1,1.6-Math.log2(Math.max(1,st.zoom))*0.16));
  drawLines(M,NEB.land,[0.55,0.72,1.0,0.38*neA]);drawLines(M,NEB.lakes,[0.45,0.68,1.0,0.32*neA]);drawLines(M,NEB.borders,[0.6,0.7,1.0,0.16*neA]);
- if(OSMB.roads&&st.zoom>=120){const k=Math.min(1,(st.zoom-120)/120);drawLines(M,OSMB.water,[0.35,0.62,1.0,0.5*k]);drawLines(M,OSMB.bld,[0.75,0.8,0.95,0.16*k]);drawLines(M,OSMB.roads,[0.85,0.9,1.0,0.32*k]);drawLines(M,OSMB.major,[1.0,0.93,0.75,0.55*k])}
+ if((OSMB.roads||OSMB.fill)&&st.zoom>=120){const k=Math.min(1,(st.zoom-120)/120);drawTris(M,OSMB.fill,[0.62,0.68,0.85,0.13*k]);drawLines(M,OSMB.bld,[0.75,0.8,0.95,0.22*k]);drawLines(M,OSMB.water,[0.35,0.62,1.0,0.55*k]);drawLines(M,OSMB.roads,[0.85,0.9,1.0,0.34*k]);drawLines(M,OSMB.major,[1.0,0.93,0.75,0.6*k])}
  gl.useProgram(P);gl.blendFunc(gl.SRC_ALPHA,gl.ONE);const ap=A(P,'p'),am=A(P,'m');
  gl.uniformMatrix3fv(U(P,'R'),false,M);gl.uniform2f(U(P,'vp'),cv.width,cv.height);gl.uniform2f(U(P,'cen'),st.cen[0]*DPR,st.cen[1]*DPR);gl.uniform1f(U(P,'zoom'),st.zoom);gl.uniform1f(U(P,'t'),st.t);gl.uniform1f(U(P,'dpr'),DPR);gl.uniform1f(U(P,'pulse'),pulse);
  gl.uniform1f(U(P,'minpc'),st.minpc);gl.uniform1f(U(P,'onlycol'),st.only?1:0);gl.uniform1f(U(P,'niche'),st.niche);gl.uniform1f(U(P,'cont'),st.cont);gl.uniform1f(U(P,'lod'),lod());
@@ -398,178 +398,33 @@ setInterval(()=>{if(!drag&&!st.fly&&!st.vel&&Math.abs(st.zt-st.zoom)<1e-3)loadAr
 cv.addEventListener('dblclick',e=>zoomAt(e.clientX,e.clientY,STEP));
 function onSettle(){if(mode==='explore'&&st.niche>=0)renderNearby();loadArea()}
 // ───── схема района из OSM по требованию (© OpenStreetMap contributors, ODbL): здания, дороги, вода — при зуме ≥ 160
-const OSMB={roads:null,major:null,bld:null,water:null};const AREA=new Map();let areaBusy=false,areaT=0;
-function loadArea(){if(st.zoom<160||!HTTP&&!/^file/.test(location.protocol))return;if(areaBusy||performance.now()-areaT<1500)return;
- // два яруса: с 160× — дороги и вода (лёгкий запрос), с 320× — ещё и здания в узком окне (иначе 6 МБ на экран)
- const [la,lo]=centerLatLon();const tier=st.zoom>=320?'b':'r';const span=Math.min(tier==='b'?0.006:0.014,(innerHeight/2)/R0()*57.3);
+const OSMB={roads:null,major:null,bld:null,water:null,fill:null};const AREA=new Map();let areaBusy=false,areaT=0;
+function loadArea(){if(st.zoom<160)return;if(areaBusy||performance.now()-areaT<1200)return;
+ // два яруса: с 160× — дороги и вода, с 320× — ещё здания в узком окне
+ const [la,lo]=centerLatLon();const tier=st.zoom>=320?'b':'r';const span=Math.min(tier==='b'?0.006:0.012,(innerHeight/2)/R0()*57.3);
  const key=`${tier}_${(la/0.004).toFixed(0)}_${(lo/0.004).toFixed(0)}`;if(AREA.has(key))return;
  const cl=Math.cos(la*Math.PI/180);const s=(la-span).toFixed(4),n=(la+span).toFixed(4),w=(lo-span/cl).toFixed(4),e=(lo+span/cl).toFixed(4);
- const roads=`way["highway"~"^(motorway|trunk|primary|secondary|tertiary|residential|unclassified|living_street|pedestrian)$"](${s},${w},${n},${e});way["natural"="coastline"](${s},${w},${n},${e});way["waterway"~"^(river|canal)$"](${s},${w},${n},${e});`;
- const q=`[out:json][timeout:20];(${roads}${tier==='b'?`way["building"](${s},${w},${n},${e});way["highway"~"^(service|footway)$"](${s},${w},${n},${e});`:''});out geom;`;
  areaBusy=true;areaT=performance.now();toast('Схема района…');
- fetch('https://overpass-api.de/api/interpreter',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:'data='+encodeURIComponent(q)}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{AREA.set(key,j.elements||[]);if(AREA.size>14)AREA.delete(AREA.keys().next().value);buildArea();hideToast()}).catch(()=>{toast('Схема района не загрузилась');areaT=performance.now()+6000}).finally(()=>{areaBusy=false})}
-function buildArea(){const R={roads:[],major:[],bld:[],water:[]};const seen=new Set();
- for(const els of AREA.values())for(const el of els){if(seen.has(el.id)||!el.geometry)continue;seen.add(el.id);const t=el.tags||{};
-  const kind=t.building?'bld':(t.natural==='coastline'||t.waterway)?'water':/^(motorway|trunk|primary|secondary)$/.test(t.highway)?'major':'roads';const arr=R[kind];
-  for(let i=0;i<el.geometry.length-1;i++){const a=el.geometry[i],b=el.geometry[i+1];const la1=a.lat*Math.PI/180,lo1=a.lon*Math.PI/180,la2=b.lat*Math.PI/180,lo2=b.lon*Math.PI/180;
-   arr.push(Math.cos(la1)*Math.sin(lo1),Math.sin(la1),Math.cos(la1)*Math.cos(lo1),Math.cos(la2)*Math.sin(lo2),Math.sin(la2),Math.cos(la2)*Math.cos(lo2))}}
+ const req=HTTP?fetch(`/api/area?s=${s}&w=${w}&n=${n}&e=${e}&tier=${tier}`).then(r=>r.json())
+  :fetch('https://overpass-api.de/api/interpreter',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:'data='+encodeURIComponent(`[out:json][timeout:20];(way["highway"~"^(motorway|trunk|primary|secondary|tertiary|residential|unclassified|living_street|pedestrian)$"](${s},${w},${n},${e});way["natural"="coastline"](${s},${w},${n},${e});way["waterway"~"^(river|canal)$"](${s},${w},${n},${e});${tier==='b'?`way["building"](${s},${w},${n},${e});way["highway"~"^(service|footway)$"](${s},${w},${n},${e});`:''});out geom;`)}).then(r=>r.json()).then(j=>{const o={r:[],m:[],w:[],b:[]};for(const el of j.elements||[]){if(!el.geometry)continue;const t=el.tags||{};const k=t.building?'b':(t.natural==='coastline'||t.waterway)?'w':/^(motorway|trunk|primary|secondary)$/.test(t.highway)?'m':'r';o[k].push(el.geometry.flatMap(g=>[g.lat,g.lon]))}return o});
+ req.then(j=>{if(j.error&&!(j.r.length+j.b.length))throw new Error(j.error);AREA.set(key,j);if(AREA.size>16)AREA.delete(AREA.keys().next().value);buildArea();hideToast()}).catch(()=>{toast('Схема района не загрузилась');areaT=performance.now()+5000}).finally(()=>{areaBusy=false})}
+const sph=(la,lo)=>{la*=Math.PI/180;lo*=Math.PI/180;return [Math.cos(la)*Math.sin(lo),Math.sin(la),Math.cos(la)*Math.cos(lo)]};
+// ear clipping для простых контуров зданий (в градусах, плоско — здание меньше километра)
+function earcut(pts){const n=pts.length/2;if(n<3)return [];const idx=[];for(let i=0;i<n;i++)idx.push(i);
+ let area=0;for(let i=0;i<n;i++){const j=(i+1)%n;area+=pts[i*2]*pts[j*2+1]-pts[j*2]*pts[i*2+1]}if(area<0)idx.reverse();
+ const tri=[];let guard=0;const X=i=>pts[i*2],Y=i=>pts[i*2+1];const cross=(a,b,c)=>(X(b)-X(a))*(Y(c)-Y(a))-(Y(b)-Y(a))*(X(c)-X(a));
+ while(idx.length>3&&guard++<4000){let cut=false;for(let k=0;k<idx.length;k++){const a=idx[(k+idx.length-1)%idx.length],b=idx[k],c=idx[(k+1)%idx.length];if(cross(a,b,c)<=0)continue;let ok=true;
+   for(const p of idx){if(p===a||p===b||p===c)continue;if(cross(a,b,p)>=0&&cross(b,c,p)>=0&&cross(c,a,p)>=0){ok=false;break}}
+   if(ok){tri.push(a,b,c);idx.splice(k,1);cut=true;break}}if(!cut)break}
+ if(idx.length===3)tri.push(idx[0],idx[1],idx[2]);return tri}
+function buildArea(){const R={roads:[],major:[],water:[],bld:[],fill:[]};
+ for(const j of AREA.values()){const push=(arr,flat)=>{for(let i=0;i<flat.length-2;i+=2){const a=sph(flat[i],flat[i+1]),b=sph(flat[i+2],flat[i+3]);arr.push(a[0],a[1],a[2],b[0],b[1],b[2])}};
+  for(const f of j.r||[])push(R.roads,f);for(const f of j.m||[])push(R.major,f);for(const f of j.w||[])push(R.water,f);
+  for(const f of j.b||[]){push(R.bld,f);const closed=f.length>=8&&f[0]===f[f.length-2]&&f[1]===f[f.length-1];const poly=closed?f.slice(0,-2):f;
+   if(poly.length>=6&&poly.length<=400){const tri=earcut(poly);for(const t of tri){const p=sph(poly[t*2],poly[t*2+1]);R.fill.push(p[0],p[1],p[2])}}}}
  for(const k in R){const d=new Float32Array(R[k]);OSMB[k]=d.length?{buf:buf(d),n:d.length/3}:null}}
-
-// ───── тост
-let toastT=0;function toast(t){const el=$('toast');el.textContent=t;el.classList.add('on');clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove('on'),1800)}
-
-// ───── шторка: три положения, свайп, история
-const sheet=$('sheet'),body=$('body');let detent='peek',mode='explore',stack=[];
-function setDetent(d){detent=d;sheet.classList.toggle('mini',d==='mini');sheet.classList.toggle('half',d==='half');sheet.classList.toggle('full',d==='full');if(d!=='full')body.scrollTop=0}
-let sw=null;
-function swStart(e,y){if(DESK())return;sw={y,t:performance.now(),dy:0,dec:null,from:detent}}
-sheet.addEventListener('touchstart',e=>{swStart(e,e.touches[0].clientY)},{passive:true});
-sheet.addEventListener('touchmove',e=>{if(!sw)return;const dy=e.touches[0].clientY-sw.y;
- if(sw.dec===null){if(Math.abs(dy)<8)return;const onGrab=e.target.closest('.grab,.hd');sw.dec=onGrab||detent!=='full'||(dy>0&&body.scrollTop<=0)}
- if(!sw.dec)return;e.preventDefault();sw.dy=dy;sheet.classList.add('drag');
- const base=detent==='full'?0:detent==='half'?innerHeight*0.46:detent==='peek'?sheet.offsetHeight-124:sheet.offsetHeight-34;let y=base+dy;if(y<0)y=y*0.3;sheet.style.transform=`translateY(${y}px)`},{passive:false});
-sheet.addEventListener('touchend',()=>{if(!sw)return;sheet.classList.remove('drag');sheet.style.transform='';const v=sw.dy/Math.max(1,performance.now()-sw.t);const order=['mini','peek','half','full'];let i=order.indexOf(detent);
- if(sw.dec){if(sw.dy<-60||v<-.4)i=Math.min(3,i+1);else if(sw.dy>60||v>.4)i=Math.max(0,i-1)}setDetent(order[i]);sw=null});
-$('grab').onclick=()=>setDetent(detent==='mini'?'peek':detent==='peek'?'half':detent==='half'?'full':'peek');
-$('hx').onclick=()=>{if(mode!=='explore')goExplore();else setDetent('peek')};
-$('back').onclick=()=>history.back();
-addEventListener('popstate',e=>{if(stack.length){stack.pop();const prev=stack[stack.length-1];prev?prev():renderExplore(true)}});
-addEventListener('keydown',e=>{if(e.key==='Escape'&&mode!=='explore')history.back()});
-function push(fn){stack.push(fn);history.pushState({m:stack.length},'')}
-function goExplore(){if(stack.length)history.go(-stack.length);else renderExplore(true)}
-function setHeader(title,sub){$('hTitle').textContent=title;sheet.classList.toggle('sub',sub);if(detent==='mini')setDetent('peek')}
-
-// ───── категории и explore
-let ENL=null,RUL=null,PNL=null;function prep(){if(ENL)return;ENL=EN.map(nrm);RUL=RU.map(nrm);PNL=POI_INFO.map(p=>nrm(p[0]))}
-const nrm=s=>(s||'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
-function renderExplore(fromBack){mode='explore';stack.length=0;st.sel=null;setHeader('GEOS',false);
- const cats=NICHES.map((z,i)=>z.k==='_unmapped'?'':`<button class="cat tap${st.niche===i?' on':''}" data-i="${i}" style="--c:${z.c}"><i>${z.e}</i><b>${z.n}</b></button>`).join('');
- body.innerHTML=`<div class="search" id="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" placeholder="Город или место" autocomplete="off" inputmode="search" enterkeyhint="search" aria-label="Поиск"><button class="clr tap" id="qx" aria-label="Очистить">×</button></div>
- <div class="rail" id="rail">${cats}</div><div id="res"></div>`;
- $('rail').onclick=e=>{const b=e.target.closest('.cat');if(!b)return;const i=+b.dataset.i;st.niche=st.niche===i?-1:i;[...$('rail').children].forEach(c=>c.classList.toggle('on',+c.dataset.i===st.niche));
-  if(st.niche>=0){b.scrollIntoView({inline:'center',block:'nearest',behavior:REDUCED?'auto':'smooth'});if(st.zoom<40&&CARDS.length){const c=nearestCard();flyTo(c.lat,c.lon,220)}if(detent==='peek')setDetent('half')}renderNearby()};
- const q=$('q');q.oninput=()=>{$('search').classList.toggle('has',!!q.value);renderSearch(q.value)};q.onfocus=()=>{if(detent==='peek')setDetent('half')};
- q.onkeydown=e=>{if(e.key==='Enter'){const b=$('res').querySelector('.item');if(b)b.click();q.blur()}if(e.key==='Escape'){q.value='';renderNearby();q.blur()}};
- $('qx').onclick=()=>{q.value='';$('search').classList.remove('has');renderNearby();q.focus()};
- renderNearby()}
-function nearestCard(){const [la,lo]=centerLatLon();let b=CARDS[0],bd=1e9;for(const c of CARDS){const d=hav(la,lo,c.lat,c.lon);if(d<bd){bd=d;b=c}}return b}
-function hav(a1,o1,a2,o2){const R=6371,p1=a1*Math.PI/180,p2=a2*Math.PI/180,dl=(o2-o1)*Math.PI/180;return 2*R*Math.asin(Math.sqrt(Math.sin((p2-p1)/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2))}
-const dist=km=>km<1?`${Math.round(km*1000)} м`:km<10?`${km.toFixed(1)} км`:`${Math.round(km)} км`;
-
-// ───── L3 · вкус: веса по категориям, живут в localStorage, гаснут (полураспад 60 дней)
-const CAT_RU={coffee:"кофе и десерты",food:"еду",bar:"бары и ночь",gym:"спорт",beauty:"красоту",spa:"спа",shop:"магазины",sea:"пляжи и воду",art:"музеи и искусство",music:"музыку и сцену",travel:"что посмотреть",med:"здоровье",kids:"детское"};
-const TASTE_KEY='geos_taste_v1';let TASTE=null;
-function loadTaste(){try{const t=JSON.parse(localStorage.getItem(TASTE_KEY)||'null');if(t&&t.w){const days=(Date.now()-(t.updated||Date.now()))/864e5;const k=Math.pow(0.5,days/60);for(const c in t.w)t.w[c]=+(0.5+(t.w[c]-0.5)*k).toFixed(3);TASTE=t}}catch{}
- if(!TASTE)TASTE={w:null,uid:Math.random().toString(36).slice(2)+Date.now().toString(36),updated:Date.now()}}
-function saveTaste(){TASTE.updated=Date.now();try{localStorage.setItem(TASTE_KEY,JSON.stringify(TASTE))}catch{}}
-const hasTaste=()=>!!(TASTE&&TASTE.w);
-function nudge(cat,dw){if(!hasTaste()||!cat||cat==='_unmapped')return;TASTE.w[cat]=+Math.max(0,Math.min(1,(TASTE.w[cat]??0.5)+dw)).toFixed(3);saveTaste()}
-// ───── L5 · события: что человек сделал — вкусу и, если есть сервер, в /api/event
-const NUDGE={open:.06,call:.2,route:.2,site:.12,share:.12,checkin:.3,dislike:-.4,photo:.02};
-function track(kind,poi){const cat=NICHES[PN[poi]].k;nudge(cat,NUDGE[kind]||0);
- if(HTTP){const body=JSON.stringify({place_id:POI_INFO[poi][9]||'',kind,project:'geos',user:TASTE.uid,sponsored:!!SPONS.get(POI_INFO[poi][9])});
-  try{navigator.sendBeacon?navigator.sendBeacon('/api/event',new Blob([body],{type:'application/json'})):fetch('/api/event',{method:'POST',body,headers:{'content-type':'application/json'},keepalive:true})}catch{}}}
-// ───── L4 · партнёры и скоринг. Три закона: буст умножает только релевантное · партнёр помечен · есть why
-const SPONS=new Map();if(HTTP)fetch('sponsors.json').then(r=>r.ok?r.json():[]).then(a=>{for(const x of a||[])if(!x.project||x.project==='geos')SPONS.set(x.id,x)}).catch(()=>{});
-function scorePoi(i,d,stt){const cat=NICHES[PN[i]].k,why=[];const w=hasTaste()?(TASTE.w[cat]??0.5):null;
- const rel=w===null?0.6:0.15+0.85*w;if(w!==null&&w>=0.6)why.push('любишь '+(CAT_RU[cat]||cat));if(w!==null&&w<0.15)return null;
- const ctx=(stt?(stt.cls==='open'||stt.cls==='soon'?1:0.45):0.8)*Math.exp(-d/2.5);if(stt&&stt.cls!=='closed')why.push('открыто');why.push(dist(d));
- const [,,,addr,phone,site,hours]=POI_INFO[i];const qual=0.7+0.1*(!!hours+!!site+!!phone);
- const sp=SPONS.get(POI_INFO[i][9]);const boost=sp?Math.max(1,Math.min(2.5,sp.boost||1.3)):1;if(sp)why.push('★'+(sp.label||'партнёр'));
- return {score:rel*ctx*qual*boost,why,sp:!!sp}}
-function tasteBlock(){const on=new Set();return `<div class="taste" id="tasteBox"><h3>Что тебе интересно?</h3><p>Выбери несколько — GEOS будет показывать сначала то, что отзывается тебе. Меняется от того, куда ты ходишь.</p>
- <div class="tchips">${NICHES.filter(z=>z.k!=='_unmapped').map(z=>`<button class="tchip tap" data-k="${z.k}" style="--c:${z.c}">${z.e} ${z.n}</button>`).join('')}</div>
- <button class="btn tap" id="tasteOk" style="margin:0">Готово</button><p style="margin:8px 0 0;text-align:center"><a href="#" id="tasteSkip">Пока без этого</a></p></div>`}
-function bindTaste(){const box=$('tasteBox');if(!box)return;box.querySelectorAll('.tchip').forEach(b=>b.onclick=()=>b.classList.toggle('on'));
- const done=()=>{const w={};NICHES.forEach(z=>{if(z.k!=='_unmapped')w[z.k]=0.35});box.querySelectorAll('.tchip.on').forEach(b=>w[b.dataset.k]=1);TASTE.w=w;saveTaste();toast('Вкус сохранён — рекомендации подстроятся');renderNearby()};
- $('tasteOk').onclick=done;$('tasteSkip').onclick=e=>{e.preventDefault();const w={};NICHES.forEach(z=>{if(z.k!=='_unmapped')w[z.k]=0.5});TASTE.w=w;saveTaste();renderNearby()}}
-loadTaste();
-function itemPoi(i,extra,why){const [nm]=POI_INFO[i],z=NICHES[PN[i]],c=CARDS[POI_CITY[i]],stt=status(POI_INFO[i][6],c.tz);
- return `<button class="item tap" data-poi="${i}" style="--c:${z.c}"><i class="ic">${z.e}</i><div class="t"><b>${esc(nm||'Без названия')}</b><span>${z.n}${POI_INFO[i][3]?' · '+esc(POI_INFO[i][3]):''}${stt?` · <em class="${stt.cls}" style="font-style:normal">${stt.short}</em>`:''}</span>${why&&why.length?`<div class="why">${why.map(w=>`<i class="${w[0]==='★'?'sp':''}">${esc(w)}</i>`).join('')}</div>`:''}</div><div class="r num">${extra||''}</div></button>`}
-function itemCity(i,extra){const col=colOf(i)>=0;const [cc,co]=ccOf(i);return `<button class="item tap" data-city="${i}" style="--c:${col?'#64D2FF':'#8E8E93'}"><i class="ic">${col?'◉':'•'}</i><div class="t"><b>${esc(nameOf(i))}</b><span>${esc(co)}${ADM[ADMI[i]]?' · '+esc(ADM[ADMI[i]]):''} · ${fmt(POPS[i])} чел${col?' · собран':''}</span></div><div class="r num">${extra||''}</div></button>`}
-function bindList(el){el.onclick=e=>{const b=e.target.closest('[data-poi],[data-city]');if(!b)return;if(b.dataset.poi)open({poi:+b.dataset.poi});else open({city:+b.dataset.city})}}
-function renderNearby(){const res=$('res');if(!res)return;const [la,lo]=centerLatLon();const tb=hasTaste()?'':tasteBlock();
- if(st.zoom>=30&&NP){let arr=[];for(let i=0;i<NP;i++){if(st.niche>=0&&PN[i]!==st.niche)continue;if(!POI_INFO[i][0])continue;const d=hav(la,lo,poiLat(i),poiLon(i));if(d>6)continue;
-   const stt=status(POI_INFO[i][6],CARDS[POI_CITY[i]].tz);const sc=scorePoi(i,d,stt);if(!sc)continue;arr.push([d,i,sc])}
-  arr.sort((a,b)=>b[2].score-a[2].score);const top=arr.slice(0,40);const cat=st.niche>=0?NICHES[st.niche].n:(hasTaste()?'Для тебя':'Рядом');
-  res.innerHTML=tb+`<div class="sec"><h2>${cat}</h2><span class="num">${fmt(arr.length)} · 6 км</span></div>`+(top.length?`<div class="list">${top.map(x=>itemPoi(x[1],dist(x[0]),x[2].why)).join('')}</div>`:`<div class="empty"><b>Здесь пусто</b>Подвиньте глобус к собранному городу или выберите другую категорию</div>`)+(hasTaste()?`<p class="src" style="text-align:center"><a href="#" id="tasteEdit">Изменить, что мне интересно</a></p>`:'');
-  bindList(res);bindTaste();const te=$('tasteEdit');if(te)te.onclick=e=>{e.preventDefault();TASTE.w=null;renderNearby();setDetent('full')};return}
- const cities=CARDS.map((c,i)=>[hav(la,lo,c.lat,c.lon),c,i]).sort((a,b)=>a[0]-b[0]).slice(0,12);
- res.innerHTML=tb+`<div class="sec"><h2>Собранные города</h2><span class="num">${CARDS.length} · ${fmt(STATS.pois)} мест</span></div><div class="list">${cities.map(([d,c])=>`<button class="item tap" data-city="${c.i}" style="--c:#64D2FF"><i class="ic">◉</i><div class="t"><b>${esc(c.n)}</b><span>${esc(c.co)} · ${fmt(c.total)} мест · ${fmt(c.pop)} чел</span></div><div class="r num">${dist(d)}</div></button>`).join('')}</div>
- <p class="src">Реестр: ${fmt(STATS.cities)} городов планеты (GeoNames). Заведения — из OpenStreetMap для собранных городов. Приблизьте собранный город — появятся точки; тап по точке открывает карточку.</p>`;bindList(res);bindTaste()}
-function renderSearch(v){const res=$('res');v=nrm(v);if(v.length<2){renderNearby();return}prep();const out=[];
- for(let k=0;k<ORDER.length&&out.length<8;k++){const i=ORDER[k];if(ENL[i].includes(v)||(RUL[i]&&RUL[i].includes(v)))out.push(itemCity(i))}
- const pl=[];for(let i=0;i<NP&&pl.length<10;i++)if(PNL[i]&&PNL[i].includes(v))pl.push(itemPoi(i,CARDS[POI_CITY[i]].n));
- res.innerHTML=(pl.length?`<div class="sec"><h2>Места</h2></div><div class="list">${pl.join('')}</div>`:'')+(out.length?`<div class="sec"><h2>Города</h2></div><div class="list">${out.join('')}</div>`:'')||`<div class="empty"><b>Ничего не нашлось</b>Реестр знает ${fmt(STATS.cities)} городов и ${fmt(STATS.pois)} мест в собранных</div>`;bindList(res)}
-
-// ───── часы работы (OSM opening_hours, частые формы) и статус «сейчас»
-const DAYS=['Mo','Tu','We','Th','Fr','Sa','Su'],DAYS_RU=['пн','вт','ср','чт','пт','сб','вс'];
-function parseOH(s){if(!s)return null;s=s.trim();if(/^24\s*\/\s*7$/.test(s))return {all:true,week:Array(7).fill([[0,1440]])};const week=Array.from({length:7},()=>null);let any=false;
- for(let seg of s.split(';')){seg=seg.trim();if(!seg||/^PH|^SH/.test(seg))continue;const m=seg.match(/^((?:Mo|Tu|We|Th|Fr|Sa|Su|PH|SH)(?:[-,](?:Mo|Tu|We|Th|Fr|Sa|Su|PH|SH))*)?\s*(.*)$/i);if(!m)continue;
-  let days=[];if(m[1]){for(const part of m[1].split(',')){const [a,b]=part.split('-').map(x=>DAYS.findIndex(d=>d.toLowerCase()===x.toLowerCase()));if(a<0)continue;if(b===undefined||b<0)days.push(a);else{for(let d=a;;d=(d+1)%7){days.push(d);if(d===b)break}}}}else days=[0,1,2,3,4,5,6];
-  const times=m[2].trim();let iv=[];if(/^off|closed/i.test(times))iv=[];else{for(const t of times.split(',')){const r=t.trim().match(/^(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})\+?$/)||t.trim().match(/^(\d{1,2}):(\d{2})\+$/);if(!r)continue;const a=+r[1]*60+ +r[2];let b=r[3]!==undefined?+r[3]*60+ +r[4]:a+8*60;if(b<=a)b+=1440;iv.push([a,b])}}
-  if(!iv.length&&!/off|closed/i.test(times))continue;for(const d of days)week[d]=iv;any=true}
- return any?{week}:null}
-function localNow(tz){try{const p=new Intl.DateTimeFormat('en-GB',{timeZone:tz,weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());const g=k=>p.find(x=>x.type===k).value;const wd=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].indexOf(g('weekday'));return [wd,(+g('hour')%24)*60+ +g('minute')]}catch{const d=new Date();return [(d.getDay()+6)%7,d.getHours()*60+d.getMinutes()]}}
-const hm=m=>`${String(Math.floor((m%1440)/60)).padStart(2,'0')}:${String(m%60).padStart(2,'0')}`;
-function status(oh,tz){const p=parseOH(oh);if(!p)return null;if(p.all)return {cls:'open',short:'круглосуточно',text:'Открыто круглосуточно'};const [wd,now]=localNow(tz);
- const today=p.week[wd]||[],yest=p.week[(wd+6)%7]||[];for(const [a,b] of yest)if(b>1440&&now<b-1440)return {cls:'open',short:`до ${hm(b)}`,text:`Открыто · до ${hm(b)}`};
- for(const [a,b] of today){if(now>=a&&now<b)return {cls:b-now<=30?'soon':'open',short:`до ${hm(b)}`,text:`${b-now<=30?'Закрывается скоро':'Открыто'} · до ${hm(b)}`};if(now<a)return {cls:'closed',short:`с ${hm(a)}`,text:`Закрыто · откроется в ${hm(a)}`}}
- for(let k=1;k<=7;k++){const iv=p.week[(wd+k)%7];if(iv&&iv.length)return {cls:'closed',short:`${k===1?'завтра':DAYS_RU[(wd+k)%7]} с ${hm(iv[0][0])}`,text:`Закрыто · откроется ${k===1?'завтра':'в '+DAYS_RU[(wd+k)%7]} в ${hm(iv[0][0])}`}}
- return {cls:'closed',short:'закрыто',text:'Закрыто'}}
-function hoursTable(oh,tz){const p=parseOH(oh);if(!p)return oh?`<div class="rows"><div class="row"><span>Часы</span><div>${esc(oh)}</div></div></div>`:'';if(p.all)return `<div class="row"><span>Ежедневно</span><div>круглосуточно</div></div>`;const [wd]=localNow(tz);
- return `<table class="hours">${p.week.map((iv,d)=>`<tr class="${d===wd?'today':''}"><td>${DAYS_RU[d]}</td><td>${iv===null?'—':iv.length?iv.map(([a,b])=>`${hm(a)}–${hm(b)}`).join(', '):'выходной'}</td></tr>`).join('')}</table>`}
-
-// ───── карточки
-const gmaps=(lat,lon,q)=>`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q?q+' ':'')}${lat},${lon}`;
-const ymaps=(lat,lon,q)=>`https://yandex.ru/maps/?pt=${lon},${lat}&z=17&l=map${q?'&text='+encodeURIComponent(q):''}`;
-const amaps=(lat,lon,q)=>`https://maps.apple.com/?ll=${lat},${lon}&q=${encodeURIComponent(q||'Место')}&z=17`;
-const route=(lat,lon)=>IOS?`https://maps.apple.com/?daddr=${lat},${lon}`:`https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
-const link=(u,txt)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(txt||u.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,''))}</a>`;
-const SOC={instagram:'https://instagram.com/',facebook:'https://facebook.com/',telegram:'https://t.me/',vk:'https://vk.com/',youtube:'https://youtube.com/',tiktok:'https://tiktok.com/@',twitter:'https://x.com/',whatsapp:'https://wa.me/'};
-const SOCN={instagram:'Instagram',facebook:'Facebook',telegram:'Telegram',vk:'VK',youtube:'YouTube',tiktok:'TikTok',twitter:'X',whatsapp:'WhatsApp'};
-function socLinks(s){if(!s)return '';return s.split(';').map(kv=>{const [k,v]=kv.split(/=(.*)/);if(!v)return '';let u=/^https?:/.test(v)?v:(SOC[k]||'')+(k==='whatsapp'?v.replace(/\D/g,''):v.replace(/^@/,''));return `<a class="pill" href="${esc(u)}" target="_blank" rel="noopener">${SOCN[k]||k}</a>`}).join('')}
-const mapsRow=(lat,lon,q)=>`<div class="maps"><a class="tap" href="${gmaps(lat,lon,q)}" target="_blank" rel="noopener"><i style="background:#fff;color:#4285F4">G</i>Google</a><a class="tap" href="${ymaps(lat,lon,q)}" target="_blank" rel="noopener"><i style="background:#FC3F1D;color:#fff">Я</i>Яндекс</a>${IOS?`<a class="tap" href="${amaps(lat,lon,q)}" target="_blank" rel="noopener"><i style="background:#fff;color:#000"></i>Apple</a>`:''}</div>`;
-const svgI={call:'<svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>',site:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>',route:'<svg viewBox="0 0 24 24"><path d="M12 22s7-7 7-12a7 7 0 0 0-14 0c0 5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>',share:'<svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg>',copy:'<svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>'};
-function open(h){if(h.poi!==undefined)poiCard(h.poi);else{const ci=colOf(h.city);ci>=0?cityCard(h.city,CARDS[ci]):cityCard(h.city)}}
-function share(title,url){if(navigator.share)navigator.share({title,url}).catch(()=>{});else{navigator.clipboard?.writeText(url);toast('Ссылка скопирована')}}
-function copy(t){navigator.clipboard?.writeText(t);toast('Скопировано')}
-async function setHero(el,loaders){for(const f of loaders){try{const r=await f();if(r&&r.images&&r.images.length){gallery(el,r.images,r.credit);return r}if(r&&r.image){gallery(el,[r.image],r.credit);return r}if(r&&r.description)return r}catch(e){}}return null}
-function gallery(el,urls,credit){el.querySelector('.ph')?.remove();el.querySelector('.gal')?.remove();el.querySelector('.dots')?.remove();
- const g=document.createElement('div');g.className='gal';g.innerHTML=urls.map(u=>`<img alt="" loading="lazy" src="${esc(u)}">`).join('');el.appendChild(g);
- if(urls.length>1){const d=document.createElement('div');d.className='dots';d.innerHTML=urls.map((_,i)=>`<i class="${i?'':'on'}"></i>`).join('');el.appendChild(d);
-  g.addEventListener('scroll',()=>{const k=Math.round(g.scrollLeft/g.clientWidth);[...d.children].forEach((x,i)=>x.classList.toggle('on',i===k))},{passive:true})}
- if(credit)el.querySelector('.cr').textContent=credit}
-// фото рядом с точкой из Wikimedia Commons (настоящие снимки в радиусе 60 м; не обязательно этого заведения)
-async function commonsNear(lat,lon){const j=await jget(`https://commons.wikimedia.org/w/api.php?action=query&generator=geosearch&ggscoord=${lat}|${lon}&ggsradius=60&ggslimit=5&ggsnamespace=6&prop=imageinfo&iiprop=url&iiurlwidth=900&format=json&origin=*`);
- const pages=j&&j.query&&j.query.pages?Object.values(j.query.pages):[];const imgs=pages.map(p=>p.imageinfo&&p.imageinfo[0]&&p.imageinfo[0].thumburl).filter(u=>u&&/\.(jpe?g|png|webp)$/i.test(u));return imgs.length?{images:imgs,credit:'Wikimedia Commons · снято рядом'}:null}
-// настоящее состояние места по Google (через api/place, ничего не хранится)
-async function gplace(name,lat,lon){if(!HTTP||!name)return null;const j=await jget(`/api/venue?name=${encodeURIComponent(name)}&lat=${lat}&lon=${lon}&photos=3`);return j&&j.ok&&j.found?j:(j&&j.needKey?{needKey:true}:null)}
-const memo=new Map();async function jget(u){if(memo.has(u))return memo.get(u);const p=fetch(u).then(r=>r.ok?r.json():null).catch(()=>null);memo.set(u,p);return p}
-async function wiki(title,lang,lat,lon){const j=await jget(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g,'_'))}`);if(!j||j.type==='disambiguation')return null;
- if(j.coordinates&&lat!==undefined&&hav(lat,lon,j.coordinates.lat,j.coordinates.lon)>60)return null;   // одноимённый город на другом континенте
- return {image:j.thumbnail?.source?j.thumbnail.source.replace(/\/\d+px-/,'/900px-'):'',description:j.extract||'',credit:'Wikipedia',url:j.content_urls?.mobile?.page||j.content_urls?.desktop?.page}}
-async function wikidataImg(qid){const j=await jget(`https://www.wikidata.org/w/api.php?action=wbgetclaims&property=P18&entity=${qid}&format=json&origin=*`);const f=j?.claims?.P18?.[0]?.mainsnak?.datavalue?.value;return f?{image:`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=900`,credit:'Wikimedia Commons'}:null}
-const commonsImg=f=>({image:`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f.replace(/^File:/,''))}?width=900`,credit:'Wikimedia Commons'});
-async function og(site){if(!HTTP)return null;const j=await jget(`/api/og?u=${encodeURIComponent(site)}`);return j&&(j.image||j.description)?{image:j.image,description:j.description,credit:j.site||site.replace(/^https?:\/\/(www\.)?/,'').split('/')[0]}:null}
-
-function cityCard(i,c){const lat=c?c.lat:latOf(i),lon=c?c.lon:lonOf(i),[cc,co]=ccOf(i),name=nameOf(i),en=EN[i];
- mode='city';push(()=>cityCard(i,c));flyTo(lat,lon,c?Math.max(st.zoom,220):Math.max(st.zoom,12));st.sel={city:i,t0:performance.now(),color:'#64D2FF'};setHeader(name,true);setDetent('half');
- const stats=c?`<div class="stat4"><div><b class="num">${fmt(c.total)}</b><span>мест на карте</span></div><div><b class="num">${fmt(c.named)}</b><span>с названием</span></div><div><b class="num">${fmt(c.hours)}</b><span>с часами работы</span></div><div><b class="num">${fmt(c.site)}</b><span>с сайтом</span></div></div>`:'';
- const tot=c?Math.max(1,...Object.values(c.niches)):1;
- const bars=c?`<div class="sec"><h2>Что здесь есть</h2><span>тап — показать</span></div><div class="bars">${NICHES.map((z,k)=>c.niches[z.k]?`<button class="bar tap" data-k="${k}" style="--c:${z.c}"><span>${z.e} ${z.n}</span><i style="--w:${(c.niches[z.k]/tot*100).toFixed(1)}%"></i><em class="num">${fmt(c.niches[z.k])}</em></button>`:'').join('')}</div>`:'';
- body.innerHTML=`<div class="hero" style="--c:#0A84FF"><img alt=""><div class="ph"><em>🏙</em>${c?'':'город из реестра'}</div><span class="cr"></span></div>
- <div class="meta">${esc(co)}${ADM[ADMI[i]]?' · '+esc(ADM[ADMI[i]]):''} · ${FEATRU[FEAT[FEATI[i]]]||'город'} · <span class="num">${fmt(POPS[i])}</span> чел</div>
- <div class="acts"><a class="act tap primary" href="${route(lat,lon)}" target="_blank" rel="noopener">${svgI.route}Маршрут</a><button class="act tap" id="aShare">${svgI.share}Поделиться</button><button class="act tap" id="aCopy">${svgI.copy}Координаты</button><a class="act tap" id="aWiki" aria-disabled="true">${svgI.site}Википедия</a></div>
- ${mapsRow(lat,lon,en)}
- <p class="desc" id="desc"></p>${stats}${bars}
- <div class="rows"><div class="row"><span>Часовой пояс</span><div>${esc(TZ[TZI[i]]||'—')} · сейчас <span class="num">${hm(localNow(TZ[TZI[i]])[1])}</span></div></div><div class="row"><span>Координаты</span><div class="num">${lat.toFixed(4)}, ${lon.toFixed(4)}</div></div></div>
- ${c?`<a class="btn sec2 tap" href="${esc(c.map)}" target="_blank" rel="noopener">Карта покрытия города</a><p class="src">Места — © участники OpenStreetMap (ODbL), собрано ${esc(c.when)}. Город — GeoNames (CC BY 4.0).</p>`:`<p class="src">Заведений на глобусе для этого города пока нет: он есть в реестре GeoNames, но ещё не собран из OpenStreetMap.</p>`}`;
- $('aShare').onclick=()=>share(name,gmaps(lat,lon,en));$('aCopy').onclick=()=>copy(`${lat.toFixed(5)}, ${lon.toFixed(5)}`);
- body.querySelectorAll('.bar').forEach(b=>b.onclick=()=>{st.niche=+b.dataset.k;goExplore();setTimeout(()=>{renderExplore();setDetent('half');flyTo(lat,lon,Math.max(st.zoom,220))},0)});
- requestAnimationFrame(()=>requestAnimationFrame(()=>body.querySelectorAll('.bar i').forEach(x=>x.style.width=x.style.getPropertyValue('--w'))));
- setHero(body.querySelector('.hero'),[()=>wiki(RU[i]||en,'ru',lat,lon),()=>wiki(en,'en',lat,lon)]).then(r=>{if(!r)return;const d=$('desc');if(d&&r.description){d.textContent=r.description;d.innerHTML+=`<small>Википедия</small>`}if(r.url){const w=$('aWiki');w.href=r.url;w.target='_blank';w.rel='noopener';w.removeAttribute('aria-disabled')}})}
-
+function drawTris(M,b,col){if(!b||!b.n)return;gl.useProgram(L);const lp=A(L,'p');gl.bindBuffer(gl.ARRAY_BUFFER,b.buf);gl.enableVertexAttribArray(lp);gl.vertexAttribPointer(lp,3,gl.FLOAT,false,0,0);
+ gl.uniformMatrix3fv(U(L,'R'),false,M);gl.uniform2f(U(L,'vp'),cv.width,cv.height);gl.uniform2f(U(L,'cen'),st.cen[0]*DPR,st.cen[1]*DPR);gl.uniform1f(U(L,'zoom'),st.zoom);gl.uniform4f(U(L,'col'),col[0],col[1],col[2],col[3]);gl.drawArrays(gl.TRIANGLES,0,b.n)}
 function autoDesc(i){const [nm,lat,lon,addr,phone,site,hours,soc,extra]=POI_INFO[i],z=NICHES[PN[i]],c=CARDS[POI_CITY[i]];const d=hav(lat,lon,c.lat,c.lon);const stt=status(hours,c.tz);
  const parts=[`${z.n}${extra&&nrm(extra)!==nrm(nm)?` (${extra})`:''} в городе ${c.n}${addr?`, ${addr}`:''}`,d<0.8?`в центре, ${Math.round(d*1000)} м от центра города`:`в ${dist(d)} от центра города`];
  if(stt)parts.push(stt.text.toLowerCase());else if(hours)parts.push('часы работы: '+hours);
