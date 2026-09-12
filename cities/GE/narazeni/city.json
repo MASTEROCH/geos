@@ -1,0 +1,37 @@
+{
+ "id": 874068,
+ "name": "Narazeni",
+ "ascii": "Narazeni",
+ "name_ru": "Наразени",
+ "alt_ru": [
+  "Наразени"
+ ],
+ "lat": 42.37194,
+ "lon": 41.91083,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 2345,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "sztc19",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.3539,
+  41.8864,
+  42.39,
+  41.9352
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 02:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

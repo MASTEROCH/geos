@@ -1,0 +1,46 @@
+{
+ "id": 615607,
+ "name": "Baghdati",
+ "ascii": "Baghdati",
+ "name_ru": "Багдати",
+ "alt_ru": [
+  "Багдати"
+ ],
+ "lat": 42.06943,
+ "lon": 42.82505,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 2412,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqrqd",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0514,
+  42.8008,
+  42.0874,
+  42.8493
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 80,
+ "osm_named": 18,
+ "osm_with_site": 5,
+ "osm_with_hours": 3,
+ "osm_with_socials": 5,
+ "niches": {
+  "coffee": 6,
+  "med": 10,
+  "shop": 50,
+  "beauty": 4,
+  "food": 2,
+  "bar": 3,
+  "art": 4,
+  "travel": 1
+ },
+ "collected": "2026-09-13 02:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

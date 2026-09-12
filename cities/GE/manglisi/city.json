@@ -1,0 +1,42 @@
+{
+ "id": 613093,
+ "name": "Manglisi",
+ "ascii": "Manglisi",
+ "name_ru": "Манглиси",
+ "alt_ru": [
+  "Манглиси"
+ ],
+ "lat": 41.697,
+ "lon": 44.3845,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 1673,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrt1y",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.679,
+  44.3604,
+  41.715,
+  44.4086
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 5,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 3,
+  "shop": 10,
+  "travel": 3,
+  "kids": 1
+ },
+ "collected": "2026-09-13 02:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

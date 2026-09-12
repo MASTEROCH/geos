@@ -1,0 +1,44 @@
+{
+ "id": 611786,
+ "name": "T’abakhmela",
+ "ascii": "T'abakhmela",
+ "name_ru": "Табахмела",
+ "alt_ru": [
+  "Табахмела"
+ ],
+ "lat": 41.65163,
+ "lon": 44.75699,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 2073,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-27",
+ "geohash": "szrufq",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6336,
+  44.7329,
+  41.6696,
+  44.7811
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 24,
+ "osm_named": 7,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 15,
+  "coffee": 3,
+  "beauty": 1,
+  "bar": 1,
+  "food": 1,
+  "kids": 3
+ },
+ "collected": "2026-09-13 02:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

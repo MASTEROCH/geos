@@ -1,0 +1,42 @@
+{
+ "id": 614096,
+ "name": "K’atskhi",
+ "ascii": "K'atskhi",
+ "name_ru": "Кацхи",
+ "alt_ru": [
+  "Кацхи"
+ ],
+ "lat": 42.28388,
+ "lon": 43.20872,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 2000,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szw8x1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.2659,
+  43.1844,
+  42.3019,
+  43.2331
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 14,
+ "osm_named": 12,
+ "osm_with_site": 8,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 4,
+  "art": 1,
+  "shop": 1,
+  "gym": 8
+ },
+ "collected": "2026-09-13 02:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

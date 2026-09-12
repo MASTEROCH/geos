@@ -1,0 +1,40 @@
+{
+ "id": 612348,
+ "name": "Pskhu",
+ "ascii": "Pskhu",
+ "name_ru": "Псху",
+ "alt_ru": [
+  "Псху"
+ ],
+ "lat": 43.39306,
+ "lon": 40.81472,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1659,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "sztnbg",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.375,
+  40.7899,
+  43.4111,
+  40.8395
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 2,
+  "shop": 2
+ },
+ "collected": "2026-09-13 02:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

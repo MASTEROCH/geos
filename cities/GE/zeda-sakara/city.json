@@ -1,0 +1,41 @@
+{
+ "id": 611029,
+ "name": "Zeda Sakara",
+ "ascii": "Zeda Sakara",
+ "name_ru": "Зеда Сакара",
+ "alt_ru": [
+  "Зеда Сакара",
+  "Зеда-Сакара"
+ ],
+ "lat": 42.1439,
+ "lon": 43.06559,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 2099,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szqxgb",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1259,
+  43.0413,
+  42.1619,
+  43.0899
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 02:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

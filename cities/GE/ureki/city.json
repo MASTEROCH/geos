@@ -1,0 +1,47 @@
+{
+ "id": 611274,
+ "name": "Ureki",
+ "ascii": "Ureki",
+ "name_ru": "Уреки",
+ "alt_ru": [
+  "Уреки"
+ ],
+ "lat": 41.99556,
+ "lon": 41.77861,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Guria",
+ "population": 1591,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmwyt",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9775,
+  41.7544,
+  42.0136,
+  41.8029
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 173,
+ "osm_named": 42,
+ "osm_with_site": 4,
+ "osm_with_hours": 6,
+ "osm_with_socials": 3,
+ "niches": {
+  "sea": 8,
+  "food": 22,
+  "shop": 75,
+  "coffee": 45,
+  "spa": 4,
+  "travel": 3,
+  "med": 12,
+  "kids": 2,
+  "bar": 2
+ },
+ "collected": "2026-09-13 02:42",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

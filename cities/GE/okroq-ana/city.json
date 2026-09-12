@@ -1,0 +1,50 @@
+{
+ "id": 12109755,
+ "name": "Okroq’ana",
+ "ascii": "Okroq'ana",
+ "name_ru": "Окрокана",
+ "alt_ru": [
+  "Окрокана"
+ ],
+ "lat": 41.68738,
+ "lon": 44.77355,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 2253,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szrv4u",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6694,
+  44.7494,
+  41.7054,
+  44.7977
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 922,
+ "osm_named": 563,
+ "osm_with_site": 151,
+ "osm_with_hours": 205,
+ "osm_with_socials": 146,
+ "niches": {
+  "food": 97,
+  "coffee": 130,
+  "bar": 36,
+  "med": 32,
+  "shop": 342,
+  "travel": 99,
+  "kids": 25,
+  "art": 87,
+  "beauty": 50,
+  "gym": 7,
+  "spa": 12,
+  "music": 5
+ },
+ "collected": "2026-09-13 02:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

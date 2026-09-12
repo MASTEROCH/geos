@@ -1,0 +1,37 @@
+{
+ "id": 611131,
+ "name": "Vladimirovka",
+ "ascii": "Vladimirovka",
+ "name_ru": "Владимировка",
+ "alt_ru": [
+  "Владимировка"
+ ],
+ "lat": 42.88903,
+ "lon": 41.23043,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1676,
+ "elevation": 70,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "szt7fp",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.871,
+  41.2058,
+  42.907,
+  41.255
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 02:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

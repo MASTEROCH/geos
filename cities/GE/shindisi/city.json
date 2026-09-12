@@ -1,0 +1,45 @@
+{
+ "id": 611986,
+ "name": "Shindisi",
+ "ascii": "Shindisi",
+ "name_ru": "Шиндиси",
+ "alt_ru": [
+  "Шиндиси"
+ ],
+ "lat": 41.66464,
+ "lon": 44.76754,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 1722,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szrv48",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6466,
+  44.7434,
+  41.6827,
+  44.7917
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 41,
+ "osm_named": 25,
+ "osm_with_site": 9,
+ "osm_with_hours": 3,
+ "osm_with_socials": 11,
+ "niches": {
+  "food": 3,
+  "coffee": 6,
+  "bar": 1,
+  "shop": 22,
+  "med": 4,
+  "kids": 4,
+  "gym": 1
+ },
+ "collected": "2026-09-13 02:39",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,39 @@
+{
+ "id": 611212,
+ "name": "Varch’a",
+ "ascii": "Varch'a",
+ "name_ru": "Варна",
+ "alt_ru": [
+  "Варна"
+ ],
+ "lat": 42.844,
+ "lon": 41.14361,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 2677,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "szt78p",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.826,
+  41.119,
+  42.862,
+  41.1682
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "sea": 2
+ },
+ "collected": "2026-09-13 02:06",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

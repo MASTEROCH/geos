@@ -1,0 +1,40 @@
+{
+ "id": 823860,
+ "name": "At’idzt’a",
+ "ascii": "At'idzt'a",
+ "name_ru": "Атыдзта",
+ "alt_ru": [
+  "Атыдзта"
+ ],
+ "lat": 43.222,
+ "lon": 40.362,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1785,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-22",
+ "geohash": "szstyk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.204,
+  40.3373,
+  43.24,
+  40.3867
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 11,
+ "osm_named": 9,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 10,
+  "kids": 1
+ },
+ "collected": "2026-09-13 02:35",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

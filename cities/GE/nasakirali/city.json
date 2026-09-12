@@ -1,0 +1,38 @@
+{
+ "id": 9506676,
+ "name": "Nasakirali",
+ "ascii": "Nasakirali",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 41.97305,
+ "lon": 42.06509,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Guria",
+ "population": 2558,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmyv0",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.955,
+  42.0409,
+  41.9911,
+  42.0893
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 02:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

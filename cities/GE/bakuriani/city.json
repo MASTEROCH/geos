@@ -1,0 +1,45 @@
+{
+ "id": 615583,
+ "name": "Bakuriani",
+ "ascii": "Bakuriani",
+ "name_ru": "Бакуриани",
+ "alt_ru": [
+  "Бакуриани"
+ ],
+ "lat": 41.75303,
+ "lon": 43.52907,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 1817,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqvw8",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.735,
+  43.5049,
+  41.771,
+  43.5532
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 72,
+ "osm_named": 51,
+ "osm_with_site": 16,
+ "osm_with_hours": 16,
+ "osm_with_socials": 19,
+ "niches": {
+  "shop": 37,
+  "coffee": 9,
+  "bar": 2,
+  "kids": 4,
+  "food": 12,
+  "med": 6,
+  "travel": 2
+ },
+ "collected": "2026-09-13 02:35",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

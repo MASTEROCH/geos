@@ -1,0 +1,42 @@
+{
+ "id": 611964,
+ "name": "Shorapani",
+ "ascii": "Shorapani",
+ "name_ru": "Шорапани",
+ "alt_ru": [
+  "Шорапани"
+ ],
+ "lat": 42.09595,
+ "lon": 43.08248,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 1971,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqxkr",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0779,
+  43.0582,
+  42.114,
+  43.1068
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 13,
+  "food": 1,
+  "travel": 2,
+  "art": 1
+ },
+ "collected": "2026-09-13 02:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

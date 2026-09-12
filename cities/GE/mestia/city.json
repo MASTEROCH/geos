@@ -1,0 +1,49 @@
+{
+ "id": 612987,
+ "name": "Mestia",
+ "ascii": "Mestia",
+ "name_ru": "Местиа",
+ "alt_ru": [
+  "Местиа"
+ ],
+ "lat": 43.0438,
+ "lon": 42.72368,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 1689,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szwku5",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.0258,
+  42.699,
+  43.0618,
+  42.7483
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 181,
+ "osm_named": 90,
+ "osm_with_site": 16,
+ "osm_with_hours": 28,
+ "osm_with_socials": 19,
+ "niches": {
+  "food": 27,
+  "bar": 6,
+  "shop": 69,
+  "art": 7,
+  "coffee": 23,
+  "travel": 33,
+  "kids": 4,
+  "music": 1,
+  "med": 8,
+  "gym": 2,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 02:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,48 @@
+{
+ "id": 612592,
+ "name": "Oni",
+ "ascii": "Oni",
+ "name_ru": "Они",
+ "alt_ru": [
+  "Он",
+  "Они"
+ ],
+ "lat": 42.58453,
+ "lon": 43.44356,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Racha-Lechkhumi and Kvemo Svaneti",
+ "population": 2480,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szwfk8",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.5665,
+  43.4191,
+  42.6025,
+  43.468
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 101,
+ "osm_named": 21,
+ "osm_with_site": 2,
+ "osm_with_hours": 3,
+ "osm_with_socials": 3,
+ "niches": {
+  "gym": 3,
+  "coffee": 6,
+  "shop": 70,
+  "beauty": 3,
+  "med": 9,
+  "bar": 2,
+  "art": 4,
+  "food": 3,
+  "travel": 1
+ },
+ "collected": "2026-09-13 02:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

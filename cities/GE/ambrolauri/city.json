@@ -1,0 +1,50 @@
+{
+ "id": 615776,
+ "name": "Ambrolauri",
+ "ascii": "Ambrolauri",
+ "name_ru": "Амбралауры",
+ "alt_ru": [
+  "Амбралауры",
+  "Амбролаур",
+  "Амбролаури"
+ ],
+ "lat": 42.52322,
+ "lon": 43.14982,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Racha-Lechkhumi and Kvemo Svaneti",
+ "population": 1952,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-13",
+ "geohash": "szw9vv",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.5052,
+  43.1254,
+  42.5412,
+  43.1743
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 119,
+ "osm_named": 40,
+ "osm_with_site": 8,
+ "osm_with_hours": 13,
+ "osm_with_socials": 8,
+ "niches": {
+  "kids": 4,
+  "shop": 68,
+  "art": 8,
+  "coffee": 11,
+  "med": 8,
+  "bar": 2,
+  "travel": 4,
+  "gym": 3,
+  "food": 10,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 02:35",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

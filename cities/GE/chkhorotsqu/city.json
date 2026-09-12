@@ -1,0 +1,44 @@
+{
+ "id": 615140,
+ "name": "Chkhorotsqu",
+ "ascii": "Chkhorotsqu",
+ "name_ru": "Чхороцку",
+ "alt_ru": [
+  "Чхороцку"
+ ],
+ "lat": 42.51954,
+ "lon": 42.12734,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 2372,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "sztcys",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.5015,
+  42.1029,
+  42.5376,
+  42.1518
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 39,
+ "osm_named": 21,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 30,
+  "med": 4,
+  "food": 1,
+  "art": 1,
+  "coffee": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 02:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

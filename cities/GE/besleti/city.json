@@ -1,0 +1,50 @@
+{
+ "id": 615538,
+ "name": "Besleti",
+ "ascii": "Besleti",
+ "name_ru": "Баслаҭа",
+ "alt_ru": [
+  "Баслаҭа",
+  "Беслети"
+ ],
+ "lat": 43.01237,
+ "lon": 41.04782,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 2290,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szthwn",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9944,
+  41.0232,
+  43.0304,
+  41.0725
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 119,
+ "osm_named": 86,
+ "osm_with_site": 6,
+ "osm_with_hours": 14,
+ "osm_with_socials": 3,
+ "niches": {
+  "art": 8,
+  "food": 14,
+  "coffee": 28,
+  "bar": 2,
+  "shop": 34,
+  "med": 6,
+  "music": 4,
+  "travel": 15,
+  "kids": 3,
+  "beauty": 1,
+  "sea": 4
+ },
+ "collected": "2026-09-13 02:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

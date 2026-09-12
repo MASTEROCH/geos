@@ -1,0 +1,40 @@
+{
+ "id": 799955,
+ "name": "P’rimorsk’oe",
+ "ascii": "P'rimorsk'oe",
+ "name_ru": "Приморское",
+ "alt_ru": [
+  "Приморское"
+ ],
+ "lat": 43.09236,
+ "lon": 40.6965,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 2573,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szsvnh",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.0743,
+  40.6718,
+  43.1104,
+  40.7212
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "sea": 5
+ },
+ "collected": "2026-09-13 02:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

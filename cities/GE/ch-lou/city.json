@@ -1,0 +1,37 @@
+{
+ "id": 615190,
+ "name": "Ch’lou",
+ "ascii": "Ch'lou",
+ "name_ru": "Члоу",
+ "alt_ru": [
+  "Члоу"
+ ],
+ "lat": 42.88333,
+ "lon": 41.49483,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1609,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-14",
+ "geohash": "sztebn",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8653,
+  41.4702,
+  42.9013,
+  41.5194
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 02:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

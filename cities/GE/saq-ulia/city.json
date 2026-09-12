@@ -1,0 +1,39 @@
+{
+ "id": 612165,
+ "name": "Saq’ulia",
+ "ascii": "Saq'ulia",
+ "name_ru": "Сакулиа",
+ "alt_ru": [
+  "Сакулиа"
+ ],
+ "lat": 42.13674,
+ "lon": 42.55377,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 1869,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-12-16",
+ "geohash": "szqr8q",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1187,
+  42.5295,
+  42.1548,
+  42.5781
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4
+ },
+ "collected": "2026-09-13 02:35",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

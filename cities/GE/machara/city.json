@@ -1,0 +1,41 @@
+{
+ "id": 613156,
+ "name": "Machara",
+ "ascii": "Machara",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 42.94444,
+ "lon": 41.08944,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 2640,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "szthr1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9264,
+  41.0648,
+  42.9625,
+  41.1141
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 26,
+ "osm_named": 9,
+ "osm_with_site": 0,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "coffee": 7,
+  "sea": 3,
+  "shop": 13,
+  "med": 2
+ },
+ "collected": "2026-09-13 02:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

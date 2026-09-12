@@ -1,0 +1,40 @@
+{
+ "id": 614900,
+ "name": "Dilisk’a",
+ "ascii": "Dilisk'a",
+ "name_ru": "Дилиска",
+ "alt_ru": [
+  "Дилиска"
+ ],
+ "lat": 41.42923,
+ "lon": 43.46208,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 2374,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-07-14",
+ "geohash": "szqgtj",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.4112,
+  43.438,
+  41.4472,
+  43.4861
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "travel": 2
+ },
+ "collected": "2026-09-13 02:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

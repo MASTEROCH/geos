@@ -1,0 +1,43 @@
+{
+ "id": 610849,
+ "name": "Zhinvali",
+ "ascii": "Zhinvali",
+ "name_ru": "Жинвали",
+ "alt_ru": [
+  "Жинвали"
+ ],
+ "lat": 42.13181,
+ "lon": 44.77264,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 2643,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrzdv",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1138,
+  44.7483,
+  42.1498,
+  44.7969
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 21,
+ "osm_named": 4,
+ "osm_with_site": 1,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 3,
+  "shop": 13,
+  "coffee": 2,
+  "art": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 02:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,43 @@
+{
+ "id": 611492,
+ "name": "Ts’inandali",
+ "ascii": "Ts'inandali",
+ "name_ru": "Цинандали",
+ "alt_ru": [
+  "Цинандали"
+ ],
+ "lat": 41.89315,
+ "lon": 45.57129,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 2675,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-13",
+ "geohash": "tp2qm4",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8751,
+  45.5471,
+  41.9112,
+  45.5955
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 39,
+ "osm_named": 9,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 32,
+  "med": 2,
+  "food": 1,
+  "coffee": 1,
+  "art": 3
+ },
+ "collected": "2026-09-13 02:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

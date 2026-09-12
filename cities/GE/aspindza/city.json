@@ -1,0 +1,46 @@
+{
+ "id": 615660,
+ "name": "Aspindza",
+ "ascii": "Aspindza",
+ "name_ru": "Аспиндза",
+ "alt_ru": [
+  "Аспиндза"
+ ],
+ "lat": 41.57314,
+ "lon": 43.24842,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 2425,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-28",
+ "geohash": "szqu80",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5551,
+  43.2243,
+  41.5912,
+  43.2725
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 59,
+ "osm_named": 16,
+ "osm_with_site": 7,
+ "osm_with_hours": 11,
+ "osm_with_socials": 6,
+ "niches": {
+  "shop": 35,
+  "med": 3,
+  "art": 3,
+  "kids": 5,
+  "coffee": 5,
+  "beauty": 2,
+  "food": 5,
+  "gym": 1
+ },
+ "collected": "2026-09-13 02:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

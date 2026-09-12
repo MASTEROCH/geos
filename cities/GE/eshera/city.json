@@ -1,0 +1,43 @@
+{
+ "id": 614666,
+ "name": "Eshera",
+ "ascii": "Eshera",
+ "name_ru": "Эшера",
+ "alt_ru": [
+  "Эшера"
+ ],
+ "lat": 43.04056,
+ "lon": 40.93583,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 2141,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-12-16",
+ "geohash": "szthge",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.0225,
+  40.9112,
+  43.0586,
+  40.9605
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "food": 1,
+  "travel": 1,
+  "sea": 3,
+  "gym": 1
+ },
+ "collected": "2026-09-13 02:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
