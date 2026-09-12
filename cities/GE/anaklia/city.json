@@ -1,0 +1,43 @@
+{
+ "id": 615761,
+ "name": "Anaklia",
+ "ascii": "Anaklia",
+ "name_ru": "Анаклиа",
+ "alt_ru": [
+  "Анаклиа"
+ ],
+ "lat": 42.39302,
+ "lon": 41.56227,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 1300,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-21",
+ "geohash": "szt91v",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.375,
+  41.5379,
+  42.411,
+  41.5867
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "food": 3,
+  "coffee": 1,
+  "shop": 7,
+  "art": 2,
+  "sea": 4
+ },
+ "collected": "2026-09-13 03:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

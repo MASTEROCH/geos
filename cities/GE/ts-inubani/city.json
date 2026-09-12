@@ -1,0 +1,43 @@
+{
+ "id": 12109754,
+ "name": "Ts’inubani",
+ "ascii": "Ts'inubani",
+ "name_ru": "Цинубани",
+ "alt_ru": [
+  "Цинубани"
+ ],
+ "lat": 41.70138,
+ "lon": 45.01173,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 1274,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "tp2j0r",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6834,
+  44.9876,
+  41.7194,
+  45.0359
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 19,
+ "osm_named": 11,
+ "osm_with_site": 2,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 13,
+  "food": 2,
+  "coffee": 1,
+  "med": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 03:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

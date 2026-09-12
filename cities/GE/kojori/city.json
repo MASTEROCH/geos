@@ -1,0 +1,45 @@
+{
+ "id": 613742,
+ "name": "Kojori",
+ "ascii": "Kojori",
+ "name_ru": "Каджоры",
+ "alt_ru": [
+  "Каджоры",
+  "Коджори",
+  "Къоджор"
+ ],
+ "lat": 41.65887,
+ "lon": 44.70006,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 1232,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-09-04",
+ "geohash": "szrucp",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6409,
+  44.6759,
+  41.6769,
+  44.7242
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 26,
+ "osm_named": 7,
+ "osm_with_site": 4,
+ "osm_with_hours": 2,
+ "osm_with_socials": 4,
+ "niches": {
+  "shop": 5,
+  "travel": 10,
+  "med": 1,
+  "art": 1,
+  "kids": 9
+ },
+ "collected": "2026-09-13 03:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
