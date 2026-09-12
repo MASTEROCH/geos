@@ -1,0 +1,193 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "GEOS API",
+  "version": "0.2.0",
+  "description": "Куда пойти именно тебе: рекомендации мест по вкусу с причинами, настоящее состояние места, лиды."
+ },
+ "servers": [
+  {
+   "url": "https://geos-six.vercel.app"
+  }
+ ],
+ "paths": {
+  "/api/recommend": {
+   "get": {
+    "operationId": "recommend",
+    "summary": "Ранжированные места рядом с точкой по вкусу",
+    "parameters": [
+     {
+      "name": "lat",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "lon",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "n",
+      "in": "query",
+      "schema": {
+       "type": "integer"
+      }
+     },
+     {
+      "name": "cat",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "taste",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "radius",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "project",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "sponsored_only",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "items[] с id, name, cat, lat, lon, dist_km, score, why[], sponsored, open, phone, site, hours"
+     }
+    }
+   }
+  },
+  "/api/venue": {
+   "get": {
+    "operationId": "venue",
+    "summary": "Настоящее состояние места (Google Places, не хранится)",
+    "parameters": [
+     {
+      "name": "name",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "lat",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "lon",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "photos",
+      "in": "query",
+      "schema": {
+       "type": "integer"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "photos[], rating, ratings, hours[], phone, website, reviews[] или needKey"
+     }
+    }
+   }
+  },
+  "/api/event": {
+   "post": {
+    "operationId": "event",
+    "summary": "Действие человека по месту (лид)",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "type": "object",
+        "required": [
+         "place_id",
+         "kind"
+        ],
+        "properties": {
+         "place_id": {
+          "type": "string"
+         },
+         "kind": {
+          "type": "string",
+          "enum": [
+           "open",
+           "call",
+           "route",
+           "site",
+           "share",
+           "checkin",
+           "dislike"
+          ]
+         },
+         "project": {
+          "type": "string"
+         },
+         "user": {
+          "type": "string"
+         }
+        }
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "{ok, stored}"
+     }
+    }
+   }
+  },
+  "/p/{id}": {
+   "get": {
+    "operationId": "card",
+    "summary": "Открытка места с OG и JSON-LD",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "HTML"
+     }
+    }
+   }
+  }
+ }
+}

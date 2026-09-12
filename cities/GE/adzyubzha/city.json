@@ -1,0 +1,41 @@
+{
+ "id": 615951,
+ "name": "Adzyubzha",
+ "ascii": "Adzyubzha",
+ "name_ru": "Адзиубжа",
+ "alt_ru": [
+  "Адзиубжа",
+  "Аӡҩыбжьа"
+ ],
+ "lat": 42.84129,
+ "lon": 41.1787,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1072,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szt79p",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8233,
+  41.1541,
+  42.8593,
+  41.2033
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 3,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 03:18",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

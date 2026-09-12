@@ -1,0 +1,17 @@
+# GEOS
+
+> База мест планеты и навигация «куда пойти именно тебе». 11,177 настоящих мест из OpenStreetMap в собранных городах,
+> 235 747 городов (GeoNames). Рекомендации по вкусу с причинами, настоящее состояние места (Google, рантайм), лиды для бизнеса.
+> Данные — © OpenStreetMap contributors (ODbL), GeoNames (CC BY 4.0). Ничего не выдумывается: если данных нет, поле пустое.
+
+## API (JSON, CORS открыт)
+
+- https://geos-six.vercel.app/api/recommend?lat=41.64&lon=41.63&n=10&taste=coffee:1,bar:.6&cat=&radius=6&project=geos — ранжированные места с why
+- https://geos-six.vercel.app/api/venue?name=…&lat=…&lon=…&photos=3 — фото, рейтинг, часы недели, отзывы (Google; needKey без ключа)
+- https://geos-six.vercel.app/api/event (POST {place_id, kind, project, user}) — действие человека = лид
+- https://geos-six.vercel.app/p/<osmId> — открытка места с JSON-LD schema.org/LocalBusiness
+- https://geos-six.vercel.app/openapi.json — спецификация · MCP-сервер: templates/mcp/geos-mcp.js в скилле ГЕО
+
+## Категории
+
+coffee, food, bar, gym, beauty, spa, shop, sea, art, music, travel, med, kids

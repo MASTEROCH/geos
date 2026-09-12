@@ -1,0 +1,42 @@
+{
+ "id": 611534,
+ "name": "Ts’avk’isi",
+ "ascii": "Ts'avk'isi",
+ "name_ru": "Цавкиси",
+ "alt_ru": [
+  "Цавкиси"
+ ],
+ "lat": 41.66786,
+ "lon": 44.743,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 1083,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szrv41",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6498,
+  44.7189,
+  41.6859,
+  44.7671
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 9,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "food": 2,
+  "shop": 5,
+  "art": 1,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 03:18",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

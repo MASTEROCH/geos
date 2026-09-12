@@ -33,6 +33,11 @@ module.exports = async (req, res) => {
 <meta name="twitter:card" content="summary_large_image">
 <meta property="place:location:latitude" content="${p.la}"><meta property="place:location:longitude" content="${p.lo}">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="${esc(url)}">
+<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: title, description: desc,
+  address: p.ci, geo: { "@type": "GeoCoordinates", latitude: p.la, longitude: p.lo }, telephone: p.p || undefined, url: p.s || undefined,
+  openingHours: p.h || undefined, image, sameAs: p.so ? p.so.split(";").map(x => x.split("=")[1]).filter(Boolean) : undefined,
+  isAccessibleForFree: true, additionalType: `https://geos-six.vercel.app/#cat-${p.c}` })}</script>
 ${bot ? "" : `<meta http-equiv="refresh" content="0;url=${esc(app)}">`}
 <style>body{margin:0;background:#000;color:#fff;font:16px -apple-system,system-ui,sans-serif;display:grid;place-items:center;height:100vh}a{color:#0A84FF}</style>
 </head><body><p>${esc(title)} · ${esc(sub)} — <a href="${esc(app)}">открыть в GEOS</a></p></body></html>`);
