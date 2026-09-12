@@ -1,0 +1,45 @@
+{
+ "id": 615912,
+ "name": "Stantsiya Novyy Afon",
+ "ascii": "Stantsiya Novyy Afon",
+ "name_ru": "Новый Афон",
+ "alt_ru": [
+  "Новый Афон"
+ ],
+ "lat": 43.08056,
+ "lon": 40.83833,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 26636,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2013-10-29",
+ "geohash": "sztj16",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.054,
+  40.802,
+  43.1071,
+  40.8747
+ ],
+ "radius_km": 2.9,
+ "preset": "cityhub",
+ "osm_total": 32,
+ "osm_named": 14,
+ "osm_with_site": 0,
+ "osm_with_hours": 6,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 2,
+  "shop": 9,
+  "food": 2,
+  "coffee": 10,
+  "beauty": 2,
+  "kids": 1,
+  "sea": 6
+ },
+ "collected": "2026-09-12 23:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,45 @@
+{
+ "id": 613074,
+ "name": "Marneuli",
+ "ascii": "Marneuli",
+ "name_ru": "Марнеули",
+ "alt_ru": [
+  "Марнеули"
+ ],
+ "lat": 41.48758,
+ "lon": 44.79845,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 26400,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szru52",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.4612,
+  44.7632,
+  41.514,
+  44.8337
+ ],
+ "radius_km": 2.9,
+ "preset": "cityhub",
+ "osm_total": 74,
+ "osm_named": 44,
+ "osm_with_site": 13,
+ "osm_with_hours": 13,
+ "osm_with_socials": 10,
+ "niches": {
+  "shop": 40,
+  "med": 12,
+  "coffee": 11,
+  "food": 5,
+  "beauty": 3,
+  "travel": 1,
+  "kids": 2
+ },
+ "collected": "2026-09-12 23:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

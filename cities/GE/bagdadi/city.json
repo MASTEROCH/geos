@@ -1,0 +1,43 @@
+{
+ "id": 615611,
+ "name": "Bagdadi",
+ "ascii": "Bagdadi",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 41.81667,
+ "lon": 46.03333,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": null,
+ "population": 4564,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2007-05-30",
+ "geohash": "tp2tzs",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7987,
+  46.0092,
+  41.8347,
+  46.0575
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 32,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 16,
+  "food": 3,
+  "med": 7,
+  "beauty": 3,
+  "coffee": 1,
+  "kids": 1,
+  "bar": 1
+ },
+ "collected": "2026-09-13 01:21",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

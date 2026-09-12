@@ -1,0 +1,43 @@
+{
+ "id": 611674,
+ "name": "Tetritsqaro",
+ "ascii": "Tetritsqaro",
+ "name_ru": "Тетри-Цкаро",
+ "alt_ru": [
+  "Агбулах",
+  "Белый-ключ",
+  "Тетри-Цкаро"
+ ],
+ "lat": 41.54379,
+ "lon": 44.46181,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 5041,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-21",
+ "geohash": "szrs7f",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5258,
+  44.4377,
+  41.5618,
+  44.4859
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 7,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "coffee": 1,
+  "art": 2,
+  "shop": 10
+ },
+ "collected": "2026-09-13 01:04",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

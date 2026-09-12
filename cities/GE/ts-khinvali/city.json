@@ -1,0 +1,51 @@
+{
+ "id": 611403,
+ "name": "Ts’khinvali",
+ "ascii": "Ts'khinvali",
+ "name_ru": "Цхинвали",
+ "alt_ru": [
+  "Цхинвал",
+  "Цхинвали"
+ ],
+ "lat": 42.22764,
+ "lon": 43.96861,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 32180,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-13",
+ "geohash": "szx20x",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1985,
+  43.9292,
+  42.2568,
+  44.008
+ ],
+ "radius_km": 3.2,
+ "preset": "cityhub",
+ "osm_total": 402,
+ "osm_named": 313,
+ "osm_with_site": 5,
+ "osm_with_hours": 17,
+ "osm_with_socials": 1,
+ "niches": {
+  "travel": 9,
+  "shop": 242,
+  "med": 36,
+  "coffee": 53,
+  "beauty": 23,
+  "art": 5,
+  "gym": 5,
+  "kids": 13,
+  "food": 10,
+  "bar": 1,
+  "music": 1,
+  "sea": 4
+ },
+ "collected": "2026-09-12 23:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

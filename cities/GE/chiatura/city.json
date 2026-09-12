@@ -1,0 +1,48 @@
+{
+ "id": 615211,
+ "name": "Chiatura",
+ "ascii": "Chiatura",
+ "name_ru": "Чиатура",
+ "alt_ru": [
+  "Чиатура"
+ ],
+ "lat": 42.29806,
+ "lon": 43.29889,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 11943,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szwb9k",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.28,
+  43.2745,
+  42.3161,
+  43.3233
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 124,
+ "osm_named": 40,
+ "osm_with_site": 11,
+ "osm_with_hours": 3,
+ "osm_with_socials": 12,
+ "niches": {
+  "shop": 52,
+  "beauty": 3,
+  "med": 16,
+  "coffee": 15,
+  "bar": 2,
+  "food": 7,
+  "travel": 16,
+  "art": 9,
+  "kids": 3,
+  "music": 1
+ },
+ "collected": "2026-09-12 23:49",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,48 @@
+{
+ "id": 612890,
+ "name": "Mtskheta",
+ "ascii": "Mtskheta",
+ "name_ru": "Мцхета",
+ "alt_ru": [
+  "Мцхета",
+  "Цхета"
+ ],
+ "lat": 41.84514,
+ "lon": 44.71875,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 7380,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szry19",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8271,
+  44.6946,
+  41.8632,
+  44.7429
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 160,
+ "osm_named": 70,
+ "osm_with_site": 10,
+ "osm_with_hours": 19,
+ "osm_with_socials": 7,
+ "niches": {
+  "food": 27,
+  "shop": 68,
+  "med": 7,
+  "art": 12,
+  "beauty": 3,
+  "coffee": 21,
+  "travel": 13,
+  "kids": 7,
+  "gym": 2
+ },
+ "collected": "2026-09-13 00:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,44 @@
+{
+ "id": 616022,
+ "name": "Abasha",
+ "ascii": "Abasha",
+ "name_ru": "Абаша",
+ "alt_ru": [
+  "Абаша"
+ ],
+ "lat": 42.20453,
+ "lon": 42.20357,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 4133,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szw007",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1865,
+  42.1792,
+  42.2225,
+  42.2279
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 46,
+ "osm_named": 17,
+ "osm_with_site": 6,
+ "osm_with_hours": 3,
+ "osm_with_socials": 5,
+ "niches": {
+  "med": 7,
+  "shop": 28,
+  "coffee": 5,
+  "food": 3,
+  "beauty": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 01:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,50 @@
+{
+ "id": 614580,
+ "name": "Gantiadi",
+ "ascii": "Gantiadi",
+ "name_ru": "Гантиади",
+ "alt_ru": [
+  "Гантиади",
+  "Гантианди",
+  "Цандрыпш",
+  "Цандрыԥшь"
+ ],
+ "lat": 43.38111,
+ "lon": 40.07944,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 4902,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-11",
+ "geohash": "szswb1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.3631,
+  40.0546,
+  43.3991,
+  40.1042
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 64,
+ "osm_named": 40,
+ "osm_with_site": 2,
+ "osm_with_hours": 10,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 28,
+  "med": 4,
+  "shop": 21,
+  "travel": 2,
+  "food": 1,
+  "kids": 1,
+  "bar": 1,
+  "sea": 3,
+  "beauty": 3
+ },
+ "collected": "2026-09-13 01:08",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

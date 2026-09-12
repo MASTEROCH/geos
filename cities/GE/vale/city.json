@@ -1,0 +1,44 @@
+{
+ "id": 611230,
+ "name": "Vale",
+ "ascii": "Vale",
+ "name_ru": "Вале",
+ "alt_ru": [
+  "Вале"
+ ],
+ "lat": 41.61608,
+ "lon": 42.88112,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 4982,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-14",
+ "geohash": "szqkxz",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5981,
+  42.857,
+  41.6341,
+  42.9052
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 2,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 2,
+ "niches": {
+  "kids": 3,
+  "shop": 11,
+  "beauty": 1,
+  "art": 1,
+  "med": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 01:08",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

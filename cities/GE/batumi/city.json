@@ -1,0 +1,52 @@
+{
+ "id": 615532,
+ "name": "Batumi",
+ "ascii": "Batumi",
+ "name_ru": "Батуми",
+ "alt_ru": [
+  "Батуми",
+  "Баҭым"
+ ],
+ "lat": 41.64077,
+ "lon": 41.6306,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 186949,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "szmsgk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5704,
+  41.5365,
+  41.7111,
+  41.7247
+ ],
+ "radius_km": 7.8,
+ "preset": "cityhub",
+ "osm_total": 5873,
+ "osm_named": 2617,
+ "osm_with_site": 510,
+ "osm_with_hours": 887,
+ "osm_with_socials": 611,
+ "niches": {
+  "coffee": 503,
+  "shop": 3435,
+  "art": 115,
+  "bar": 136,
+  "med": 392,
+  "beauty": 481,
+  "food": 513,
+  "spa": 53,
+  "kids": 131,
+  "gym": 41,
+  "travel": 54,
+  "music": 6,
+  "sea": 13
+ },
+ "collected": "2026-09-12 23:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

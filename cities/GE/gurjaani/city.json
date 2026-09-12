@@ -1,0 +1,48 @@
+{
+ "id": 614351,
+ "name": "Gurjaani",
+ "ascii": "Gurjaani",
+ "name_ru": "Гурджаани",
+ "alt_ru": [
+  "Гурджаани"
+ ],
+ "lat": 41.74384,
+ "lon": 45.80246,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 7217,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2t6r",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7258,
+  45.7783,
+  41.7619,
+  45.8266
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 128,
+ "osm_named": 43,
+ "osm_with_site": 18,
+ "osm_with_hours": 13,
+ "osm_with_socials": 18,
+ "niches": {
+  "shop": 80,
+  "food": 7,
+  "beauty": 5,
+  "coffee": 11,
+  "med": 14,
+  "bar": 1,
+  "art": 2,
+  "kids": 6,
+  "gym": 1,
+  "music": 1
+ },
+ "collected": "2026-09-13 00:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

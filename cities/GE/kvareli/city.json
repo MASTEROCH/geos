@@ -1,0 +1,49 @@
+{
+ "id": 612338,
+ "name": "Kvareli",
+ "ascii": "Kvareli",
+ "name_ru": "Кварели",
+ "alt_ru": [
+  "Кварели"
+ ],
+ "lat": 41.95493,
+ "lon": 45.81716,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 10177,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2wdt",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9369,
+  45.7929,
+  41.9729,
+  45.8414
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 127,
+ "osm_named": 43,
+ "osm_with_site": 21,
+ "osm_with_hours": 16,
+ "osm_with_socials": 22,
+ "niches": {
+  "shop": 77,
+  "food": 6,
+  "med": 11,
+  "art": 7,
+  "travel": 2,
+  "beauty": 5,
+  "bar": 1,
+  "coffee": 9,
+  "sea": 1,
+  "gym": 1,
+  "kids": 7
+ },
+ "collected": "2026-09-12 23:57",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

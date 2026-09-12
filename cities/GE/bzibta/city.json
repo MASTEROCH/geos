@@ -1,0 +1,37 @@
+{
+ "id": 823852,
+ "name": "Bzibta",
+ "ascii": "Bzibta",
+ "name_ru": "Бзибта",
+ "alt_ru": [
+  "Бзибта"
+ ],
+ "lat": 43.2469,
+ "lon": 40.35764,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 4835,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szswn2",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.2289,
+  40.3329,
+  43.2649,
+  40.3824
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 01:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

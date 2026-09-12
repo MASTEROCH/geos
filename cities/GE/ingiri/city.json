@@ -1,0 +1,42 @@
+{
+ "id": 798780,
+ "name": "Ingiri",
+ "ascii": "Ingiri",
+ "name_ru": "Ингири",
+ "alt_ru": [
+  "Ингири"
+ ],
+ "lat": 42.49632,
+ "lon": 41.81218,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 4049,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szt9z2",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.4783,
+  41.7877,
+  42.5143,
+  41.8366
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 3,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 11,
+  "coffee": 4,
+  "food": 2,
+  "med": 1
+ },
+ "collected": "2026-09-13 01:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

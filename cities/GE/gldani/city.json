@@ -1,0 +1,48 @@
+{
+ "id": 614520,
+ "name": "Gldani",
+ "ascii": "Gldani",
+ "name_ru": "Глдани",
+ "alt_ru": [
+  "Глдани"
+ ],
+ "lat": 41.82208,
+ "lon": 44.83014,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 3669,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szrvuj",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8041,
+  44.806,
+  41.8401,
+  44.8543
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 72,
+ "osm_named": 24,
+ "osm_with_site": 12,
+ "osm_with_hours": 10,
+ "osm_with_socials": 13,
+ "niches": {
+  "shop": 40,
+  "kids": 13,
+  "coffee": 5,
+  "med": 3,
+  "bar": 1,
+  "beauty": 3,
+  "food": 3,
+  "travel": 1,
+  "gym": 1,
+  "sea": 2
+ },
+ "collected": "2026-09-13 01:43",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

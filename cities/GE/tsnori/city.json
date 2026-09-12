@@ -1,0 +1,44 @@
+{
+ "id": 611373,
+ "name": "Tsnori",
+ "ascii": "Tsnori",
+ "name_ru": "Цнори",
+ "alt_ru": [
+  "Цнори"
+ ],
+ "lat": 41.618,
+ "lon": 45.979,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 4767,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2sy2",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6,
+  45.9549,
+  41.636,
+  46.0031
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 106,
+ "osm_named": 29,
+ "osm_with_site": 9,
+ "osm_with_hours": 4,
+ "osm_with_socials": 9,
+ "niches": {
+  "shop": 79,
+  "coffee": 14,
+  "bar": 1,
+  "beauty": 3,
+  "med": 7,
+  "food": 2
+ },
+ "collected": "2026-09-13 01:21",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

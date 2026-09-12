@@ -1,0 +1,49 @@
+{
+ "id": 612287,
+ "name": "Rustavi",
+ "ascii": "Rustavi",
+ "name_ru": "Рустави",
+ "alt_ru": [
+  "Рустави"
+ ],
+ "lat": 41.56271,
+ "lon": 44.9787,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 128249,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrurw",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5045,
+  44.9009,
+  41.621,
+  45.0565
+ ],
+ "radius_km": 6.5,
+ "preset": "cityhub",
+ "osm_total": 1058,
+ "osm_named": 363,
+ "osm_with_site": 137,
+ "osm_with_hours": 73,
+ "osm_with_socials": 162,
+ "niches": {
+  "shop": 626,
+  "med": 105,
+  "food": 75,
+  "beauty": 80,
+  "bar": 9,
+  "coffee": 79,
+  "music": 3,
+  "art": 20,
+  "kids": 47,
+  "gym": 12,
+  "travel": 2
+ },
+ "collected": "2026-09-12 23:23",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

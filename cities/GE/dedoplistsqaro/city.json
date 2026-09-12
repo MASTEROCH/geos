@@ -1,0 +1,47 @@
+{
+ "id": 615005,
+ "name": "Dedoplistsqaro",
+ "ascii": "Dedoplistsqaro",
+ "name_ru": "Дедоплис-Цкаро",
+ "alt_ru": [
+  "Дедоплис-Цкаро"
+ ],
+ "lat": 41.46566,
+ "lon": 46.10385,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 5460,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2gch",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.4476,
+  46.0798,
+  41.4837,
+  46.1279
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 185,
+ "osm_named": 62,
+ "osm_with_site": 12,
+ "osm_with_hours": 9,
+ "osm_with_socials": 13,
+ "niches": {
+  "food": 10,
+  "shop": 117,
+  "med": 16,
+  "beauty": 5,
+  "coffee": 19,
+  "travel": 3,
+  "art": 4,
+  "gym": 2,
+  "kids": 9
+ },
+ "collected": "2026-09-13 00:56",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

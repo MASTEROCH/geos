@@ -1,0 +1,45 @@
+{
+ "id": 613311,
+ "name": "Lanchkhuti",
+ "ascii": "Lanchkhuti",
+ "name_ru": "Ланчхути",
+ "alt_ru": [
+  "Ланчхути"
+ ],
+ "lat": 42.08744,
+ "lon": 42.03611,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Guria",
+ "population": 6214,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmzkt",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0694,
+  42.0118,
+  42.1055,
+  42.0604
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 86,
+ "osm_named": 30,
+ "osm_with_site": 13,
+ "osm_with_hours": 6,
+ "osm_with_socials": 15,
+ "niches": {
+  "med": 11,
+  "coffee": 10,
+  "shop": 44,
+  "food": 13,
+  "art": 6,
+  "music": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 00:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

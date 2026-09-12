@@ -1,0 +1,37 @@
+{
+ "id": 614897,
+ "name": "Diok’nisi",
+ "ascii": "Diok'nisi",
+ "name_ru": "Диокниси",
+ "alt_ru": [
+  "Диокниси"
+ ],
+ "lat": 41.62933,
+ "lon": 42.39171,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 7725,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szqhud",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6113,
+  42.3676,
+  41.6473,
+  42.4158
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 00:18",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

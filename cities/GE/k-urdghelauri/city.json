@@ -1,0 +1,48 @@
+{
+ "id": 613623,
+ "name": "K’urdghelauri",
+ "ascii": "K'urdghelauri",
+ "name_ru": "Курдгелаури",
+ "alt_ru": [
+  "Курдгелаури"
+ ],
+ "lat": 41.92937,
+ "lon": 45.4881,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 3962,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-13",
+ "geohash": "tp2qe1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9114,
+  45.4639,
+  41.9474,
+  45.5123
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 142,
+ "osm_named": 54,
+ "osm_with_site": 19,
+ "osm_with_hours": 8,
+ "osm_with_socials": 19,
+ "niches": {
+  "shop": 98,
+  "coffee": 14,
+  "food": 11,
+  "med": 5,
+  "art": 1,
+  "kids": 7,
+  "bar": 1,
+  "gym": 3,
+  "beauty": 1,
+  "sea": 1
+ },
+ "collected": "2026-09-13 01:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

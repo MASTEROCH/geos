@@ -1,0 +1,49 @@
+{
+ "id": 611694,
+ "name": "Telavi",
+ "ascii": "Telavi",
+ "name_ru": "Телави",
+ "alt_ru": [
+  "Телави"
+ ],
+ "lat": 41.91957,
+ "lon": 45.47002,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 19875,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-09-07",
+ "geohash": "tp2q6x",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8966,
+  45.4392,
+  41.9425,
+  45.5008
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 544,
+ "osm_named": 249,
+ "osm_with_site": 65,
+ "osm_with_hours": 108,
+ "osm_with_socials": 67,
+ "niches": {
+  "shop": 339,
+  "food": 39,
+  "beauty": 23,
+  "med": 54,
+  "coffee": 43,
+  "art": 9,
+  "bar": 6,
+  "gym": 6,
+  "kids": 18,
+  "travel": 5,
+  "music": 2
+ },
+ "collected": "2026-09-12 23:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 613060,
+ "name": "Mat’ani",
+ "ascii": "Mat'ani",
+ "name_ru": "Матани",
+ "alt_ru": [
+  "Матани"
+ ],
+ "lat": 42.07804,
+ "lon": 45.19562,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 4451,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-10",
+ "geohash": "tp2pkk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.06,
+  45.1713,
+  42.0961,
+  45.2199
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 5,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 5,
+  "kids": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 01:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

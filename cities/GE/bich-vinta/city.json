@@ -1,0 +1,48 @@
+{
+ "id": 615460,
+ "name": "Bich’vinta",
+ "ascii": "Bich'vinta",
+ "name_ru": "Пицунда",
+ "alt_ru": [
+  "Пицунда"
+ ],
+ "lat": 43.15925,
+ "lon": 40.33985,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 3986,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-11",
+ "geohash": "szsttb",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.1412,
+  40.3151,
+  43.1773,
+  40.3646
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 180,
+ "osm_named": 133,
+ "osm_with_site": 7,
+ "osm_with_hours": 15,
+ "osm_with_socials": 4,
+ "niches": {
+  "art": 30,
+  "coffee": 57,
+  "shop": 43,
+  "med": 8,
+  "food": 15,
+  "kids": 6,
+  "gym": 2,
+  "bar": 2,
+  "travel": 10,
+  "sea": 7
+ },
+ "collected": "2026-09-13 01:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

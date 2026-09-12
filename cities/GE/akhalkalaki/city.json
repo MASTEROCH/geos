@@ -1,0 +1,48 @@
+{
+ "id": 615893,
+ "name": "Akhalkalaki",
+ "ascii": "Akhalkalaki",
+ "name_ru": "Ахалкалаки",
+ "alt_ru": [
+  "Ахалкалаки"
+ ],
+ "lat": 41.40514,
+ "lon": 43.48629,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 7437,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-07-15",
+ "geohash": "szqgt9",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.3871,
+  43.4623,
+  41.4232,
+  43.5103
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 165,
+ "osm_named": 33,
+ "osm_with_site": 14,
+ "osm_with_hours": 16,
+ "osm_with_socials": 13,
+ "niches": {
+  "bar": 2,
+  "shop": 118,
+  "art": 6,
+  "med": 12,
+  "beauty": 7,
+  "coffee": 7,
+  "food": 10,
+  "travel": 1,
+  "kids": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 00:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

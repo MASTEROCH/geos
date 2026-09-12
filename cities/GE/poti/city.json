@@ -1,0 +1,50 @@
+{
+ "id": 612366,
+ "name": "Poti",
+ "ascii": "Poti",
+ "name_ru": "Поти",
+ "alt_ru": [
+  "Поти"
+ ],
+ "lat": 42.14272,
+ "lon": 41.67384,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 41175,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmxsr",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1097,
+  41.6293,
+  42.1757,
+  41.7184
+ ],
+ "radius_km": 3.7,
+ "preset": "cityhub",
+ "osm_total": 352,
+ "osm_named": 140,
+ "osm_with_site": 51,
+ "osm_with_hours": 28,
+ "osm_with_socials": 60,
+ "niches": {
+  "kids": 7,
+  "shop": 202,
+  "med": 33,
+  "food": 26,
+  "coffee": 36,
+  "beauty": 19,
+  "bar": 7,
+  "art": 9,
+  "travel": 5,
+  "music": 3,
+  "sea": 3,
+  "gym": 2
+ },
+ "collected": "2026-09-12 23:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,47 @@
+{
+ "id": 612691,
+ "name": "Ninotsminda",
+ "ascii": "Ninotsminda",
+ "name_ru": "Богдановка",
+ "alt_ru": [
+  "Богдановка",
+  "Ниноцминда"
+ ],
+ "lat": 41.26697,
+ "lon": 43.58959,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 3844,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-04-08",
+ "geohash": "szqfzb",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.249,
+  43.5656,
+  41.285,
+  43.6136
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 87,
+ "osm_named": 17,
+ "osm_with_site": 4,
+ "osm_with_hours": 4,
+ "osm_with_socials": 4,
+ "niches": {
+  "shop": 52,
+  "med": 10,
+  "food": 10,
+  "beauty": 7,
+  "music": 1,
+  "coffee": 5,
+  "art": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 01:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

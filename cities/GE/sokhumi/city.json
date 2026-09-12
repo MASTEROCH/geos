@@ -1,0 +1,50 @@
+{
+ "id": 611847,
+ "name": "Sokhumi",
+ "ascii": "Sokhumi",
+ "name_ru": "Сухуми",
+ "alt_ru": [
+  "Сухум",
+  "Сухуми"
+ ],
+ "lat": 43.00697,
+ "lon": 40.9893,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 65439,
+ "elevation": null,
+ "tz": "Europe/Moscow",
+ "updated": "2026-01-28",
+ "geohash": "szthst",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9654,
+  40.9324,
+  43.0486,
+  41.0462
+ ],
+ "radius_km": 4.6,
+ "preset": "cityhub",
+ "osm_total": 206,
+ "osm_named": 131,
+ "osm_with_site": 17,
+ "osm_with_hours": 41,
+ "osm_with_socials": 4,
+ "niches": {
+  "coffee": 49,
+  "shop": 80,
+  "med": 20,
+  "art": 6,
+  "food": 23,
+  "beauty": 10,
+  "kids": 7,
+  "travel": 3,
+  "bar": 2,
+  "gym": 2,
+  "sea": 4
+ },
+ "collected": "2026-09-12 23:23",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 615844,
+ "name": "Akhmeta",
+ "ascii": "Akhmeta",
+ "name_ru": "Ахмета",
+ "alt_ru": [
+  "Ахмета"
+ ],
+ "lat": 42.03495,
+ "lon": 45.20804,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 5664,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2phs",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0169,
+  45.1838,
+  42.053,
+  45.2323
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 120,
+ "osm_named": 17,
+ "osm_with_site": 8,
+ "osm_with_hours": 5,
+ "osm_with_socials": 8,
+ "niches": {
+  "med": 20,
+  "shop": 78,
+  "food": 6,
+  "coffee": 5,
+  "beauty": 4,
+  "art": 2,
+  "gym": 1,
+  "kids": 4
+ },
+ "collected": "2026-09-13 00:55",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 614909,
+ "name": "Dighomi",
+ "ascii": "Dighomi",
+ "name_ru": "Дигоми",
+ "alt_ru": [
+  "Дигоми"
+ ],
+ "lat": 41.77278,
+ "lon": 44.73208,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 7497,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-05-16",
+ "geohash": "szrv9u",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7548,
+  44.7079,
+  41.7908,
+  44.7562
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 160,
+ "osm_named": 109,
+ "osm_with_site": 40,
+ "osm_with_hours": 35,
+ "osm_with_socials": 46,
+ "niches": {
+  "kids": 14,
+  "shop": 90,
+  "med": 22,
+  "coffee": 14,
+  "food": 9,
+  "beauty": 9,
+  "art": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 00:21",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

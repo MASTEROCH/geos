@@ -1,0 +1,45 @@
+{
+ "id": 613065,
+ "name": "Martvili",
+ "ascii": "Martvili",
+ "name_ru": "Мартвили",
+ "alt_ru": [
+  "Мартвили"
+ ],
+ "lat": 42.41429,
+ "lon": 42.37892,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 3966,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szw1k3",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.3963,
+  42.3545,
+  42.4323,
+  42.4033
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 52,
+ "osm_named": 19,
+ "osm_with_site": 8,
+ "osm_with_hours": 4,
+ "osm_with_socials": 9,
+ "niches": {
+  "shop": 26,
+  "med": 7,
+  "coffee": 7,
+  "beauty": 4,
+  "bar": 2,
+  "art": 1,
+  "food": 5
+ },
+ "collected": "2026-09-13 01:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 613342,
+ "name": "Lagodekhi",
+ "ascii": "Lagodekhi",
+ "name_ru": "Лагодехи",
+ "alt_ru": [
+  "Лагодехи"
+ ],
+ "lat": 41.82747,
+ "lon": 46.27495,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 5607,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2vvn",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8095,
+  46.2508,
+  41.8455,
+  46.2991
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 113,
+ "osm_named": 31,
+ "osm_with_site": 9,
+ "osm_with_hours": 4,
+ "osm_with_socials": 8,
+ "niches": {
+  "med": 9,
+  "shop": 67,
+  "art": 2,
+  "coffee": 5,
+  "food": 9,
+  "beauty": 7,
+  "travel": 11,
+  "kids": 3
+ },
+ "collected": "2026-09-13 00:56",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

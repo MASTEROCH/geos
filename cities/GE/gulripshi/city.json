@@ -1,0 +1,44 @@
+{
+ "id": 614379,
+ "name": "Gulripshi",
+ "ascii": "Gulripshi",
+ "name_ru": "Гульрипш",
+ "alt_ru": [
+  "Гульрипш",
+  "Нижний Гульрипш"
+ ],
+ "lat": 42.93057,
+ "lon": 41.10257,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 3797,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-11",
+ "geohash": "szthpr",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9126,
+  41.078,
+  42.9486,
+  41.1272
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 31,
+ "osm_named": 9,
+ "osm_with_site": 2,
+ "osm_with_hours": 0,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 7,
+  "med": 5,
+  "shop": 17,
+  "sea": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 01:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

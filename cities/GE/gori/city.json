@@ -1,0 +1,49 @@
+{
+ "id": 614455,
+ "name": "Gori",
+ "ascii": "Gori",
+ "name_ru": "Гори",
+ "alt_ru": [
+  "Гори"
+ ],
+ "lat": 41.98532,
+ "lon": 44.1129,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 41933,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-27",
+ "geohash": "szrqgg",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.952,
+  44.0681,
+  42.0186,
+  44.1577
+ ],
+ "radius_km": 3.7,
+ "preset": "cityhub",
+ "osm_total": 708,
+ "osm_named": 280,
+ "osm_with_site": 75,
+ "osm_with_hours": 52,
+ "osm_with_socials": 85,
+ "niches": {
+  "kids": 39,
+  "shop": 398,
+  "coffee": 70,
+  "food": 36,
+  "med": 71,
+  "beauty": 35,
+  "art": 32,
+  "bar": 7,
+  "travel": 6,
+  "gym": 13,
+  "music": 1
+ },
+ "collected": "2026-09-12 23:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

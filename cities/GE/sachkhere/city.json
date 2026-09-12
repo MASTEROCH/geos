@@ -1,0 +1,48 @@
+{
+ "id": 612256,
+ "name": "Sachkhere",
+ "ascii": "Sachkhere",
+ "name_ru": "Сачхере",
+ "alt_ru": [
+  "Сачхере"
+ ],
+ "lat": 42.33594,
+ "lon": 43.40575,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 5235,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-13",
+ "geohash": "szwbge",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.3179,
+  43.3814,
+  42.354,
+  43.4301
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 102,
+ "osm_named": 24,
+ "osm_with_site": 10,
+ "osm_with_hours": 2,
+ "osm_with_socials": 10,
+ "niches": {
+  "med": 12,
+  "beauty": 8,
+  "shop": 48,
+  "bar": 2,
+  "coffee": 13,
+  "food": 5,
+  "art": 6,
+  "travel": 2,
+  "kids": 5,
+  "gym": 1
+ },
+ "collected": "2026-09-13 01:01",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,47 @@
+{
+ "id": 611584,
+ "name": "Tqibuli",
+ "ascii": "Tqibuli",
+ "name_ru": "Ткибули",
+ "alt_ru": [
+  "Ткибули"
+ ],
+ "lat": 42.34781,
+ "lon": 42.99774,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 7957,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szw8fm",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.3298,
+  42.9734,
+  42.3658,
+  43.0221
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 99,
+ "osm_named": 21,
+ "osm_with_site": 5,
+ "osm_with_hours": 3,
+ "osm_with_socials": 5,
+ "niches": {
+  "bar": 2,
+  "shop": 60,
+  "beauty": 7,
+  "coffee": 7,
+  "med": 10,
+  "art": 1,
+  "kids": 7,
+  "music": 2,
+  "food": 3
+ },
+ "collected": "2026-09-13 00:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

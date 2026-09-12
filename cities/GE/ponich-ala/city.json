@@ -1,0 +1,44 @@
+{
+ "id": 611849,
+ "name": "Ponich’ala",
+ "ascii": "Ponich'ala",
+ "name_ru": "Поничала",
+ "alt_ru": [
+  "Поничала"
+ ],
+ "lat": 41.63681,
+ "lon": 44.9162,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 4452,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szruy5",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6188,
+  44.8921,
+  41.6548,
+  44.9403
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 71,
+ "osm_named": 24,
+ "osm_with_site": 14,
+ "osm_with_hours": 6,
+ "osm_with_socials": 13,
+ "niches": {
+  "med": 6,
+  "shop": 22,
+  "travel": 21,
+  "kids": 16,
+  "coffee": 2,
+  "food": 4
+ },
+ "collected": "2026-09-13 01:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

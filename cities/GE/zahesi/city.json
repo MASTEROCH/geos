@@ -1,0 +1,43 @@
+{
+ "id": 611093,
+ "name": "Zahesi",
+ "ascii": "Zahesi",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 41.82458,
+ "lon": 44.75361,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 5200,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-05-16",
+ "geohash": "szrvfm",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8066,
+  44.7294,
+  41.8426,
+  44.7778
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 171,
+ "osm_named": 116,
+ "osm_with_site": 30,
+ "osm_with_hours": 11,
+ "osm_with_socials": 27,
+ "niches": {
+  "shop": 125,
+  "food": 18,
+  "art": 4,
+  "coffee": 13,
+  "kids": 4,
+  "beauty": 5,
+  "med": 2
+ },
+ "collected": "2026-09-13 01:03",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

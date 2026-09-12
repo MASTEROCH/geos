@@ -1,0 +1,42 @@
+{
+ "id": 614133,
+ "name": "K’ardenakhi",
+ "ascii": "K'ardenakhi",
+ "name_ru": "Карданахи",
+ "alt_ru": [
+  "Карданахи"
+ ],
+ "lat": 41.67364,
+ "lon": 45.8893,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 3873,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-13",
+ "geohash": "tp2th4",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6556,
+  45.8652,
+  41.6917,
+  45.9134
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 20,
+ "osm_named": 3,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 17,
+  "med": 1,
+  "bar": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 01:39",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,50 @@
+{
+ "id": 613988,
+ "name": "Khashuri",
+ "ascii": "Khashuri",
+ "name_ru": "Хашури",
+ "alt_ru": [
+  "Хашур",
+  "Хашури"
+ ],
+ "lat": 41.99733,
+ "lon": 43.59905,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 23949,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrnbj",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9722,
+  43.5652,
+  42.0225,
+  43.6329
+ ],
+ "radius_km": 2.8,
+ "preset": "cityhub",
+ "osm_total": 160,
+ "osm_named": 66,
+ "osm_with_site": 17,
+ "osm_with_hours": 18,
+ "osm_with_socials": 18,
+ "niches": {
+  "art": 1,
+  "kids": 2,
+  "shop": 97,
+  "med": 13,
+  "beauty": 6,
+  "food": 12,
+  "coffee": 24,
+  "bar": 1,
+  "music": 2,
+  "gym": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-12 23:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,47 @@
+{
+ "id": 611809,
+ "name": "Surami",
+ "ascii": "Surami",
+ "name_ru": "Сурами",
+ "alt_ru": [
+  "Сурам",
+  "Сурами"
+ ],
+ "lat": 42.02431,
+ "lon": 43.55556,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 6973,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqzp4",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0063,
+  43.5313,
+  42.0423,
+  43.5798
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 79,
+ "osm_named": 28,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "kids": 4,
+  "shop": 46,
+  "coffee": 10,
+  "med": 6,
+  "food": 8,
+  "art": 2,
+  "bar": 1,
+  "travel": 2
+ },
+ "collected": "2026-09-13 00:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

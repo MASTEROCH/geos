@@ -1,0 +1,48 @@
+{
+ "id": 610864,
+ "name": "Zestaponi",
+ "ascii": "Zestaponi",
+ "name_ru": "Зестафони",
+ "alt_ru": [
+  "Зестафони"
+ ],
+ "lat": 42.10752,
+ "lon": 43.03291,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 20183,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqxe1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0844,
+  43.0018,
+  42.1306,
+  43.0641
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 431,
+ "osm_named": 133,
+ "osm_with_site": 45,
+ "osm_with_hours": 25,
+ "osm_with_socials": 49,
+ "niches": {
+  "beauty": 23,
+  "shop": 240,
+  "med": 48,
+  "coffee": 50,
+  "food": 52,
+  "art": 6,
+  "kids": 7,
+  "gym": 2,
+  "bar": 2,
+  "music": 1
+ },
+ "collected": "2026-09-12 23:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,51 @@
+{
+ "id": 613762,
+ "name": "Kobuleti",
+ "ascii": "Kobuleti",
+ "name_ru": "Кобулети",
+ "alt_ru": [
+  "Кобулет",
+  "Кобулети"
+ ],
+ "lat": 41.83283,
+ "lon": 41.77823,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 17538,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmtyx",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8113,
+  41.7493,
+  41.8544,
+  41.8071
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 521,
+ "osm_named": 156,
+ "osm_with_site": 34,
+ "osm_with_hours": 42,
+ "osm_with_socials": 40,
+ "niches": {
+  "shop": 298,
+  "coffee": 60,
+  "bar": 13,
+  "food": 48,
+  "med": 46,
+  "beauty": 26,
+  "kids": 13,
+  "travel": 4,
+  "art": 7,
+  "gym": 3,
+  "spa": 1,
+  "sea": 2
+ },
+ "collected": "2026-09-12 23:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

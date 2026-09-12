@@ -1,0 +1,47 @@
+{
+ "id": 613902,
+ "name": "Khoni",
+ "ascii": "Khoni",
+ "name_ru": "Хони",
+ "alt_ru": [
+  "Хони"
+ ],
+ "lat": 42.32535,
+ "lon": 42.42243,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 7651,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szw0v3",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.3073,
+  42.3981,
+  42.3434,
+  42.4468
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 49,
+ "osm_named": 18,
+ "osm_with_site": 5,
+ "osm_with_hours": 4,
+ "osm_with_socials": 6,
+ "niches": {
+  "gym": 2,
+  "shop": 27,
+  "beauty": 4,
+  "med": 7,
+  "food": 3,
+  "bar": 3,
+  "coffee": 1,
+  "kids": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 00:18",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

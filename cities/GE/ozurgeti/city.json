@@ -1,0 +1,48 @@
+{
+ "id": 612536,
+ "name": "Ozurgeti",
+ "ascii": "Ozurgeti",
+ "name_ru": "Озургети",
+ "alt_ru": [
+  "Озургети"
+ ],
+ "lat": 41.92336,
+ "lon": 42.00525,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Guria",
+ "population": 13935,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmy7z",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9042,
+  41.9794,
+  41.9426,
+  42.0311
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 141,
+ "osm_named": 46,
+ "osm_with_site": 21,
+ "osm_with_hours": 15,
+ "osm_with_socials": 26,
+ "niches": {
+  "shop": 86,
+  "coffee": 11,
+  "med": 18,
+  "food": 3,
+  "beauty": 7,
+  "art": 7,
+  "kids": 3,
+  "bar": 1,
+  "music": 2,
+  "gym": 3
+ },
+ "collected": "2026-09-12 23:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

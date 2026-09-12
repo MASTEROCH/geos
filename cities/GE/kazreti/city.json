@@ -1,0 +1,42 @@
+{
+ "id": 614084,
+ "name": "Kazreti",
+ "ascii": "Kazreti",
+ "name_ru": "Казрети",
+ "alt_ru": [
+  "Казрети"
+ ],
+ "lat": 41.38163,
+ "lon": 44.41974,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 5547,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szre6v",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.3636,
+  44.3957,
+  41.3996,
+  44.4438
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 12,
+ "osm_named": 4,
+ "osm_with_site": 2,
+ "osm_with_hours": 0,
+ "osm_with_socials": 3,
+ "niches": {
+  "kids": 3,
+  "shop": 5,
+  "med": 3,
+  "food": 1
+ },
+ "collected": "2026-09-13 00:56",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,42 @@
+{
+ "id": 823854,
+ "name": "Ipnari",
+ "ascii": "Ipnari",
+ "name_ru": "Ипнари",
+ "alt_ru": [
+  "Ипнари"
+ ],
+ "lat": 43.228,
+ "lon": 40.333,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 5166,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szstvv",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.21,
+  40.3083,
+  43.246,
+  40.3577
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 24,
+ "osm_named": 16,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 16,
+  "med": 2,
+  "coffee": 5,
+  "travel": 1
+ },
+ "collected": "2026-09-13 01:03",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

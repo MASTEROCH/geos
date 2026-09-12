@@ -1,0 +1,47 @@
+{
+ "id": 615419,
+ "name": "Bolnisi",
+ "ascii": "Bolnisi",
+ "name_ru": "Болниси",
+ "alt_ru": [
+  "Болниси"
+ ],
+ "lat": 41.45124,
+ "lon": 44.53835,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 8461,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-06-20",
+ "geohash": "szrev3",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.4332,
+  44.5143,
+  41.4693,
+  44.5624
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 75,
+ "osm_named": 31,
+ "osm_with_site": 11,
+ "osm_with_hours": 2,
+ "osm_with_socials": 12,
+ "niches": {
+  "kids": 4,
+  "shop": 40,
+  "beauty": 5,
+  "med": 11,
+  "coffee": 6,
+  "bar": 2,
+  "food": 4,
+  "art": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 00:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

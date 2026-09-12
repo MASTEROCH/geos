@@ -1,0 +1,49 @@
+{
+ "id": 615297,
+ "name": "Chakvi",
+ "ascii": "Chakvi",
+ "name_ru": "Чаква",
+ "alt_ru": [
+  "Чаква",
+  "Чакви"
+ ],
+ "lat": 41.72528,
+ "lon": 41.73278,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 7492,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmtme",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7073,
+  41.7086,
+  41.7433,
+  41.7569
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 149,
+ "osm_named": 18,
+ "osm_with_site": 5,
+ "osm_with_hours": 7,
+ "osm_with_socials": 5,
+ "niches": {
+  "coffee": 9,
+  "shop": 89,
+  "med": 7,
+  "beauty": 9,
+  "bar": 7,
+  "food": 10,
+  "travel": 1,
+  "kids": 10,
+  "art": 1,
+  "sea": 6
+ },
+ "collected": "2026-09-13 00:21",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

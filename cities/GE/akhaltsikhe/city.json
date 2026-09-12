@@ -1,0 +1,50 @@
+{
+ "id": 615860,
+ "name": "Akhaltsikhe",
+ "ascii": "Akhaltsikhe",
+ "name_ru": "Ахалцихе",
+ "alt_ru": [
+  "Ахалцихе",
+  "Ахалцыхэ"
+ ],
+ "lat": 41.63952,
+ "lon": 42.98604,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 17445,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-14",
+ "geohash": "szqsfh",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.618,
+  42.9573,
+  41.661,
+  43.0148
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 430,
+ "osm_named": 108,
+ "osm_with_site": 37,
+ "osm_with_hours": 38,
+ "osm_with_socials": 40,
+ "niches": {
+  "shop": 264,
+  "beauty": 30,
+  "med": 30,
+  "coffee": 35,
+  "food": 28,
+  "kids": 18,
+  "travel": 17,
+  "music": 1,
+  "art": 4,
+  "bar": 2,
+  "gym": 1
+ },
+ "collected": "2026-09-12 23:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

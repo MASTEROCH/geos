@@ -1,0 +1,42 @@
+{
+ "id": 614843,
+ "name": "Dusheti",
+ "ascii": "Dusheti",
+ "name_ru": "Душети",
+ "alt_ru": [
+  "Душети"
+ ],
+ "lat": 42.08642,
+ "lon": 44.695,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 7389,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrz3j",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0684,
+  44.6707,
+  42.1044,
+  44.7193
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 9,
+ "osm_named": 6,
+ "osm_with_site": 4,
+ "osm_with_hours": 4,
+ "osm_with_socials": 4,
+ "niches": {
+  "travel": 1,
+  "med": 3,
+  "shop": 4,
+  "food": 1
+ },
+ "collected": "2026-09-13 00:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

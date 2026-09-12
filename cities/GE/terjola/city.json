@@ -1,0 +1,46 @@
+{
+ "id": 611682,
+ "name": "Terjola",
+ "ascii": "Terjola",
+ "name_ru": "Тержола",
+ "alt_ru": [
+  "Тержола"
+ ],
+ "lat": 42.18058,
+ "lon": 42.9776,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 4888,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqxcy",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1626,
+  42.9533,
+  42.1986,
+  43.0019
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 54,
+ "osm_named": 11,
+ "osm_with_site": 4,
+ "osm_with_hours": 3,
+ "osm_with_socials": 3,
+ "niches": {
+  "med": 8,
+  "shop": 29,
+  "coffee": 6,
+  "food": 3,
+  "bar": 2,
+  "beauty": 3,
+  "kids": 2,
+  "gym": 1
+ },
+ "collected": "2026-09-13 01:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

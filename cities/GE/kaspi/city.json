@@ -1,0 +1,49 @@
+{
+ "id": 614104,
+ "name": "Kaspi",
+ "ascii": "Kaspi",
+ "name_ru": "Каспи",
+ "alt_ru": [
+  "Касп",
+  "Каспи",
+  "Къаспи"
+ ],
+ "lat": 41.92776,
+ "lon": 44.42355,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 12319,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrwdb",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9097,
+  44.3993,
+  41.9458,
+  44.4478
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 94,
+ "osm_named": 26,
+ "osm_with_site": 7,
+ "osm_with_hours": 14,
+ "osm_with_socials": 8,
+ "niches": {
+  "gym": 1,
+  "shop": 62,
+  "med": 14,
+  "art": 1,
+  "bar": 4,
+  "coffee": 6,
+  "food": 3,
+  "beauty": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-12 23:45",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,49 @@
+{
+ "id": 612053,
+ "name": "Senaki",
+ "ascii": "Senaki",
+ "name_ru": "Сенаки",
+ "alt_ru": [
+  "Сенаки"
+ ],
+ "lat": 42.27077,
+ "lon": 42.06334,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 14991,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "sztbmp",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.2509,
+  42.0364,
+  42.2907,
+  42.0903
+ ],
+ "radius_km": 2.2,
+ "preset": "cityhub",
+ "osm_total": 107,
+ "osm_named": 73,
+ "osm_with_site": 20,
+ "osm_with_hours": 14,
+ "osm_with_socials": 20,
+ "niches": {
+  "shop": 63,
+  "beauty": 5,
+  "bar": 1,
+  "med": 17,
+  "art": 2,
+  "food": 5,
+  "coffee": 7,
+  "music": 1,
+  "travel": 2,
+  "kids": 1,
+  "gym": 3
+ },
+ "collected": "2026-09-12 23:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

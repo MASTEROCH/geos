@@ -1,0 +1,49 @@
+{
+ "id": 614410,
+ "name": "Gudauri",
+ "ascii": "Gudauri",
+ "name_ru": "Гудаури",
+ "alt_ru": [
+  "Гудаури",
+  "Гудаури курорты",
+  "Гудауыр"
+ ],
+ "lat": 42.47797,
+ "lon": 44.47616,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 10000,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2019-12-03",
+ "geohash": "szx9sh",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.46,
+  44.4517,
+  42.496,
+  44.5006
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 100,
+ "osm_named": 68,
+ "osm_with_site": 18,
+ "osm_with_hours": 18,
+ "osm_with_socials": 11,
+ "niches": {
+  "shop": 33,
+  "food": 36,
+  "kids": 5,
+  "travel": 8,
+  "bar": 8,
+  "coffee": 5,
+  "art": 2,
+  "med": 2,
+  "beauty": 1
+ },
+ "collected": "2026-09-12 23:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,42 @@
+{
+ "id": 615921,
+ "name": "Akhaldaba",
+ "ascii": "Akhaldaba",
+ "name_ru": "Ахалдаба",
+ "alt_ru": [
+  "Ахалдаба"
+ ],
+ "lat": 41.65395,
+ "lon": 42.15163,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 3640,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2012-01-17",
+ "geohash": "szmuzn",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6359,
+  42.1275,
+  41.672,
+  42.1757
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 2,
+  "shop": 3,
+  "travel": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 01:45",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

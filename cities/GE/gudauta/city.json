@@ -1,0 +1,49 @@
+{
+ "id": 614409,
+ "name": "Gudauta",
+ "ascii": "Gudauta",
+ "name_ru": "Гудаутæ",
+ "alt_ru": [
+  "Гудаутæ",
+  "Гудаута",
+  "Гъдооута"
+ ],
+ "lat": 43.10191,
+ "lon": 40.62245,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 8752,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-11",
+ "geohash": "szsvhq",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.0839,
+  40.5978,
+  43.1199,
+  40.6471
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 93,
+ "osm_named": 47,
+ "osm_with_site": 1,
+ "osm_with_hours": 8,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 18,
+  "food": 3,
+  "shop": 40,
+  "med": 8,
+  "travel": 6,
+  "art": 4,
+  "gym": 2,
+  "sea": 11,
+  "bar": 1
+ },
+ "collected": "2026-09-12 23:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

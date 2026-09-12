@@ -1,0 +1,48 @@
+{
+ "id": 612230,
+ "name": "Sagarejo",
+ "ascii": "Sagarejo",
+ "name_ru": "Сагареджо",
+ "alt_ru": [
+  "Сагареджо"
+ ],
+ "lat": 41.73691,
+ "lon": 45.32596,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 10166,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp2jrm",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7189,
+  45.3018,
+  41.7549,
+  45.3501
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 112,
+ "osm_named": 32,
+ "osm_with_site": 18,
+ "osm_with_hours": 8,
+ "osm_with_socials": 19,
+ "niches": {
+  "med": 16,
+  "shop": 73,
+  "art": 4,
+  "beauty": 6,
+  "coffee": 5,
+  "food": 1,
+  "bar": 2,
+  "kids": 2,
+  "gym": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-12 23:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

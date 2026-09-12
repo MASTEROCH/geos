@@ -1,0 +1,42 @@
+{
+ "id": 611583,
+ "name": "Tqvarch'eli",
+ "ascii": "Tqvarch'eli",
+ "name_ru": "Ткуарчал",
+ "alt_ru": [
+  "Ткуарчал"
+ ],
+ "lat": 42.84035,
+ "lon": 41.68007,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 5044,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-11",
+ "geohash": "sztesq",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8223,
+  41.6555,
+  42.8584,
+  41.7046
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 5,
+ "osm_with_site": 2,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 2,
+  "shop": 2,
+  "travel": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 01:03",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

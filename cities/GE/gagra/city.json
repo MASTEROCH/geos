@@ -1,0 +1,50 @@
+{
+ "id": 614622,
+ "name": "Gagra",
+ "ascii": "Gagra",
+ "name_ru": "Гагрæ",
+ "alt_ru": [
+  "Гагрæ",
+  "Гагра",
+  "Гагре"
+ ],
+ "lat": 43.27858,
+ "lon": 40.27124,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 11807,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-11",
+ "geohash": "szswhq",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.2606,
+  40.2465,
+  43.2966,
+  40.296
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 108,
+ "osm_named": 74,
+ "osm_with_site": 4,
+ "osm_with_hours": 22,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 35,
+  "food": 15,
+  "bar": 3,
+  "shop": 27,
+  "med": 14,
+  "beauty": 2,
+  "sea": 7,
+  "travel": 3,
+  "spa": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-12 23:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

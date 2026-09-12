@@ -1,0 +1,44 @@
+{
+ "id": 612092,
+ "name": "Sartich’ala",
+ "ascii": "Sartich'ala",
+ "name_ru": "Сартичала",
+ "alt_ru": [
+  "Сартичала"
+ ],
+ "lat": 41.7179,
+ "lon": 45.1757,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 6009,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-06-20",
+ "geohash": "tp2j7f",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6999,
+  45.1516,
+  41.7359,
+  45.1998
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 54,
+ "osm_named": 24,
+ "osm_with_site": 7,
+ "osm_with_hours": 8,
+ "osm_with_socials": 6,
+ "niches": {
+  "shop": 31,
+  "food": 7,
+  "med": 9,
+  "beauty": 1,
+  "coffee": 2,
+  "art": 4
+ },
+ "collected": "2026-09-13 00:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

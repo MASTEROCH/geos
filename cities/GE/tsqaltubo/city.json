@@ -1,0 +1,49 @@
+{
+ "id": 824288,
+ "name": "Tsqaltubo",
+ "ascii": "Tsqaltubo",
+ "name_ru": "Цхалтубо",
+ "alt_ru": [
+  "Цхалтубо"
+ ],
+ "lat": 42.32858,
+ "lon": 42.59808,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 7104,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szw2c3",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.3106,
+  42.5737,
+  42.3466,
+  42.6225
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 137,
+ "osm_named": 53,
+ "osm_with_site": 6,
+ "osm_with_hours": 8,
+ "osm_with_socials": 6,
+ "niches": {
+  "food": 12,
+  "shop": 53,
+  "travel": 12,
+  "med": 18,
+  "coffee": 11,
+  "bar": 3,
+  "beauty": 5,
+  "art": 17,
+  "kids": 3,
+  "spa": 1,
+  "gym": 2
+ },
+ "collected": "2026-09-13 00:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

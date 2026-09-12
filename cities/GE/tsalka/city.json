@@ -1,0 +1,45 @@
+{
+ "id": 611548,
+ "name": "Tsalka",
+ "ascii": "Tsalka",
+ "name_ru": "Цалкæ",
+ "alt_ru": [
+  "Цалкæ",
+  "Цалка"
+ ],
+ "lat": 41.59822,
+ "lon": 44.09112,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 3900,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrkek",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5802,
+  44.067,
+  41.6162,
+  44.1152
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 32,
+ "osm_named": 20,
+ "osm_with_site": 5,
+ "osm_with_hours": 3,
+ "osm_with_socials": 5,
+ "niches": {
+  "food": 7,
+  "shop": 11,
+  "med": 7,
+  "coffee": 5,
+  "gym": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 01:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,47 @@
+{
+ "id": 611398,
+ "name": "Tsqnet’i",
+ "ascii": "Tsqnet'i",
+ "name_ru": "Цкнети",
+ "alt_ru": [
+  "Цкнети",
+  "Цхнети"
+ ],
+ "lat": 41.69472,
+ "lon": 44.69861,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 7166,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-07-26",
+ "geohash": "szrv1n",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6767,
+  44.6745,
+  41.7127,
+  44.7227
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 116,
+ "osm_named": 43,
+ "osm_with_site": 15,
+ "osm_with_hours": 11,
+ "osm_with_socials": 17,
+ "niches": {
+  "food": 9,
+  "shop": 62,
+  "travel": 6,
+  "kids": 16,
+  "coffee": 11,
+  "gym": 2,
+  "beauty": 3,
+  "med": 7
+ },
+ "collected": "2026-09-13 00:47",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

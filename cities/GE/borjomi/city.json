@@ -1,0 +1,49 @@
+{
+ "id": 615403,
+ "name": "Borjomi",
+ "ascii": "Borjomi",
+ "name_ru": "Боржоми",
+ "alt_ru": [
+  "Боржом",
+  "Боржоми"
+ ],
+ "lat": 41.84692,
+ "lon": 43.3971,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 11248,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqy59",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8289,
+  43.3729,
+  41.8649,
+  43.4213
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 245,
+ "osm_named": 89,
+ "osm_with_site": 21,
+ "osm_with_hours": 17,
+ "osm_with_socials": 27,
+ "niches": {
+  "coffee": 27,
+  "shop": 120,
+  "art": 15,
+  "med": 10,
+  "food": 28,
+  "travel": 17,
+  "beauty": 6,
+  "bar": 1,
+  "music": 1,
+  "kids": 20
+ },
+ "collected": "2026-09-12 23:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

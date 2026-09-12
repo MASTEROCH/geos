@@ -1,0 +1,46 @@
+{
+ "id": 614575,
+ "name": "Gardabani",
+ "ascii": "Gardabani",
+ "name_ru": "Гардабани",
+ "alt_ru": [
+  "Гардабани"
+ ],
+ "lat": 41.45967,
+ "lon": 45.08988,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 12364,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "tp25f5",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.4416,
+  45.0657,
+  41.4778,
+  45.114
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 154,
+ "osm_named": 44,
+ "osm_with_site": 9,
+ "osm_with_hours": 4,
+ "osm_with_socials": 10,
+ "niches": {
+  "shop": 93,
+  "food": 13,
+  "med": 8,
+  "coffee": 6,
+  "beauty": 12,
+  "kids": 20,
+  "gym": 1,
+  "art": 1
+ },
+ "collected": "2026-09-12 23:42",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,43 @@
+{
+ "id": 614613,
+ "name": "Gali",
+ "ascii": "Gali",
+ "name_ru": "Гали",
+ "alt_ru": [
+  "Гал",
+  "Гали"
+ ],
+ "lat": 42.62705,
+ "lon": 41.73645,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 7452,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-11",
+ "geohash": "sztdt8",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.609,
+  41.712,
+  42.6451,
+  41.7609
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 20,
+ "osm_named": 8,
+ "osm_with_site": 3,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "med": 4,
+  "shop": 10,
+  "coffee": 5,
+  "art": 1
+ },
+ "collected": "2026-09-13 00:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

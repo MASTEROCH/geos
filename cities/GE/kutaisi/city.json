@@ -1,0 +1,50 @@
+{
+ "id": 613607,
+ "name": "Kutaisi",
+ "ascii": "Kutaisi",
+ "name_ru": "Кутаиси",
+ "alt_ru": [
+  "Кутаиси"
+ ],
+ "lat": 42.26791,
+ "lon": 42.69459,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 135201,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2023-02-12",
+ "geohash": "szw27w",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.2081,
+  42.6138,
+  42.3277,
+  42.7754
+ ],
+ "radius_km": 6.6,
+ "preset": "cityhub",
+ "osm_total": 1905,
+ "osm_named": 830,
+ "osm_with_site": 232,
+ "osm_with_hours": 248,
+ "osm_with_socials": 245,
+ "niches": {
+  "travel": 47,
+  "shop": 1019,
+  "bar": 34,
+  "food": 175,
+  "med": 206,
+  "beauty": 136,
+  "coffee": 139,
+  "music": 3,
+  "kids": 41,
+  "art": 91,
+  "gym": 13,
+  "sea": 1
+ },
+ "collected": "2026-09-12 23:23",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

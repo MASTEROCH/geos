@@ -1,0 +1,48 @@
+{
+ "id": 612126,
+ "name": "Samtredia",
+ "ascii": "Samtredia",
+ "name_ru": "Самтредиа",
+ "alt_ru": [
+  "Самтредиа"
+ ],
+ "lat": 42.1537,
+ "lon": 42.33517,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 20633,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqpg3",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1303,
+  42.3037,
+  42.1771,
+  42.3667
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 207,
+ "osm_named": 71,
+ "osm_with_site": 18,
+ "osm_with_hours": 15,
+ "osm_with_socials": 22,
+ "niches": {
+  "shop": 120,
+  "coffee": 13,
+  "food": 19,
+  "bar": 4,
+  "med": 25,
+  "beauty": 13,
+  "kids": 7,
+  "gym": 2,
+  "art": 3,
+  "music": 1
+ },
+ "collected": "2026-09-12 23:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

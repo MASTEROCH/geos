@@ -1,0 +1,49 @@
+{
+ "id": 610824,
+ "name": "Zugdidi",
+ "ascii": "Zugdidi",
+ "name_ru": "Зугдиди",
+ "alt_ru": [
+  "Зугдиди"
+ ],
+ "lat": 42.5084,
+ "lon": 41.86796,
+ "feature": "PPLA",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 40067,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "sztcbd",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.4758,
+  41.8238,
+  42.541,
+  41.9121
+ ],
+ "radius_km": 3.6,
+ "preset": "cityhub",
+ "osm_total": 592,
+ "osm_named": 244,
+ "osm_with_site": 89,
+ "osm_with_hours": 43,
+ "osm_with_socials": 100,
+ "niches": {
+  "med": 64,
+  "shop": 383,
+  "coffee": 53,
+  "bar": 7,
+  "beauty": 22,
+  "food": 45,
+  "music": 1,
+  "art": 6,
+  "kids": 5,
+  "gym": 4,
+  "travel": 2
+ },
+ "collected": "2026-09-12 23:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

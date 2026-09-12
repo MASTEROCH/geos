@@ -1,0 +1,38 @@
+{
+ "id": 615321,
+ "name": "Bzipi",
+ "ascii": "Bzipi",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 43.23294,
+ "lon": 40.37667,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 4820,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-07-13",
+ "geohash": "szstyy",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.2149,
+  40.3519,
+  43.251,
+  40.4014
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "travel": 1
+ },
+ "collected": "2026-09-13 01:20",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
