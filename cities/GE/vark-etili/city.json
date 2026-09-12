@@ -1,0 +1,48 @@
+{
+ "id": 865869,
+ "name": "Vark’etili",
+ "ascii": "Vark'etili",
+ "name_ru": "Варкетили",
+ "alt_ru": [
+  "Варкетили"
+ ],
+ "lat": 41.69882,
+ "lon": 44.88183,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 3004,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szrvjr",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6808,
+  44.8577,
+  41.7168,
+  44.906
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 951,
+ "osm_named": 392,
+ "osm_with_site": 189,
+ "osm_with_hours": 96,
+ "osm_with_socials": 207,
+ "niches": {
+  "med": 74,
+  "shop": 541,
+  "coffee": 62,
+  "beauty": 55,
+  "bar": 4,
+  "food": 76,
+  "kids": 96,
+  "gym": 8,
+  "travel": 2,
+  "art": 33
+ },
+ "collected": "2026-09-13 01:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

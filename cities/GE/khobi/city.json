@@ -1,0 +1,45 @@
+{
+ "id": 613918,
+ "name": "Khobi",
+ "ascii": "Khobi",
+ "name_ru": "Хоби",
+ "alt_ru": [
+  "Хоби"
+ ],
+ "lat": 42.31746,
+ "lon": 41.9002,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 2970,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "sztb9r",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.2994,
+  41.8758,
+  42.3355,
+  41.9246
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 32,
+ "osm_named": 9,
+ "osm_with_site": 5,
+ "osm_with_hours": 4,
+ "osm_with_socials": 6,
+ "niches": {
+  "food": 1,
+  "shop": 21,
+  "med": 4,
+  "art": 1,
+  "coffee": 3,
+  "kids": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 01:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

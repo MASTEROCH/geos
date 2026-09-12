@@ -1,0 +1,50 @@
+{
+ "id": 613125,
+ "name": "Makhinjauri",
+ "ascii": "Makhinjauri",
+ "name_ru": "Махинджаури",
+ "alt_ru": [
+  "Махинджаури"
+ ],
+ "lat": 41.67385,
+ "lon": 41.69401,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 2736,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2014-08-05",
+ "geohash": "szmthf",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6558,
+  41.6699,
+  41.6919,
+  41.7181
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 212,
+ "osm_named": 67,
+ "osm_with_site": 21,
+ "osm_with_hours": 17,
+ "osm_with_socials": 21,
+ "niches": {
+  "shop": 110,
+  "med": 12,
+  "beauty": 16,
+  "coffee": 21,
+  "kids": 15,
+  "sea": 5,
+  "food": 16,
+  "bar": 4,
+  "travel": 6,
+  "gym": 3,
+  "art": 3,
+  "music": 1
+ },
+ "collected": "2026-09-13 01:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

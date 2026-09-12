@@ -1,0 +1,39 @@
+{
+ "id": 612394,
+ "name": "P’irveli Ot’obaia",
+ "ascii": "P'irveli Ot'obaia",
+ "name_ru": "Пирвели-Отобая",
+ "alt_ru": [
+  "Пирвели-Отобая"
+ ],
+ "lat": 42.48586,
+ "lon": 41.62295,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 2772,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-02-08",
+ "geohash": "szt9en",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.4678,
+  41.5985,
+  42.5039,
+  41.6474
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1
+ },
+ "collected": "2026-09-13 01:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

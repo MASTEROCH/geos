@@ -1,0 +1,46 @@
+{
+ "id": 611551,
+ "name": "Tsalenjikha",
+ "ascii": "Tsalenjikha",
+ "name_ru": "Цаленджиха",
+ "alt_ru": [
+  "Цаленджиха"
+ ],
+ "lat": 42.60857,
+ "lon": 42.06693,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 2938,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "sztfmk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.5906,
+  42.0424,
+  42.6266,
+  42.0914
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 39,
+ "osm_named": 19,
+ "osm_with_site": 4,
+ "osm_with_hours": 3,
+ "osm_with_socials": 3,
+ "niches": {
+  "shop": 20,
+  "med": 6,
+  "coffee": 3,
+  "food": 5,
+  "beauty": 1,
+  "bar": 1,
+  "art": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 01:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

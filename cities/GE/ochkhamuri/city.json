@@ -1,0 +1,39 @@
+{
+ "id": 612648,
+ "name": "Ochkhamuri",
+ "ascii": "Ochkhamuri",
+ "name_ru": "Очхамури",
+ "alt_ru": [
+  "Очхамури"
+ ],
+ "lat": 41.85713,
+ "lon": 41.83219,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 3024,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmwpg",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8391,
+  41.808,
+  41.8751,
+  41.8564
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 01:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

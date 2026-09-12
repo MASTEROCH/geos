@@ -1,0 +1,39 @@
+{
+ "id": 615943,
+ "name": "Agara",
+ "ascii": "Agara",
+ "name_ru": "Агара",
+ "alt_ru": [
+  "Агара"
+ ],
+ "lat": 42.03761,
+ "lon": 43.82382,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 2803,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrpjh",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0196,
+  43.7996,
+  42.0556,
+  43.8481
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 1,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 4
+ },
+ "collected": "2026-09-13 01:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
