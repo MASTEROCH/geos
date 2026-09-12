@@ -1,0 +1,39 @@
+{
+ "id": 12109753,
+ "name": "Nasaguri",
+ "ascii": "Nasaguri",
+ "name_ru": "Насагури",
+ "alt_ru": [
+  "Насагури"
+ ],
+ "lat": 41.71279,
+ "lon": 44.99429,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 1509,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szrvrc",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6948,
+  44.9702,
+  41.7308,
+  45.0184
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 02:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -11,11 +11,20 @@
    ]
   },
   {
+   "source": "/api/(.*)",
+   "headers": [
+    {
+     "key": "Cache-Control",
+     "value": "private, no-store"
+    }
+   ]
+  },
+  {
    "source": "/(.*)",
    "headers": [
     {
      "key": "Cache-Control",
-     "value": "public, max-age=3600"
+     "value": "public, max-age=0, must-revalidate, s-maxage=300"
     }
    ]
   }
