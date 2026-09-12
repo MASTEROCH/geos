@@ -1,0 +1,39 @@
+{
+ "id": 612558,
+ "name": "Orsant’ia",
+ "ascii": "Orsant'ia",
+ "name_ru": "Орсантиа",
+ "alt_ru": [
+  "Орсантиа"
+ ],
+ "lat": 42.46777,
+ "lon": 41.67377,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 1200,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2017-05-29",
+ "geohash": "szt9s7",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.4498,
+  41.6493,
+  42.4858,
+  41.6982
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 03:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

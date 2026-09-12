@@ -1,0 +1,41 @@
+{
+ "id": 823856,
+ "name": "Akvara",
+ "ascii": "Akvara",
+ "name_ru": "Аквара",
+ "alt_ru": [
+  "Аквара"
+ ],
+ "lat": 43.23889,
+ "lon": 40.39472,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1164,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-22",
+ "geohash": "szstzp",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.2209,
+  40.37,
+  43.2569,
+  40.4195
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 5,
+ "osm_with_site": 2,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1,
+  "shop": 3,
+  "travel": 2
+ },
+ "collected": "2026-09-13 03:11",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

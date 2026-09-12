@@ -1,0 +1,40 @@
+{
+ "id": 610984,
+ "name": "Zemo-Barghebi",
+ "ascii": "Zemo-Barghebi",
+ "name_ru": "Земо Баргеби",
+ "alt_ru": [
+  "Земо Баргеби"
+ ],
+ "lat": 42.56661,
+ "lon": 41.65418,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1159,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "sztd5v",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.5486,
+  41.6297,
+  42.5846,
+  41.6786
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "shop": 1
+ },
+ "collected": "2026-09-13 03:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

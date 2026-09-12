@@ -1,0 +1,45 @@
+{
+ "id": 614740,
+ "name": "Jvari",
+ "ascii": "Jvari",
+ "name_ru": "Жвари",
+ "alt_ru": [
+  "Джвари",
+  "Джвары",
+  "Жвари"
+ ],
+ "lat": 42.71693,
+ "lon": 42.052,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samegrelo and Zemo Svaneti",
+ "population": 1148,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "sztghb",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.6989,
+  42.0275,
+  42.7349,
+  42.0765
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 19,
+ "osm_named": 5,
+ "osm_with_site": 3,
+ "osm_with_hours": 4,
+ "osm_with_socials": 3,
+ "niches": {
+  "shop": 12,
+  "med": 1,
+  "coffee": 3,
+  "travel": 1,
+  "food": 2
+ },
+ "collected": "2026-09-13 03:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

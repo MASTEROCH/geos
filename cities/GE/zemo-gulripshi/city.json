@@ -1,0 +1,39 @@
+{
+ "id": 610960,
+ "name": "Zemo Gulripshi",
+ "ascii": "Zemo Gulripshi",
+ "name_ru": "Верхний Гульрипш",
+ "alt_ru": [
+  "Верхний Гульрипш"
+ ],
+ "lat": 42.94916,
+ "lon": 41.13684,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1106,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "sztk24",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9311,
+  41.1122,
+  42.9672,
+  41.1615
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1
+ },
+ "collected": "2026-09-13 03:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

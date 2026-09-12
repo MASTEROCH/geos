@@ -1,5 +1,11 @@
 {
  "cleanUrls": false,
+ "rewrites": [
+  {
+   "source": "/p/(.*)",
+   "destination": "/api/card?id=$1"
+  }
+ ],
  "headers": [
   {
    "source": "/cities/(.*)",

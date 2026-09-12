@@ -1,0 +1,47 @@
+{
+ "id": 612502,
+ "name": "Pasanauri",
+ "ascii": "Pasanauri",
+ "name_ru": "ПАСАНАУРИ",
+ "alt_ru": [
+  "ПАСАНАУРИ",
+  "Пасанаур",
+  "Пасанаури"
+ ],
+ "lat": 42.3506,
+ "lon": 44.68912,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 1084,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szxbbv",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.3326,
+  44.6647,
+  42.3686,
+  44.7135
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 34,
+ "osm_named": 16,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 14,
+  "food": 14,
+  "coffee": 2,
+  "travel": 1,
+  "med": 1,
+  "art": 1,
+  "sea": 1
+ },
+ "collected": "2026-09-13 03:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

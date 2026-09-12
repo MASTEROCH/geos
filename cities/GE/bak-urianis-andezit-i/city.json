@@ -1,0 +1,40 @@
+{
+ "id": 824613,
+ "name": "Bak’urianis Andezit’i",
+ "ascii": "Bak'urianis Andezit'i",
+ "name_ru": "Бакурианский Андезит",
+ "alt_ru": [
+  "Бакурианский Андезит"
+ ],
+ "lat": 41.73371,
+ "lon": 43.47242,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 1085,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2020-06-11",
+ "geohash": "szqvmj",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7157,
+  43.4483,
+  41.7517,
+  43.4966
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "kids": 2
+ },
+ "collected": "2026-09-13 03:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
