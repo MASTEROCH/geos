@@ -1,0 +1,43 @@
+{
+ "id": 614080,
+ "name": "Keda",
+ "ascii": "Keda",
+ "name_ru": "Кеда",
+ "alt_ru": [
+  "Кеда"
+ ],
+ "lat": 41.59948,
+ "lon": 41.93946,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 1055,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmudk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5815,
+  41.9154,
+  41.6175,
+  41.9636
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 22,
+ "osm_named": 5,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "food": 2,
+  "coffee": 2,
+  "shop": 10,
+  "med": 6,
+  "beauty": 2
+ },
+ "collected": "2026-09-13 03:23",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

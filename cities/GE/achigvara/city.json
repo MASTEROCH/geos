@@ -1,0 +1,37 @@
+{
+ "id": 615984,
+ "name": "Achigvara",
+ "ascii": "Achigvara",
+ "name_ru": "Ачигвара",
+ "alt_ru": [
+  "Ачигвара"
+ ],
+ "lat": 42.68391,
+ "lon": 41.63732,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1032,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "sztdg6",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.6659,
+  41.6128,
+  42.7019,
+  41.6618
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 03:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,37 @@
+{
+ "id": 611287,
+ "name": "Ch’iauri",
+ "ascii": "Ch'iauri",
+ "name_ru": "Ульяновка",
+ "alt_ru": [
+  "Ульяновка"
+ ],
+ "lat": 41.70322,
+ "lon": 46.15035,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kakheti",
+ "population": 1044,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-02-08",
+ "geohash": "tp2v4p",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6852,
+  46.1262,
+  41.7212,
+  46.1745
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 03:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

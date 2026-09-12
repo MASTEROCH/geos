@@ -1,0 +1,45 @@
+{
+ "id": 824135,
+ "name": "Otradnoe",
+ "ascii": "Otradnoe",
+ "name_ru": "Отрадное",
+ "alt_ru": [
+  "Аӡаԥшь",
+  "Отрадное"
+ ],
+ "lat": 43.27434,
+ "lon": 40.28096,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1055,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szswht",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.2563,
+  40.2562,
+  43.2924,
+  40.3057
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 20,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 6,
+  "shop": 9,
+  "med": 2,
+  "travel": 1,
+  "sea": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 03:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

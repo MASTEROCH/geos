@@ -1,0 +1,37 @@
+{
+ "id": 616032,
+ "name": "Aats’i",
+ "ascii": "Aats'i",
+ "name_ru": "Ааци",
+ "alt_ru": [
+  "Ааци"
+ ],
+ "lat": 43.13639,
+ "lon": 40.73222,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1061,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szsvqu",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.1184,
+  40.7075,
+  43.1544,
+  40.7569
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 03:23",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
