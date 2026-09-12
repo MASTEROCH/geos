@@ -1,0 +1,37 @@
+{
+ "id": 614890,
+ "name": "Jvara",
+ "ascii": "Jvara",
+ "name_ru": "Дманиси",
+ "alt_ru": [
+  "Дманиси"
+ ],
+ "lat": 41.52514,
+ "lon": 44.3472,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 3038,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2020-01-08",
+ "geohash": "szrs1p",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5071,
+  44.3231,
+  41.5432,
+  44.3713
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 01:49",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

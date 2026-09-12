@@ -1,0 +1,41 @@
+{
+ "id": 614934,
+ "name": "Didi Lilo",
+ "ascii": "Didi Lilo",
+ "name_ru": "Диди Лило",
+ "alt_ru": [
+  "Диди Лило",
+  "Диди-Лило",
+  "Стыр Лило"
+ ],
+ "lat": 41.73611,
+ "lon": 44.96472,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 3349,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2019-02-28",
+ "geohash": "szrvrj",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7181,
+  44.9406,
+  41.7541,
+  44.9889
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 1,
+ "osm_with_hours": 0,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 01:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

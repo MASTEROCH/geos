@@ -1,0 +1,44 @@
+{
+ "id": 613724,
+ "name": "K’olkhida",
+ "ascii": "K'olkhida",
+ "name_ru": "Колхида",
+ "alt_ru": [
+  "Колхида"
+ ],
+ "lat": 43.25778,
+ "lon": 40.28766,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 3102,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "szswhf",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.2398,
+  40.2629,
+  43.2758,
+  40.3124
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 23,
+ "osm_named": 13,
+ "osm_with_site": 0,
+ "osm_with_hours": 5,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 4,
+  "shop": 8,
+  "coffee": 7,
+  "med": 1,
+  "sea": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 01:49",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

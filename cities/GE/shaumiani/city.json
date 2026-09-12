@@ -1,0 +1,43 @@
+{
+ "id": 612012,
+ "name": "Shaumiani",
+ "ascii": "Shaumiani",
+ "name_ru": "Нагхвареви",
+ "alt_ru": [
+  "Нагхвареви",
+  "Шаумиани",
+  "Шаумяни",
+  "Шулаверы"
+ ],
+ "lat": 41.35134,
+ "lon": 44.7645,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 3107,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-07-13",
+ "geohash": "szrg4x",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.3333,
+  44.7405,
+  41.3694,
+  44.7885
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4,
+  "med": 1
+ },
+ "collected": "2026-09-13 01:49",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

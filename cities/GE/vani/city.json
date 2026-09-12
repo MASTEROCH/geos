@@ -1,0 +1,45 @@
+{
+ "id": 611219,
+ "name": "Vani",
+ "ascii": "Vani",
+ "name_ru": "Вани",
+ "alt_ru": [
+  "Вани"
+ ],
+ "lat": 42.08408,
+ "lon": 42.51189,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 3151,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqprm",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0661,
+  42.4876,
+  42.1021,
+  42.5362
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 44,
+ "osm_named": 12,
+ "osm_with_site": 8,
+ "osm_with_hours": 4,
+ "osm_with_socials": 6,
+ "niches": {
+  "shop": 21,
+  "beauty": 2,
+  "coffee": 7,
+  "med": 9,
+  "kids": 2,
+  "travel": 1,
+  "art": 2
+ },
+ "collected": "2026-09-13 01:49",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

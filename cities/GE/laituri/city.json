@@ -1,0 +1,39 @@
+{
+ "id": 613278,
+ "name": "Laituri",
+ "ascii": "Laituri",
+ "name_ru": "Лайтури",
+ "alt_ru": [
+  "Лайтури"
+ ],
+ "lat": 41.9125,
+ "lon": 41.90917,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Guria",
+ "population": 3225,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmy3t",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8945,
+  41.885,
+  41.9305,
+  41.9334
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1
+ },
+ "collected": "2026-09-13 01:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,45 @@
+{
+ "id": 613981,
+ "name": "Kheivani",
+ "ascii": "Kheivani",
+ "name_ru": "Хеивани",
+ "alt_ru": [
+  "Хеивани"
+ ],
+ "lat": 43.3841,
+ "lon": 40.04364,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 3096,
+ "elevation": 4,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szsqz1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.3661,
+  40.0188,
+  43.4021,
+  40.0684
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 20,
+ "osm_named": 11,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 7,
+  "food": 3,
+  "shop": 5,
+  "med": 2,
+  "gym": 1,
+  "travel": 1,
+  "sea": 1
+ },
+ "collected": "2026-09-13 01:49",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 614863,
+ "name": "Dranda",
+ "ascii": "Dranda",
+ "name_ru": "Дранда",
+ "alt_ru": [
+  "Дранда"
+ ],
+ "lat": 42.87167,
+ "lon": 41.15333,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 3205,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2013-08-21",
+ "geohash": "szt7bk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8537,
+  41.1287,
+  42.8897,
+  41.1779
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 10,
+  "bar": 1,
+  "med": 2
+ },
+ "collected": "2026-09-13 01:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
