@@ -1,0 +1,40 @@
+{
+ "id": 824385,
+ "name": "Naruja",
+ "ascii": "Naruja",
+ "name_ru": "Наруджа",
+ "alt_ru": [
+  "Наруджа"
+ ],
+ "lat": 41.90694,
+ "lon": 41.95417,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Guria",
+ "population": 1501,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmy6s",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8889,
+  41.93,
+  41.925,
+  41.9784
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 2,
+  "shop": 1
+ },
+ "collected": "2026-09-13 02:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

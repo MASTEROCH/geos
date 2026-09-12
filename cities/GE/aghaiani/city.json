@@ -1,0 +1,41 @@
+{
+ "id": 615937,
+ "name": "Aghaiani",
+ "ascii": "Aghaiani",
+ "name_ru": "Агаиани",
+ "alt_ru": [
+  "Агаиани",
+  "Агаяни"
+ ],
+ "lat": 41.91438,
+ "lon": 44.54318,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 1505,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-14",
+ "geohash": "szrwmw",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.8964,
+  44.519,
+  41.9324,
+  44.5674
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "kids": 1,
+  "shop": 1
+ },
+ "collected": "2026-09-13 02:57",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

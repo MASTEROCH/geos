@@ -1,0 +1,47 @@
+{
+ "id": 611512,
+ "name": "Tsikhisdziri",
+ "ascii": "Tsikhisdziri",
+ "name_ru": "Цихисдзири",
+ "alt_ru": [
+  "Цихисдзири"
+ ],
+ "lat": 41.76659,
+ "lon": 41.75517,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 1500,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2015-11-09",
+ "geohash": "szmtw5",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7486,
+  41.731,
+  41.7846,
+  41.7793
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 25,
+ "osm_named": 11,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 7,
+  "med": 1,
+  "coffee": 4,
+  "bar": 1,
+  "travel": 3,
+  "food": 2,
+  "sea": 5,
+  "art": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 02:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

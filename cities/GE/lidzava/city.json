@@ -1,0 +1,48 @@
+{
+ "id": 613195,
+ "name": "Lidzava",
+ "ascii": "Lidzava",
+ "name_ru": "Лидзава",
+ "alt_ru": [
+  "Лдзаа",
+  "Лидзава",
+  "Лӡаа"
+ ],
+ "lat": 43.17806,
+ "lon": 40.36156,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 1506,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "szstwk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.16,
+  40.3369,
+  43.1961,
+  40.3863
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 36,
+ "osm_named": 19,
+ "osm_with_site": 0,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "coffee": 14,
+  "bar": 1,
+  "med": 2,
+  "shop": 10,
+  "art": 2,
+  "sea": 4,
+  "kids": 1
+ },
+ "collected": "2026-09-13 02:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

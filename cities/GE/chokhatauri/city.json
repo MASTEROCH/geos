@@ -1,0 +1,47 @@
+{
+ "id": 615118,
+ "name": "Chokhatauri",
+ "ascii": "Chokhatauri",
+ "name_ru": "Чохатаури",
+ "alt_ru": [
+  "Чохатаури"
+ ],
+ "lat": 42.01896,
+ "lon": 42.23945,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Guria",
+ "population": 1454,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqp11",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0009,
+  42.2152,
+  42.037,
+  42.2637
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 52,
+ "osm_named": 20,
+ "osm_with_site": 3,
+ "osm_with_hours": 2,
+ "osm_with_socials": 3,
+ "niches": {
+  "music": 1,
+  "kids": 1,
+  "shop": 29,
+  "beauty": 3,
+  "med": 10,
+  "food": 3,
+  "art": 1,
+  "coffee": 3,
+  "gym": 1
+ },
+ "collected": "2026-09-13 02:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
