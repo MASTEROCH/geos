@@ -22,7 +22,7 @@
    ]
   },
   {
-   "source": "/api/(og|venue|recommend|event)(.*)",
+   "source": "/api/(og|venue|street|recommend|event|leads)(.*)",
    "headers": [
     {
      "key": "Cache-Control",

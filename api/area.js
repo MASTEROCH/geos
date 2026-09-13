@@ -8,6 +8,7 @@
 //   GET /api/area?s=41.63&w=41.62&n=41.65&e=41.65&tier=r|b
 //   → {r:[[lat,lon,lat,lon,…],…], m:[…], w:[…], b:[…]}   (r дороги, m главные, w вода, b здания)
 //   GET /api/area?tier=p&s=…&w=…&n=…&e=…   → {p:[строка места, …]}  — все места плитки (формат — _osm.js)
+//   GET /api/area?tier=q&…                  → {p:[…]}  — «главное» плитки ≤0.1°: еда, бары, что посмотреть, пляжи (для масштаба города)
 //   GET /api/area?id=node/123               → {p:[строка]}          — одно место по id (deep-link, открытка)
 //
 // © OpenStreetMap contributors, ODbL. Плитка ≤ 0.03° по стороне — дальше отказ.
@@ -25,11 +26,16 @@ module.exports = async (req, res) => {
     catch (x) { return res.status(200).json({ error: String(x && x.message || x), p: [] }); }
   }
   const f = (k) => parseFloat(req.query[k]);
-  const s = f("s"), w = f("w"), n = f("n"), e = f("e"), tier = req.query.tier === "b" ? "b" : req.query.tier === "p" ? "p" : "r";
-  if ([s, w, n, e].some(Number.isNaN) || n - s > 0.031 || e - w > 0.041 || n <= s || e <= w)
-    return res.status(400).json({ error: "bbox s,w,n,e ≤ 0.03°" });
+  const s = f("s"), w = f("w"), n = f("n"), e = f("e"), tier = ["b", "p", "q"].includes(req.query.tier) ? req.query.tier : "r";
+  const maxLat = tier === "q" ? 0.101 : 0.031, maxLon = tier === "q" ? 0.141 : 0.041;
+  if ([s, w, n, e].some(Number.isNaN) || n - s > maxLat || e - w > maxLon || n <= s || e <= w)
+    return res.status(400).json({ error: `bbox s,w,n,e ≤ ${maxLat}°` });
   const bb = `(${s.toFixed(4)},${w.toFixed(4)},${n.toFixed(4)},${e.toFixed(4)})`;
-  const q = tier === "p"
+  const q = tier === "q"
+    ? `[out:json][timeout:25];(nwr["name"]["amenity"~"^(cafe|restaurant|bar|pub|fast_food|nightclub|ice_cream|pharmacy|theatre|cinema|marketplace)$"]${bb};` +
+      `nwr["name"]["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|aquarium|theme_park)$"]${bb};nwr["name"]["leisure"~"^(fitness_centre|beach_resort|water_park|park)$"]${bb};` +
+      `nwr["name"]["shop"~"^(mall|beauty|hairdresser|bakery)$"]${bb};nwr["natural"="beach"]${bb};);out center;`
+    : tier === "p"
     ? `[out:json][timeout:25];(` + ["amenity", "shop", "tourism", "leisure", "craft", "healthcare", "office"].map(k => `nwr["name"]["${k}"]${bb};`).join("") +
       `nwr["natural"="beach"]${bb};nwr["leisure"~"^(playground|beach_resort)$"]${bb};nwr["tourism"~"^(viewpoint|attraction|artwork)$"]${bb};);out center;`
     : `[out:json][timeout:20];(` +
@@ -46,7 +52,7 @@ module.exports = async (req, res) => {
     } catch (x) { err = String(x && x.message || x); }
   }
   if (!data) { res.setHeader("Cache-Control", "public, s-maxage=60"); return res.status(200).json({ error: err || "overpass", r: [], m: [], w: [], b: [], p: [] }); }
-  if (tier === "p") {
+  if (tier === "p" || tier === "q") {
     const seen = new Set(), p = [];
     for (const el of data.elements || []) { const r = osm.row(el); if (!r || seen.has(r[9])) continue; seen.add(r[9]); p.push(r); }
     res.setHeader("Cache-Control", "public, s-maxage=604800, stale-while-revalidate=2592000");

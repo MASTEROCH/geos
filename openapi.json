@@ -2,7 +2,7 @@
  "openapi": "3.1.0",
  "info": {
   "title": "GEOS API",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Куда пойти именно тебе: рекомендации мест по вкусу с причинами, настоящее состояние места, лиды."
  },
  "servers": [
@@ -164,6 +164,61 @@
     "responses": {
      "200": {
       "description": "{ok, stored}"
+     }
+    }
+   }
+  },
+  "/api/area": {
+   "get": {
+    "operationId": "area",
+    "summary": "Живой слой: все места плитки (tier=p) или одно место по id; схема района (tier=r|b)",
+    "parameters": [
+     {
+      "name": "tier",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "s",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "w",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "n",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "e",
+      "in": "query",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "id",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "{p:[[name, lat, lon, addr, phone, site, hours, socials, extra, osmId, email, image, wikidata, commons, description, niche, nativeName]]} либо {r,m,w,b}"
      }
     }
    }

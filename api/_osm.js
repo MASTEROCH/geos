@@ -38,7 +38,7 @@ function row(el) {
   if (t.amenity && NOISE.has(t.amenity)) return null;
   const soc = [];
   for (const k of ["instagram", "facebook", "telegram", "whatsapp", "tiktok", "vk", "youtube", "twitter"]) { const v = t["contact:" + k] || t[k]; if (v) soc.push(k + "=" + v); }
-  const addr = t["addr:full"] || [t["addr:street"], t["addr:housenumber"]].filter(Boolean).join(" ") || "";
+  const addr = toRu(t["addr:full"] || [t["addr:street"], t["addr:housenumber"]].filter(Boolean).join(" ") || "");
   const [name, native] = displayName(t);
   return [name, +(+lat).toFixed(6), +(+lon).toFixed(6), addr,
     t.phone || t["contact:phone"] || t["contact:mobile"] || "", t.website || t["contact:website"] || t.url || "",

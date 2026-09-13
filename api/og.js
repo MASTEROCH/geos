@@ -42,8 +42,24 @@ module.exports = async (req, res) => {
     };
     const abs = (x) => { try { return x ? new URL(x, r.url || u).href : ""; } catch { return ""; } };
     const title = meta(["og:title", "twitter:title"]) || (html.match(/<title[^>]*>([^<]{1,200})/i) || [])[1] || "";
+    let image = abs(meta(["og:image", "og:image:secure_url", "twitter:image", "twitter:image:src"]));
+    if (/\/$/.test(image) || /\.svg(\?|$)/i.test(image)) image = "";              // битый og (папка) или векторный логотип
+    let images = [];
+    if (!image) {                                                                   // og нет — первая крупная картинка из тела страницы
+      let more = 0;
+      while (more < 400000) { const { value, done } = await reader.read(); if (done) break; more += value.length; html += dec.decode(value, { stream: true }); }
+      const re = /<img[^>]+(?:data-src|src)=["']([^"']+)["'][^>]*>/gi; let m;
+      while ((m = re.exec(html)) && images.length < 3) {
+        const tag = m[0], src = m[1];
+        if (/^data:|\.svg|\.gif|logo|icon|sprite|pixel|badge|avatar|payment|flag/i.test(src) || /\.svg/i.test(tag)) continue;
+        const w = +(tag.match(/width=["']?(\d+)/i) || [])[1] || 0, h = +(tag.match(/height=["']?(\d+)/i) || [])[1] || 0;
+        if ((w && w < 250) || (h && h < 160)) continue;
+        const a = abs(src); if (a && !images.includes(a)) images.push(a);
+      }
+      image = images[0] || "";
+    }
     const out = {
-      image: abs(meta(["og:image", "og:image:secure_url", "twitter:image", "twitter:image:src"])),
+      image, images,
       description: meta(["og:description", "twitter:description", "description"]).slice(0, 600),
       title: title.trim().slice(0, 160),
       site: meta(["og:site_name"]),

@@ -10,7 +10,7 @@
 // База — api/_data/places.json (слой 1, OSM, легально навсегда). Настоящее состояние места — api/venue.js.
 
 const PLACES = require("./_data/places.json");            // [{i,n,c,la,lo,ci,tz,p,s,h,so}]
-const SPONSORS = require("./_data/sponsors.json");        // [{id, boost, label, project}]
+const { sponsors } = require("./_sponsors.js");          // [{id, boost, label, project}] — Supabase поверх файла
 const CATS = ["coffee","food","bar","gym","beauty","spa","shop","sea","art","music","travel","med","kids","_unmapped"];
 const CAT_RU = {coffee:"кофе и десерты",food:"еду",bar:"бары и ночь",gym:"спорт",beauty:"красоту",spa:"спа",shop:"магазины",sea:"пляжи и воду",art:"музеи и искусство",music:"музыку и сцену",travel:"что посмотреть",med:"здоровье",kids:"детское"};
 const DAYS = ["Mo","Tu","We","Th","Fr","Sa","Su"];
@@ -41,7 +41,7 @@ function localNow(tz) { try { const p = new Intl.DateTimeFormat("en-GB", { timeZ
 
 function parseTaste(s) { const t = {}; for (const kv of String(s || "").split(",")) { const [k, v] = kv.split(":"); if (CATS.includes(k)) t[k] = Math.max(0, Math.min(1, parseFloat(v) || 0)); } return t; }
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Cache-Control", "private, no-store");
   const q = req.query, lat = parseFloat(q.lat), lon = parseFloat(q.lon);
@@ -49,7 +49,7 @@ module.exports = (req, res) => {
   const n = Math.max(1, Math.min(50, parseInt(q.n || "10", 10) || 10)), radius = Math.max(0.3, Math.min(30, parseFloat(q.radius || "6") || 6));
   const taste = parseTaste(q.taste), hasTaste = Object.keys(taste).length > 0, cat = q.cat && CATS.includes(q.cat) ? q.cat : null;
   const project = String(q.project || "geos"), sponsoredOnly = q.sponsored_only === "1";
-  const spons = new Map(SPONSORS.filter(s => !s.project || s.project === project).map(s => [s.id, s]));
+  const spons = new Map((await sponsors()).filter(s => !s.project || s.project === project).map(s => [s.id, s]));
   const out = [];
   for (const p of PLACES) {
     if (cat && p.c !== cat) continue;

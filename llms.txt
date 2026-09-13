@@ -8,8 +8,13 @@
 
 - https://geos-six.vercel.app/api/recommend?lat=41.64&lon=41.63&n=10&taste=coffee:1,bar:.6&cat=&radius=6&project=geos — ранжированные места с why
 - https://geos-six.vercel.app/api/venue?name=…&lat=…&lon=…&photos=3 — фото, рейтинг, часы недели, отзывы (Google; needKey без ключа)
+- https://geos-six.vercel.app/api/street?lat=…&lon=…&n=3 — вид улицы у входа (Mapillary, CC BY-SA; needKey без токена)
 - https://geos-six.vercel.app/api/event (POST {place_id, kind, project, user}) — действие человека = лид
-- https://geos-six.vercel.app/p/<osmId> — открытка места с JSON-LD schema.org/LocalBusiness
+- https://geos-six.vercel.app/api/leads?place=node/123&days=30 — отчёт владельцу: открытия, маршруты, звонки по дням (агрегаты)
+- https://geos-six.vercel.app/api/sponsors?project=geos — активные партнёры (буст ≤2.5, всегда помечены)
+- https://geos-six.vercel.app/api/area?tier=p&s=…&w=…&n=…&e=… — ВСЕ места плитки ≤0.03° любого города планеты (живой слой OSM, формат строки: name, lat, lon, addr, phone, site, hours, socials, extra, osmId, email, image, wikidata, commons, description, niche, nativeName)
+- https://geos-six.vercel.app/api/area?id=node/123 — одно место по id OpenStreetMap
+- https://geos-six.vercel.app/p/<osmId> — открытка места с JSON-LD schema.org/LocalBusiness (для любого объекта OSM)
 - https://geos-six.vercel.app/openapi.json — спецификация · MCP-сервер: templates/mcp/geos-mcp.js в скилле ГЕО
 
 ## Категории
