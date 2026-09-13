@@ -1,0 +1,39 @@
+{
+ "id": 612507,
+ "name": "Parnauti",
+ "ascii": "Parnauti",
+ "name_ru": "Парнаут",
+ "alt_ru": [
+  "Парнаут"
+ ],
+ "lat": 42.94294,
+ "lon": 41.16637,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 684,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-02-08",
+ "geohash": "sztk2c",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9249,
+  41.1418,
+  42.961,
+  41.191
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 1,
+ "niches": {
+  "travel": 1
+ },
+ "collected": "2026-09-13 04:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

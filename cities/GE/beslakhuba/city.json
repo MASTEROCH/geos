@@ -1,0 +1,37 @@
+{
+ "id": 612662,
+ "name": "Beslakhuba",
+ "ascii": "Beslakhuba",
+ "name_ru": "Беслахуба",
+ "alt_ru": [
+  "Беслахуба"
+ ],
+ "lat": 42.7575,
+ "lon": 41.51444,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 839,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szte0x",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.7395,
+  41.4899,
+  42.7755,
+  41.539
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,38 @@
+{
+ "id": 615800,
+ "name": "Aleksandrovk’a",
+ "ascii": "Aleksandrovk'a",
+ "name_ru": "Александровка",
+ "alt_ru": [
+  "Александровка",
+  "Амхьал"
+ ],
+ "lat": 43.03625,
+ "lon": 41.16067,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 783,
+ "elevation": 380,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "sztkbd",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.0182,
+  41.136,
+  43.0543,
+  41.1853
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:35",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 611580,
+ "name": "Trialeti",
+ "ascii": "Trialeti",
+ "name_ru": "Триалети",
+ "alt_ru": [
+  "Александерсгильф",
+  "Триалети",
+  "Триалэти"
+ ],
+ "lat": 41.5427,
+ "lon": 44.1083,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 698,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-06-20",
+ "geohash": "szrk7d",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.5247,
+  44.0842,
+  41.5607,
+  44.1324
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "kids": 2
+ },
+ "collected": "2026-09-13 04:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

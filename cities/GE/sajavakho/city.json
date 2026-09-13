@@ -1,0 +1,42 @@
+{
+ "id": 612244,
+ "name": "Sajavakho",
+ "ascii": "Sajavakho",
+ "name_ru": "Саджавахо",
+ "alt_ru": [
+  "Саджавахо"
+ ],
+ "lat": 42.10344,
+ "lon": 42.29316,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 658,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-12-16",
+ "geohash": "szqpd2",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.0854,
+  42.2689,
+  42.1215,
+  42.3174
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 4,
+ "osm_with_site": 1,
+ "osm_with_hours": 0,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 3,
+  "art": 1,
+  "coffee": 2,
+  "food": 1
+ },
+ "collected": "2026-09-13 04:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

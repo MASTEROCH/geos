@@ -1,0 +1,39 @@
+{
+ "id": 613153,
+ "name": "Mach’at’ia",
+ "ascii": "Mach'at'ia",
+ "name_ru": "Мачатиа",
+ "alt_ru": [
+  "Мачатиа"
+ ],
+ "lat": 41.44777,
+ "lon": 43.51583,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 767,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-07-21",
+ "geohash": "szqgy1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.4298,
+  43.4918,
+  41.4658,
+  43.5399
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 04:41",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

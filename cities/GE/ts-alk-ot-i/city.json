@@ -1,0 +1,37 @@
+{
+ "id": 824132,
+ "name": "Ts’alk’ot’i",
+ "ascii": "Ts'alk'ot'i",
+ "name_ru": "Цалкоти",
+ "alt_ru": [
+  "Цалкоти"
+ ],
+ "lat": 43.40001,
+ "lon": 40.05248,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 724,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szsqzk",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.382,
+  40.0277,
+  43.418,
+  40.0773
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:43",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

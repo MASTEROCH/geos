@@ -1,0 +1,41 @@
+{
+ "id": 613159,
+ "name": "Likhni",
+ "ascii": "Likhni",
+ "name_ru": "Лыхны",
+ "alt_ru": [
+  "Лыхны"
+ ],
+ "lat": 43.14738,
+ "lon": 40.61472,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 524,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2015-07-22",
+ "geohash": "szsvkn",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.1294,
+  40.59,
+  43.1654,
+  40.6394
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "travel": 2,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 04:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

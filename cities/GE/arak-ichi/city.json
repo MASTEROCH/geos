@@ -1,0 +1,37 @@
+{
+ "id": 615719,
+ "name": "Arak’ichi",
+ "ascii": "Arak'ichi",
+ "name_ru": "Аракич",
+ "alt_ru": [
+  "Аракич"
+ ],
+ "lat": 42.84476,
+ "lon": 41.25271,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 873,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-22",
+ "geohash": "szt7dx",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8267,
+  41.2281,
+  42.8628,
+  41.2773
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

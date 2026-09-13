@@ -1,0 +1,40 @@
+{
+ "id": 610910,
+ "name": "Zemo Orozmani",
+ "ascii": "Zemo Orozmani",
+ "name_ru": "Земо Орзмани",
+ "alt_ru": [
+  "Земо Орзмани"
+ ],
+ "lat": 41.2984,
+ "lon": 44.18141,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 624,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-02-08",
+ "geohash": "szr6vq",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.2804,
+  44.1574,
+  41.3164,
+  44.2054
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "kids": 3,
+  "shop": 2
+ },
+ "collected": "2026-09-13 04:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

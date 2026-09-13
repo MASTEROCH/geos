@@ -1,0 +1,47 @@
+{
+ "id": 613870,
+ "name": "Khulo",
+ "ascii": "Khulo",
+ "name_ru": "Хуло",
+ "alt_ru": [
+  "Хуло"
+ ],
+ "lat": 41.64517,
+ "lon": 42.31464,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 874,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szqhfv",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6272,
+  42.2905,
+  41.6632,
+  42.3388
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 15,
+ "osm_named": 10,
+ "osm_with_site": 3,
+ "osm_with_hours": 2,
+ "osm_with_socials": 1,
+ "niches": {
+  "art": 1,
+  "coffee": 2,
+  "travel": 2,
+  "food": 1,
+  "med": 4,
+  "shop": 2,
+  "bar": 1,
+  "music": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 04:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

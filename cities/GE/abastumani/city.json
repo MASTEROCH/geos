@@ -1,0 +1,47 @@
+{
+ "id": 584502,
+ "name": "Abastumani",
+ "ascii": "Abastumani",
+ "name_ru": "Абастумани",
+ "alt_ru": [
+  "Абастумани"
+ ],
+ "lat": 41.75339,
+ "lon": 42.83203,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 579,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szqmw8",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7354,
+  42.8079,
+  41.7714,
+  42.8562
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 41,
+ "osm_named": 9,
+ "osm_with_site": 2,
+ "osm_with_hours": 4,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 6,
+  "coffee": 4,
+  "travel": 13,
+  "kids": 7,
+  "art": 5,
+  "food": 2,
+  "med": 2,
+  "spa": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 04:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

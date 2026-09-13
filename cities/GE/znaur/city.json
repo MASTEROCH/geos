@@ -1,0 +1,41 @@
+{
+ "id": 610838,
+ "name": "Znaur",
+ "ascii": "Znaur",
+ "name_ru": "Знаур",
+ "alt_ru": [
+  "Знаур",
+  "Знауыр"
+ ],
+ "lat": 42.19432,
+ "lon": 43.77361,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": null,
+ "population": 755,
+ "elevation": 786,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-14",
+ "geohash": "szx0h1",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1763,
+  43.7493,
+  42.2123,
+  43.7979
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 1,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 04:42",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

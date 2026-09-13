@@ -1,0 +1,37 @@
+{
+ "id": 865491,
+ "name": "Labra",
+ "ascii": "Labra",
+ "name_ru": "Лабра",
+ "alt_ru": [
+  "Лабра"
+ ],
+ "lat": 42.88446,
+ "lon": 41.45118,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 566,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-09-04",
+ "geohash": "szt7zn",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8664,
+  41.4266,
+  42.9025,
+  41.4758
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

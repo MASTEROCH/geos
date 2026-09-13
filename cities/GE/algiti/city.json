@@ -1,0 +1,45 @@
+{
+ "id": 615791,
+ "name": "Algiti",
+ "ascii": "Algiti",
+ "name_ru": "Алгити",
+ "alt_ru": [
+  "Алгити"
+ ],
+ "lat": 43.12351,
+ "lon": 40.57047,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 658,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szsv74",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.1055,
+  40.5458,
+  43.1415,
+  40.5952
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "music": 1,
+  "shop": 7,
+  "food": 4,
+  "travel": 1,
+  "sea": 2,
+  "art": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 04:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

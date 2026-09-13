@@ -1,0 +1,37 @@
+{
+ "id": 615818,
+ "name": "Akvaskia",
+ "ascii": "Akvaskia",
+ "name_ru": "Акваскиа",
+ "alt_ru": [
+  "Акваскиа"
+ ],
+ "lat": 42.81983,
+ "lon": 41.56645,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 575,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szte9g",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8018,
+  41.5419,
+  42.8378,
+  41.591
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

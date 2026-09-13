@@ -1,0 +1,43 @@
+{
+ "id": 611936,
+ "name": "Shuakhevi",
+ "ascii": "Shuakhevi",
+ "name_ru": "Шуахеви",
+ "alt_ru": [
+  "Шуахеви"
+ ],
+ "lat": 41.62566,
+ "lon": 42.18615,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Adjara",
+ "population": 566,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szmuzc",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.6076,
+  42.162,
+  41.6437,
+  42.2103
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 3,
+  "food": 3,
+  "med": 2,
+  "shop": 9,
+  "travel": 1
+ },
+ "collected": "2026-09-13 04:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

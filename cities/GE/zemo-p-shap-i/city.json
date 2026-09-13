@@ -1,0 +1,41 @@
+{
+ "id": 610906,
+ "name": "Zemo P’shap’i",
+ "ascii": "Zemo P'shap'i",
+ "name_ru": "Земо Пшапи",
+ "alt_ru": [
+  "Земо Пшапи"
+ ],
+ "lat": 42.88611,
+ "lon": 41.14639,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 930,
+ "elevation": 800,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szt7br",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8681,
+  41.1218,
+  42.9041,
+  41.171
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4,
+  "coffee": 2,
+  "med": 1
+ },
+ "collected": "2026-09-13 04:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 865385,
+ "name": "Zemo-Machara",
+ "ascii": "Zemo-Machara",
+ "name_ru": "Земо Мачара",
+ "alt_ru": [
+  "Земо Мачара"
+ ],
+ "lat": 43.01069,
+ "lon": 41.1926,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 684,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "sztk9m",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.9927,
+  41.168,
+  43.0287,
+  41.2172
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "travel": 3,
+  "food": 2
+ },
+ "collected": "2026-09-13 04:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

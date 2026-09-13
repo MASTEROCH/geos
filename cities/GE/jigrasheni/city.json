@@ -1,0 +1,39 @@
+{
+ "id": 614779,
+ "name": "Jigrasheni",
+ "ascii": "Jigrasheni",
+ "name_ru": "Джиграшени",
+ "alt_ru": [
+  "Джиграшени"
+ ],
+ "lat": 41.32086,
+ "lon": 43.54302,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 784,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-04-02",
+ "geohash": "szqgnf",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.3028,
+  43.519,
+  41.3389,
+  43.567
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2
+ },
+ "collected": "2026-09-13 04:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

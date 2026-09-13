@@ -1,0 +1,39 @@
+{
+ "id": 865379,
+ "name": "Merkheuli",
+ "ascii": "Merkheuli",
+ "name_ru": "Мерхеули",
+ "alt_ru": [
+  "Мерхеули"
+ ],
+ "lat": 42.97602,
+ "lon": 41.12782,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": null,
+ "population": 839,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2021-11-14",
+ "geohash": "szthrz",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.958,
+  41.1032,
+  42.994,
+  41.1524
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 04:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

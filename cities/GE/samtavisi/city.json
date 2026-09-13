@@ -1,0 +1,41 @@
+{
+ "id": 612128,
+ "name": "Samtavisi",
+ "ascii": "Samtavisi",
+ "name_ru": "Самтависи",
+ "alt_ru": [
+  "Самтависи"
+ ],
+ "lat": 42.00758,
+ "lon": 44.40999,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 677,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2019-12-03",
+ "geohash": "szrwfx",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9896,
+  44.3857,
+  42.0256,
+  44.4342
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 8,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4,
+  "travel": 3,
+  "kids": 1
+ },
+ "collected": "2026-09-13 04:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

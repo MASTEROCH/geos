@@ -1,0 +1,39 @@
+{
+ "id": 611815,
+ "name": "Sulevo",
+ "ascii": "Sulevo",
+ "name_ru": "Сулево",
+ "alt_ru": [
+  "Сулево"
+ ],
+ "lat": 43.48278,
+ "lon": 40.09444,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 880,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-03-23",
+ "geohash": "szsx27",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.4648,
+  40.0696,
+  43.5008,
+  40.1193
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1
+ },
+ "collected": "2026-09-13 04:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

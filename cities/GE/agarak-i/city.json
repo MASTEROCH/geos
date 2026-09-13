@@ -1,0 +1,39 @@
+{
+ "id": 615940,
+ "name": "Agarak’i",
+ "ascii": "Agarak'i",
+ "name_ru": "Агараки",
+ "alt_ru": [
+  "Агараки"
+ ],
+ "lat": 43.19871,
+ "lon": 40.40977,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 672,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szstz8",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  43.1807,
+  40.3851,
+  43.2167,
+  40.4345
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1
+ },
+ "collected": "2026-09-13 04:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

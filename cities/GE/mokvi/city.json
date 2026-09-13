@@ -1,0 +1,37 @@
+{
+ "id": 612927,
+ "name": "Mokvi",
+ "ascii": "Mokvi",
+ "name_ru": "Мокви",
+ "alt_ru": [
+  "Мокви"
+ ],
+ "lat": 42.81396,
+ "lon": 41.4813,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 939,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2018-12-07",
+ "geohash": "szt7xf",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.7959,
+  41.4567,
+  42.832,
+  41.5059
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

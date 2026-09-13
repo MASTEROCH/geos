@@ -1,0 +1,41 @@
+{
+ "id": 611283,
+ "name": "Uplistsikhe",
+ "ascii": "Uplistsikhe",
+ "name_ru": "Уплисцихе",
+ "alt_ru": [
+  "Уплисцихе"
+ ],
+ "lat": 41.96553,
+ "lon": 44.17119,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 728,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2019-09-12",
+ "geohash": "szrqtp",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.9475,
+  44.147,
+  41.9835,
+  44.1954
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "kids": 2,
+  "shop": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 04:43",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

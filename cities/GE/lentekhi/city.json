@@ -1,0 +1,45 @@
+{
+ "id": 613226,
+ "name": "Lentekhi",
+ "ascii": "Lentekhi",
+ "name_ru": "Лентехи",
+ "alt_ru": [
+  "Лентехи"
+ ],
+ "lat": 42.78888,
+ "lon": 42.72228,
+ "feature": "PPLA2",
+ "cc": "GE",
+ "admin1": "Racha-Lechkhumi and Kvemo Svaneti",
+ "population": 1020,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szw7kj",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.7709,
+  42.6977,
+  42.8069,
+  42.7468
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 25,
+ "osm_named": 8,
+ "osm_with_site": 2,
+ "osm_with_hours": 1,
+ "osm_with_socials": 3,
+ "niches": {
+  "shop": 11,
+  "food": 2,
+  "med": 4,
+  "beauty": 1,
+  "art": 3,
+  "coffee": 2,
+  "gym": 2
+ },
+ "collected": "2026-09-13 03:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

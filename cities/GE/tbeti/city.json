@@ -1,0 +1,39 @@
+{
+ "id": 611719,
+ "name": "Tbeti",
+ "ascii": "Tbeti",
+ "name_ru": "Тбет",
+ "alt_ru": [
+  "Тбет"
+ ],
+ "lat": 42.23,
+ "lon": 43.91292,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 530,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2024-09-12",
+ "geohash": "szx0pr",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.212,
+  43.8886,
+  42.248,
+  43.9373
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1
+ },
+ "collected": "2026-09-13 04:54",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

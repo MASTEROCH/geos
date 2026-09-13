@@ -1,0 +1,37 @@
+{
+ "id": 612464,
+ "name": "P’at’ara Lilo",
+ "ascii": "P'at'ara Lilo",
+ "name_ru": "Патара Лило",
+ "alt_ru": [
+  "Патара Лило"
+ ],
+ "lat": 41.74458,
+ "lon": 44.90708,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Tbilisi",
+ "population": 666,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szrvmz",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.7266,
+  44.8829,
+  41.7626,
+  44.9312
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

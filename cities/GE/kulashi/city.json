@@ -1,0 +1,40 @@
+{
+ "id": 613641,
+ "name": "Kulashi",
+ "ascii": "Kulashi",
+ "name_ru": "Кулаши",
+ "alt_ru": [
+  "Кулаши"
+ ],
+ "lat": 42.2064,
+ "lon": 42.34606,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Imereti",
+ "population": 945,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szw05e",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1884,
+  42.3217,
+  42.2244,
+  42.3704
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 9,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 6,
+  "kids": 3
+ },
+ "collected": "2026-09-13 04:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

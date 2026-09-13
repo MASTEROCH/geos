@@ -1,0 +1,44 @@
+{
+ "id": 611888,
+ "name": "Sioni",
+ "ascii": "Sioni",
+ "name_ru": "Сиони",
+ "alt_ru": [
+  "Сиони"
+ ],
+ "lat": 42.60679,
+ "lon": 44.5854,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Mtskheta-Mtianeti",
+ "population": 777,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2019-12-03",
+ "geohash": "szxdqs",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.5888,
+  44.5609,
+  42.6248,
+  44.6099
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 20,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 10,
+  "art": 2,
+  "travel": 4,
+  "coffee": 1,
+  "food": 1,
+  "med": 2
+ },
+ "collected": "2026-09-13 04:41",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

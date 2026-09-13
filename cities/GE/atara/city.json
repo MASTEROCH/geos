@@ -1,0 +1,38 @@
+{
+ "id": 615655,
+ "name": "Atara",
+ "ascii": "Atara",
+ "name_ru": "Атара",
+ "alt_ru": [
+  "Атара",
+  "Аҭара"
+ ],
+ "lat": 42.87194,
+ "lon": 41.27007,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Abkhazia",
+ "population": 665,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-22",
+ "geohash": "szt7gh",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.8539,
+  41.2455,
+  42.89,
+  41.2947
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

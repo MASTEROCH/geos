@@ -1,0 +1,40 @@
+{
+ "id": 611759,
+ "name": "Tamarisi",
+ "ascii": "Tamarisi",
+ "name_ru": "Тамариси",
+ "alt_ru": [
+  "Тамариси"
+ ],
+ "lat": 41.4376,
+ "lon": 44.7439,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Kvemo Kartli",
+ "population": 800,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2025-08-10",
+ "geohash": "szrgdp",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.4196,
+  44.7199,
+  41.4556,
+  44.7679
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "med": 1
+ },
+ "collected": "2026-09-13 04:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

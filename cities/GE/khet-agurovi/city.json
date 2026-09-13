@@ -1,0 +1,41 @@
+{
+ "id": 613961,
+ "name": "Khet’agurovi",
+ "ascii": "Khet'agurovi",
+ "name_ru": "Къостайыхъæу",
+ "alt_ru": [
+  "Къостайыхъæу",
+  "Хетагурово"
+ ],
+ "lat": 42.20833,
+ "lon": 43.89264,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Shida Kartli",
+ "population": 850,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2024-09-12",
+ "geohash": "szx0ng",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  42.1903,
+  43.8683,
+  42.2263,
+  43.917
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "music": 1
+ },
+ "collected": "2026-09-13 04:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

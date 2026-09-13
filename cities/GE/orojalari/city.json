@@ -1,0 +1,37 @@
+{
+ "id": 612576,
+ "name": "Orojalari",
+ "ascii": "Orojalari",
+ "name_ru": "Ороджолари",
+ "alt_ru": [
+  "Ороджолари"
+ ],
+ "lat": 41.30011,
+ "lon": 43.61965,
+ "feature": "PPL",
+ "cc": "GE",
+ "admin1": "Samtskhe-Javakheti",
+ "population": 763,
+ "elevation": null,
+ "tz": "Asia/Tbilisi",
+ "updated": "2026-08-21",
+ "geohash": "szr4bw",
+ "country": "Georgia",
+ "country_ru": "Грузия",
+ "bbox": [
+  41.2821,
+  43.5957,
+  41.3181,
+  43.6436
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 04:41",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
