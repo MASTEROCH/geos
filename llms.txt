@@ -22,6 +22,7 @@
 - https://geos-six.vercel.app/api/event (POST {place_id, kind, project, user}) — действие человека = лид
 - https://geos-six.vercel.app/api/leads?place=node/123&days=30 — отчёт владельцу: открытия, маршруты, звонки по дням (агрегаты)
 - https://geos-six.vercel.app/api/sponsors?project=geos — активные партнёры (буст ≤2.5, всегда помечены)
+- https://geos-six.vercel.app/api/own?op=extra&id=node/123 — своя база поверх OSM: правки владельца, его фото, оценки «был здесь», сколько собирались прийти
 - https://geos-six.vercel.app/api/area?tier=p&s=…&w=…&n=…&e=… — ВСЕ места плитки ≤0.03° любого города планеты (живой слой OSM, формат строки: name, lat, lon, addr, phone, site, hours, socials, extra, osmId, email, image, wikidata, commons, description, niche, nativeName)
 - https://geos-six.vercel.app/api/area?id=node/123 — одно место по id OpenStreetMap
 - https://geos-six.vercel.app/p/<osmId> — открытка места с JSON-LD schema.org/LocalBusiness (для любого объекта OSM)

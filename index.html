@@ -576,7 +576,9 @@ function toggleSave(i){const id=POI_INFO[i][9];if(!id){toast('У этого ме
  try{localStorage.setItem(SAVED_KEY,JSON.stringify(SAVED.slice(0,300)))}catch{}return k<0}
 function restoreSaved(){const rows=SAVED.filter(x=>x.row&&!HAVE.has(x.id)).map(x=>x.row.slice(0,15).concat([x.n,x.row[15]||'']));if(rows.length)addPois(rows,null)}
 const poiIdx=id=>POI_INFO.findIndex(p=>p[9]===id);
-function track(kind,poi){const cat=NICHES[PN[poi]].k;nudge(cat,NUDGE[kind]||0);
+const VISITS_KEY='geos_visits_v1';const wasThere=id=>{try{const v=JSON.parse(localStorage.getItem(VISITS_KEY)||'{}');return !!v[id]&&!v[id].rated}catch{return false}};
+function markVisit(id){try{const v=JSON.parse(localStorage.getItem(VISITS_KEY)||'{}');v[id]=v[id]||{t:Date.now()};localStorage.setItem(VISITS_KEY,JSON.stringify(v))}catch{}}
+function track(kind,poi){const cat=NICHES[PN[poi]].k;nudge(cat,NUDGE[kind]||0);if((kind==='route'||kind==='call')&&POI_INFO[poi][9])markVisit(POI_INFO[poi][9]);if((kind==='checkin'||kind==='dislike')&&POI_INFO[poi][9]){try{const v=JSON.parse(localStorage.getItem(VISITS_KEY)||'{}');if(v[POI_INFO[poi][9]]){v[POI_INFO[poi][9]].rated=1;localStorage.setItem(VISITS_KEY,JSON.stringify(v))}}catch{}}
  if(HTTP){const body=JSON.stringify({place_id:POI_INFO[poi][9]||'',kind,project:'geos',user:TASTE.uid,sponsored:!!SPONS.get(POI_INFO[poi][9])});
   try{navigator.sendBeacon?navigator.sendBeacon('/api/event',new Blob([body],{type:'application/json'})):fetch('/api/event',{method:'POST',body,headers:{'content-type':'application/json'},keepalive:true})}catch{}}}
 // ───── L4 · партнёры и скоринг. Три закона: буст умножает только релевантное · партнёр помечен · есть why
@@ -718,15 +720,24 @@ function poiCard(i){const [nm,lat,lon,addr,phone,site,hours,soc,extra,osmId,emai
  <div class="rows">${addr?`<div class="row"><span>Адрес</span><div>${esc(addr)}</div></div>`:''}${phones.length?`<div class="row"><span>Телефон</span><div>${phones.map(t=>`<a href="tel:${esc(t.replace(/[^\d+]/g,''))}">${esc(t)}</a>`).join('<br>')}</div></div>`:''}${email?`<div class="row"><span>Почта</span><div><a href="mailto:${esc(email)}">${esc(email)}</a></div></div>`:''}${site?`<div class="row"><span>Сайт</span><div>${link(site)}</div></div>`:''}${soc?`<div class="row"><span>Соцсети</span><div>${socLinks(soc)}</div></div>`:''}<div class="row"><span>Координаты</span><div class="num">${lat.toFixed(5)}, ${lon.toFixed(5)} <a href="#" id="aCopy" style="margin-left:8px">копировать</a></div></div></div>
  ${hours?`<div class="sec"><h2>Часы работы</h2><span>местное время</span></div><div class="rows" style="padding:4px 14px">${hoursTable(hours,c.tz)}</div>`:''}
  <p class="src">Данные — © участники OpenStreetMap (ODbL)${osmId?', '+link('https://www.openstreetmap.org/'+osmId,'объект'):''}. Часы и контакты — как в OSM на ${esc(c.when.slice(0,10))}, без проверки. ${!phone&&!site&&!soc?'Контактов в OSM нет — проверьте на картах.':''}</p>
+ ${HTTP&&osmId&&wasThere(osmId)?`<div class="rows" id="rateBox" style="padding:12px 14px;text-align:center"><b style="display:block;margin-bottom:8px">Вы были здесь?</b><button class="tchip tap" id="rUp">👍 Понравилось</button> <button class="tchip tap" id="rDown">👎 Не очень</button></div>`:''}
  <button class="dis tap" id="aDis">Не моё — показывать такое реже</button>
  ${HTTP&&osmId?`<a class="owner" href="partner.html#${encodeURIComponent(osmId)}" target="_blank" rel="noopener">Владелец места? Кто сюда собирался и как попасть выше →</a>`:''}`;
  $('aShare').onclick=()=>{track('share',i);share(name,HTTP&&osmId?location.origin+'/p/'+encodeURIComponent(osmId):gmaps(lat,lon,nm))};
  $('aSave').onclick=()=>{const on=toggleSave(i);const b=$('aSave');b.classList.toggle('saved',on);b.innerHTML=svgI.save+(on?'Сохранено':'Сохранить');toast(on?'Сохранено — найдёте в разделе «Сохранённое»':'Убрано из сохранённого')};
+ const rb=$('rateBox');if(rb){const rate=async v=>{track(v>0?'checkin':'dislike',i);rb.innerHTML='<b>Спасибо, учтём</b>';try{await fetch('/api/own',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({op:'rate',place_id:osmId,user:TASTE.uid,v})})}catch{}};$('rUp').onclick=()=>rate(1);$('rDown').onclick=()=>rate(-1)}
  $('aDis').onclick=()=>{track('dislike',i);toast('Понял: '+(CAT_RU[z.k]||z.n)+' — реже');history.back()};
  body.querySelectorAll('.acts a[href^="tel:"]').forEach(a=>a.addEventListener('click',()=>track('call',i)));body.querySelectorAll('.acts a.primary').forEach(a=>a.addEventListener('click',()=>track('route',i)));body.querySelectorAll('.acts a[target=_blank]:not(.primary)').forEach(a=>a.addEventListener('click',()=>track('site',i)));$('aCopy').onclick=e=>{e.preventDefault();copy(`${lat.toFixed(5)}, ${lon.toFixed(5)}`)};
  const hero=body.querySelector('.hero');
  // 1. Google — настоящее состояние: фото, рейтинг, телефон, часы, отзывы. 2. Иначе — теги OSM, сайт, Commons рядом.
- gplace(nm,lat,lon).then(g=>{if(g&&g.needKey)return fallbackPhotos();
+ // своя база: правки владельца, его фото, оценки «был здесь» — раньше всего остального
+ const ownP=HTTP&&osmId?jget(`/api/own?op=extra&id=${encodeURIComponent(osmId)}`).then(o=>{if(!o||!o.stored)return null;
+  const e=o.edits||{};if(e.description){const d=$('desc');if(d){d.textContent=e.description;d.innerHTML+='<small>от владельца</small>'}}
+  const rows=body.querySelector('.rows');const add=(k,v)=>{if(!v||!rows)return;const r=document.createElement('div');r.className='row';r.innerHTML=`<span>${k}</span><div>${v}</div>`;rows.prepend(r)};
+  if(e.phone&&nrm(e.phone)!==nrm(phone))add('Телефон · владелец',`<a href="tel:${esc(e.phone.replace(/[^\d+]/g,''))}">${esc(e.phone)}</a>`);if(e.website&&nrm(e.website)!==nrm(site))add('Сайт · владелец',link(e.website));if(e.hours&&e.hours!==hours)add('Часы · владелец',esc(e.hours));
+  const m=body.querySelector('.meta');if(m&&(o.up||o.down||o.leads)){const r=document.createElement('div');r.className='rate';r.innerHTML=`${o.up||o.down?`<b>👍 ${o.up}</b><span class="num">· 👎 ${o.down}</span>`:''}${o.leads?`<span class="num">· ${o.leads} собирались прийти</span>`:''}`;m.after(r)}
+  if(o.photos&&o.photos.length){gallery(hero,o.photos,'фото владельца');return o}return o.photos&&o.photos.length?o:null}).catch(()=>null):Promise.resolve(null);
+ gplace(nm,lat,lon).then(async g=>{const own=await ownP;if(own&&own.photos&&own.photos.length){const s=body.querySelector('.src');if(s)s.innerHTML='Фото и данные — от владельца места. '+s.innerHTML;return}if(g&&g.needKey)return fallbackPhotos();
   if(!g)return fallbackPhotos();
   if(g.photos&&g.photos.length)gallery(hero,g.photos.map(p=>p.url),'Google · '+(g.photos[0].by||''));else fallbackPhotos();
   const m=body.querySelector('.meta');if(m&&g.type)m.innerHTML=`${esc(g.type)} · ${esc(c.n)}<span class="live">Google · сейчас</span>`;

@@ -1,0 +1,29 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>GEOS · модерация</title><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<style>:root{color-scheme:dark}body{margin:0;background:#000;color:#fff;font:15px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding:16px}
+.wrap{max-width:720px;margin:0 auto}a{color:#0A84FF;text-decoration:none}h1{font-size:24px;margin:8px 0 14px;letter-spacing:-.02em}h2{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:rgba(235,235,245,.62);margin:20px 0 8px}
+.card{background:rgba(44,44,46,.6);border-radius:16px;padding:12px 14px;margin:0 0 8px;display:flex;gap:12px;align-items:center}.card img{width:84px;height:84px;object-fit:cover;border-radius:10px;flex:0 0 auto}.card .t{flex:1;min-width:0}.card small{display:block;color:rgba(235,235,245,.62)}
+button{font:inherit;border:0;border-radius:999px;padding:8px 14px;cursor:pointer;font-weight:600}.ok{background:#30D158;color:#04210d}.no{background:rgba(255,69,58,.18);color:#FF453A}
+input{font:inherit;background:rgba(44,44,46,.6);border:1px solid transparent;color:#fff;border-radius:12px;padding:10px 12px;width:100%;box-sizing:border-box}
+.tok{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#FFD60A;word-break:break-all}.empty{color:rgba(235,235,245,.5);padding:8px 0}</style></head><body><div class="wrap">
+<h1>Модерация GEOS</h1>
+<div id="login"><p>Ключ модератора (переменная <code>ADMIN_TOKEN</code> в Vercel):</p><input id="key" type="password" placeholder="ключ" autocomplete="off"><p><button class="ok" id="go">Войти</button></p></div>
+<div id="app" hidden>
+<h2>Заявки владельцев</h2><div id="claims"></div>
+<h2>Фото людей на проверке</h2><div id="photos"></div>
+<h2>Одобренные владельцы · ссылки для них</h2><div id="approved"></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let KEY=sessionStorage.getItem('geos_admin')||location.hash.slice(1)||'';if(KEY)$('key').value=KEY;
+$('go').onclick=()=>{KEY=$('key').value.trim();sessionStorage.setItem('geos_admin',KEY);load()};
+async function api(body){const r=await fetch('/api/own',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({op:'admin',key:KEY,...body})});return r.json()}
+async function load(){const j=await api({action:'list'});if(!j.ok){alert(j.error||'ошибка');return}$('login').hidden=true;$('app').hidden=false;
+ $('claims').innerHTML=j.claims.length?j.claims.map(c=>`<div class="card"><div class="t"><b>${esc(c.name||'—')}</b> · ${esc(c.contact)}<small><a href="/p/${encodeURIComponent(c.place_id)}" target="_blank">${esc(c.place_id)}</a> · ${esc((c.created_at||'').slice(0,16).replace('T',' '))}</small>${c.note?`<small>${esc(c.note)}</small>`:''}</div><button class="ok" data-c="${c.id}" data-s="approved">Одобрить</button><button class="no" data-c="${c.id}" data-s="rejected">Нет</button></div>`).join(''):'<div class="empty">Заявок нет</div>';
+ $('photos').innerHTML=j.photos.length?j.photos.map(p=>`<div class="card"><img src="${esc(p.url)}" alt=""><div class="t"><a href="/p/${encodeURIComponent(p.place_id)}" target="_blank">${esc(p.place_id)}</a><small>${esc(p.by)} · ${esc((p.created_at||'').slice(0,16).replace('T',' '))}</small></div><button class="ok" data-p="${p.id}" data-s="approved">Показать</button><button class="no" data-p="${p.id}" data-s="rejected">Убрать</button></div>`).join(''):'<div class="empty">Фото на проверке нет</div>';
+ $('approved').innerHTML=j.approved.length?j.approved.map(c=>`<div class="card"><div class="t"><b>${esc(c.name||'—')}</b> · ${esc(c.contact)}<small><a href="/p/${encodeURIComponent(c.place_id)}" target="_blank">${esc(c.place_id)}</a></small><small class="tok">${location.origin}/partner.html#${encodeURIComponent(c.place_id)}?t=${esc(c.token)}</small></div><button class="ok" data-copy="${location.origin}/partner.html#${encodeURIComponent(c.place_id)}?t=${esc(c.token)}">Копировать ссылку</button></div>`).join(''):'<div class="empty">Пока никого</div>';
+ document.querySelectorAll('[data-c]').forEach(b=>b.onclick=async()=>{await api({action:'claim',id:+b.dataset.c,status:b.dataset.s});load()});
+ document.querySelectorAll('[data-p]').forEach(b=>b.onclick=async()=>{await api({action:'photo',id:+b.dataset.p,status:b.dataset.s});load()});
+ document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard?.writeText(b.dataset.copy);b.textContent='Скопировано'})}
+if(KEY)load();
+</script></div></body></html>

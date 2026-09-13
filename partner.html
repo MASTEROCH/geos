@@ -38,6 +38,9 @@ canvas{width:100%;height:150px;display:block}
 .src{font-size:12px;color:var(--ink3);line-height:1.45;margin:18px 0 0}
 .empty{text-align:center;padding:26px 14px;color:var(--ink2)}
 .empty b{display:block;color:var(--ink);margin-bottom:6px}
+.f{display:block;width:100%;box-sizing:border-box;font:inherit;color:var(--ink);background:rgba(255,255,255,.07);border:1px solid transparent;border-radius:12px;padding:11px 12px;margin:0 0 8px;outline:none}.f:focus{border-color:var(--blue)}
+textarea.f{resize:vertical}.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}.gal img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px}.gal .pend{opacity:.5}
+input[type=file]{color:var(--ink2);font-size:13px;margin:6px 0}
 .sk{background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.06) 50%,transparent 70%) 0 0/250% 100%;animation:sh 1.6s linear infinite;border-radius:8px;color:transparent!important}
 @keyframes sh{to{background-position:-150% 0}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
@@ -56,6 +59,12 @@ canvas{width:100%;height:150px;display:block}
 <div class="card" id="how"><h2>Что это значит</h2>
 <p>GEOS показывает место не всем подряд, а тем, кому оно по вкусу и кто сейчас рядом. Каждая строка выше — настоящий человек, который открыл карточку, построил маршрут или позвонил. Мы не знаем, кто он: считаем действия, а не людей.</p>
 <p class="dim">Размещение бесплатно и навсегда: данные приходят из OpenStreetMap. Правьте своё место там, и GEOS подхватит адрес, часы и контакты.</p></div>
+<div class="card" id="own"><h2>Это ваше место?</h2>
+<p>Подтвердите владение — и сможете править часы и контакты, добавить свои фото. Они появятся в карточке первыми.</p>
+<div id="claimForm"><input class="f" id="cName" placeholder="Ваше имя или название заведения"><input class="f" id="cContact" placeholder="Телефон или почта для связи"><input class="f" id="cNote" placeholder="Комментарий (необязательно)"><a class="btn" id="claimBtn" href="#">Это моё место</a><p class="dim" id="claimNote">Заявку проверяет человек, обычно в течение дня. Ссылку для входа в кабинет пришлём на указанный контакт.</p></div>
+<div id="ownerBox" hidden><p class="dim" id="ownerHi"></p>
+<h2>Данные места</h2><input class="f" id="eName" placeholder="Название"><input class="f" id="ePhone" placeholder="Телефон"><input class="f" id="eSite" placeholder="Сайт (https://…)"><input class="f" id="eHours" placeholder="Часы, напр. Mo-Su 09:00-22:00"><input class="f" id="eSoc" placeholder="Соцсети: instagram=…;telegram=…"><textarea class="f" id="eDesc" rows="3" placeholder="Описание для гостей — 2–3 предложения"></textarea><a class="btn" id="saveBtn" href="#">Сохранить</a>
+<h2>Фото</h2><p class="dim">3–5 фото: зал, вход, фирменное блюдо. Сжимаются в браузере, до 1400 px.</p><input type="file" id="ph" accept="image/*" multiple><div class="gal" id="gal"></div></div></div>
 <div class="card"><h2>Как попасть выше</h2>
 <p>Партнёрское место поднимается в подборках только у тех, кому оно действительно подходит, и всегда помечено как партнёрское. Платите не за показы, а за намерение прийти.</p>
 <p class="dim" id="cta-note">Контакт для партнёров появится здесь, как только его добавит владелец GEOS.</p>
@@ -63,7 +72,7 @@ canvas{width:100%;height:150px;display:block}
 <p class="src">Данные о месте — © участники OpenStreetMap (ODbL). Статистика — действия людей в GEOS и приложениях на его основе, без личных данных.</p>
 </div>
 <script>
-const $=id=>document.getElementById(id);const id=decodeURIComponent(location.hash.slice(1)||'');
+const $=id=>document.getElementById(id);const H=location.hash.slice(1);const id=decodeURIComponent(H.split('?')[0]||'');const TOKEN=(new URLSearchParams(H.split('?')[1]||'')).get('t')||'';
 const CAT={coffee:"Кофе и десерты",food:"Еда",bar:"Бары и ночь",gym:"Спорт",beauty:"Красота",spa:"СПА и бани",shop:"Магазины",sea:"Пляжи и вода",art:"Музеи и искусство",music:"Музыка и сцена",travel:"Что посмотреть",med:"Здоровье и аптеки",kids:"Детям",_unmapped:"Место"};
 const KEYS=["coffee","food","bar","gym","beauty","spa","shop","sea","art","music","travel","med","kids","_unmapped"];
 const fmt=n=>new Intl.NumberFormat('ru-RU').format(n||0);
@@ -71,6 +80,18 @@ if(!id){$('name').textContent='Нет id места';$('name').classList.remove(
 else{fetch('/api/area?id='+encodeURIComponent(id)).then(r=>r.json()).then(j=>{const p=j&&j.p&&j.p[0];$('name').classList.remove('sk');if(!p){$('name').textContent='Место не найдено';$('meta').textContent=id;return}
  $('name').textContent=p[0]||'Без названия';$('back').href='./#p='+encodeURIComponent(id);$('meta').textContent=[CAT[KEYS[p[15]]]||'Место',p[3]||'',p[16]||''].filter(Boolean).join(' · ')}).catch(()=>{$('name').classList.remove('sk');$('name').textContent=id});
  load(30)}
+// ── владелец: заявка, кабинет по токену, правки, фото
+const post=b=>fetch('/api/own',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(b)}).then(r=>r.json());
+$('claimBtn').onclick=async e=>{e.preventDefault();const contact=$('cContact').value.trim();if(!contact){$('cContact').focus();return}$('claimBtn').textContent='Отправляю…';
+ const j=await post({op:'claim',place_id:id,name:$('cName').value,contact,note:$('cNote').value});$('claimBtn').textContent=j.ok?'Заявка отправлена':'Не удалось, попробуйте позже';if(j.ok)$('claimNote').textContent='Спасибо. Проверим и пришлём ссылку в кабинет на '+contact+'.'};
+async function owner(){if(!TOKEN||!id)return;const j=await fetch(`/api/own?op=owner&id=${encodeURIComponent(id)}&t=${encodeURIComponent(TOKEN)}`).then(r=>r.json()).catch(()=>null);if(!j||!j.ok)return;
+ $('claimForm').hidden=true;$('ownerBox').hidden=false;$('ownerHi').textContent='Вы вошли как владелец'+(j.owner?' · '+j.owner:'')+'. Изменения появляются в карточке в течение двух минут.';
+ const e=j.edits||{};$('eName').value=e.name||'';$('ePhone').value=e.phone||'';$('eSite').value=e.website||'';$('eHours').value=e.hours||'';$('eSoc').value=e.socials||'';$('eDesc').value=e.description||'';
+ $('gal').innerHTML=(j.photos||[]).map(p=>`<img src="${p.url}" class="${p.status==='approved'?'':'pend'}" alt="">`).join('');
+ $('saveBtn').onclick=async ev=>{ev.preventDefault();$('saveBtn').textContent='Сохраняю…';const r=await post({op:'edit',place_id:id,t:TOKEN,fields:{name:$('eName').value,phone:$('ePhone').value,website:$('eSite').value,hours:$('eHours').value,socials:$('eSoc').value,description:$('eDesc').value}});$('saveBtn').textContent=r.ok?'Сохранено':'Ошибка'};
+ $('ph').onchange=async()=>{for(const f of $('ph').files){const data=await shrink(f);const r=await post({op:'photo',place_id:id,t:TOKEN,data});if(r.ok){const im=new Image();im.src=r.url;$('gal').prepend(im)}}$('ph').value=''}}
+function shrink(file){return new Promise(res=>{const im=new Image();im.onload=()=>{const k=Math.min(1,1400/Math.max(im.width,im.height));const c=document.createElement('canvas');c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext('2d').drawImage(im,0,0,c.width,c.height);res(c.toDataURL('image/webp',.82))};im.src=URL.createObjectURL(file)})}
+owner();
 document.querySelectorAll('#seg button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x===b));load(+b.dataset.d)});
 async function load(days){const j=await fetch(`/api/leads?place=${encodeURIComponent(id)}&days=${days}`).then(r=>r.json()).catch(()=>null);
  if(j&&j.contact){const c=$('cta');c.hidden=false;c.href=/^https?:|^mailto:|^tg:/.test(j.contact)?j.contact:(j.contact.includes('@')?'mailto:'+j.contact:'https://'+j.contact);$('cta-note').textContent='Напишите — подберём формат под вашу аудиторию.'}
