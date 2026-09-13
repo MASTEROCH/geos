@@ -284,24 +284,44 @@ void main(){vec3 q=R*p;vz=q.z;float pc=floor(m/16.0),ct=floor(mod(m,16.0)/2.0),c
  if(q.z<-0.02)gl_PointSize=0.0;}`;
 const FS=`precision mediump float;varying vec4 vc;varying float vz;void main(){vec2 d=gl_PointCoord-0.5;float r=length(d);if(r>0.5)discard;float a=smoothstep(0.5,0.15,r)*vc.a*smoothstep(-0.05,0.25,vz);gl_FragColor=vec4(vc.rgb,a);}`;
 const SVS=`attribute vec2 p;varying vec2 v;void main(){v=p;gl_Position=vec4(p,0.0,1.0);}`;
-const SFS=`precision mediump float;varying vec2 v;uniform vec2 vp,cen;uniform float zoom;uniform mat3 R;uniform vec3 sun;
+const SFS=`precision mediump float;varying vec2 v;uniform vec2 vp,cen;uniform float zoom;uniform mat3 R;uniform vec3 sun;uniform sampler2D texDay,texNight,texToday;uniform float texA,todayA;
 void main(){vec2 px=v*vp*0.5-cen;float R0=min(vp.x,vp.y)*0.42*zoom;float d=length(px)/R0;
  if(d>1.0){float g=smoothstep(1.16,1.0,d);gl_FragColor=vec4(0.4,0.75,1.0,g*0.09);return;}
  float z=sqrt(1.0-d*d);vec3 n=vec3(px/R0,z);vec3 L=normalize(vec3(-0.45,0.4,0.8));float li=max(0.0,dot(n,L));
  vec3 base=mix(vec3(0.02,0.025,0.05),vec3(0.05,0.07,0.14),li);float limb=pow(1.0-z,2.4);
  vec3 w=R*n;float sd=dot(w,sun);float zf=clamp(1.2-log2(max(zoom,1.0))/4.5,0.0,1.0);float day=smoothstep(-0.10,0.22,sd)*zf;
- base=mix(base,mix(vec3(0.05,0.11,0.22),vec3(0.10,0.22,0.38),li),day*0.9);
+ float lat=asin(clamp(w.y,-1.0,1.0)),lon=atan(w.x,w.z);
+ // спутник: текстуры NASA (равнопромежуточная проекция) — видны на планетарном масштабе, к 40× уступают схеме
+ float tz=clamp(1.3-log2(max(zoom,1.0))/4.0,0.0,1.0)*texA;
+ vec2 uv=vec2(lon/6.2831853+0.5,0.5-lat/3.14159265);
+ vec3 dcol=texture2D(texDay,uv).rgb;vec3 tcol=texture2D(texToday,uv).rgb;float tm=todayA*smoothstep(0.04,0.12,max(tcol.r,max(tcol.g,tcol.b)))*0.92;dcol=mix(dcol,tcol,tm);
+ vec3 ncol=texture2D(texNight,uv).rgb;
+ vec3 dayBase=mix(vec3(0.05,0.11,0.22),vec3(0.10,0.22,0.38),li);dayBase=mix(dayBase,dcol*(0.5+0.6*li),tz);
+ base=mix(base,dayBase,day*0.92);
+ base+=ncol*vec3(0.75,0.62,0.45)*0.5*(1.0-day)*tz;
  base+=vec3(0.55,0.28,0.10)*exp(-pow(sd/0.13,2.0))*0.32*zf;
  base+=vec3(0.15,0.45,0.85)*limb*(0.8+0.5*day);
- float lat=asin(clamp(w.y,-1.0,1.0)),lon=atan(w.x,w.z);
  float gl1=abs(fract(lat/0.5236+0.5)-0.5),gl2=abs(fract(lon/0.5236+0.5)-0.5);
  float grid=(1.0-smoothstep(0.0,0.012,gl1))+(1.0-smoothstep(0.0,0.012,gl2));
- base+=vec3(0.4,0.6,1.0)*grid*0.05*z;
+ base+=vec3(0.4,0.6,1.0)*grid*0.05*z*(1.0-tz);
  gl_FragColor=vec4(base,1.0);}`;
 const LVS=`attribute vec3 p;uniform mat3 R;uniform vec3 o;uniform vec2 vp,cen;uniform float zoom;varying float vz;void main(){vec3 q=R*p+o;vz=q.z;float R0=min(vp.x,vp.y)*0.42*zoom;gl_Position=vec4((q.xy*R0+cen)/(vp*0.5),0.0,1.0);}`;
 const LFS=`precision mediump float;uniform vec4 col;varying float vz;void main(){if(vz<0.0)discard;gl_FragColor=vec4(col.rgb,col.a*smoothstep(-0.02,0.12,vz));}`;
 const P=prog(VS,FS),S=prog(SVS,SFS),L=prog(LVS,LFS);
-// полилинии int16 lat/lon → пары вершин для gl.LINES на сфере
+// ───── спутник: NASA Blue Marble (день) и Black Marble (ночь) — общественное достояние; MODIS «сегодня» — GIBS, CORS открыт
+const TEX={day:null,night:null,today:null,t0:0,t1:0};const blank=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,blank);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,1,1,0,gl.RGB,gl.UNSIGNED_BYTE,new Uint8Array([0,0,0]));
+function mkTex(src){const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,src);
+ gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.REPEAT);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR_MIPMAP_LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.generateMipmap(gl.TEXTURE_2D);return t}
+function loadEarth(){const one=(k,src)=>{const im=new Image();im.onload=()=>{TEX[k]=mkTex(im);if(TEX.day&&TEX.night&&!TEX.t0)TEX.t0=performance.now()};im.src=src};one('day','earth/day.jpg');one('night','earth/night.jpg')}
+// «сегодня»: вчерашние снимки VIIRS (Suomi NPP) — сегодняшний виток ещё не собран, плитки 512 px уровня 1 (телефон) или 2 (десктоп)
+function loadToday(){if(navigator.connection&&navigator.connection.saveData)return;
+ // сетка GIBS EPSG:4326 «250m»: пиксель 0.5625°/2^L, плитка 512 px — на уровне 1 это 3×2 плитки по 144°×144°, не степень двойки
+ const lvl=DESK()?2:1,px=0.5625/Math.pow(2,lvl),span=512*px,cols=Math.ceil(360/span),rows=Math.ceil(180/span),W=Math.round(360/px),H=Math.round(180/px);
+ const d=new Date(Date.now()-1.3*864e5).toISOString().slice(0,10);
+ const c2=document.createElement('canvas');c2.width=W;c2.height=H;const cx=c2.getContext('2d');let done=0,ok=0;
+ const fin=()=>{if(++done<cols*rows)return;if(ok<cols*rows*0.7)return;const pot=document.createElement('canvas');pot.width=2048;pot.height=1024;pot.getContext('2d').drawImage(c2,0,0,2048,1024);TEX.today=mkTex(pot);TEX.t1=performance.now()};
+ for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){const im=new Image();im.crossOrigin='anonymous';im.onload=()=>{cx.drawImage(im,c*512,r*512);ok++;fin()};im.onerror=fin;
+  im.src=`https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/${d}/250m/${lvl}/${r}/${c}.jpg`}}// полилинии int16 lat/lon → пары вершин для gl.LINES на сфере
 function linesFromLL(ll,starts){const n=ll.length/2;const xyz=[];const pt=i=>{const la=ll[i*2]/32767*Math.PI/2,lo=ll[i*2+1]/32767*Math.PI;return [Math.cos(la)*Math.sin(lo),Math.sin(la),Math.cos(la)*Math.cos(lo)]};
  for(let s=0;s<starts.length-1;s++){for(let i=starts[s];i<starts[s+1]-1;i++){const a=pt(i),b=pt(i+1);xyz.push(a[0],a[1],a[2],b[0],b[1],b[2])}}return new Float32Array(xyz)}
 function drawLines(M,b,col,org){if(!b||!b.n)return;gl.useProgram(L);const lp=A(L,'p');gl.bindBuffer(gl.ARRAY_BUFFER,b.buf);gl.enableVertexAttribArray(lp);gl.vertexAttribPointer(lp,3,gl.FLOAT,false,0,0);
@@ -355,6 +375,9 @@ function draw(now){st.t=now/1000;
  gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);gl.disable(gl.DEPTH_TEST);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);
  gl.useProgram(S);gl.bindBuffer(gl.ARRAY_BUFFER,quad);const sp=A(S,'p');gl.enableVertexAttribArray(sp);gl.vertexAttribPointer(sp,2,gl.FLOAT,false,0,0);
  const SUN=sunDir();gl.uniform3f(U(S,'sun'),SUN[0],SUN[1],SUN[2]);
+ const texA=TEX.t0?Math.min(1,(now-TEX.t0)/1500):0,todayA=TEX.t1?Math.min(1,(now-TEX.t1)/1500):0;
+ gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,TEX.day||blank);gl.activeTexture(gl.TEXTURE2);gl.bindTexture(gl.TEXTURE_2D,TEX.night||blank);gl.activeTexture(gl.TEXTURE3);gl.bindTexture(gl.TEXTURE_2D,TEX.today||blank);gl.activeTexture(gl.TEXTURE0);
+ gl.uniform1i(U(S,'texDay'),1);gl.uniform1i(U(S,'texNight'),2);gl.uniform1i(U(S,'texToday'),3);gl.uniform1f(U(S,'texA'),texA*(REDUCED?1:1));gl.uniform1f(U(S,'todayA'),todayA);
  gl.uniform2f(U(S,'vp'),cv.width,cv.height);gl.uniform2f(U(S,'cen'),st.cen[0]*DPR,st.cen[1]*DPR);gl.uniform1f(U(S,'zoom'),st.zoom);
  const MT=new Float32Array(9);for(let i=0;i<3;i++)for(let j=0;j<3;j++)MT[i*3+j]=M[j*3+i];gl.uniformMatrix3fv(U(S,'R'),false,MT);
  gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
@@ -586,7 +609,7 @@ function renderNearby(){const res=$('res');if(!res)return;const [la,lo]=centerLa
   bindList(res);bindTaste();const te=$('tasteEdit');if(te)te.onclick=e=>{e.preventDefault();TASTE.w=null;renderNearby();setDetent('full')};const zh=$('zoomHere');if(zh)zh.onclick=()=>{flyTo(la,lo,1600);setDetent('peek')};return}
  const cities=[];for(let k=0;k<ORDER.length&&cities.length<12;k++){const i=ORDER[k];if(POPS[i]<15000&&colOf(i)<0)break;const d=hav(la,lo,latOf(i),lonOf(i));if(d<450)cities.push([d,i])}cities.sort((a,b)=>a[0]-b[0]);
  res.innerHTML=tb+savedBlock(la,lo)+`<div class="sec"><h2>Города рядом</h2><span class="num">${cities.length?'до 450 км':''}</span></div>`+(cities.length?`<div class="list">${cities.map(([d,i])=>itemCity(i,dist(d))).join('')}</div>`:`<div class="empty"><b>Рядом нет крупных городов</b>Покрутите планету или найдите город в поиске</div>`)+`
- <p class="src">Реестр: ${fmt(STATS.cities)} городов планеты (GeoNames). Приблизьте любой город — появятся его заведения из OpenStreetMap; тап по точке открывает карточку.</p>`;bindList(res);bindTaste()}
+ <p class="src">Реестр: ${fmt(STATS.cities)} городов планеты (GeoNames). Приблизьте любой город — появятся его заведения из OpenStreetMap; тап по точке открывает карточку. Планета — снимки NASA: Blue Marble, Black Marble и VIIRS за вчера (GIBS).</p>`;bindList(res);bindTaste()}
 function savedBlock(la,lo){if(!SAVED.length)return '';const items=SAVED.slice(0,6).map(x=>{const i=poiIdx(x.id);return i>=0?itemPoi(i,dist(hav(la,lo,poiLat(i),poiLon(i)))):''}).join('');
  return items?`<div class="sec"><h2>Сохранённое</h2><span class="num">${SAVED.length}</span></div><div class="list">${items}</div>`:''}
 function renderSearch(v){const res=$('res');v=nrm(v);if(v.length<2){renderNearby();return}prep();const out=[];
@@ -735,7 +758,7 @@ if(HTTP&&'serviceWorker' in navigator)addEventListener('load',()=>{navigator.ser
 $('ttl').textContent=fmt(STATS.cities)+' городов';restoreSaved();renderExplore();
 const DEEP=(location.hash.match(/#p=(.+)$/)||[])[1];
 st.zoom=st.zt=REDUCED?1:0.4;resize();requestAnimationFrame(draw);
-setTimeout(()=>{$('intro').style.opacity=0;$('halo').style.opacity=1;setTimeout(()=>$('intro').remove(),1000);
+setTimeout(()=>{$('intro').style.opacity=0;$('halo').style.opacity=1;setTimeout(()=>$('intro').remove(),1000);setTimeout(loadEarth,800);if(HTTP)setTimeout(loadToday,6000);
  const deep=DEEP?POI_INFO.findIndex(p=>p[9]===decodeURIComponent(DEEP)):-1;
  const show=k=>{st.q=qView(POI_INFO[k][1],POI_INFO[k][2]);st.zoom=st.zt=160;resize();poiCard(k)};
  const intro=()=>{if(!REDUCED){st.fly={a:qView(10,-20),b:qView(38,35),z0:0.4,z1:1,t0:performance.now(),dur:2400};st.zt=1;st.pulseUntil=performance.now()+8000;setTimeout(()=>{st.spin=true},2500)}};

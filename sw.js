@@ -5,7 +5,7 @@ self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) =
 self.addEventListener("fetch", (e) => {
   const u = new URL(e.request.url);
   if (e.request.method !== "GET" || u.origin !== location.origin) return;
-  const cacheFirst = u.pathname.startsWith("/cities/") || (u.pathname === "/api/area" && (u.searchParams.get("tier") === "p" || u.searchParams.has("id")));
+  const cacheFirst = u.pathname.startsWith("/cities/") || u.pathname.startsWith("/earth/") || (u.pathname === "/api/area" && (u.searchParams.get("tier") === "p" || u.searchParams.has("id")));
   const netFirst = e.request.mode === "navigate" || u.pathname === "/" || u.pathname === "/index.html";
   if (!cacheFirst && !netFirst) return;
   e.respondWith((async () => {
