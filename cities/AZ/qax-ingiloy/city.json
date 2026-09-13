@@ -1,0 +1,42 @@
+{
+ "id": 586294,
+ "name": "Qax İngiloy",
+ "ascii": "Qax Ingiloy",
+ "name_ru": "Гахингилой",
+ "alt_ru": [
+  "Гахингилой"
+ ],
+ "lat": 41.42412,
+ "lon": 46.93859,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Qax",
+ "population": 2747,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp37sj",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.4061,
+  46.9146,
+  41.4421,
+  46.9626
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 16,
+ "osm_named": 16,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 3,
+  "coffee": 4,
+  "shop": 8,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,43 @@
+{
+ "id": 824050,
+ "name": "Aran",
+ "ascii": "Aran",
+ "name_ru": "Аран",
+ "alt_ru": [
+  "28-ое Апреля",
+  "Аран"
+ ],
+ "lat": 40.62528,
+ "lon": 46.97556,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Yevlax",
+ "population": 6724,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2021-05-31",
+ "geohash": "tp1rhg",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.6073,
+  46.9518,
+  40.6433,
+  46.9993
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 3,
+  "food": 1,
+  "shop": 8,
+  "med": 1
+ },
+ "collected": "2026-09-13 09:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

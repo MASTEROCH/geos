@@ -1,0 +1,38 @@
+{
+ "id": 147949,
+ "name": "Qalaqayın",
+ "ascii": "Qalaqayin",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 39.98365,
+ "lon": 48.4836,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Sabirabad District",
+ "population": 7631,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-12-22",
+ "geohash": "tp47rq",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.9656,
+  48.4601,
+  40.0017,
+  48.5071
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "med": 2
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

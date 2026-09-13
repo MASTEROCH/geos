@@ -1,0 +1,47 @@
+{
+ "id": 587361,
+ "name": "Aghsu",
+ "ascii": "Aghsu",
+ "name_ru": "Агсу",
+ "alt_ru": [
+  "Агсу",
+  "Ахсу"
+ ],
+ "lat": 40.57028,
+ "lon": 48.40087,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Agsu District",
+ "population": 22300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp4qv3",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.546,
+  48.3689,
+  40.5946,
+  48.4328
+ ],
+ "radius_km": 2.7,
+ "preset": "cityhub",
+ "osm_total": 50,
+ "osm_named": 50,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 8,
+  "med": 6,
+  "food": 13,
+  "shop": 16,
+  "art": 4,
+  "music": 1,
+  "gym": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 08:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

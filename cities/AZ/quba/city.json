@@ -1,0 +1,51 @@
+{
+ "id": 585221,
+ "name": "Quba",
+ "ascii": "Quba",
+ "name_ru": "Губа",
+ "alt_ru": [
+  "Губа",
+  "Куба",
+  "Къуба",
+  "Къувал"
+ ],
+ "lat": 41.36108,
+ "lon": 48.51341,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Quba",
+ "population": 22405,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp67rc",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.3367,
+  48.481,
+  41.3854,
+  48.5458
+ ],
+ "radius_km": 2.7,
+ "preset": "cityhub",
+ "osm_total": 94,
+ "osm_named": 64,
+ "osm_with_site": 7,
+ "osm_with_hours": 11,
+ "osm_with_socials": 1,
+ "niches": {
+  "food": 11,
+  "art": 6,
+  "shop": 38,
+  "coffee": 15,
+  "beauty": 2,
+  "travel": 11,
+  "kids": 1,
+  "gym": 2,
+  "spa": 2,
+  "med": 6
+ },
+ "collected": "2026-09-13 08:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

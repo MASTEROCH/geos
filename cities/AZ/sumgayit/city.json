@@ -1,0 +1,51 @@
+{
+ "id": 584923,
+ "name": "Sumgayit",
+ "ascii": "Sumgayit",
+ "name_ru": "Сумгайыт",
+ "alt_ru": [
+  "Сумгаит",
+  "Сумгайыт"
+ ],
+ "lat": 40.58972,
+ "lon": 49.66861,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Sumqayit",
+ "population": 427000,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-26",
+ "geohash": "tp5qfj",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4834,
+  49.5287,
+  40.696,
+  49.8086
+ ],
+ "radius_km": 11.8,
+ "preset": "cityhub",
+ "osm_total": 976,
+ "osm_named": 914,
+ "osm_with_site": 20,
+ "osm_with_hours": 42,
+ "osm_with_socials": 13,
+ "niches": {
+  "med": 89,
+  "food": 70,
+  "coffee": 152,
+  "shop": 536,
+  "beauty": 77,
+  "gym": 9,
+  "music": 5,
+  "bar": 7,
+  "art": 14,
+  "travel": 14,
+  "sea": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 07:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

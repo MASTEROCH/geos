@@ -1,0 +1,45 @@
+{
+ "id": 586031,
+ "name": "Korgöz",
+ "ascii": "Korgoz",
+ "name_ru": "Кергез",
+ "alt_ru": [
+  "Кергез",
+  "Коргоьз"
+ ],
+ "lat": 40.30446,
+ "lon": 49.6236,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 2036,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp5m31",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.2864,
+  49.6,
+  40.3225,
+  49.6472
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 27,
+ "osm_named": 27,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "music": 1,
+  "coffee": 4,
+  "shop": 15,
+  "med": 5,
+  "beauty": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 09:43",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

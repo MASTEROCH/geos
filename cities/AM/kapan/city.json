@@ -1,0 +1,49 @@
+{
+ "id": 174875,
+ "name": "Kapan",
+ "ascii": "Kapan",
+ "name_ru": "Капан",
+ "alt_ru": [
+  "Капан"
+ ],
+ "lat": 39.20762,
+ "lon": 46.40678,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 32900,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-13",
+ "geohash": "tncp01",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.1781,
+  46.3687,
+  39.2371,
+  46.4449
+ ],
+ "radius_km": 3.3,
+ "preset": "cityhub",
+ "osm_total": 101,
+ "osm_named": 63,
+ "osm_with_site": 14,
+ "osm_with_hours": 25,
+ "osm_with_socials": 10,
+ "niches": {
+  "shop": 38,
+  "food": 9,
+  "med": 11,
+  "coffee": 12,
+  "travel": 10,
+  "bar": 3,
+  "art": 9,
+  "beauty": 3,
+  "music": 1,
+  "gym": 2,
+  "kids": 3
+ },
+ "collected": "2026-09-13 05:00",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

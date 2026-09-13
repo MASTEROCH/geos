@@ -1,0 +1,47 @@
+{
+ "id": 616435,
+ "name": "Masis",
+ "ascii": "Masis",
+ "name_ru": "Масис",
+ "alt_ru": [
+  "Масис"
+ ],
+ "lat": 40.06595,
+ "lon": 44.43669,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 23136,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpegj",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0412,
+  44.4044,
+  40.0907,
+  44.469
+ ],
+ "radius_km": 2.7,
+ "preset": "cityhub",
+ "osm_total": 252,
+ "osm_named": 107,
+ "osm_with_site": 12,
+ "osm_with_hours": 65,
+ "osm_with_socials": 14,
+ "niches": {
+  "kids": 11,
+  "beauty": 28,
+  "shop": 140,
+  "med": 19,
+  "coffee": 22,
+  "food": 16,
+  "travel": 3,
+  "gym": 12,
+  "bar": 1
+ },
+ "collected": "2026-09-13 05:01",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

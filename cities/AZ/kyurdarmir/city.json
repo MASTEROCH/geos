@@ -1,0 +1,45 @@
+{
+ "id": 585763,
+ "name": "Kyurdarmir",
+ "ascii": "Kyurdarmir",
+ "name_ru": "Кюрдамир",
+ "alt_ru": [
+  "Кюрдамир"
+ ],
+ "lat": 40.34257,
+ "lon": 48.15649,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Kurdamir District",
+ "population": 19088,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp4jxb",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3201,
+  48.127,
+  40.365,
+  48.186
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 45,
+ "osm_named": 42,
+ "osm_with_site": 4,
+ "osm_with_hours": 4,
+ "osm_with_socials": 3,
+ "niches": {
+  "med": 4,
+  "shop": 18,
+  "food": 10,
+  "art": 4,
+  "music": 1,
+  "gym": 3,
+  "coffee": 5
+ },
+ "collected": "2026-09-13 08:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

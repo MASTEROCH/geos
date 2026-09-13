@@ -1,0 +1,44 @@
+{
+ "id": 585694,
+ "name": "Kur",
+ "ascii": "Kur",
+ "name_ru": "Кюр",
+ "alt_ru": [
+  "Кюр"
+ ],
+ "lat": 40.90583,
+ "lon": 46.1852,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Şǝmkir",
+ "population": 9700,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp2bdy",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.8878,
+  46.1614,
+  40.9238,
+  46.209
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "gym": 1,
+  "coffee": 1,
+  "music": 1,
+  "food": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 09:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

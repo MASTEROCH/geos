@@ -1,0 +1,44 @@
+{
+ "id": 586736,
+ "name": "Digah",
+ "ascii": "Digah",
+ "name_ru": "Дигях",
+ "alt_ru": [
+  "Дигях"
+ ],
+ "lat": 40.49257,
+ "lon": 49.87477,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 9800,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5qqg",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4746,
+  49.8511,
+  40.5106,
+  49.8985
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 27,
+ "osm_named": 25,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 5,
+  "travel": 2,
+  "shop": 15,
+  "med": 2,
+  "food": 2,
+  "art": 1
+ },
+ "collected": "2026-09-13 09:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

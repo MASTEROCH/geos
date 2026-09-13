@@ -1,0 +1,43 @@
+{
+ "id": 584626,
+ "name": "Yuxarı Salahlı",
+ "ascii": "Yuxari Salahli",
+ "name_ru": "Юхары-Салахлы",
+ "alt_ru": [
+  "Юхары-Салахлы"
+ ],
+ "lat": 41.24347,
+ "lon": 45.26685,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Qazax",
+ "population": 3406,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2024-04-16",
+ "geohash": "tp24wh",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.2255,
+  45.2429,
+  41.2615,
+  45.2908
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 9,
+ "osm_named": 8,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 1,
+  "food": 1,
+  "coffee": 3,
+  "shop": 3,
+  "med": 1
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

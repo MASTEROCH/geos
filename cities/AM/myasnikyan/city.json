@@ -1,0 +1,40 @@
+{
+ "id": 823802,
+ "name": "Myasnikyan",
+ "ascii": "Myasnikyan",
+ "name_ru": "Мясникян",
+ "alt_ru": [
+  "Мясникян"
+ ],
+ "lat": 40.18048,
+ "lon": 43.91949,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 4582,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szphx6",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1625,
+  43.8959,
+  40.1985,
+  43.9431
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "med": 2
+ },
+ "collected": "2026-09-13 05:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

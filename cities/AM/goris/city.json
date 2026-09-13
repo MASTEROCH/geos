@@ -1,0 +1,49 @@
+{
+ "id": 174895,
+ "name": "Goris",
+ "ascii": "Goris",
+ "name_ru": "Горис",
+ "alt_ru": [
+  "Герусы",
+  "Герюсы",
+  "Горис"
+ ],
+ "lat": 39.51111,
+ "lon": 46.34168,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 17592,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-24",
+ "geohash": "tp0by8",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.4895,
+  46.3137,
+  39.5327,
+  46.3696
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 74,
+ "osm_named": 48,
+ "osm_with_site": 4,
+ "osm_with_hours": 11,
+ "osm_with_socials": 6,
+ "niches": {
+  "med": 8,
+  "coffee": 9,
+  "art": 6,
+  "music": 1,
+  "shop": 30,
+  "food": 10,
+  "travel": 7,
+  "beauty": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

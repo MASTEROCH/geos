@@ -1,0 +1,43 @@
+{
+ "id": 147625,
+ "name": "Laçın",
+ "ascii": "Lacin",
+ "name_ru": "Лачин",
+ "alt_ru": [
+  "Абдаляр",
+  "Лачин",
+  "Лачын"
+ ],
+ "lat": 39.63742,
+ "lon": 46.54977,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Lachin Rayon",
+ "population": 2300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp117r",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.6194,
+  46.5264,
+  39.6554,
+  46.5732
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 3,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 3,
+  "art": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 09:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

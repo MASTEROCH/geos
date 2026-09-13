@@ -1,0 +1,42 @@
+{
+ "id": 616338,
+ "name": "Nor Kharberd",
+ "ascii": "Nor Kharberd",
+ "name_ru": "Нор Харберд",
+ "alt_ru": [
+  "Нор Харберд"
+ ],
+ "lat": 40.09168,
+ "lon": 44.48053,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 8766,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpsh4",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0737,
+  44.457,
+  40.1097,
+  44.5041
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 11,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 8,
+  "beauty": 1,
+  "food": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

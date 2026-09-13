@@ -1,0 +1,42 @@
+{
+ "id": 587057,
+ "name": "Barda",
+ "ascii": "Barda",
+ "name_ru": "Барда",
+ "alt_ru": [
+  "Барда",
+  "Барде хот"
+ ],
+ "lat": 40.37577,
+ "lon": 47.12619,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Barda",
+ "population": 41600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1t8q",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3426,
+  47.0826,
+  40.4089,
+  47.1697
+ ],
+ "radius_km": 3.7,
+ "preset": "cityhub",
+ "osm_total": 9,
+ "osm_named": 6,
+ "osm_with_site": 3,
+ "osm_with_hours": 3,
+ "osm_with_socials": 1,
+ "niches": {
+  "travel": 1,
+  "med": 2,
+  "shop": 6
+ },
+ "collected": "2026-09-13 08:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

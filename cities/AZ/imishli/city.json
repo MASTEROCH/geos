@@ -1,0 +1,44 @@
+{
+ "id": 147982,
+ "name": "Imishli",
+ "ascii": "Imishli",
+ "name_ru": "Имишли",
+ "alt_ru": [
+  "Имишли"
+ ],
+ "lat": 39.87095,
+ "lon": 48.05995,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "İmişli",
+ "population": 34178,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp44vd",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.8409,
+  48.0208,
+  39.901,
+  48.0991
+ ],
+ "radius_km": 3.3,
+ "preset": "cityhub",
+ "osm_total": 14,
+ "osm_named": 13,
+ "osm_with_site": 3,
+ "osm_with_hours": 3,
+ "osm_with_socials": 2,
+ "niches": {
+  "music": 1,
+  "art": 1,
+  "shop": 7,
+  "gym": 2,
+  "med": 2,
+  "food": 1
+ },
+ "collected": "2026-09-13 08:34",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

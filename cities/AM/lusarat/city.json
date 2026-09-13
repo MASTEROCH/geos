@@ -1,0 +1,42 @@
+{
+ "id": 174770,
+ "name": "Lusarat",
+ "ascii": "Lusarat",
+ "name_ru": "Лусарат",
+ "alt_ru": [
+  "Лусарат"
+ ],
+ "lat": 39.87403,
+ "lon": 44.58678,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2738,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpdyd",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.856,
+  44.5633,
+  39.892,
+  44.6103
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 8,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "travel": 4,
+  "coffee": 2,
+  "sea": 1
+ },
+ "collected": "2026-09-13 06:32",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

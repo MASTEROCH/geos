@@ -1,0 +1,39 @@
+{
+ "id": 616305,
+ "name": "Parpi",
+ "ascii": "Parpi",
+ "name_ru": "Парпи",
+ "alt_ru": [
+  "Парпи"
+ ],
+ "lat": 40.32231,
+ "lon": 44.31141,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 2212,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpt2k",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3043,
+  44.2878,
+  40.3403,
+  44.335
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 1
+ },
+ "collected": "2026-09-13 06:55",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

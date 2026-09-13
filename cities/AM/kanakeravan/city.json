@@ -1,0 +1,41 @@
+{
+ "id": 616593,
+ "name": "Kanakeravan",
+ "ascii": "Kanakeravan",
+ "name_ru": "Канакераван",
+ "alt_ru": [
+  "Канакераван"
+ ],
+ "lat": 40.24739,
+ "lon": 44.53511,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 4247,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpsvq",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2294,
+  44.5115,
+  40.2654,
+  44.5587
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 22,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 18,
+  "food": 3,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

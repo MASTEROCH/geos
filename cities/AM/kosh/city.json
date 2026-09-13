@@ -1,0 +1,40 @@
+{
+ "id": 616523,
+ "name": "Kosh",
+ "ascii": "Kosh",
+ "name_ru": "Кош",
+ "alt_ru": [
+  "Кош"
+ ],
+ "lat": 40.29995,
+ "lon": 44.15252,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 3146,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpmk8",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2819,
+  44.1289,
+  40.318,
+  44.1761
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

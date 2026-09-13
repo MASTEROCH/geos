@@ -1,0 +1,39 @@
+{
+ "id": 616640,
+ "name": "Kamaris",
+ "ascii": "Kamaris",
+ "name_ru": "Камарис",
+ "alt_ru": [
+  "Камарис"
+ ],
+ "lat": 40.23694,
+ "lon": 44.69153,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 2401,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpubu",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2189,
+  44.6679,
+  40.255,
+  44.7151
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4
+ },
+ "collected": "2026-09-13 06:46",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

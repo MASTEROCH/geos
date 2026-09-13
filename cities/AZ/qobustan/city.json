@@ -1,0 +1,46 @@
+{
+ "id": 585223,
+ "name": "Qobustan",
+ "ascii": "Qobustan",
+ "name_ru": "Гобустан",
+ "alt_ru": [
+  "Гобустан",
+  "Кобустан"
+ ],
+ "lat": 40.08238,
+ "lon": 49.41205,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 13398,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-27",
+ "geohash": "tp5hh2",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.0636,
+  49.3874,
+  40.1012,
+  49.4367
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 54,
+ "osm_named": 43,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 7,
+  "shop": 35,
+  "beauty": 1,
+  "coffee": 5,
+  "food": 4,
+  "music": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

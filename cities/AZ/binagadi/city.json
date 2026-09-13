@@ -1,0 +1,48 @@
+{
+ "id": 586967,
+ "name": "Binagadi",
+ "ascii": "Binagadi",
+ "name_ru": "Бинагади",
+ "alt_ru": [
+  "Бинагади"
+ ],
+ "lat": 40.46602,
+ "lon": 49.82783,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 14012,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-27",
+ "geohash": "tp5qjy",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4468,
+  49.8025,
+  40.4853,
+  49.8531
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 283,
+ "osm_named": 280,
+ "osm_with_site": 7,
+ "osm_with_hours": 13,
+ "osm_with_socials": 4,
+ "niches": {
+  "med": 20,
+  "shop": 202,
+  "food": 11,
+  "coffee": 36,
+  "beauty": 3,
+  "travel": 3,
+  "music": 1,
+  "bar": 2,
+  "gym": 3,
+  "art": 2
+ },
+ "collected": "2026-09-13 09:04",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

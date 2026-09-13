@@ -1,0 +1,38 @@
+{
+ "id": 148375,
+ "name": "Severo-Vostotchnyi Bank",
+ "ascii": "Severo-Vostotchnyi Bank",
+ "name_ru": "Банкаь",
+ "alt_ru": [
+  "Банк",
+  "Банкаь"
+ ],
+ "lat": 39.41117,
+ "lon": 49.24792,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Neftçala",
+ "population": 7075,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2012-01-17",
+ "geohash": "tp500w",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3932,
+  49.2246,
+  39.4292,
+  49.2712
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

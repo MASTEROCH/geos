@@ -1,0 +1,37 @@
+{
+ "id": 391233,
+ "name": "Aralez",
+ "ascii": "Aralez",
+ "name_ru": "Аралез",
+ "alt_ru": [
+  "Аралез"
+ ],
+ "lat": 39.90005,
+ "lon": 44.65086,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2661,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpfbp",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.882,
+  44.6274,
+  39.9181,
+  44.6743
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:37",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

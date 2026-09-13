@@ -1,0 +1,40 @@
+{
+ "id": 799614,
+ "name": "Norabats",
+ "ascii": "Norabats",
+ "name_ru": "Норабац",
+ "alt_ru": [
+  "Норабац"
+ ],
+ "lat": 40.10553,
+ "lon": 44.43329,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2625,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szps5h",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0875,
+  44.4097,
+  40.1235,
+  44.4568
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "shop": 2
+ },
+ "collected": "2026-09-13 06:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

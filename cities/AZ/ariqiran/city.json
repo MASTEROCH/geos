@@ -1,0 +1,37 @@
+{
+ "id": 587204,
+ "name": "Arıqıran",
+ "ascii": "Ariqiran",
+ "name_ru": "Арыгыран",
+ "alt_ru": [
+  "Арыгыран"
+ ],
+ "lat": 40.53971,
+ "lon": 45.61414,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Gadabay District",
+ "population": 2659,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-26",
+ "geohash": "tp0qtu",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5217,
+  45.5904,
+  40.5577,
+  45.6378
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

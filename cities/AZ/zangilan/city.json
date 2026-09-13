@@ -1,0 +1,38 @@
+{
+ "id": 146901,
+ "name": "Zangilan",
+ "ascii": "Zangilan",
+ "name_ru": "Зангелан",
+ "alt_ru": [
+  "Зангелан",
+  "Зангилан"
+ ],
+ "lat": 39.08371,
+ "lon": 46.65988,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Zangilan District",
+ "population": 7483,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tncnmf",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.0657,
+  46.6367,
+  39.1017,
+  46.6831
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 616581,
+ "name": "Karakert",
+ "ascii": "Karakert",
+ "name_ru": "Каракерт",
+ "alt_ru": [
+  "Каракерт"
+ ],
+ "lat": 40.24451,
+ "lon": 43.82233,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 4594,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szphvn",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2265,
+  43.7987,
+  40.2625,
+  43.8459
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 1,
+  "shop": 5,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

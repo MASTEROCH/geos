@@ -1,0 +1,44 @@
+{
+ "id": 148290,
+ "name": "Jalilabad",
+ "ascii": "Jalilabad",
+ "name_ru": "Джалилабад",
+ "alt_ru": [
+  "Джалилабад",
+  "Джалилобод",
+  "Джалильабад"
+ ],
+ "lat": 39.20963,
+ "lon": 48.49186,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Jalilabad",
+ "population": 36259,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tnfrp3",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.1787,
+  48.4519,
+  39.2406,
+  48.5318
+ ],
+ "radius_km": 3.4,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 6,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "med": 4,
+  "travel": 1,
+  "shop": 1
+ },
+ "collected": "2026-09-13 08:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,44 @@
+{
+ "id": 866093,
+ "name": "Voskehat",
+ "ascii": "Voskehat",
+ "name_ru": "Вскехат",
+ "alt_ru": [
+  "Вскехат"
+ ],
+ "lat": 40.14172,
+ "lon": 44.33069,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 3223,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-20",
+ "geohash": "szps2g",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1237,
+  44.3071,
+  40.1597,
+  44.3543
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 5,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "shop": 2,
+  "med": 1,
+  "travel": 1,
+  "art": 1,
+  "bar": 1
+ },
+ "collected": "2026-09-13 05:44",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

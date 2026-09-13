@@ -1,0 +1,46 @@
+{
+ "id": 584562,
+ "name": "Zyrya",
+ "ascii": "Zyrya",
+ "name_ru": "Зираь",
+ "alt_ru": [
+  "Зираь",
+  "Зиря"
+ ],
+ "lat": 40.36613,
+ "lon": 50.29198,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 10099,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-27",
+ "geohash": "tp5v8k",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3481,
+  50.2683,
+  40.3841,
+  50.3156
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 61,
+ "osm_named": 59,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "art": 1,
+  "med": 6,
+  "shop": 46,
+  "coffee": 5,
+  "food": 1,
+  "music": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 09:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

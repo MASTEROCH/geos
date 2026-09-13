@@ -1,0 +1,37 @@
+{
+ "id": 148141,
+ "name": "Jabrayil",
+ "ascii": "Jabrayil",
+ "name_ru": "Джебраил",
+ "alt_ru": [
+  "Джебраил"
+ ],
+ "lat": 39.39917,
+ "lon": 47.02835,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Jabrayil",
+ "population": 9600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp12nh",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3812,
+  47.005,
+  39.4172,
+  47.0517
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

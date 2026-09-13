@@ -1,0 +1,48 @@
+{
+ "id": 585568,
+ "name": "Mardakan",
+ "ascii": "Mardakan",
+ "name_ru": "Мардакян",
+ "alt_ru": [
+  "Мардакян"
+ ],
+ "lat": 40.49182,
+ "lon": 50.14292,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 15267,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2015-11-11",
+ "geohash": "tp5wm5",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4717,
+  50.1165,
+  40.5119,
+  50.1693
+ ],
+ "radius_km": 2.2,
+ "preset": "cityhub",
+ "osm_total": 383,
+ "osm_named": 367,
+ "osm_with_site": 10,
+ "osm_with_hours": 15,
+ "osm_with_socials": 5,
+ "niches": {
+  "med": 51,
+  "shop": 231,
+  "coffee": 43,
+  "food": 29,
+  "bar": 6,
+  "music": 3,
+  "travel": 2,
+  "beauty": 10,
+  "art": 3,
+  "gym": 5
+ },
+ "collected": "2026-09-13 08:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

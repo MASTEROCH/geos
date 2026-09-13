@@ -1,0 +1,44 @@
+{
+ "id": 586792,
+ "name": "Dallar",
+ "ascii": "Dallar",
+ "name_ru": "Далляр",
+ "alt_ru": [
+  "Далляр"
+ ],
+ "lat": 40.86278,
+ "lon": 46.03493,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Şǝmkir",
+ "population": 5400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp28rw",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.8448,
+  46.0111,
+  40.8808,
+  46.0588
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 70,
+ "osm_named": 70,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 7,
+  "travel": 2,
+  "shop": 50,
+  "coffee": 5,
+  "gym": 2,
+  "med": 4
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

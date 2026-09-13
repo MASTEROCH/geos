@@ -1,0 +1,42 @@
+{
+ "id": 584871,
+ "name": "Tartar",
+ "ascii": "Tartar",
+ "name_ru": "Тертер",
+ "alt_ru": [
+  "Мир-Башир",
+  "Тертер"
+ ],
+ "lat": 40.34201,
+ "lon": 46.93161,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Tartar District",
+ "population": 20400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1meb",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3188,
+  46.9011,
+  40.3652,
+  46.9621
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "med": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 08:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

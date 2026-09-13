@@ -1,0 +1,43 @@
+{
+ "id": 147368,
+ "name": "Ordubad",
+ "ascii": "Ordubad",
+ "name_ru": "Ордубад",
+ "alt_ru": [
+  "Ордубад"
+ ],
+ "lat": 38.90961,
+ "lon": 46.02274,
+ "feature": "PPLA2",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 10800,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-07-11",
+ "geohash": "tnbtr7",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.8916,
+  45.9996,
+  38.9276,
+  46.0459
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 15,
+ "osm_named": 13,
+ "osm_with_site": 0,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 3,
+  "music": 1,
+  "travel": 7,
+  "art": 3,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 09:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 616887,
+ "name": "Artik",
+ "ascii": "Artik",
+ "name_ru": "Артик",
+ "alt_ru": [
+  "Артик",
+  "Большой Артик",
+  "Мец Артик"
+ ],
+ "lat": 40.61918,
+ "lon": 43.97207,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 18145,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-09",
+ "geohash": "szpr0d",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.5973,
+  43.9432,
+  40.6411,
+  44.0009
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 23,
+ "osm_named": 19,
+ "osm_with_site": 5,
+ "osm_with_hours": 9,
+ "osm_with_socials": 4,
+ "niches": {
+  "med": 3,
+  "food": 6,
+  "shop": 11,
+  "bar": 1,
+  "art": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 05:04",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

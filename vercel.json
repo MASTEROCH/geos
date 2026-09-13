@@ -1,5 +1,10 @@
 {
  "cleanUrls": false,
+ "functions": {
+  "api/area.js": {
+   "maxDuration": 30
+  }
+ },
  "rewrites": [
   {
    "source": "/p/(.*)",
@@ -17,7 +22,7 @@
    ]
   },
   {
-   "source": "/api/(.*)",
+   "source": "/api/(og|venue|recommend|event)(.*)",
    "headers": [
     {
      "key": "Cache-Control",

@@ -1,0 +1,44 @@
+{
+ "id": 586652,
+ "name": "Jeyranbatan",
+ "ascii": "Jeyranbatan",
+ "name_ru": "Джейранбатан",
+ "alt_ru": [
+  "Джейранбатан"
+ ],
+ "lat": 40.54194,
+ "lon": 49.66073,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 9600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5qdh",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5239,
+  49.637,
+  40.56,
+  49.6844
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 67,
+ "osm_named": 67,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 43,
+  "food": 5,
+  "med": 6,
+  "coffee": 11,
+  "kids": 1,
+  "music": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

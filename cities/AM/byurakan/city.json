@@ -1,0 +1,45 @@
+{
+ "id": 616791,
+ "name": "Byurakan",
+ "ascii": "Byurakan",
+ "name_ru": "Бюракан",
+ "alt_ru": [
+  "Бюракан"
+ ],
+ "lat": 40.33894,
+ "lon": 44.27275,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 4334,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-06-17",
+ "geohash": "szpmrr",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3209,
+  44.2491,
+  40.357,
+  44.2964
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 19,
+ "osm_named": 9,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 6,
+  "med": 3,
+  "coffee": 1,
+  "travel": 2,
+  "food": 5,
+  "art": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 05:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

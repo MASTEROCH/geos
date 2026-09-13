@@ -1,0 +1,47 @@
+{
+ "id": 585225,
+ "name": "Hacıqabul",
+ "ascii": "Haciqabul",
+ "name_ru": "Кази-Магомед",
+ "alt_ru": [
+  "Кази-Магомед",
+  "Хачмас"
+ ],
+ "lat": 40.03874,
+ "lon": 48.94286,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Hacıqabul",
+ "population": 23102,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp4gc8",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.014,
+  48.9106,
+  40.0635,
+  48.9752
+ ],
+ "radius_km": 2.7,
+ "preset": "cityhub",
+ "osm_total": 95,
+ "osm_named": 95,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 4,
+  "shop": 56,
+  "med": 12,
+  "coffee": 10,
+  "food": 5,
+  "music": 3,
+  "art": 1,
+  "beauty": 4
+ },
+ "collected": "2026-09-13 08:47",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 616438,
+ "name": "Martuni",
+ "ascii": "Martuni",
+ "name_ru": "Мартуни",
+ "alt_ru": [
+  "Мартуни",
+  "Нижний Каранлуг"
+ ],
+ "lat": 40.14028,
+ "lon": 45.30232,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 12034,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-17",
+ "geohash": "tp0hqg",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1223,
+  45.2788,
+  40.1583,
+  45.3259
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 64,
+ "osm_named": 27,
+ "osm_with_site": 9,
+ "osm_with_hours": 7,
+ "osm_with_socials": 4,
+ "niches": {
+  "coffee": 7,
+  "shop": 36,
+  "med": 7,
+  "food": 8,
+  "bar": 1,
+  "art": 4,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 05:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

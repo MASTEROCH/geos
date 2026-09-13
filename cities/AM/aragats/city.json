@@ -1,0 +1,41 @@
+{
+ "id": 616944,
+ "name": "Aragats",
+ "ascii": "Aragats",
+ "name_ru": "Арагац",
+ "alt_ru": [
+  "Арагац"
+ ],
+ "lat": 40.48889,
+ "lon": 44.3529,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 3643,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2024-12-20",
+ "geohash": "szpw36",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.4709,
+  44.3292,
+  40.5069,
+  44.3766
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "med": 1,
+  "shop": 3
+ },
+ "collected": "2026-09-13 05:34",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,40 @@
+{
+ "id": 617002,
+ "name": "Aghavnatun",
+ "ascii": "Aghavnatun",
+ "name_ru": "Агавнатун",
+ "alt_ru": [
+  "Агавнатун",
+  "Ахавнатун"
+ ],
+ "lat": 40.2333,
+ "lon": 44.25295,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 3750,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szpkzh",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2153,
+  44.2293,
+  40.2513,
+  44.2766
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 05:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

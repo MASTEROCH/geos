@@ -1,0 +1,37 @@
+{
+ "id": 866082,
+ "name": "Aratashen",
+ "ascii": "Aratashen",
+ "name_ru": "Араташен",
+ "alt_ru": [
+  "Араташен"
+ ],
+ "lat": 40.12824,
+ "lon": 44.22803,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 3031,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpkq3",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1102,
+  44.2045,
+  40.1463,
+  44.2516
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:55",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,48 @@
+{
+ "id": 586968,
+ "name": "Biny Selo",
+ "ascii": "Biny Selo",
+ "name_ru": "Бинаь",
+ "alt_ru": [
+  "Бина",
+  "Бинаь"
+ ],
+ "lat": 40.45076,
+ "lon": 50.08686,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 24596,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-26",
+ "geohash": "tp5w5g",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4253,
+  50.0533,
+  40.4763,
+  50.1204
+ ],
+ "radius_km": 2.8,
+ "preset": "cityhub",
+ "osm_total": 368,
+ "osm_named": 361,
+ "osm_with_site": 7,
+ "osm_with_hours": 9,
+ "osm_with_socials": 4,
+ "niches": {
+  "med": 19,
+  "art": 1,
+  "shop": 280,
+  "coffee": 29,
+  "beauty": 9,
+  "food": 26,
+  "music": 1,
+  "gym": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 08:40",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

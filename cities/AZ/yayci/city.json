@@ -1,0 +1,38 @@
+{
+ "id": 146958,
+ "name": "Yaycı",
+ "ascii": "Yayci",
+ "name_ru": "Йайджи",
+ "alt_ru": [
+  "Йайджи",
+  "Яйҗы"
+ ],
+ "lat": 38.94052,
+ "lon": 45.73244,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 8500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-03-22",
+ "geohash": "tnbt88",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.9225,
+  45.7093,
+  38.9585,
+  45.7556
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

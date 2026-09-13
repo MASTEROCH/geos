@@ -1,0 +1,50 @@
+{
+ "id": 585231,
+ "name": "Qabala",
+ "ascii": "Qabala",
+ "name_ru": "Габала",
+ "alt_ru": [
+  "Габала",
+  "Кабала",
+  "Куткашен"
+ ],
+ "lat": 40.98139,
+ "lon": 47.84583,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Qabala District",
+ "population": 11867,
+ "elevation": 783,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-26",
+ "geohash": "tp610u",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.9634,
+  47.822,
+  40.9994,
+  47.8697
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 63,
+ "osm_named": 56,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 3,
+  "shop": 29,
+  "food": 10,
+  "beauty": 2,
+  "art": 3,
+  "med": 8,
+  "gym": 4,
+  "music": 1,
+  "travel": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 09:17",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

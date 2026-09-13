@@ -1,0 +1,43 @@
+{
+ "id": 616199,
+ "name": "Spitak",
+ "ascii": "Spitak",
+ "name_ru": "Амамлу",
+ "alt_ru": [
+  "Амамлу",
+  "Спитак"
+ ],
+ "lat": 40.83131,
+ "lon": 44.27019,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 13574,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szr2r3",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.8124,
+  44.2451,
+  40.8503,
+  44.2952
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 6,
+ "osm_with_site": 2,
+ "osm_with_hours": 4,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 12,
+  "med": 4,
+  "food": 1,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 05:06",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

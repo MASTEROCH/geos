@@ -1,0 +1,39 @@
+{
+ "id": 616978,
+ "name": "Alapars",
+ "ascii": "Alapars",
+ "name_ru": "Алапарс",
+ "alt_ru": [
+  "Алапарс"
+ ],
+ "lat": 40.4223,
+ "lon": 44.63348,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 2021,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-28",
+ "geohash": "szptzw",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.4043,
+  44.6098,
+  40.4403,
+  44.6571
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4
+ },
+ "collected": "2026-09-13 07:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

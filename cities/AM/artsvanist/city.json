@@ -1,0 +1,40 @@
+{
+ "id": 616379,
+ "name": "Artsvanist",
+ "ascii": "Artsvanist",
+ "name_ru": "Арцванист",
+ "alt_ru": [
+  "Арцванист"
+ ],
+ "lat": 40.14857,
+ "lon": 45.50874,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 3084,
+ "elevation": 1950,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "tp0k7s",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1306,
+  45.4852,
+  40.1666,
+  45.5323
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1,
+  "shop": 2
+ },
+ "collected": "2026-09-13 05:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

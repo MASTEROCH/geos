@@ -1,0 +1,39 @@
+{
+ "id": 586162,
+ "name": "Qaramanlı",
+ "ascii": "Qaramanli",
+ "name_ru": "Гараманли",
+ "alt_ru": [
+  "Гараманли",
+  "Гараманлы",
+  "Караманлы"
+ ],
+ "lat": 40.48135,
+ "lon": 46.99339,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Yevlax",
+ "population": 2230,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp1qm3",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4633,
+  46.9697,
+  40.4994,
+  47.0171
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:37",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

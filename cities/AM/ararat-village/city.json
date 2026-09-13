@@ -1,0 +1,43 @@
+{
+ "id": 174992,
+ "name": "Ararat village",
+ "ascii": "Ararat village",
+ "name_ru": "Арарат",
+ "alt_ru": [
+  "Арарат",
+  "Давалу"
+ ],
+ "lat": 39.83166,
+ "lon": 44.70489,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 8287,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-27",
+ "geohash": "szpf97",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8136,
+  44.6814,
+  39.8497,
+  44.7284
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 8,
+  "art": 2,
+  "med": 2,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

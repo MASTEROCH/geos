@@ -1,0 +1,45 @@
+{
+ "id": 585351,
+ "name": "Novxanı",
+ "ascii": "Novxani",
+ "name_ru": "Новхана",
+ "alt_ru": [
+  "Новхана"
+ ],
+ "lat": 40.52914,
+ "lon": 49.78188,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 4468,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-21",
+ "geohash": "tp5qsf",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5111,
+  49.7582,
+  40.5472,
+  49.8056
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 133,
+ "osm_named": 130,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 5,
+  "shop": 92,
+  "coffee": 22,
+  "food": 10,
+  "beauty": 1,
+  "gym": 2,
+  "art": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

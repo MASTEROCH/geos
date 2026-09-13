@@ -1,0 +1,46 @@
+{
+ "id": 585838,
+ "name": "Gobu",
+ "ascii": "Gobu",
+ "name_ru": "Кобу",
+ "alt_ru": [
+  "Кобу"
+ ],
+ "lat": 40.40472,
+ "lon": 49.71306,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 17600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5mg5",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3831,
+  49.6847,
+  40.4263,
+  49.7414
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 57,
+ "osm_named": 54,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "shop": 40,
+  "med": 3,
+  "beauty": 2,
+  "coffee": 5,
+  "gym": 1,
+  "travel": 3,
+  "art": 1
+ },
+ "collected": "2026-09-13 08:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

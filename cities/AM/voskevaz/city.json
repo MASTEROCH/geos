@@ -1,0 +1,41 @@
+{
+ "id": 616071,
+ "name": "Voskevaz",
+ "ascii": "Voskevaz",
+ "name_ru": "Воскеваз",
+ "alt_ru": [
+  "Воскеваз"
+ ],
+ "lat": 40.27508,
+ "lon": 44.30011,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 4701,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szpt05",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2571,
+  44.2765,
+  40.2931,
+  44.3237
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 3,
+  "beauty": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 05:17",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

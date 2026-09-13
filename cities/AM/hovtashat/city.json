@@ -1,0 +1,43 @@
+{
+ "id": 866091,
+ "name": "Hovtashat",
+ "ascii": "Hovtashat",
+ "name_ru": "Ховташат",
+ "alt_ru": [
+  "Ховташат"
+ ],
+ "lat": 40.09729,
+ "lon": 44.34448,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 4242,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szps15",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0793,
+  44.3209,
+  40.1153,
+  44.368
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "med": 1,
+  "shop": 6,
+  "beauty": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,45 @@
+{
+ "id": 585388,
+ "name": "Nardaran",
+ "ascii": "Nardaran",
+ "name_ru": "Нардаран",
+ "alt_ru": [
+  "Нардаран",
+  "Нартăран"
+ ],
+ "lat": 40.55611,
+ "lon": 50.00556,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 7700,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2012-01-17",
+ "geohash": "tp5w9z",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5381,
+  49.9818,
+  40.5741,
+  50.0293
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 43,
+ "osm_named": 41,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 3,
+  "shop": 29,
+  "med": 6,
+  "travel": 3,
+  "coffee": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

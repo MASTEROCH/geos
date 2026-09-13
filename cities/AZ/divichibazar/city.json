@@ -1,0 +1,44 @@
+{
+ "id": 586763,
+ "name": "Divichibazar",
+ "ascii": "Divichibazar",
+ "name_ru": "Дивичибазар",
+ "alt_ru": [
+  "Дивичи",
+  "Дивичибазар",
+  "Дивичибазор"
+ ],
+ "lat": 41.20117,
+ "lon": 48.98712,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Shabran",
+ "population": 23248,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp6f6s",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.1764,
+  48.9542,
+  41.226,
+  49.0201
+ ],
+ "radius_km": 2.8,
+ "preset": "cityhub",
+ "osm_total": 11,
+ "osm_named": 10,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "gym": 2,
+  "shop": 6,
+  "food": 2,
+  "med": 1
+ },
+ "collected": "2026-09-13 08:45",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

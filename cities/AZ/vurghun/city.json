@@ -1,0 +1,42 @@
+{
+ "id": 586265,
+ "name": "Vurghun",
+ "ascii": "Vurghun",
+ "name_ru": "Вургун",
+ "alt_ru": [
+  "Вургун",
+  "Калининкенд"
+ ],
+ "lat": 41.09524,
+ "lon": 45.47111,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Ağstafa",
+ "population": 3200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp23f9",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.0772,
+  45.4472,
+  41.1133,
+  45.495
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 24,
+ "osm_named": 23,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 13,
+  "food": 4,
+  "coffee": 7
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

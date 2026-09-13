@@ -1,0 +1,40 @@
+{
+ "id": 174907,
+ "name": "Getap",
+ "ascii": "Getap",
+ "name_ru": "Гетап",
+ "alt_ru": [
+  "Гетап"
+ ],
+ "lat": 39.76392,
+ "lon": 45.30829,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Vayots Dzor",
+ "population": 2373,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "tp04pn",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.7459,
+  45.2848,
+  39.7819,
+  45.3317
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 4,
+  "shop": 2
+ },
+ "collected": "2026-09-13 06:47",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,48 @@
+{
+ "id": 616631,
+ "name": "Armavir",
+ "ascii": "Armavir",
+ "name_ru": "Армавир",
+ "alt_ru": [
+  "Армавир",
+  "Октемберян",
+  "Сардарабад  Сардарапат"
+ ],
+ "lat": 40.15553,
+ "lon": 44.0388,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 29700,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpk6n",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1275,
+  44.0021,
+  40.1836,
+  44.0755
+ ],
+ "radius_km": 3.1,
+ "preset": "cityhub",
+ "osm_total": 40,
+ "osm_named": 34,
+ "osm_with_site": 9,
+ "osm_with_hours": 12,
+ "osm_with_socials": 7,
+ "niches": {
+  "coffee": 5,
+  "shop": 25,
+  "med": 4,
+  "food": 2,
+  "music": 1,
+  "bar": 1,
+  "beauty": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:00",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

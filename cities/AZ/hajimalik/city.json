@@ -1,0 +1,38 @@
+{
+ "id": 587114,
+ "name": "Hajimalik",
+ "ascii": "Hajimalik",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 40.63321,
+ "lon": 46.41021,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Goygol Rayon",
+ "population": 3600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1p0j",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.6152,
+  46.3865,
+  40.6512,
+  46.434
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 5,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1,
+  "shop": 4
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

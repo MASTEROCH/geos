@@ -1,0 +1,39 @@
+{
+ "id": 616918,
+ "name": "Arevik",
+ "ascii": "Arevik",
+ "name_ru": "Аревик",
+ "alt_ru": [
+  "Аревик"
+ ],
+ "lat": 40.1001,
+ "lon": 44.09448,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 3018,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szpk5k",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0821,
+  44.0709,
+  40.1181,
+  44.118
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 05:55",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

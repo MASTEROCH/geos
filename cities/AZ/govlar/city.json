@@ -1,0 +1,45 @@
+{
+ "id": 585802,
+ "name": "Govlar",
+ "ascii": "Govlar",
+ "name_ru": "Говлар",
+ "alt_ru": [
+  "Говлар",
+  "Ковлар",
+  "Кулар"
+ ],
+ "lat": 40.94595,
+ "lon": 45.73175,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Tovuz District",
+ "population": 15600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp28bt",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.9256,
+  45.7049,
+  40.9663,
+  45.7586
+ ],
+ "radius_km": 2.3,
+ "preset": "cityhub",
+ "osm_total": 27,
+ "osm_named": 26,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "shop": 16,
+  "coffee": 3,
+  "med": 4,
+  "art": 2
+ },
+ "collected": "2026-09-13 08:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

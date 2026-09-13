@@ -1,0 +1,48 @@
+{
+ "id": 616742,
+ "name": "Dsegh",
+ "ascii": "Dsegh",
+ "name_ru": "Дисих",
+ "alt_ru": [
+  "Дисиги",
+  "Дисих",
+  "Дрсех",
+  "Дсех",
+  "Туманян"
+ ],
+ "lat": 40.9617,
+ "lon": 44.65003,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 2137,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-11",
+ "geohash": "szrc00",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.9437,
+  44.6262,
+  40.9797,
+  44.6739
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 48,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 13,
+  "food": 2,
+  "kids": 3,
+  "shop": 8,
+  "travel": 21,
+  "med": 1
+ },
+ "collected": "2026-09-13 07:07",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

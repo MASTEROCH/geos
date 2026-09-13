@@ -1,0 +1,41 @@
+{
+ "id": 616291,
+ "name": "Proshyan",
+ "ascii": "Proshyan",
+ "name_ru": "Прошян",
+ "alt_ru": [
+  "Прошян"
+ ],
+ "lat": 40.24731,
+ "lon": 44.41949,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 6238,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpsfy",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2293,
+  44.3959,
+  40.2653,
+  44.4431
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 14,
+ "osm_named": 6,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 11,
+  "bar": 1,
+  "med": 2
+ },
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,38 @@
+{
+ "id": 616920,
+ "name": "Arevashogh",
+ "ascii": "Arevashogh",
+ "name_ru": "Аревашох",
+ "alt_ru": [
+  "Аревашох",
+  "Чигдамал"
+ ],
+ "lat": 40.86039,
+ "lon": 44.27438,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 2460,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szr2rq",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.8424,
+  44.2506,
+  40.8784,
+  44.2982
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:45",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

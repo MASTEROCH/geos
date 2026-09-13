@@ -1,0 +1,40 @@
+{
+ "id": 174983,
+ "name": "Armash",
+ "ascii": "Armash",
+ "name_ru": "Армаш",
+ "alt_ru": [
+  "Армаш"
+ ],
+ "lat": 39.76672,
+ "lon": 44.8111,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2678,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpf5x",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.7487,
+  44.7877,
+  39.7847,
+  44.8345
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1,
+  "shop": 2
+ },
+ "collected": "2026-09-13 06:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

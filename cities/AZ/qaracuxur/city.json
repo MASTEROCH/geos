@@ -1,0 +1,50 @@
+{
+ "id": 585103,
+ "name": "Qaraçuxur",
+ "ascii": "Qaracuxur",
+ "name_ru": "Гарачухур",
+ "alt_ru": [
+  "Гарачухур"
+ ],
+ "lat": 40.39667,
+ "lon": 49.97361,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 87349,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-26",
+ "geohash": "tp5tc1",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3486,
+  49.9105,
+  40.4447,
+  50.0367
+ ],
+ "radius_km": 5.3,
+ "preset": "cityhub",
+ "osm_total": 937,
+ "osm_named": 809,
+ "osm_with_site": 82,
+ "osm_with_hours": 146,
+ "osm_with_socials": 36,
+ "niches": {
+  "shop": 528,
+  "med": 106,
+  "coffee": 87,
+  "beauty": 24,
+  "food": 135,
+  "bar": 15,
+  "gym": 21,
+  "art": 6,
+  "sea": 1,
+  "travel": 6,
+  "kids": 6,
+  "music": 2
+ },
+ "collected": "2026-09-13 07:35",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

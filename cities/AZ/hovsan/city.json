@@ -1,0 +1,50 @@
+{
+ "id": 586429,
+ "name": "Hövsan",
+ "ascii": "Hovsan",
+ "name_ru": "Говсан",
+ "alt_ru": [
+  "Говсан"
+ ],
+ "lat": 40.37444,
+ "lon": 50.08528,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 36293,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp5tet",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3435,
+  50.0446,
+  40.4054,
+  50.126
+ ],
+ "radius_km": 3.4,
+ "preset": "cityhub",
+ "osm_total": 278,
+ "osm_named": 246,
+ "osm_with_site": 11,
+ "osm_with_hours": 15,
+ "osm_with_socials": 5,
+ "niches": {
+  "art": 3,
+  "food": 12,
+  "coffee": 33,
+  "shop": 187,
+  "med": 24,
+  "bar": 1,
+  "kids": 2,
+  "beauty": 3,
+  "travel": 2,
+  "gym": 6,
+  "music": 1,
+  "sea": 4
+ },
+ "collected": "2026-09-13 08:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,37 @@
+{
+ "id": 147637,
+ "name": "Givrag",
+ "ascii": "Givrag",
+ "name_ru": "Кивраг",
+ "alt_ru": [
+  "Кивраг"
+ ],
+ "lat": 39.39939,
+ "lon": 45.11513,
+ "feature": "PPLA2",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 6500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-07-11",
+ "geohash": "tp004s",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3814,
+  45.0918,
+  39.4174,
+  45.1384
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

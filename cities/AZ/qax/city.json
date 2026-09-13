@@ -1,0 +1,49 @@
+{
+ "id": 585227,
+ "name": "Qax",
+ "ascii": "Qax",
+ "name_ru": "Ках",
+ "alt_ru": [
+  "Ках",
+  "Кахи"
+ ],
+ "lat": 41.41826,
+ "lon": 46.92043,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Qax",
+ "population": 11992,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp37ee",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.4002,
+  46.8964,
+  41.4363,
+  46.9445
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 80,
+ "osm_named": 75,
+ "osm_with_site": 1,
+ "osm_with_hours": 5,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 8,
+  "coffee": 9,
+  "shop": 40,
+  "med": 7,
+  "music": 3,
+  "beauty": 2,
+  "art": 7,
+  "bar": 1,
+  "travel": 2,
+  "gym": 1
+ },
+ "collected": "2026-09-13 09:17",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

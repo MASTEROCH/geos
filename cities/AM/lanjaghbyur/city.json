@@ -1,0 +1,37 @@
+{
+ "id": 616492,
+ "name": "Lanjaghbyur",
+ "ascii": "Lanjaghbyur",
+ "name_ru": "Ланджахбюр",
+ "alt_ru": [
+  "Ланджахбюр"
+ ],
+ "lat": 40.26947,
+ "lon": 45.14447,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 2140,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "tp0j56",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2515,
+  45.1209,
+  40.2875,
+  45.1681
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 07:07",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

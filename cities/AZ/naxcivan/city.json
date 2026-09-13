@@ -1,0 +1,50 @@
+{
+ "id": 147429,
+ "name": "Naxçıvan",
+ "ascii": "Naxcivan",
+ "name_ru": "Нахчивон",
+ "alt_ru": [
+  "Нахичевань",
+  "Нахчивон",
+  "Нахчыван",
+  "Нахшыван"
+ ],
+ "lat": 39.20889,
+ "lon": 45.41222,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 97200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-07-11",
+ "geohash": "tnbr13",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.1582,
+  45.3468,
+  39.2596,
+  45.4777
+ ],
+ "radius_km": 5.6,
+ "preset": "cityhub",
+ "osm_total": 94,
+ "osm_named": 73,
+ "osm_with_site": 2,
+ "osm_with_hours": 9,
+ "osm_with_socials": 2,
+ "niches": {
+  "med": 12,
+  "gym": 2,
+  "art": 16,
+  "coffee": 12,
+  "shop": 32,
+  "music": 3,
+  "food": 9,
+  "travel": 6,
+  "beauty": 2
+ },
+ "collected": "2026-09-13 07:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

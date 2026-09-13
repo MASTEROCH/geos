@@ -1,0 +1,37 @@
+{
+ "id": 616278,
+ "name": "Geghakert",
+ "ascii": "Geghakert",
+ "name_ru": "Самахар",
+ "alt_ru": [
+  "Самахар"
+ ],
+ "lat": 40.18516,
+ "lon": 44.24493,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2868,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szpkwg",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1671,
+  44.2213,
+  40.2032,
+  44.2685
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:20",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

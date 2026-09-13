@@ -1,0 +1,42 @@
+{
+ "id": 616256,
+ "name": "Sarnaghbyur",
+ "ascii": "Sarnaghbyur",
+ "name_ru": "Кирмизкилиса",
+ "alt_ru": [
+  "Гёдикенди",
+  "Кирмизкилиса",
+  "Сарнахпюр",
+  "Согутли",
+  "Согютлу",
+  "Урнут"
+ ],
+ "lat": 40.52368,
+ "lon": 43.91248,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 3564,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-09",
+ "geohash": "szpnx3",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.5057,
+  43.8888,
+  40.5417,
+  43.9362
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:35",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

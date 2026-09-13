@@ -1,0 +1,48 @@
+{
+ "id": 616250,
+ "name": "Sevan",
+ "ascii": "Sevan",
+ "name_ru": "Севан",
+ "alt_ru": [
+  "Еленовка",
+  "Севан"
+ ],
+ "lat": 40.548,
+ "lon": 44.95314,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 19652,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "szpywv",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.5252,
+  44.9231,
+  40.5708,
+  44.9831
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 75,
+ "osm_named": 43,
+ "osm_with_site": 5,
+ "osm_with_hours": 9,
+ "osm_with_socials": 5,
+ "niches": {
+  "food": 13,
+  "coffee": 7,
+  "shop": 27,
+  "bar": 2,
+  "art": 1,
+  "med": 7,
+  "sea": 13,
+  "beauty": 3,
+  "travel": 2
+ },
+ "collected": "2026-09-13 05:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

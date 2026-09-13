@@ -1,0 +1,37 @@
+{
+ "id": 174764,
+ "name": "Sisavan",
+ "ascii": "Sisavan",
+ "name_ru": "Сисаван",
+ "alt_ru": [
+  "Сисаван"
+ ],
+ "lat": 39.90802,
+ "lon": 44.66721,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2281,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpg03",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.89,
+  44.6437,
+  39.926,
+  44.6907
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,44 @@
+{
+ "id": 616108,
+ "name": "Vardenis",
+ "ascii": "Vardenis",
+ "name_ru": "Варденис",
+ "alt_ru": [
+  "Басаргечар",
+  "Варденис"
+ ],
+ "lat": 40.1827,
+ "lon": 45.73156,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 12651,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-17",
+ "geohash": "tp0s8e",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1644,
+  45.7076,
+  40.201,
+  45.7555
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 31,
+ "osm_named": 15,
+ "osm_with_site": 1,
+ "osm_with_hours": 4,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 20,
+  "med": 4,
+  "gym": 1,
+  "food": 4,
+  "coffee": 2
+ },
+ "collected": "2026-09-13 05:07",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

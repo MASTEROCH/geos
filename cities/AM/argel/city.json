@@ -1,0 +1,40 @@
+{
+ "id": 616912,
+ "name": "Argel",
+ "ascii": "Argel",
+ "name_ru": "Аргел",
+ "alt_ru": [
+  "Аргел"
+ ],
+ "lat": 40.37116,
+ "lon": 44.59618,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 3245,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szptwv",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3531,
+  44.5725,
+  40.3892,
+  44.6198
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 12,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:44",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

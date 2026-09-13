@@ -1,0 +1,40 @@
+{
+ "id": 616184,
+ "name": "Tandzut",
+ "ascii": "Tandzut",
+ "name_ru": "Армутлу",
+ "alt_ru": [
+  "Армутлу",
+  "Тандзут"
+ ],
+ "lat": 40.06952,
+ "lon": 44.07788,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2142,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szp7gn",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0515,
+  44.0543,
+  40.0875,
+  44.1014
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 07:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

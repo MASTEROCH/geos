@@ -1,0 +1,53 @@
+{
+ "id": 616530,
+ "name": "Vanadzor",
+ "ascii": "Vanadzor",
+ "name_ru": "Ванадзор",
+ "alt_ru": [
+  "Ванадзор",
+  "Караклис",
+  "Кировакан",
+  "Мартунакан",
+  "Мартунашен",
+  "Мец Каракилиса"
+ ],
+ "lat": 40.8074,
+ "lon": 44.49704,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 78100,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-06-21",
+ "geohash": "szr8hs",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.7619,
+  44.437,
+  40.8529,
+  44.5571
+ ],
+ "radius_km": 5.0,
+ "preset": "cityhub",
+ "osm_total": 891,
+ "osm_named": 415,
+ "osm_with_site": 57,
+ "osm_with_hours": 141,
+ "osm_with_socials": 26,
+ "niches": {
+  "shop": 574,
+  "med": 85,
+  "food": 60,
+  "beauty": 37,
+  "gym": 17,
+  "art": 25,
+  "coffee": 76,
+  "kids": 14,
+  "music": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 04:57",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

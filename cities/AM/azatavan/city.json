@@ -1,0 +1,39 @@
+{
+ "id": 174961,
+ "name": "Azatavan",
+ "ascii": "Azatavan",
+ "name_ru": "Азатаван",
+ "alt_ru": [
+  "Азатаван"
+ ],
+ "lat": 39.98608,
+ "lon": 44.50568,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2991,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpekz",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.9681,
+  44.4822,
+  40.0041,
+  44.5292
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5
+ },
+ "collected": "2026-09-13 05:56",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

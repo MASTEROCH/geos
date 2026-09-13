@@ -1,0 +1,48 @@
+{
+ "id": 585156,
+ "name": "Shamakhi",
+ "ascii": "Shamakhi",
+ "name_ru": "Шамаха",
+ "alt_ru": [
+  "Шамаха",
+  "Шамоха",
+  "Шемаха"
+ ],
+ "lat": 40.63141,
+ "lon": 48.64137,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Şamaxı",
+ "population": 40300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp4x4u",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5988,
+  48.5983,
+  40.6641,
+  48.6844
+ ],
+ "radius_km": 3.6,
+ "preset": "cityhub",
+ "osm_total": 219,
+ "osm_named": 217,
+ "osm_with_site": 5,
+ "osm_with_hours": 5,
+ "osm_with_socials": 4,
+ "niches": {
+  "food": 14,
+  "travel": 6,
+  "med": 23,
+  "shop": 148,
+  "gym": 2,
+  "art": 6,
+  "music": 1,
+  "coffee": 19
+ },
+ "collected": "2026-09-13 08:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

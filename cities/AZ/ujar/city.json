@@ -1,0 +1,48 @@
+{
+ "id": 584791,
+ "name": "Ujar",
+ "ascii": "Ujar",
+ "name_ru": "Ужар",
+ "alt_ru": [
+  "Уджар",
+  "Уджары",
+  "Ужар"
+ ],
+ "lat": 40.51902,
+ "lon": 47.65423,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Ucar",
+ "population": 15741,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp1ys2",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4986,
+  47.6274,
+  40.5394,
+  47.6811
+ ],
+ "radius_km": 2.3,
+ "preset": "cityhub",
+ "osm_total": 41,
+ "osm_named": 41,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 3,
+  "food": 5,
+  "med": 4,
+  "shop": 22,
+  "art": 4,
+  "music": 1,
+  "travel": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 08:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 616307,
+ "name": "Parakar",
+ "ascii": "Parakar",
+ "name_ru": "Паракар",
+ "alt_ru": [
+  "Паракар"
+ ],
+ "lat": 40.16388,
+ "lon": 44.4057,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 7083,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szps6r",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1459,
+  44.3821,
+  40.1819,
+  44.4293
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 40,
+ "osm_named": 21,
+ "osm_with_site": 8,
+ "osm_with_hours": 12,
+ "osm_with_socials": 8,
+ "niches": {
+  "food": 8,
+  "shop": 18,
+  "med": 2,
+  "coffee": 6,
+  "travel": 1,
+  "kids": 2,
+  "bar": 1,
+  "art": 2
+ },
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,37 @@
+{
+ "id": 616513,
+ "name": "Kuchak",
+ "ascii": "Kuchak",
+ "name_ru": "Кучак",
+ "alt_ru": [
+  "Кучак"
+ ],
+ "lat": 40.51915,
+ "lon": 44.39119,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 2058,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szpwd0",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.5011,
+  44.3675,
+  40.5372,
+  44.4149
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 07:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

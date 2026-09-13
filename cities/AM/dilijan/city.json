@@ -1,0 +1,51 @@
+{
+ "id": 616752,
+ "name": "Dilijan",
+ "ascii": "Dilijan",
+ "name_ru": "Дилижан",
+ "alt_ru": [
+  "Дилиджан",
+  "Дилижан"
+ ],
+ "lat": 40.74037,
+ "lon": 44.86344,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 15914,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-29",
+ "geohash": "szpzub",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.7199,
+  44.8364,
+  40.7609,
+  44.8905
+ ],
+ "radius_km": 2.3,
+ "preset": "cityhub",
+ "osm_total": 394,
+ "osm_named": 207,
+ "osm_with_site": 35,
+ "osm_with_hours": 98,
+ "osm_with_socials": 85,
+ "niches": {
+  "shop": 182,
+  "beauty": 19,
+  "med": 21,
+  "coffee": 33,
+  "travel": 28,
+  "art": 37,
+  "food": 45,
+  "kids": 19,
+  "gym": 5,
+  "spa": 1,
+  "bar": 3,
+  "sea": 1
+ },
+ "collected": "2026-09-13 05:06",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 585346,
+ "name": "Novosaratovka",
+ "ascii": "Novosaratovka",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 40.59811,
+ "lon": 45.60079,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Gadabay District",
+ "population": 2328,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2013-05-07",
+ "geohash": "tp0qvw",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5801,
+  45.5771,
+  40.6161,
+  45.6245
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 8,
+ "osm_named": 7,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "coffee": 2,
+  "shop": 3,
+  "travel": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 09:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,47 @@
+{
+ "id": 584792,
+ "name": "Türkan",
+ "ascii": "Turkan",
+ "name_ru": "Тюркан",
+ "alt_ru": [
+  "Туьркан",
+  "Тюркан",
+  "Тюркян"
+ ],
+ "lat": 40.3646,
+ "lon": 50.22075,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 9699,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp5twu",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3466,
+  50.1971,
+  40.3826,
+  50.2444
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 77,
+ "osm_named": 77,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 59,
+  "med": 6,
+  "music": 1,
+  "food": 1,
+  "travel": 1,
+  "coffee": 8,
+  "sea": 1
+ },
+ "collected": "2026-09-13 09:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

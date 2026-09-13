@@ -1,0 +1,44 @@
+{
+ "id": 616657,
+ "name": "Goght",
+ "ascii": "Goght",
+ "name_ru": "Гогт",
+ "alt_ru": [
+  "Гогт"
+ ],
+ "lat": 40.1347,
+ "lon": 44.78332,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 2143,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-20",
+ "geohash": "szpu74",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1167,
+  44.7598,
+  40.1527,
+  44.8069
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 6,
+  "food": 2,
+  "art": 1,
+  "beauty": 2,
+  "coffee": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 07:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

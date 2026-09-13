@@ -1,0 +1,47 @@
+{
+ "id": 174823,
+ "name": "Meghri",
+ "ascii": "Meghri",
+ "name_ru": "Мегъри",
+ "alt_ru": [
+  "Мегри",
+  "Мегры",
+  "Мегъри"
+ ],
+ "lat": 38.90123,
+ "lon": 46.24308,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 3770,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-31",
+ "geohash": "tnbvk3",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  38.8832,
+  46.2199,
+  38.9192,
+  46.2662
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 16,
+ "osm_named": 7,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 2,
+  "shop": 4,
+  "coffee": 2,
+  "food": 4,
+  "travel": 2,
+  "kids": 1,
+  "sea": 1
+ },
+ "collected": "2026-09-13 05:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

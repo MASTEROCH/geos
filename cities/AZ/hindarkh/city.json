@@ -1,0 +1,37 @@
+{
+ "id": 586442,
+ "name": "Hindarkh",
+ "ascii": "Hindarkh",
+ "name_ru": "Гиндарх",
+ "alt_ru": [
+  "Гиндарх"
+ ],
+ "lat": 40.06753,
+ "lon": 47.20582,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Ağcabǝdi",
+ "population": 9800,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1efn",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.0495,
+  47.1823,
+  40.0855,
+  47.2294
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

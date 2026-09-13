@@ -1,0 +1,41 @@
+{
+ "id": 148088,
+ "name": "Haftoni",
+ "ascii": "Haftoni",
+ "name_ru": "Гафтони",
+ "alt_ru": [
+  "Гафтони"
+ ],
+ "lat": 38.76325,
+ "lon": 48.76223,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Lənkəran",
+ "population": 2003,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2013-03-05",
+ "geohash": "tnfst8",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.7452,
+  48.7391,
+  38.7813,
+  48.7853
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "spa": 1,
+  "shop": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 09:43",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

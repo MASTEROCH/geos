@@ -1,0 +1,42 @@
+{
+ "id": 585146,
+ "name": "Sanqaçal",
+ "ascii": "Sanqacal",
+ "name_ru": "Сангачалы",
+ "alt_ru": [
+  "Сангачалы",
+  "Саьнгаьчал"
+ ],
+ "lat": 40.16991,
+ "lon": 49.46394,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 4200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp5ht8",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.1519,
+  49.4404,
+  40.1879,
+  49.4875
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 12,
+ "osm_named": 12,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1,
+  "coffee": 2,
+  "shop": 9
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

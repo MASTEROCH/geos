@@ -1,0 +1,37 @@
+{
+ "id": 148177,
+ "name": "Dünyamalılar",
+ "ascii": "Dunyamalilar",
+ "name_ru": "Дуьнйамалилар",
+ "alt_ru": [
+  "Дуьнйамалилар"
+ ],
+ "lat": 39.77278,
+ "lon": 47.75889,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Beyləqan",
+ "population": 5968,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp1fqb",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.7548,
+  47.7354,
+  39.7908,
+  47.7823
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

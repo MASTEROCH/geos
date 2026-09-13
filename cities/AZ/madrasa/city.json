@@ -1,0 +1,41 @@
+{
+ "id": 585556,
+ "name": "Madrasa",
+ "ascii": "Madrasa",
+ "name_ru": "Матраса",
+ "alt_ru": [
+  "Матраса",
+  "Маьдраьсаь"
+ ],
+ "lat": 40.61294,
+ "lon": 48.5615,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Agsu District",
+ "population": 2400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp4x11",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5949,
+  48.5378,
+  40.631,
+  48.5852
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "art": 2
+ },
+ "collected": "2026-09-13 09:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

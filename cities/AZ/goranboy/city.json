@@ -1,0 +1,48 @@
+{
+ "id": 586430,
+ "name": "Goranboy",
+ "ascii": "Goranboy",
+ "name_ru": "Геранбой",
+ "alt_ru": [
+  "Геранбой",
+  "Геронбой"
+ ],
+ "lat": 40.61028,
+ "lon": 46.78972,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Goranboy District",
+ "population": 9200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1r08",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5923,
+  46.766,
+  40.6283,
+  46.8135
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 93,
+ "osm_named": 92,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 52,
+  "travel": 4,
+  "art": 5,
+  "gym": 5,
+  "food": 3,
+  "med": 13,
+  "coffee": 9,
+  "music": 1,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

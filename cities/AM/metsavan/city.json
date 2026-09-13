@@ -1,0 +1,40 @@
+{
+ "id": 616416,
+ "name": "Metsavan",
+ "ascii": "Metsavan",
+ "name_ru": "Шахназар",
+ "alt_ru": [
+  "Гошакилиса",
+  "Гошкилиса",
+  "Мецаван",
+  "Шахназар"
+ ],
+ "lat": 41.20156,
+ "lon": 44.22877,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 6020,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szr6qk",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.1835,
+  44.2048,
+  41.2196,
+  44.2527
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

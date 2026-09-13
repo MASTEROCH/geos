@@ -1,0 +1,48 @@
+{
+ "id": 147622,
+ "name": "Lankaran",
+ "ascii": "Lankaran",
+ "name_ru": "Ланкаран",
+ "alt_ru": [
+  "Ланкаран",
+  "Ленкорань",
+  "Лянкяран"
+ ],
+ "lat": 38.75428,
+ "lon": 48.85062,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Lənkəran",
+ "population": 89300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-26",
+ "geohash": "tnfsrx",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.7057,
+  48.7883,
+  38.8029,
+  48.9129
+ ],
+ "radius_km": 5.4,
+ "preset": "cityhub",
+ "osm_total": 71,
+ "osm_named": 57,
+ "osm_with_site": 4,
+ "osm_with_hours": 7,
+ "osm_with_socials": 4,
+ "niches": {
+  "shop": 28,
+  "food": 8,
+  "coffee": 11,
+  "art": 5,
+  "med": 11,
+  "sea": 2,
+  "travel": 3,
+  "gym": 3
+ },
+ "collected": "2026-09-13 07:32",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

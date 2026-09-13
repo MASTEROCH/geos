@@ -1,0 +1,41 @@
+{
+ "id": 616735,
+ "name": "Janfida",
+ "ascii": "Janfida",
+ "name_ru": "Джанфида",
+ "alt_ru": [
+  "Джанфида"
+ ],
+ "lat": 40.04449,
+ "lon": 44.02789,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 3430,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szp7cc",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0265,
+  44.0044,
+  40.0625,
+  44.0514
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "med": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 05:37",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

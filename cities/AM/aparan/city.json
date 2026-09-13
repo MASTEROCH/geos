@@ -1,0 +1,44 @@
+{
+ "id": 616953,
+ "name": "Aparan",
+ "ascii": "Aparan",
+ "name_ru": "Апаран",
+ "alt_ru": [
+  "Апаран"
+ ],
+ "lat": 40.59297,
+ "lon": 44.35945,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 6167,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpwcm",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.575,
+  44.3357,
+  40.611,
+  44.3832
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 23,
+ "osm_named": 18,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 2,
+  "shop": 11,
+  "food": 4,
+  "med": 4,
+  "travel": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

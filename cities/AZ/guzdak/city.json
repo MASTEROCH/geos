@@ -1,0 +1,41 @@
+{
+ "id": 586368,
+ "name": "Guzdak",
+ "ascii": "Guzdak",
+ "name_ru": "Гюздек",
+ "alt_ru": [
+  "Гюздек"
+ ],
+ "lat": 40.37444,
+ "lon": 49.68194,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 3400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5mdt",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3564,
+  49.6583,
+  40.3925,
+  49.7056
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 14,
+ "osm_named": 14,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 11,
+  "med": 2,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

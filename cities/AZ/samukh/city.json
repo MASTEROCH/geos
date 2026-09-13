@@ -1,0 +1,45 @@
+{
+ "id": 585177,
+ "name": "Samukh",
+ "ascii": "Samukh",
+ "name_ru": "Самух",
+ "alt_ru": [
+  "Самух",
+  "Сафаралиев"
+ ],
+ "lat": 40.76485,
+ "lon": 46.40868,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Samux",
+ "population": 11100,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1pbj",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.7468,
+  46.3849,
+  40.7829,
+  46.4325
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 25,
+ "osm_named": 25,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 10,
+  "art": 3,
+  "med": 4,
+  "food": 2,
+  "coffee": 4,
+  "gym": 2
+ },
+ "collected": "2026-09-13 09:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

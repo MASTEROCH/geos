@@ -1,0 +1,40 @@
+{
+ "id": 616853,
+ "name": "Aknalich",
+ "ascii": "Aknalich",
+ "name_ru": "Акналич",
+ "alt_ru": [
+  "Акналич"
+ ],
+ "lat": 40.14728,
+ "lon": 44.16669,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 3265,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szpkmh",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1293,
+  44.1431,
+  40.1653,
+  44.1903
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 05:44",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

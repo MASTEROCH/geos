@@ -1,0 +1,41 @@
+{
+ "id": 616386,
+ "name": "Shirakamut",
+ "ascii": "Shirakamut",
+ "name_ru": "Ширакамут",
+ "alt_ru": [
+  "Налбанд",
+  "Ширакамут"
+ ],
+ "lat": 40.85287,
+ "lon": 44.16366,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 2142,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szr2kv",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.8349,
+  44.1398,
+  40.8709,
+  44.1875
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "kids": 1,
+  "shop": 5
+ },
+ "collected": "2026-09-13 07:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

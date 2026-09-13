@@ -1,0 +1,43 @@
+{
+ "id": 148003,
+ "name": "Horadiz",
+ "ascii": "Horadiz",
+ "name_ru": "Гарадыз",
+ "alt_ru": [
+  "Гарадыз",
+  "Горадиз",
+  "Ҳӯродиз"
+ ],
+ "lat": 39.45015,
+ "lon": 47.33496,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Fuzuli District",
+ "population": 7700,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp18mj",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.4321,
+  47.3116,
+  39.4682,
+  47.3583
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "art": 2,
+  "gym": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

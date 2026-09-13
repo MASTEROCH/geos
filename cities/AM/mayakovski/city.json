@@ -1,0 +1,40 @@
+{
+ "id": 616429,
+ "name": "Mayakovski",
+ "ascii": "Mayakovski",
+ "name_ru": "Маяковский",
+ "alt_ru": [
+  "Маяковский"
+ ],
+ "lat": 40.24419,
+ "lon": 44.6341,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 2341,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szpszw",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2262,
+  44.6105,
+  40.2622,
+  44.6577
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "food": 1
+ },
+ "collected": "2026-09-13 06:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

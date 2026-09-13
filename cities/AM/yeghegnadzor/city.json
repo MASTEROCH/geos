@@ -1,0 +1,49 @@
+{
+ "id": 174710,
+ "name": "Yeghegnadzor",
+ "ascii": "Yeghegnadzor",
+ "name_ru": "Егегнадзор",
+ "alt_ru": [
+  "Егегнадзор",
+  "Ехегнадзор",
+  "Кешишкенд",
+  "Микоян"
+ ],
+ "lat": 39.7644,
+ "lon": 45.33268,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Vayots Dzor",
+ "population": 7300,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-13",
+ "geohash": "tp04pw",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.7464,
+  45.3092,
+  39.7824,
+  45.3561
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 44,
+ "osm_named": 22,
+ "osm_with_site": 4,
+ "osm_with_hours": 6,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 7,
+  "shop": 17,
+  "art": 1,
+  "travel": 4,
+  "food": 10,
+  "med": 3,
+  "kids": 1,
+  "bar": 1
+ },
+ "collected": "2026-09-13 05:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

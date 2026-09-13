@@ -1,0 +1,42 @@
+{
+ "id": 174755,
+ "name": "Surenavan",
+ "ascii": "Surenavan",
+ "name_ru": "Суренаван",
+ "alt_ru": [
+  "Суренаван"
+ ],
+ "lat": 39.79449,
+ "lon": 44.77508,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2694,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpf6u",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.7765,
+  44.7516,
+  39.8125,
+  44.7985
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 9,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1,
+  "shop": 6,
+  "coffee": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 06:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

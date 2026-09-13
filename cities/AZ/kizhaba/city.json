@@ -1,0 +1,40 @@
+{
+ "id": 147727,
+ "name": "Kizhaba",
+ "ascii": "Kizhaba",
+ "name_ru": "Кижаба",
+ "alt_ru": [
+  "Кижаба",
+  "Кижаьбаь"
+ ],
+ "lat": 38.53461,
+ "lon": 48.80546,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Astara",
+ "population": 4567,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-05-29",
+ "geohash": "tnfenx",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.5166,
+  48.7824,
+  38.5526,
+  48.8285
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 3,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 3
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

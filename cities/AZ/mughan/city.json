@@ -1,0 +1,42 @@
+{
+ "id": 807231,
+ "name": "Mughan",
+ "ascii": "Mughan",
+ "name_ru": "Мугань",
+ "alt_ru": [
+  "Мугань"
+ ],
+ "lat": 40.09902,
+ "lon": 48.81886,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Hacıqabul",
+ "population": 4410,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-27",
+ "geohash": "tp4sng",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.081,
+  48.7953,
+  40.117,
+  48.8424
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 5,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "food": 1,
+  "gym": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 09:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

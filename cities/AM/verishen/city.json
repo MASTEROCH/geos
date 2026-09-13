@@ -1,0 +1,42 @@
+{
+ "id": 174717,
+ "name": "Verishen",
+ "ascii": "Verishen",
+ "name_ru": "Веришен",
+ "alt_ru": [
+  "Веришен"
+ ],
+ "lat": 39.53117,
+ "lon": 46.31829,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 2224,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-24",
+ "geohash": "tp0bvu",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.5132,
+  46.2949,
+  39.5492,
+  46.3417
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 21,
+ "osm_named": 9,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 12,
+  "food": 4,
+  "med": 4,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 06:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

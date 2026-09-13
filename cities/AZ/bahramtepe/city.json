@@ -1,0 +1,40 @@
+{
+ "id": 148330,
+ "name": "Bahramtepe",
+ "ascii": "Bahramtepe",
+ "name_ru": "Бахрамтепе",
+ "alt_ru": [
+  "Бахрамтепе"
+ ],
+ "lat": 39.74498,
+ "lon": 47.95491,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "İmişli",
+ "population": 7442,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-21",
+ "geohash": "tp4455",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.727,
+  47.9315,
+  39.763,
+  47.9783
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 5,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4,
+  "food": 1
+ },
+ "collected": "2026-09-13 09:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

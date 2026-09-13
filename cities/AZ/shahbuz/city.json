@@ -1,0 +1,40 @@
+{
+ "id": 147278,
+ "name": "Shahbuz",
+ "ascii": "Shahbuz",
+ "name_ru": "Сахбуз",
+ "alt_ru": [
+  "Сахбуз",
+  "Шахбуз"
+ ],
+ "lat": 39.40722,
+ "lon": 45.57389,
+ "feature": "PPLA2",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 4600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp02jj",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3892,
+  45.5506,
+  39.4252,
+  45.5972
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

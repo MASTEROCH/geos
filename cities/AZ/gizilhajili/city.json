@@ -1,0 +1,45 @@
+{
+ "id": 585666,
+ "name": "Gizilhajili",
+ "ascii": "Gizilhajili",
+ "name_ru": "Кызылгаджилы",
+ "alt_ru": [
+  "Кызылгаджилы",
+  "Кызылгаджылы"
+ ],
+ "lat": 40.57723,
+ "lon": 46.85776,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Goranboy District",
+ "population": 7500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1qf6",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5592,
+  46.834,
+  40.5952,
+  46.8815
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 15,
+ "osm_named": 15,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 7,
+  "travel": 2,
+  "coffee": 3,
+  "music": 1,
+  "food": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

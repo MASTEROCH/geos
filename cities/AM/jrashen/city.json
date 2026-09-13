@@ -1,0 +1,39 @@
+{
+ "id": 616722,
+ "name": "Jrashen",
+ "ascii": "Jrashen",
+ "name_ru": "Варднав",
+ "alt_ru": [
+  "Вардагюх",
+  "Варднав",
+  "Джрашен"
+ ],
+ "lat": 40.79028,
+ "lon": 44.18664,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 3706,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szr2j3",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.7723,
+  44.1628,
+  40.8083,
+  44.2104
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:34",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

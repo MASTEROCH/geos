@@ -1,0 +1,43 @@
+{
+ "id": 148251,
+ "name": "Julfa",
+ "ascii": "Julfa",
+ "name_ru": "Джульфа",
+ "alt_ru": [
+  "Джульфа"
+ ],
+ "lat": 38.95397,
+ "lon": 45.62961,
+ "feature": "PPLA2",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 13700,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tnbmw7",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.9349,
+  45.6051,
+  38.973,
+  45.6541
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 27,
+ "osm_named": 26,
+ "osm_with_site": 0,
+ "osm_with_hours": 8,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 4,
+  "food": 7,
+  "shop": 13,
+  "med": 2,
+  "music": 1
+ },
+ "collected": "2026-09-13 09:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

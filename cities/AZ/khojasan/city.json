@@ -1,0 +1,45 @@
+{
+ "id": 585940,
+ "name": "Khojasan",
+ "ascii": "Khojasan",
+ "name_ru": "Ходжасан",
+ "alt_ru": [
+  "Ходжасан",
+  "Ходжаьсаьн"
+ ],
+ "lat": 40.41293,
+ "lon": 49.76904,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 5089,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2021-06-01",
+ "geohash": "tp5mus",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3949,
+  49.7454,
+  40.4309,
+  49.7927
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 107,
+ "osm_named": 101,
+ "osm_with_site": 1,
+ "osm_with_hours": 4,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 77,
+  "food": 8,
+  "med": 4,
+  "coffee": 13,
+  "travel": 1,
+  "gym": 4
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

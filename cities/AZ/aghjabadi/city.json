@@ -1,0 +1,48 @@
+{
+ "id": 587384,
+ "name": "Aghjabadi",
+ "ascii": "Aghjabadi",
+ "name_ru": "Агджабеди",
+ "alt_ru": [
+  "Агджабеди",
+  "Агжабеди"
+ ],
+ "lat": 40.05015,
+ "lon": 47.45937,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Ağcabǝdi",
+ "population": 41200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1ezf",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.0171,
+  47.4162,
+  40.0832,
+  47.5025
+ ],
+ "radius_km": 3.7,
+ "preset": "cityhub",
+ "osm_total": 172,
+ "osm_named": 169,
+ "osm_with_site": 3,
+ "osm_with_hours": 6,
+ "osm_with_socials": 2,
+ "niches": {
+  "food": 12,
+  "med": 21,
+  "shop": 108,
+  "coffee": 17,
+  "music": 1,
+  "gym": 2,
+  "art": 7,
+  "travel": 2,
+  "beauty": 2
+ },
+ "collected": "2026-09-13 08:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

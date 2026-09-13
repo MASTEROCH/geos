@@ -1,0 +1,46 @@
+{
+ "id": 586481,
+ "name": "Hokmali",
+ "ascii": "Hokmali",
+ "name_ru": "Геокмалы",
+ "alt_ru": [
+  "Геокмалы",
+  "Хьокмали"
+ ],
+ "lat": 40.43111,
+ "lon": 49.73722,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 17300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5q5b",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4097,
+  49.7091,
+  40.4525,
+  49.7653
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 86,
+ "osm_named": 85,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 3,
+  "food": 4,
+  "coffee": 6,
+  "shop": 65,
+  "beauty": 4,
+  "med": 3,
+  "art": 1
+ },
+ "collected": "2026-09-13 08:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

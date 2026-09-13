@@ -1,0 +1,41 @@
+{
+ "id": 616100,
+ "name": "Verin Artashat",
+ "ascii": "Verin Artashat",
+ "name_ru": "Верин Арташат",
+ "alt_ru": [
+  "Верин Арташат"
+ ],
+ "lat": 39.99731,
+ "lon": 44.58893,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 4022,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpew9",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.9793,
+  44.5654,
+  40.0153,
+  44.6124
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 4,
+ "osm_with_site": 1,
+ "osm_with_hours": 0,
+ "osm_with_socials": 1,
+ "niches": {
+  "travel": 2,
+  "shop": 7,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,43 @@
+{
+ "id": 616668,
+ "name": "Getazat",
+ "ascii": "Getazat",
+ "name_ru": "Гетазат",
+ "alt_ru": [
+  "Гетазат"
+ ],
+ "lat": 40.03844,
+ "lon": 44.56369,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2103,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpey0",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0204,
+  44.5402,
+  40.0565,
+  44.5872
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 11,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 12,
+  "food": 1,
+  "bar": 1,
+  "med": 1,
+  "travel": 2
+ },
+ "collected": "2026-09-13 07:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

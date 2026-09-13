@@ -1,0 +1,39 @@
+{
+ "id": 174878,
+ "name": "Kaghtsrashen",
+ "ascii": "Kaghtsrashen",
+ "name_ru": "Кагцрашен",
+ "alt_ru": [
+  "Кагцрашен"
+ ],
+ "lat": 39.98053,
+ "lon": 44.62512,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 3066,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szperq",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.9625,
+  44.6016,
+  39.9985,
+  44.6486
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4
+ },
+ "collected": "2026-09-13 05:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 616446,
+ "name": "Maralik",
+ "ascii": "Maralik",
+ "name_ru": "Маралик",
+ "alt_ru": [
+  "Маралик",
+  "Молла Гёкча",
+  "Молла-гокча"
+ ],
+ "lat": 40.57595,
+ "lon": 43.87059,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 5462,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szpny6",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.5579,
+  43.8469,
+  40.594,
+  43.8943
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 19,
+ "osm_named": 6,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 3,
+  "coffee": 2,
+  "shop": 10,
+  "med": 2,
+  "gym": 1,
+  "music": 1
+ },
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

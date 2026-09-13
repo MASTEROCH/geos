@@ -1,0 +1,45 @@
+{
+ "id": 616995,
+ "name": "Akhtala",
+ "ascii": "Akhtala",
+ "name_ru": "Ахдала",
+ "alt_ru": [
+  "Ахдала",
+  "Ахтала",
+  "Ахтали",
+  "Пхндзаанк"
+ ],
+ "lat": 41.14952,
+ "lon": 44.78168,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 2395,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szrf55",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.1315,
+  44.7578,
+  41.1675,
+  44.8056
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "shop": 3,
+  "art": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 06:46",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

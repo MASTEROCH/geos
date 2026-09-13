@@ -1,0 +1,42 @@
+{
+ "id": 586845,
+ "name": "Çinarlı",
+ "ascii": "Cinarli",
+ "name_ru": "Чинарли",
+ "alt_ru": [
+  "Ленин",
+  "Чинар",
+  "Чинарли",
+  "Чинарлы"
+ ],
+ "lat": 41.46965,
+ "lon": 46.91582,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Qax",
+ "population": 6508,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp37gt",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.4516,
+  46.8918,
+  41.4877,
+  46.9399
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,42 @@
+{
+ "id": 616632,
+ "name": "Hayanist",
+ "ascii": "Hayanist",
+ "name_ru": "Хаянист",
+ "alt_ru": [
+  "Хаянист"
+ ],
+ "lat": 40.11995,
+ "lon": 44.37298,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2442,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szps1x",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1019,
+  44.3494,
+  40.138,
+  44.3965
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 16,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 12,
+  "food": 2,
+  "coffee": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 06:46",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

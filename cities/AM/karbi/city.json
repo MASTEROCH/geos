@@ -1,0 +1,43 @@
+{
+ "id": 616573,
+ "name": "Karbi",
+ "ascii": "Karbi",
+ "name_ru": "Карби",
+ "alt_ru": [
+  "Карби"
+ ],
+ "lat": 40.33069,
+ "lon": 44.37793,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 4851,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-11",
+ "geohash": "szpt3v",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3127,
+  44.3543,
+  40.3487,
+  44.4016
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 7,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 2,
+  "shop": 4,
+  "art": 1,
+  "travel": 2,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:15",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

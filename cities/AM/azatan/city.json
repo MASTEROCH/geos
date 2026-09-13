@@ -1,0 +1,43 @@
+{
+ "id": 616835,
+ "name": "Azatan",
+ "ascii": "Azatan",
+ "name_ru": "Азатан",
+ "alt_ru": [
+  "Азатан",
+  "Галдема",
+  "Гандма",
+  "Малый Караклис"
+ ],
+ "lat": 40.71959,
+ "lon": 43.82727,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 5655,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-10",
+ "geohash": "szpptk",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.7016,
+  43.8035,
+  40.7376,
+  43.851
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 2,
+  "shop": 1
+ },
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

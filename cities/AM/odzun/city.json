@@ -1,0 +1,45 @@
+{
+ "id": 616330,
+ "name": "Odzun",
+ "ascii": "Odzun",
+ "name_ru": "Одзун",
+ "alt_ru": [
+  "Ворнак",
+  "Одзун",
+  "Узунлар"
+ ],
+ "lat": 41.05321,
+ "lon": 44.61341,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 4196,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szr9x1",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.0352,
+  44.5895,
+  41.0712,
+  44.6373
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 19,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 11,
+  "med": 1,
+  "kids": 1,
+  "travel": 3,
+  "coffee": 3
+ },
+ "collected": "2026-09-13 05:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

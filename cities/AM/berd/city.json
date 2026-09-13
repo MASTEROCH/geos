@@ -1,0 +1,46 @@
+{
+ "id": 616802,
+ "name": "Berd",
+ "ascii": "Berd",
+ "name_ru": "Берд",
+ "alt_ru": [
+  "Берд",
+  "Товуз"
+ ],
+ "lat": 40.88066,
+ "lon": 45.38901,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 6900,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-06-16",
+ "geohash": "tp228f",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.8626,
+  45.3652,
+  40.8987,
+  45.4128
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 10,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 1,
+  "food": 4,
+  "gym": 1,
+  "med": 3,
+  "shop": 7,
+  "coffee": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

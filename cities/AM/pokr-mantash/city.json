@@ -1,0 +1,43 @@
+{
+ "id": 616297,
+ "name": "Pokr Mantash",
+ "ascii": "Pokr Mantash",
+ "name_ru": "Покр Арихвали",
+ "alt_ru": [
+  "Малый Арихвали",
+  "Покр Айлур",
+  "Покр Арихвали",
+  "Покр Манташ"
+ ],
+ "lat": 40.64026,
+ "lon": 44.04666,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 2068,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-09",
+ "geohash": "szpr4q",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.6222,
+  44.0229,
+  40.6583,
+  44.0704
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "med": 1
+ },
+ "collected": "2026-09-13 07:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

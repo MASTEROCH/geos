@@ -1,0 +1,43 @@
+{
+ "id": 585188,
+ "name": "Sabir",
+ "ascii": "Sabir",
+ "name_ru": "Сабир",
+ "alt_ru": [
+  "Сабир"
+ ],
+ "lat": 40.58597,
+ "lon": 48.70672,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Şamaxı",
+ "population": 4000,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp4wuk",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.568,
+  48.683,
+  40.604,
+  48.7304
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 9,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 6,
+  "art": 1,
+  "music": 1,
+  "med": 1,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

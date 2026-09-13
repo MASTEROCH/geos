@@ -1,0 +1,50 @@
+{
+ "id": 585170,
+ "name": "Sheki",
+ "ascii": "Sheki",
+ "name_ru": "Шакӣ",
+ "alt_ru": [
+  "Шакӣ",
+  "Шеки"
+ ],
+ "lat": 41.19194,
+ "lon": 47.17056,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Shaki City",
+ "population": 68400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp3d36",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.1494,
+  47.114,
+  41.2345,
+  47.2271
+ ],
+ "radius_km": 4.7,
+ "preset": "cityhub",
+ "osm_total": 362,
+ "osm_named": 330,
+ "osm_with_site": 3,
+ "osm_with_hours": 16,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 45,
+  "art": 14,
+  "bar": 6,
+  "shop": 148,
+  "travel": 25,
+  "coffee": 62,
+  "beauty": 7,
+  "med": 45,
+  "gym": 7,
+  "music": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 07:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

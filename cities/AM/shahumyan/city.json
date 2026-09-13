@@ -1,0 +1,40 @@
+{
+ "id": 174775,
+ "name": "Shahumyan",
+ "ascii": "Shahumyan",
+ "name_ru": "Шаумян",
+ "alt_ru": [
+  "Шаумян"
+ ],
+ "lat": 39.94171,
+ "lon": 44.57233,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 4387,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpenr",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.9237,
+  44.5488,
+  39.9597,
+  44.5958
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 14,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 13,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

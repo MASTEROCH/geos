@@ -1,0 +1,41 @@
+{
+ "id": 147736,
+ "name": "Karkijahan",
+ "ascii": "Karkijahan",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 39.80271,
+ "lon": 46.73642,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Xankǝndi",
+ "population": 2300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp14rt",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.7847,
+  46.713,
+  39.8207,
+  46.7599
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "med": 1,
+  "music": 1,
+  "sea": 1,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 09:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

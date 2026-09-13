@@ -1,0 +1,45 @@
+{
+ "id": 616178,
+ "name": "Tashir",
+ "ascii": "Tashir",
+ "name_ru": "Ташир",
+ "alt_ru": [
+  "Воронцовка",
+  "Калинино",
+  "Ташир",
+  "Ташыр"
+ ],
+ "lat": 41.11922,
+ "lon": 44.28649,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 7840,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szr3zv",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.1012,
+  44.2626,
+  41.1372,
+  44.3104
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 27,
+ "osm_named": 14,
+ "osm_with_site": 3,
+ "osm_with_hours": 4,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 19,
+  "med": 4,
+  "coffee": 3,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

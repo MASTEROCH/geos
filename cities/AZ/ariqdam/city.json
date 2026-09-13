@@ -1,0 +1,43 @@
+{
+ "id": 587205,
+ "name": "Arıqdam",
+ "ascii": "Ariqdam",
+ "name_ru": "Аригдам",
+ "alt_ru": [
+  "Аригдам",
+  "Арыгдам"
+ ],
+ "lat": 40.59313,
+ "lon": 45.799,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Gadabay District",
+ "population": 2200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp0wfj",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5751,
+  45.7753,
+  40.6111,
+  45.8227
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "shop": 5,
+  "travel": 2,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 09:37",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

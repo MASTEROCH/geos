@@ -1,0 +1,37 @@
+{
+ "id": 616645,
+ "name": "Ghukasavan",
+ "ascii": "Ghukasavan",
+ "name_ru": "Гукасаван",
+ "alt_ru": [
+  "Гукасаван"
+ ],
+ "lat": 40.12394,
+ "lon": 44.41556,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2312,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szps68",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1059,
+  44.392,
+  40.142,
+  44.4391
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

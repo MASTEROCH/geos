@@ -1,0 +1,43 @@
+{
+ "id": 174769,
+ "name": "Shinuhayr",
+ "ascii": "Shinuhayr",
+ "name_ru": "Шинуайр",
+ "alt_ru": [
+  "Шинуайр"
+ ],
+ "lat": 39.4367,
+ "lon": 46.31787,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 2646,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-03",
+ "geohash": "tp0bmg",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.4187,
+  46.2945,
+  39.4547,
+  46.3412
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 11,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1,
+  "shop": 4,
+  "food": 3,
+  "travel": 1,
+  "med": 2
+ },
+ "collected": "2026-09-13 06:37",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

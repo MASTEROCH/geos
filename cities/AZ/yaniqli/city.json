@@ -1,0 +1,42 @@
+{
+ "id": 584704,
+ "name": "Yanıqlı",
+ "ascii": "Yaniqli",
+ "name_ru": "Йанигли",
+ "alt_ru": [
+  "Йанигли",
+  "Яныглы"
+ ],
+ "lat": 40.8432,
+ "lon": 45.6803,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Tovuz District",
+ "population": 2395,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp22r7",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.8252,
+  45.6565,
+  40.8612,
+  45.7041
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 1,
+  "shop": 4,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 09:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

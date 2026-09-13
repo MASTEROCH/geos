@@ -1,0 +1,51 @@
+{
+ "id": 616627,
+ "name": "Ijevan",
+ "ascii": "Ijevan",
+ "name_ru": "Иджеван",
+ "alt_ru": [
+  "Иджеван",
+  "Истибулах",
+  "Каравансара",
+  "Каравансарай",
+  "Карвансара",
+  "Карвансера"
+ ],
+ "lat": 40.88037,
+ "lon": 45.14776,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 19500,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-13",
+ "geohash": "tp20e6",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.8577,
+  45.1177,
+  40.9031,
+  45.1778
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 83,
+ "osm_named": 43,
+ "osm_with_site": 10,
+ "osm_with_hours": 26,
+ "osm_with_socials": 5,
+ "niches": {
+  "food": 8,
+  "shop": 43,
+  "kids": 1,
+  "coffee": 14,
+  "med": 8,
+  "beauty": 2,
+  "travel": 3,
+  "art": 4
+ },
+ "collected": "2026-09-13 05:03",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

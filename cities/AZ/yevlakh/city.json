@@ -1,0 +1,47 @@
+{
+ "id": 584649,
+ "name": "Yevlakh",
+ "ascii": "Yevlakh",
+ "name_ru": "Евлах",
+ "alt_ru": [
+  "Евлах",
+  "Евлох"
+ ],
+ "lat": 40.61832,
+ "lon": 47.15014,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Yevlax City",
+ "population": 127400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp1x0f",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5603,
+  47.0737,
+  40.6764,
+  47.2266
+ ],
+ "radius_km": 6.4,
+ "preset": "cityhub",
+ "osm_total": 110,
+ "osm_named": 95,
+ "osm_with_site": 4,
+ "osm_with_hours": 5,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 60,
+  "med": 16,
+  "food": 14,
+  "coffee": 9,
+  "music": 3,
+  "travel": 1,
+  "art": 5,
+  "gym": 2
+ },
+ "collected": "2026-09-13 07:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

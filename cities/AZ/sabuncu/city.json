@@ -1,0 +1,47 @@
+{
+ "id": 585184,
+ "name": "Sabunçu",
+ "ascii": "Sabuncu",
+ "name_ru": "Сабунчи",
+ "alt_ru": [
+  "Сабунчи"
+ ],
+ "lat": 40.4425,
+ "lon": 49.94806,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 20996,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2025-07-06",
+ "geohash": "tp5w0d",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4189,
+  49.9171,
+  40.4661,
+  49.979
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 424,
+ "osm_named": 403,
+ "osm_with_site": 13,
+ "osm_with_hours": 28,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 264,
+  "med": 48,
+  "food": 33,
+  "gym": 11,
+  "bar": 6,
+  "beauty": 6,
+  "spa": 1,
+  "coffee": 46,
+  "travel": 9
+ },
+ "collected": "2026-09-13 08:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

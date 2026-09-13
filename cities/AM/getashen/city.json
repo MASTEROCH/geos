@@ -1,0 +1,40 @@
+{
+ "id": 616669,
+ "name": "Getashen",
+ "ascii": "Getashen",
+ "name_ru": "Геташен",
+ "alt_ru": [
+  "Геташен"
+ ],
+ "lat": 40.04449,
+ "lon": 43.94171,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2233,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szp5zc",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0265,
+  43.9182,
+  40.0625,
+  43.9652
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "shop": 2
+ },
+ "collected": "2026-09-13 06:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

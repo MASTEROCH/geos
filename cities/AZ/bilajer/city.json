@@ -1,0 +1,44 @@
+{
+ "id": 586971,
+ "name": "Bilajer",
+ "ascii": "Bilajer",
+ "name_ru": "Бильгях",
+ "alt_ru": [
+  "Бильгях"
+ ],
+ "lat": 40.56441,
+ "lon": 50.04002,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 8983,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-26",
+ "geohash": "tp5wf8",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5464,
+  50.0163,
+  40.5824,
+  50.0637
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 60,
+ "osm_named": 58,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 9,
+  "food": 7,
+  "shop": 36,
+  "coffee": 5,
+  "travel": 2,
+  "music": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

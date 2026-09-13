@@ -1,0 +1,50 @@
+{
+ "id": 617026,
+ "name": "Abovyan",
+ "ascii": "Abovyan",
+ "name_ru": "Абовян",
+ "alt_ru": [
+  "Абовян",
+  "Эйляр",
+  "Элар"
+ ],
+ "lat": 40.2717,
+ "lon": 44.63342,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 50556,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-11",
+ "geohash": "szptpe",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2351,
+  44.5855,
+  40.3083,
+  44.6814
+ ],
+ "radius_km": 4.1,
+ "preset": "cityhub",
+ "osm_total": 191,
+ "osm_named": 160,
+ "osm_with_site": 22,
+ "osm_with_hours": 45,
+ "osm_with_socials": 6,
+ "niches": {
+  "shop": 157,
+  "coffee": 6,
+  "food": 6,
+  "med": 13,
+  "kids": 1,
+  "gym": 1,
+  "beauty": 4,
+  "travel": 1,
+  "bar": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 04:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

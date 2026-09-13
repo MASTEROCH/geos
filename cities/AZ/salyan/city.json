@@ -1,0 +1,49 @@
+{
+ "id": 147271,
+ "name": "Salyan",
+ "ascii": "Salyan",
+ "name_ru": "Сальян",
+ "alt_ru": [
+  "Сальян",
+  "Салян",
+  "Салён"
+ ],
+ "lat": 39.59621,
+ "lon": 48.98479,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Salyan District",
+ "population": 36555,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp4c68",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.5651,
+  48.9444,
+  39.6273,
+  49.0251
+ ],
+ "radius_km": 3.5,
+ "preset": "cityhub",
+ "osm_total": 243,
+ "osm_named": 242,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 25,
+  "shop": 160,
+  "med": 22,
+  "travel": 3,
+  "coffee": 19,
+  "art": 2,
+  "music": 2,
+  "gym": 3,
+  "beauty": 7
+ },
+ "collected": "2026-09-13 08:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

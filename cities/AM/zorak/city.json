@@ -1,0 +1,39 @@
+{
+ "id": 616039,
+ "name": "Zorak",
+ "ascii": "Zorak",
+ "name_ru": "Зорак",
+ "alt_ru": [
+  "Зорак"
+ ],
+ "lat": 40.09168,
+ "lon": 44.39447,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2226,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szps44",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0737,
+  44.3709,
+  40.1097,
+  44.418
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 06:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

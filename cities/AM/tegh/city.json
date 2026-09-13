@@ -1,0 +1,37 @@
+{
+ "id": 174743,
+ "name": "Tegh",
+ "ascii": "Tegh",
+ "name_ru": "Тех",
+ "alt_ru": [
+  "Тех"
+ ],
+ "lat": 39.55826,
+ "lon": 46.48054,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 2330,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-31",
+ "geohash": "tp1119",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.5402,
+  46.4572,
+  39.5763,
+  46.5039
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

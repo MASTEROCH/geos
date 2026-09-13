@@ -1,0 +1,39 @@
+{
+ "id": 174843,
+ "name": "Pokr Vedi",
+ "ascii": "Pokr Vedi",
+ "name_ru": "Покр Веди",
+ "alt_ru": [
+  "Покр Веди"
+ ],
+ "lat": 39.90289,
+ "lon": 44.6029,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 3519,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpenb",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8849,
+  44.5794,
+  39.9209,
+  44.6264
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1
+ },
+ "collected": "2026-09-13 05:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

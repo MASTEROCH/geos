@@ -1,0 +1,42 @@
+{
+ "id": 174904,
+ "name": "Gladzor",
+ "ascii": "Gladzor",
+ "name_ru": "Гладзор",
+ "alt_ru": [
+  "Гладзор"
+ ],
+ "lat": 39.7807,
+ "lon": 45.34729,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Vayots Dzor",
+ "population": 2524,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "tp04rc",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.7627,
+  45.3238,
+  39.7987,
+  45.3707
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 12,
+ "osm_named": 2,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4,
+  "travel": 6,
+  "art": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 06:44",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 586340,
+ "name": "Yeni Suraxanı",
+ "ascii": "Yeni Suraxani",
+ "name_ru": "Йени Сурахани",
+ "alt_ru": [
+  "Йени Сурахани"
+ ],
+ "lat": 40.43026,
+ "lon": 50.03598,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 16127,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp5w48",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4096,
+  50.0088,
+  40.4509,
+  50.0631
+ ],
+ "radius_km": 2.3,
+ "preset": "cityhub",
+ "osm_total": 78,
+ "osm_named": 75,
+ "osm_with_site": 3,
+ "osm_with_hours": 6,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 50,
+  "food": 5,
+  "coffee": 11,
+  "gym": 2,
+  "med": 6,
+  "music": 1,
+  "art": 1,
+  "beauty": 2
+ },
+ "collected": "2026-09-13 08:58",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

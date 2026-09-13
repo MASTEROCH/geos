@@ -1,0 +1,49 @@
+{
+ "id": 824003,
+ "name": "Bakıxanov",
+ "ascii": "Bakixanov",
+ "name_ru": "Бакиханов",
+ "alt_ru": [
+  "Бакиханов",
+  "Бакиханова"
+ ],
+ "lat": 40.41894,
+ "lon": 49.96693,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 66686,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-26",
+ "geohash": "tp5tcn",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.3769,
+  49.9118,
+  40.4609,
+  50.0221
+ ],
+ "radius_km": 4.7,
+ "preset": "cityhub",
+ "osm_total": 520,
+ "osm_named": 483,
+ "osm_with_site": 42,
+ "osm_with_hours": 95,
+ "osm_with_socials": 13,
+ "niches": {
+  "beauty": 14,
+  "shop": 205,
+  "food": 113,
+  "art": 4,
+  "coffee": 61,
+  "med": 100,
+  "gym": 11,
+  "bar": 9,
+  "kids": 1,
+  "travel": 2
+ },
+ "collected": "2026-09-13 07:37",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

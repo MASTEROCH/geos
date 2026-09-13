@@ -1,0 +1,39 @@
+{
+ "id": 616741,
+ "name": "Dvin",
+ "ascii": "Dvin",
+ "name_ru": "Двин",
+ "alt_ru": [
+  "Двин"
+ ],
+ "lat": 40.01984,
+ "lon": 44.58376,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2884,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpewt",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0018,
+  44.5602,
+  40.0379,
+  44.6073
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 06:17",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

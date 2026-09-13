@@ -1,0 +1,45 @@
+{
+ "id": 146969,
+ "name": "Khojavend",
+ "ascii": "Khojavend",
+ "name_ru": "Ходжавенд",
+ "alt_ru": [
+  "Ходжавенд"
+ ],
+ "lat": 39.79496,
+ "lon": 47.1117,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Khojavend",
+ "population": 3700,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1d2h",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.7769,
+  47.0882,
+  39.813,
+  47.1352
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 19,
+ "osm_named": 10,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 6,
+  "med": 2,
+  "coffee": 4,
+  "gym": 2,
+  "kids": 2,
+  "food": 2,
+  "art": 1
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,45 @@
+{
+ "id": 586765,
+ "name": "Dashkasan",
+ "ascii": "Dashkasan",
+ "name_ru": "Дашкесан",
+ "alt_ru": [
+  "Дашкесан"
+ ],
+ "lat": 40.52393,
+ "lon": 46.08186,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Daşkǝsǝn",
+ "population": 10600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-26",
+ "geohash": "tp0y89",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5059,
+  46.0582,
+  40.5419,
+  46.1056
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 46,
+ "osm_named": 44,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 1,
+ "niches": {
+  "travel": 2,
+  "art": 4,
+  "shop": 24,
+  "med": 4,
+  "food": 5,
+  "coffee": 6,
+  "gym": 1
+ },
+ "collected": "2026-09-13 09:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

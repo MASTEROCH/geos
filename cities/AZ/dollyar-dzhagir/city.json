@@ -1,0 +1,37 @@
+{
+ "id": 586795,
+ "name": "Dollyar-Dzhagir",
+ "ascii": "Dollyar-Dzhagir",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 40.88245,
+ "lon": 46.03665,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Şǝmkir",
+ "population": 5038,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-29",
+ "geohash": "tp28xd",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.8644,
+  46.0128,
+  40.9005,
+  46.0605
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

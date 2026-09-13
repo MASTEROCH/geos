@@ -1,0 +1,40 @@
+{
+ "id": 616147,
+ "name": "Tsakkar",
+ "ascii": "Tsakkar",
+ "name_ru": "Цаккар",
+ "alt_ru": [
+  "Цаккар"
+ ],
+ "lat": 40.17354,
+ "lon": 45.22201,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 2881,
+ "elevation": 1960,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-20",
+ "geohash": "tp0ht1",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1555,
+  45.1984,
+  40.1916,
+  45.2456
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "shop": 3
+ },
+ "collected": "2026-09-13 06:20",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

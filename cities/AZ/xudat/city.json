@@ -1,0 +1,45 @@
+{
+ "id": 584715,
+ "name": "Xudat",
+ "ascii": "Xudat",
+ "name_ru": "Ходат",
+ "alt_ru": [
+  "Ходат",
+  "Худат",
+  "Худот"
+ ],
+ "lat": 41.63052,
+ "lon": 48.68161,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Xaçmaz",
+ "population": 13625,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-26",
+ "geohash": "tp6sgf",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.6115,
+  48.6562,
+  41.6495,
+  48.707
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 9,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 1,
+  "food": 2,
+  "shop": 5,
+  "gym": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:07",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

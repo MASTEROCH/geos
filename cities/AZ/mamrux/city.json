@@ -1,0 +1,37 @@
+{
+ "id": 585583,
+ "name": "Mamrux",
+ "ascii": "Mamrux",
+ "name_ru": "Мамрух",
+ "alt_ru": [
+  "Мамрух"
+ ],
+ "lat": 41.54243,
+ "lon": 46.767,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Zaqatala District",
+ "population": 2150,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-01-09",
+ "geohash": "tp3k24",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.5244,
+  46.7429,
+  41.5604,
+  46.7911
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:42",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

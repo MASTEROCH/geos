@@ -1,0 +1,41 @@
+{
+ "id": 584991,
+ "name": "Shorabad",
+ "ascii": "Shorabad",
+ "name_ru": "Шураабад",
+ "alt_ru": [
+  "Шураабад"
+ ],
+ "lat": 40.8199,
+ "lon": 49.46774,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Xızı",
+ "population": 2100,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp70jx",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.8019,
+  49.4439,
+  40.8379,
+  49.4915
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1,
+  "shop": 2,
+  "med": 1
+ },
+ "collected": "2026-09-13 09:43",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 616356,
+ "name": "Noramarg",
+ "ascii": "Noramarg",
+ "name_ru": "Норамарг",
+ "alt_ru": [
+  "Абиль-кяндь",
+  "Аблкенд",
+  "Норамарг"
+ ],
+ "lat": 40.02228,
+ "lon": 44.42511,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2291,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpedv",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0043,
+  44.4016,
+  40.0403,
+  44.4486
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5
+ },
+ "collected": "2026-09-13 06:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

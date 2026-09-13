@@ -1,0 +1,41 @@
+{
+ "id": 148106,
+ "name": "Fuzuli",
+ "ascii": "Fuzuli",
+ "name_ru": "Физули",
+ "alt_ru": [
+  "Физули",
+  "Физулӣ"
+ ],
+ "lat": 39.60094,
+ "lon": 47.14529,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Fuzuli District",
+ "population": 25100,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp192c",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.5752,
+  47.1118,
+  39.6267,
+  47.1787
+ ],
+ "radius_km": 2.9,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 08:38",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,49 @@
+{
+ "id": 585915,
+ "name": "Khirdalan",
+ "ascii": "Khirdalan",
+ "name_ru": "Хырдалан",
+ "alt_ru": [
+  "Хырдалан"
+ ],
+ "lat": 40.44808,
+ "lon": 49.75502,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 196200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5qh5",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.376,
+  49.6603,
+  40.5201,
+  49.8497
+ ],
+ "radius_km": 8.0,
+ "preset": "cityhub",
+ "osm_total": 1308,
+ "osm_named": 1264,
+ "osm_with_site": 58,
+ "osm_with_hours": 87,
+ "osm_with_socials": 25,
+ "niches": {
+  "coffee": 192,
+  "shop": 843,
+  "food": 75,
+  "beauty": 31,
+  "med": 115,
+  "kids": 6,
+  "bar": 19,
+  "travel": 8,
+  "gym": 11,
+  "art": 6,
+  "music": 2
+ },
+ "collected": "2026-09-13 07:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

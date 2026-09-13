@@ -1,0 +1,48 @@
+{
+ "id": 866111,
+ "name": "Tairov",
+ "ascii": "Tairov",
+ "name_ru": "Таиров",
+ "alt_ru": [
+  "Таиров"
+ ],
+ "lat": 40.16078,
+ "lon": 44.43435,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2976,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szps7p",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1428,
+  44.4108,
+  40.1788,
+  44.4579
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 385,
+ "osm_named": 209,
+ "osm_with_site": 44,
+ "osm_with_hours": 71,
+ "osm_with_socials": 18,
+ "niches": {
+  "med": 23,
+  "shop": 255,
+  "food": 23,
+  "art": 10,
+  "kids": 23,
+  "beauty": 18,
+  "bar": 1,
+  "coffee": 24,
+  "gym": 5,
+  "travel": 3
+ },
+ "collected": "2026-09-13 05:56",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

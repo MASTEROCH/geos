@@ -1,0 +1,44 @@
+{
+ "id": 585736,
+ "name": "Guzanli",
+ "ascii": "Guzanli",
+ "name_ru": "Кузанли",
+ "alt_ru": [
+  "Кузанли",
+  "Кузанлы"
+ ],
+ "lat": 40.15911,
+ "lon": 47.16527,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Ağdam",
+ "population": 3200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1s3q",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.1411,
+  47.1417,
+  40.1771,
+  47.1888
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 4,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "music": 1,
+  "med": 1,
+  "gym": 1,
+  "shop": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

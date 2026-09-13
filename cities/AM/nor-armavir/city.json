@@ -1,0 +1,39 @@
+{
+ "id": 616352,
+ "name": "Nor Armavir",
+ "ascii": "Nor Armavir",
+ "name_ru": "Нор Армавир",
+ "alt_ru": [
+  "Нор Армавир"
+ ],
+ "lat": 40.08612,
+ "lon": 43.99451,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2014,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpk11",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0681,
+  43.971,
+  40.1041,
+  44.0181
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1
+ },
+ "collected": "2026-09-13 07:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

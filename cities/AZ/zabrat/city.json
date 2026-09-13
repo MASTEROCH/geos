@@ -1,0 +1,47 @@
+{
+ "id": 584614,
+ "name": "Zabrat",
+ "ascii": "Zabrat",
+ "name_ru": "Забрат",
+ "alt_ru": [
+  "Забрат"
+ ],
+ "lat": 40.47746,
+ "lon": 49.94174,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 21396,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-27",
+ "geohash": "tp5w22",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4537,
+  49.9105,
+  40.5013,
+  49.973
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 168,
+ "osm_named": 160,
+ "osm_with_site": 4,
+ "osm_with_hours": 4,
+ "osm_with_socials": 4,
+ "niches": {
+  "shop": 121,
+  "food": 9,
+  "beauty": 2,
+  "coffee": 17,
+  "med": 14,
+  "music": 1,
+  "bar": 1,
+  "travel": 2,
+  "gym": 1
+ },
+ "collected": "2026-09-13 08:48",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

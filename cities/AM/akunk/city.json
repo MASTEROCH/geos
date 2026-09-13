@@ -1,0 +1,40 @@
+{
+ "id": 616982,
+ "name": "Akunk",
+ "ascii": "Akunk",
+ "name_ru": "Акунк",
+ "alt_ru": [
+  "Акунк"
+ ],
+ "lat": 40.16056,
+ "lon": 45.72707,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 3712,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "tp0s2x",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1425,
+  45.7035,
+  40.1786,
+  45.7506
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 2,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

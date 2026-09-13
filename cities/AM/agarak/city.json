@@ -1,0 +1,44 @@
+{
+ "id": 175008,
+ "name": "Agarak",
+ "ascii": "Agarak",
+ "name_ru": "Агарак",
+ "alt_ru": [
+  "Агарак"
+ ],
+ "lat": 38.86506,
+ "lon": 46.19463,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 3035,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-03",
+ "geohash": "tnbv55",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  38.847,
+  46.1715,
+  38.8831,
+  46.2178
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 37,
+ "osm_named": 25,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "kids": 1,
+  "coffee": 2,
+  "shop": 27,
+  "bar": 2,
+  "food": 4,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:55",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

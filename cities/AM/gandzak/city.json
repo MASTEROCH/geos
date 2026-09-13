@@ -1,0 +1,42 @@
+{
+ "id": 616814,
+ "name": "Gandzak",
+ "ascii": "Gandzak",
+ "name_ru": "Батикян",
+ "alt_ru": [
+  "Батикян",
+  "Гандзак",
+  "Коса-Мамед"
+ ],
+ "lat": 40.32309,
+ "lon": 45.1103,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 3810,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-06-20",
+ "geohash": "tp0j6s",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3051,
+  45.0867,
+  40.3411,
+  45.1339
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

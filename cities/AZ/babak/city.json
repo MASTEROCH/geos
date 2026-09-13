@@ -1,0 +1,39 @@
+{
+ "id": 148413,
+ "name": "Babak",
+ "ascii": "Babak",
+ "name_ru": "Тазакент",
+ "alt_ru": [
+  "Тазакент"
+ ],
+ "lat": 39.15459,
+ "lon": 45.44282,
+ "feature": "PPLA2",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 6000,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-07-11",
+ "geohash": "tnbqdp",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.1366,
+  45.4196,
+  39.1726,
+  45.4661
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 2
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

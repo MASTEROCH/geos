@@ -1,0 +1,47 @@
+{
+ "id": 616828,
+ "name": "Bagratashen",
+ "ascii": "Bagratashen",
+ "name_ru": "Баграташен",
+ "alt_ru": [
+  "Баграташен",
+  "Дебедашен",
+  "Дебеташен",
+  "Ламбало",
+  "Ламбалу"
+ ],
+ "lat": 41.24358,
+ "lon": 44.81737,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 2940,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "szrfeu",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.2256,
+  44.7934,
+  41.2616,
+  44.8413
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 31,
+ "osm_named": 18,
+ "osm_with_site": 3,
+ "osm_with_hours": 4,
+ "osm_with_socials": 3,
+ "niches": {
+  "art": 2,
+  "shop": 17,
+  "coffee": 5,
+  "food": 4,
+  "med": 3
+ },
+ "collected": "2026-09-13 05:57",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

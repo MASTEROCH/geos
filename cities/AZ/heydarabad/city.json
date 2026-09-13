@@ -1,0 +1,38 @@
+{
+ "id": 8326746,
+ "name": "Heydarabad",
+ "ascii": "Heydarabad",
+ "name_ru": "Гайдарабад",
+ "alt_ru": [
+  "Гайдарабад",
+  "Гейдарабад"
+ ],
+ "lat": 39.72286,
+ "lon": 44.84846,
+ "feature": "PPLA2",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 2300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "szpcux",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.7048,
+  44.825,
+  39.7409,
+  44.8719
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,43 @@
+{
+ "id": 616400,
+ "name": "Mrgashat",
+ "ascii": "Mrgashat",
+ "name_ru": "Мргашат",
+ "alt_ru": [
+  "Мргашат"
+ ],
+ "lat": 40.12283,
+ "lon": 44.06578,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 6004,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-27",
+ "geohash": "szpk68",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1048,
+  44.0422,
+  40.1408,
+  44.0893
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 14,
+ "osm_named": 11,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 3,
+  "music": 1,
+  "shop": 7,
+  "food": 2,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

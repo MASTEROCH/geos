@@ -1,0 +1,44 @@
+{
+ "id": 147552,
+ "name": "Masally",
+ "ascii": "Masally",
+ "name_ru": "Масаллы",
+ "alt_ru": [
+  "Масала",
+  "Масаллы"
+ ],
+ "lat": 39.03532,
+ "lon": 48.6654,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Masally",
+ "population": 9604,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tnfw56",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.0173,
+  48.6422,
+  39.0533,
+  48.6886
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 16,
+ "osm_named": 13,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "coffee": 5,
+  "food": 1,
+  "art": 1,
+  "med": 4
+ },
+ "collected": "2026-09-13 09:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

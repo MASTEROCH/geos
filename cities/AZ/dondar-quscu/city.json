@@ -1,0 +1,37 @@
+{
+ "id": 586717,
+ "name": "Dondar Quşçu",
+ "ascii": "Dondar Quscu",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 40.9539,
+ "lon": 45.61942,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Tovuz District",
+ "population": 3482,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp22yp",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.9359,
+  45.5956,
+  40.9719,
+  45.6433
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

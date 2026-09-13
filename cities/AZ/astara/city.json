@@ -1,0 +1,44 @@
+{
+ "id": 148445,
+ "name": "Astara",
+ "ascii": "Astara",
+ "name_ru": "Астара",
+ "alt_ru": [
+  "Астара"
+ ],
+ "lat": 38.45598,
+ "lon": 48.87498,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Astara",
+ "population": 15190,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tnffb0",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.4359,
+  48.8494,
+  38.476,
+  48.9006
+ ],
+ "radius_km": 2.2,
+ "preset": "cityhub",
+ "osm_total": 50,
+ "osm_named": 48,
+ "osm_with_site": 26,
+ "osm_with_hours": 27,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 2,
+  "med": 3,
+  "food": 6,
+  "shop": 34,
+  "coffee": 2,
+  "sea": 3
+ },
+ "collected": "2026-09-13 08:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,40 @@
+{
+ "id": 174706,
+ "name": "Goravan",
+ "ascii": "Goravan",
+ "name_ru": "Гораван",
+ "alt_ru": [
+  "Гораван"
+ ],
+ "lat": 39.90539,
+ "lon": 44.73131,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2722,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpg1b",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8874,
+  44.7078,
+  39.9234,
+  44.7548
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 8,
+ "osm_named": 4,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 7,
+  "food": 1
+ },
+ "collected": "2026-09-13 06:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

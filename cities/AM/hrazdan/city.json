@@ -1,0 +1,49 @@
+{
+ "id": 616629,
+ "name": "Hrazdan",
+ "ascii": "Hrazdan",
+ "name_ru": "Храздан",
+ "alt_ru": [
+  "Раздан",
+  "Храздан"
+ ],
+ "lat": 40.5169,
+ "lon": 44.75591,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 49500,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-13",
+ "geohash": "szpy6r",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.4807,
+  44.7083,
+  40.5531,
+  44.8035
+ ],
+ "radius_km": 4.0,
+ "preset": "cityhub",
+ "osm_total": 210,
+ "osm_named": 177,
+ "osm_with_site": 18,
+ "osm_with_hours": 27,
+ "osm_with_socials": 6,
+ "niches": {
+  "travel": 9,
+  "shop": 143,
+  "food": 24,
+  "bar": 2,
+  "coffee": 14,
+  "art": 5,
+  "med": 9,
+  "beauty": 1,
+  "gym": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 04:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

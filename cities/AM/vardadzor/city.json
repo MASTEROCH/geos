@@ -1,0 +1,37 @@
+{
+ "id": 617023,
+ "name": "Vardadzor",
+ "ascii": "Vardadzor",
+ "name_ru": "Вардадзор",
+ "alt_ru": [
+  "Вардадзор"
+ ],
+ "lat": 40.1875,
+ "lon": 45.19389,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 2785,
+ "elevation": 2000,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-20",
+ "geohash": "tp0hs7",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1695,
+  45.1703,
+  40.2055,
+  45.2175
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

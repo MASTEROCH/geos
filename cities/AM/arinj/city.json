@@ -1,0 +1,48 @@
+{
+ "id": 616908,
+ "name": "Arinj",
+ "ascii": "Arinj",
+ "name_ru": "Ариндж",
+ "alt_ru": [
+  "Ариндж"
+ ],
+ "lat": 40.23356,
+ "lon": 44.58209,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 7626,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpsyk",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2155,
+  44.5585,
+  40.2516,
+  44.6057
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 315,
+ "osm_named": 186,
+ "osm_with_site": 44,
+ "osm_with_hours": 70,
+ "osm_with_socials": 15,
+ "niches": {
+  "coffee": 22,
+  "shop": 204,
+  "med": 33,
+  "food": 24,
+  "beauty": 13,
+  "kids": 8,
+  "travel": 3,
+  "bar": 1,
+  "art": 3,
+  "gym": 4
+ },
+ "collected": "2026-09-13 05:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,37 @@
+{
+ "id": 148225,
+ "name": "Deste",
+ "ascii": "Deste",
+ "name_ru": "Даьстаь",
+ "alt_ru": [
+  "Даьстаь"
+ ],
+ "lat": 38.88375,
+ "lon": 45.90963,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 4282,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2013-05-31",
+ "geohash": "tnbthw",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.8657,
+  45.8865,
+  38.9018,
+  45.9328
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

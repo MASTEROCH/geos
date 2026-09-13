@@ -1,0 +1,51 @@
+{
+ "id": 584717,
+ "name": "Xaçmaz",
+ "ascii": "Xacmaz",
+ "name_ru": "Хачмаз",
+ "alt_ru": [
+  "Хачмаз",
+  "Хачмас",
+  "Хачмос",
+  "Хъачмаз"
+ ],
+ "lat": 41.46426,
+ "lon": 48.80565,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Xaçmaz",
+ "population": 67600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-26",
+ "geohash": "tp6eys",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.422,
+  48.7492,
+  41.5065,
+  48.8621
+ ],
+ "radius_km": 4.7,
+ "preset": "cityhub",
+ "osm_total": 68,
+ "osm_named": 59,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 6,
+  "gym": 5,
+  "shop": 21,
+  "food": 16,
+  "beauty": 2,
+  "med": 5,
+  "coffee": 4,
+  "travel": 4,
+  "bar": 1,
+  "music": 4
+ },
+ "collected": "2026-09-13 07:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

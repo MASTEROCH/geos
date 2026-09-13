@@ -1,0 +1,45 @@
+{
+ "id": 586794,
+ "name": "Dalimammadli",
+ "ascii": "Dalimammadli",
+ "name_ru": "Дальмамедли",
+ "alt_ru": [
+  "Дальмамедли"
+ ],
+ "lat": 40.69421,
+ "lon": 46.57382,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Goranboy District",
+ "population": 5300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1peb",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.6762,
+  46.5501,
+  40.7122,
+  46.5976
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 40,
+ "osm_named": 35,
+ "osm_with_site": 0,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 6,
+  "med": 4,
+  "shop": 21,
+  "coffee": 6,
+  "music": 1,
+  "art": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

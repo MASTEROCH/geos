@@ -1,0 +1,41 @@
+{
+ "id": 585642,
+ "name": "Chinarli",
+ "ascii": "Chinarli",
+ "name_ru": "Чинарли",
+ "alt_ru": [
+  "Ленин",
+  "Чинарли"
+ ],
+ "lat": 40.77542,
+ "lon": 46.11252,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Şǝmkir",
+ "population": 7300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp0zcq",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.7574,
+  46.0887,
+  40.7934,
+  46.1363
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 7,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "shop": 5
+ },
+ "collected": "2026-09-13 09:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

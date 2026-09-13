@@ -1,0 +1,42 @@
+{
+ "id": 866137,
+ "name": "Mrgavet",
+ "ascii": "Mrgavet",
+ "name_ru": "Мргавет",
+ "alt_ru": [
+  "Мргавет"
+ ],
+ "lat": 40.02789,
+ "lon": 44.48328,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2502,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpesn",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0099,
+  44.4597,
+  40.0459,
+  44.5068
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 7,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 10,
+  "med": 4,
+  "coffee": 2,
+  "travel": 2
+ },
+ "collected": "2026-09-13 06:44",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

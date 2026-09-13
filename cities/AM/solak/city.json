@@ -1,0 +1,37 @@
+{
+ "id": 616211,
+ "name": "Solak",
+ "ascii": "Solak",
+ "name_ru": "Солак",
+ "alt_ru": [
+  "Солак"
+ ],
+ "lat": 40.46252,
+ "lon": 44.70709,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 2002,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szpy1m",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.4445,
+  44.6834,
+  40.4805,
+  44.7308
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 07:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

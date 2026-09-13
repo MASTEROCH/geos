@@ -1,0 +1,39 @@
+{
+ "id": 616385,
+ "name": "Nalbandyan",
+ "ascii": "Nalbandyan",
+ "name_ru": "Налбандян",
+ "alt_ru": [
+  "Налбандян"
+ ],
+ "lat": 40.0639,
+ "lon": 43.98889,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 4428,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szp7bv",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0459,
+  43.9653,
+  40.0819,
+  44.0124
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 05:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

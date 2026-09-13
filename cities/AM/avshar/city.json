@@ -1,0 +1,39 @@
+{
+ "id": 174969,
+ "name": "Avshar",
+ "ascii": "Avshar",
+ "name_ru": "Авшар",
+ "alt_ru": [
+  "Авшар"
+ ],
+ "lat": 39.85388,
+ "lon": 44.68016,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 4946,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpf8x",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8359,
+  44.6567,
+  39.8719,
+  44.7036
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 05:15",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

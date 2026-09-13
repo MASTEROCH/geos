@@ -1,0 +1,43 @@
+{
+ "id": 174964,
+ "name": "Aygezard",
+ "ascii": "Aygezard",
+ "name_ru": "Айгезард",
+ "alt_ru": [
+  "Айгезард"
+ ],
+ "lat": 39.95436,
+ "lon": 44.60229,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 3215,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpeqc",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.9363,
+  44.5788,
+  39.9724,
+  44.6258
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 12,
+  "coffee": 1,
+  "med": 2,
+  "beauty": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:47",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

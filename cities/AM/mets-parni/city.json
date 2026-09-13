@@ -1,0 +1,39 @@
+{
+ "id": 616410,
+ "name": "Mets Parni",
+ "ascii": "Mets Parni",
+ "name_ru": "Мец-Парни",
+ "alt_ru": [
+  "Бекянд",
+  "Мец-Парни",
+  "Парни"
+ ],
+ "lat": 40.83472,
+ "lon": 44.11108,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 2015,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-02-10",
+ "geohash": "szr27c",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.8167,
+  44.0873,
+  40.8527,
+  44.1349
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 07:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

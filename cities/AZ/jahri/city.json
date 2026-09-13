@@ -1,0 +1,37 @@
+{
+ "id": 148291,
+ "name": "Jahri",
+ "ascii": "Jahri",
+ "name_ru": "Джагри",
+ "alt_ru": [
+  "Джагри"
+ ],
+ "lat": 39.34837,
+ "lon": 45.41557,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Nakhchivan",
+ "population": 10700,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-07-11",
+ "geohash": "tnbrc7",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3304,
+  45.3923,
+  39.3664,
+  45.4389
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

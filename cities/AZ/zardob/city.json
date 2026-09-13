@@ -1,0 +1,45 @@
+{
+ "id": 584586,
+ "name": "Zardob",
+ "ascii": "Zardob",
+ "name_ru": "Зардаб",
+ "alt_ru": [
+  "Зардаб",
+  "Зардоб"
+ ],
+ "lat": 40.2184,
+ "lon": 47.71214,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Zardab",
+ "population": 10612,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp1uv9",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.2004,
+  47.6885,
+  40.2364,
+  47.7357
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 31,
+ "osm_named": 15,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 18,
+  "food": 3,
+  "coffee": 4,
+  "med": 4,
+  "art": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

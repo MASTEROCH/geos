@@ -1,0 +1,40 @@
+{
+ "id": 823811,
+ "name": "Darakert",
+ "ascii": "Darakert",
+ "name_ru": "Даракерт",
+ "alt_ru": [
+  "Даракерт"
+ ],
+ "lat": 40.10553,
+ "lon": 44.41388,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2825,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szps4s",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0875,
+  44.3903,
+  40.1235,
+  44.4374
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 7,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "med": 2
+ },
+ "collected": "2026-09-13 06:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

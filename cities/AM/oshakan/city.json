@@ -1,0 +1,41 @@
+{
+ "id": 616320,
+ "name": "Oshakan",
+ "ascii": "Oshakan",
+ "name_ru": "Ошакан",
+ "alt_ru": [
+  "Ошакан"
+ ],
+ "lat": 40.26392,
+ "lon": 44.31671,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 5237,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpt03",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2459,
+  44.2931,
+  40.2819,
+  44.3403
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 4,
+  "travel": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

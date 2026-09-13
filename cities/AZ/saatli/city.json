@@ -1,0 +1,42 @@
+{
+ "id": 147288,
+ "name": "Saatlı",
+ "ascii": "Saatli",
+ "name_ru": "Саатли",
+ "alt_ru": [
+  "Саатли",
+  "Саатлы",
+  "Сотли"
+ ],
+ "lat": 39.93214,
+ "lon": 48.36892,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Saatlı",
+ "population": 20300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-26",
+ "geohash": "tp47ht",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.909,
+  48.3387,
+  39.9553,
+  48.3991
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "med": 1,
+  "shop": 2
+ },
+ "collected": "2026-09-13 08:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

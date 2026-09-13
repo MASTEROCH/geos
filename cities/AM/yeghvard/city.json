@@ -1,0 +1,45 @@
+{
+ "id": 616065,
+ "name": "Yeghvard",
+ "ascii": "Yeghvard",
+ "name_ru": "Егвард",
+ "alt_ru": [
+  "Егвард"
+ ],
+ "lat": 40.32293,
+ "lon": 44.48418,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 13238,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-30",
+ "geohash": "szptkk",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3042,
+  44.4596,
+  40.3416,
+  44.5087
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 57,
+ "osm_named": 46,
+ "osm_with_site": 2,
+ "osm_with_hours": 4,
+ "osm_with_socials": 2,
+ "niches": {
+  "med": 5,
+  "shop": 45,
+  "art": 1,
+  "beauty": 2,
+  "food": 2,
+  "coffee": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:07",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 8630711,
+ "name": "Institut",
+ "ascii": "Institut",
+ "name_ru": "Институт",
+ "alt_ru": [
+  "Институт",
+  "Институтский"
+ ],
+ "lat": 40.71906,
+ "lon": 46.41206,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Samux",
+ "population": 2000,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp1p8h",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.701,
+  46.3883,
+  40.7371,
+  46.4358
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1,
+  "food": 5
+ },
+ "collected": "2026-09-13 09:45",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

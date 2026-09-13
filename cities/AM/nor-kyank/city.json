@@ -1,0 +1,40 @@
+{
+ "id": 174806,
+ "name": "Nor Kyank",
+ "ascii": "Nor Kyank",
+ "name_ru": "Нор Кянк",
+ "alt_ru": [
+  "Нор Кянк"
+ ],
+ "lat": 39.902,
+ "lon": 44.63,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 2784,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpdzx",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.884,
+  44.6065,
+  39.92,
+  44.6535
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "med": 1
+ },
+ "collected": "2026-09-13 06:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

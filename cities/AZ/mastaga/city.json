@@ -1,0 +1,46 @@
+{
+ "id": 585557,
+ "name": "Maştağa",
+ "ascii": "Mastaga",
+ "name_ru": "Маштага",
+ "alt_ru": [
+  "Маштага"
+ ],
+ "lat": 40.52983,
+ "lon": 50.00616,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 40092,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp5w9f",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4973,
+  49.9633,
+  40.5624,
+  50.049
+ ],
+ "radius_km": 3.6,
+ "preset": "cityhub",
+ "osm_total": 187,
+ "osm_named": 181,
+ "osm_with_site": 5,
+ "osm_with_hours": 7,
+ "osm_with_socials": 3,
+ "niches": {
+  "shop": 139,
+  "food": 9,
+  "med": 18,
+  "coffee": 12,
+  "gym": 2,
+  "art": 2,
+  "travel": 4,
+  "music": 1
+ },
+ "collected": "2026-09-13 08:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

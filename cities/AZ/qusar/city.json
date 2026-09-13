@@ -1,0 +1,48 @@
+{
+ "id": 585220,
+ "name": "Qusar",
+ "ascii": "Qusar",
+ "name_ru": "Кусар",
+ "alt_ru": [
+  "Кусар",
+  "Кусары"
+ ],
+ "lat": 41.4275,
+ "lon": 48.4302,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Qusar District",
+ "population": 16022,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp67wj",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.4069,
+  48.4027,
+  41.4481,
+  48.4577
+ ],
+ "radius_km": 2.3,
+ "preset": "cityhub",
+ "osm_total": 125,
+ "osm_named": 119,
+ "osm_with_site": 3,
+ "osm_with_hours": 15,
+ "osm_with_socials": 1,
+ "niches": {
+  "food": 23,
+  "art": 8,
+  "coffee": 18,
+  "shop": 52,
+  "med": 12,
+  "bar": 2,
+  "travel": 5,
+  "music": 1,
+  "gym": 4
+ },
+ "collected": "2026-09-13 08:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,37 @@
+{
+ "id": 393443,
+ "name": "Sovetabad",
+ "ascii": "Sovetabad",
+ "name_ru": "Гасанабад",
+ "alt_ru": [
+  "Гасанабад"
+ ],
+ "lat": 39.33667,
+ "lon": 49.21414,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Neftçala",
+ "population": 4308,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2017-07-13",
+ "geohash": "tnfzzc",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3187,
+  49.1908,
+  39.3547,
+  49.2374
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:27",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

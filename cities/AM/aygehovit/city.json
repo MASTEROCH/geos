@@ -1,0 +1,39 @@
+{
+ "id": 616855,
+ "name": "Aygehovit",
+ "ascii": "Aygehovit",
+ "name_ru": "Айгеовит",
+ "alt_ru": [
+  "Айгеовит",
+  "Онут",
+  "Узунтала"
+ ],
+ "lat": 40.97951,
+ "lon": 45.25033,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 3315,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "tp21js",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.9615,
+  45.2265,
+  40.9975,
+  45.2742
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:39",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

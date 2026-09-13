@@ -1,0 +1,37 @@
+{
+ "id": 823819,
+ "name": "Geghhovit",
+ "ascii": "Geghhovit",
+ "name_ru": "Геховит",
+ "alt_ru": [
+  "Геховит"
+ ],
+ "lat": 40.10479,
+ "lon": 45.2855,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 6025,
+ "elevation": 2060,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "tp0hnk",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0868,
+  45.2619,
+  40.1228,
+  45.3091
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

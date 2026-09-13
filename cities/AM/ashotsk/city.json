@@ -1,0 +1,45 @@
+{
+ "id": 616878,
+ "name": "Ashotsk",
+ "ascii": "Ashotsk",
+ "name_ru": "Гукасян",
+ "alt_ru": [
+  "Ашоцк",
+  "Верин Гукасян",
+  "Гукасян",
+  "Кзыл-Коч",
+  "Кзыл-Хач"
+ ],
+ "lat": 41.0377,
+ "lon": 43.85843,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 3325,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-22",
+ "geohash": "szr1qn",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.0197,
+  43.8345,
+  41.0557,
+  43.8823
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 2,
+  "shop": 3,
+  "gym": 1
+ },
+ "collected": "2026-09-13 05:39",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

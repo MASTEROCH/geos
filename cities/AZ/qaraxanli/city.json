@@ -1,0 +1,40 @@
+{
+ "id": 586179,
+ "name": "Qaraxanlı",
+ "ascii": "Qaraxanli",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 41.04358,
+ "lon": 45.65527,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Tovuz District",
+ "population": 3166,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp23qz",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.0256,
+  45.6314,
+  41.0616,
+  45.6792
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 3,
+  "food": 1,
+  "shop": 5,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

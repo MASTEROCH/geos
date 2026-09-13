@@ -1,0 +1,39 @@
+{
+ "id": 616938,
+ "name": "Araks",
+ "ascii": "Araks",
+ "name_ru": "Аракс",
+ "alt_ru": [
+  "Аракс"
+ ],
+ "lat": 40.05548,
+ "lon": 44.30292,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2115,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpeb5",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0375,
+  44.2794,
+  40.0735,
+  44.3265
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "sea": 1
+ },
+ "collected": "2026-09-13 07:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

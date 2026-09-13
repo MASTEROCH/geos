@@ -1,0 +1,49 @@
+{
+ "id": 587078,
+ "name": "Bilajari",
+ "ascii": "Bilajari",
+ "name_ru": "Баладжары",
+ "alt_ru": [
+  "Баладжары"
+ ],
+ "lat": 40.4444,
+ "lon": 49.80566,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 42194,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2021-06-01",
+ "geohash": "tp5qj6",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.411,
+  49.7618,
+  40.4778,
+  49.8496
+ ],
+ "radius_km": 3.7,
+ "preset": "cityhub",
+ "osm_total": 963,
+ "osm_named": 840,
+ "osm_with_site": 62,
+ "osm_with_hours": 134,
+ "osm_with_socials": 33,
+ "niches": {
+  "bar": 26,
+  "food": 119,
+  "med": 126,
+  "shop": 464,
+  "gym": 21,
+  "coffee": 157,
+  "kids": 12,
+  "beauty": 25,
+  "music": 1,
+  "art": 5,
+  "travel": 7
+ },
+ "collected": "2026-09-13 07:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

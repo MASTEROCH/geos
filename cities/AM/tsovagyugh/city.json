@@ -1,0 +1,43 @@
+{
+ "id": 616139,
+ "name": "Tsovagyugh",
+ "ascii": "Tsovagyugh",
+ "name_ru": "Цовагюх",
+ "alt_ru": [
+  "Цовагюх"
+ ],
+ "lat": 40.63348,
+ "lon": 44.96112,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 4356,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "szpzpj",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.6155,
+  44.9374,
+  40.6515,
+  44.9849
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 5,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 10,
+  "food": 3,
+  "art": 1,
+  "coffee": 1,
+  "sea": 3
+ },
+ "collected": "2026-09-13 05:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

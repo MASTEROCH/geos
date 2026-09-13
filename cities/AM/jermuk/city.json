@@ -1,0 +1,46 @@
+{
+ "id": 174884,
+ "name": "Jermuk",
+ "ascii": "Jermuk",
+ "name_ru": "Джермук",
+ "alt_ru": [
+  "Джермук",
+  "Джэрмук",
+  "Исти-Су"
+ ],
+ "lat": 39.83948,
+ "lon": 45.67112,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Vayots Dzor",
+ "population": 4095,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "tp06xk",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8215,
+  45.6477,
+  39.8575,
+  45.6946
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 31,
+ "osm_named": 16,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 4,
+  "food": 7,
+  "coffee": 3,
+  "shop": 10,
+  "art": 6,
+  "spa": 1
+ },
+ "collected": "2026-09-13 05:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

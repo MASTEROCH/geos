@@ -1,0 +1,48 @@
+{
+ "id": 587070,
+ "name": "Belokany",
+ "ascii": "Belokany",
+ "name_ru": "Белоканы",
+ "alt_ru": [
+  "Белоканы",
+  "Белокань"
+ ],
+ "lat": 41.72626,
+ "lon": 46.40478,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Balakan District",
+ "population": 14800,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp2vru",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.7065,
+  46.3783,
+  41.746,
+  46.4313
+ ],
+ "radius_km": 2.2,
+ "preset": "cityhub",
+ "osm_total": 100,
+ "osm_named": 82,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 13,
+  "shop": 56,
+  "coffee": 8,
+  "beauty": 2,
+  "med": 13,
+  "music": 1,
+  "gym": 1,
+  "travel": 5,
+  "art": 1
+ },
+ "collected": "2026-09-13 08:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

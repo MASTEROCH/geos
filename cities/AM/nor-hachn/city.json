@@ -1,0 +1,45 @@
+{
+ "id": 616362,
+ "name": "Nor Hachn",
+ "ascii": "Nor Hachn",
+ "name_ru": "Нор Ачин",
+ "alt_ru": [
+  "Нор Ачин",
+  "Нор-Ачын",
+  "Норачин"
+ ],
+ "lat": 40.30296,
+ "lon": 44.58314,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 10460,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szptq8",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2849,
+  44.5595,
+  40.321,
+  44.6068
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 42,
+ "osm_named": 29,
+ "osm_with_site": 3,
+ "osm_with_hours": 7,
+ "osm_with_socials": 1,
+ "niches": {
+  "food": 3,
+  "shop": 34,
+  "med": 2,
+  "coffee": 2,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 05:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

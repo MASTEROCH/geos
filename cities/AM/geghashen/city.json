@@ -1,0 +1,40 @@
+{
+ "id": 616284,
+ "name": "Geghashen",
+ "ascii": "Geghashen",
+ "name_ru": "Гехашен",
+ "alt_ru": [
+  "Гехашен"
+ ],
+ "lat": 40.22754,
+ "lon": 44.72464,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 4634,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szpuce",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2095,
+  44.701,
+  40.2456,
+  44.7482
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 16,
+ "osm_named": 13,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 15,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:17",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

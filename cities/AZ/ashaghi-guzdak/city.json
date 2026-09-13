@@ -1,0 +1,41 @@
+{
+ "id": 823985,
+ "name": "Ashaghi Guzdak",
+ "ascii": "Ashaghi Guzdak",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 40.48133,
+ "lon": 49.6656,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 7900,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5q61",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4633,
+  49.6419,
+  40.4993,
+  49.6893
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 17,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1,
+  "med": 2,
+  "shop": 12,
+  "food": 1,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

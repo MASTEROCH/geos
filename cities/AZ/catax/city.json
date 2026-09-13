@@ -1,0 +1,38 @@
+{
+ "id": 586880,
+ "name": "Çatax",
+ "ascii": "Catax",
+ "name_ru": "Чатаг",
+ "alt_ru": [
+  "Чатаг",
+  "Чатах"
+ ],
+ "lat": 40.72622,
+ "lon": 45.55919,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Tovuz District",
+ "population": 3189,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp0rst",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.7082,
+  45.5354,
+  40.7442,
+  45.583
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

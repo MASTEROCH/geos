@@ -1,0 +1,40 @@
+{
+ "id": 616790,
+ "name": "Byureghavan",
+ "ascii": "Byureghavan",
+ "name_ru": "Бюрегаван",
+ "alt_ru": [
+  "Бюрегаван",
+  "Бюрэгаван"
+ ],
+ "lat": 40.31335,
+ "lon": 44.59685,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 11819,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szptqf",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2953,
+  44.5732,
+  40.3314,
+  44.6205
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 21,
+ "osm_named": 21,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 21
+ },
+ "collected": "2026-09-13 05:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

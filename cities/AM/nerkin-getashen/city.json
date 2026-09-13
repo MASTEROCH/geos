@@ -1,0 +1,39 @@
+{
+ "id": 616375,
+ "name": "Nerkin Getashen",
+ "ascii": "Nerkin Getashen",
+ "name_ru": "Неркин Геташен",
+ "alt_ru": [
+  "Неркин Геташен"
+ ],
+ "lat": 40.14172,
+ "lon": 45.27087,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 9410,
+ "elevation": 1960,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "tp0hq5",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1237,
+  45.2473,
+  40.1597,
+  45.2944
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 05:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,39 @@
+{
+ "id": 616535,
+ "name": "Hnaberd",
+ "ascii": "Hnaberd",
+ "name_ru": "Хнаберд",
+ "alt_ru": [
+  "Хнаберд"
+ ],
+ "lat": 40.63721,
+ "lon": 44.14058,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 2120,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szprhm",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.6192,
+  44.1168,
+  40.6552,
+  44.1643
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 07:07",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

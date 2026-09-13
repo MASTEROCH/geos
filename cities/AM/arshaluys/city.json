@@ -1,0 +1,37 @@
+{
+ "id": 616898,
+ "name": "Arshaluys",
+ "ascii": "Arshaluys",
+ "name_ru": "Аршалуйс",
+ "alt_ru": [
+  "Аршалуйс"
+ ],
+ "lat": 40.16949,
+ "lon": 44.21393,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 4300,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szpkw0",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1515,
+  44.1904,
+  40.1875,
+  44.2375
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

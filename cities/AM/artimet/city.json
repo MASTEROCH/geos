@@ -1,0 +1,42 @@
+{
+ "id": 616872,
+ "name": "Artimet",
+ "ascii": "Artimet",
+ "name_ru": "Артимет",
+ "alt_ru": [
+  "Алибеклу",
+  "Артимет",
+  "Атарбекян"
+ ],
+ "lat": 40.15008,
+ "lon": 44.26672,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2098,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szpkrm",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1321,
+  44.2431,
+  40.1681,
+  44.2903
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 7,
+ "osm_with_site": 0,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "coffee": 2
+ },
+ "collected": "2026-09-13 07:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

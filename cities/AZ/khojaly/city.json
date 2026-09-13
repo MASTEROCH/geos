@@ -1,0 +1,48 @@
+{
+ "id": 147774,
+ "name": "Khojaly",
+ "ascii": "Khojaly",
+ "name_ru": "Ходжалы",
+ "alt_ru": [
+  "Ходжалинская",
+  "Ходжалинский район",
+  "Ходжалы",
+  "Хожалы",
+  "Хожалӣ"
+ ],
+ "lat": 39.91361,
+ "lon": 46.79213,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Khojaly",
+ "population": 5810,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp170f",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.8956,
+  46.7686,
+  39.9316,
+  46.8156
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 29,
+ "osm_named": 28,
+ "osm_with_site": 0,
+ "osm_with_hours": 20,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 4,
+  "shop": 14,
+  "med": 7,
+  "beauty": 2,
+  "food": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

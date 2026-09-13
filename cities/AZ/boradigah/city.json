@@ -1,0 +1,37 @@
+{
+ "id": 148323,
+ "name": "Boradigah",
+ "ascii": "Boradigah",
+ "name_ru": "Борадигях",
+ "alt_ru": [
+  "Борадигях"
+ ],
+ "lat": 38.93013,
+ "lon": 48.7092,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Masally",
+ "population": 5904,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2013-03-05",
+ "geohash": "tnftkr",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.9121,
+  48.686,
+  38.9481,
+  48.7324
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

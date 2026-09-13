@@ -1,0 +1,49 @@
+{
+ "id": 148565,
+ "name": "Şirvan",
+ "ascii": "Sirvan",
+ "name_ru": "Сирван",
+ "alt_ru": [
+  "Али-Байрамлы",
+  "Сирван",
+  "Ширван"
+ ],
+ "lat": 39.93778,
+ "lon": 48.929,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Shirvan",
+ "population": 70220,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp4g1q",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.8947,
+  48.8728,
+  39.9809,
+  48.9852
+ ],
+ "radius_km": 4.8,
+ "preset": "cityhub",
+ "osm_total": 385,
+ "osm_named": 381,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 52,
+  "food": 23,
+  "beauty": 7,
+  "shop": 256,
+  "art": 3,
+  "med": 36,
+  "music": 3,
+  "gym": 3,
+  "travel": 2
+ },
+ "collected": "2026-09-13 07:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 616712,
+ "name": "Dzoraghbyur",
+ "ascii": "Dzoraghbyur",
+ "name_ru": "Дзорахбюр",
+ "alt_ru": [
+  "Дзорахбюр"
+ ],
+ "lat": 40.2004,
+ "lon": 44.63438,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 2948,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szpsxw",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1824,
+  44.6108,
+  40.2184,
+  44.658
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 5,
+ "osm_with_site": 1,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 7,
+  "food": 5,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:57",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

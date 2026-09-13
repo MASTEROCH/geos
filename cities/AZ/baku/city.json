@@ -1,0 +1,53 @@
+{
+ "id": 587084,
+ "name": "Baku",
+ "ascii": "Baku",
+ "name_ru": "Баку",
+ "alt_ru": [
+  "Баку",
+  "Бакы",
+  "Баҡы",
+  "Боку"
+ ],
+ "lat": 40.37767,
+ "lon": 49.89201,
+ "feature": "PPLC",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 2351300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-02",
+ "geohash": "tp5mxq",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.1524,
+  49.5964,
+  40.6029,
+  50.1877
+ ],
+ "radius_km": 25.0,
+ "preset": "cityhub",
+ "osm_total": 2352,
+ "osm_named": 2093,
+ "osm_with_site": 365,
+ "osm_with_hours": 586,
+ "osm_with_socials": 198,
+ "niches": {
+  "food": 354,
+  "shop": 1052,
+  "coffee": 334,
+  "bar": 81,
+  "travel": 30,
+  "kids": 21,
+  "beauty": 99,
+  "med": 297,
+  "art": 36,
+  "music": 8,
+  "gym": 39,
+  "sea": 1
+ },
+ "collected": "2026-09-13 07:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

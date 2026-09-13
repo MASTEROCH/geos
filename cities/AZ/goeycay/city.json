@@ -1,0 +1,48 @@
+{
+ "id": 586427,
+ "name": "Göyçay",
+ "ascii": "Goeycay",
+ "name_ru": "Геокчай",
+ "alt_ru": [
+  "Геокчай"
+ ],
+ "lat": 40.65055,
+ "lon": 47.74219,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Göyçay",
+ "population": 42500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-07-02",
+ "geohash": "tp1zq2",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.617,
+  47.698,
+  40.6841,
+  47.7864
+ ],
+ "radius_km": 3.7,
+ "preset": "cityhub",
+ "osm_total": 106,
+ "osm_named": 101,
+ "osm_with_site": 2,
+ "osm_with_hours": 7,
+ "osm_with_socials": 1,
+ "niches": {
+  "coffee": 18,
+  "beauty": 1,
+  "med": 12,
+  "food": 10,
+  "shop": 55,
+  "travel": 2,
+  "bar": 1,
+  "gym": 3,
+  "art": 3,
+  "music": 1
+ },
+ "collected": "2026-09-13 07:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

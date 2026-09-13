@@ -1,0 +1,40 @@
+{
+ "id": 174714,
+ "name": "Vosketap",
+ "ascii": "Vosketap",
+ "name_ru": "Вскетап",
+ "alt_ru": [
+  "Вскетап"
+ ],
+ "lat": 39.88114,
+ "lon": 44.64917,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 5065,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-20",
+ "geohash": "szpfbh",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8631,
+  44.6257,
+  39.8992,
+  44.6727
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 11,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 14,
+  "med": 3
+ },
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

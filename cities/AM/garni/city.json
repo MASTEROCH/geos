@@ -1,0 +1,43 @@
+{
+ "id": 616697,
+ "name": "Garni",
+ "ascii": "Garni",
+ "name_ru": "Гарни",
+ "alt_ru": [
+  "Гарни"
+ ],
+ "lat": 40.11931,
+ "lon": 44.73442,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 8347,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-06-20",
+ "geohash": "szpu1z",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1013,
+  44.7109,
+  40.1373,
+  44.758
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 53,
+ "osm_named": 32,
+ "osm_with_site": 4,
+ "osm_with_hours": 11,
+ "osm_with_socials": 2,
+ "niches": {
+  "food": 17,
+  "travel": 4,
+  "shop": 23,
+  "med": 4,
+  "coffee": 5
+ },
+ "collected": "2026-09-13 05:10",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

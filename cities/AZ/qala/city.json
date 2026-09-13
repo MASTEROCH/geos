@@ -1,0 +1,47 @@
+{
+ "id": 586289,
+ "name": "Qala",
+ "ascii": "Qala",
+ "name_ru": "Кала",
+ "alt_ru": [
+  "Кала"
+ ],
+ "lat": 40.44256,
+ "lon": 50.16759,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 2709,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-26",
+ "geohash": "tp5wjd",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4245,
+  50.1439,
+  40.4606,
+  50.1913
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 66,
+ "osm_named": 65,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "shop": 45,
+  "beauty": 2,
+  "coffee": 7,
+  "med": 3,
+  "bar": 1,
+  "art": 4,
+  "music": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

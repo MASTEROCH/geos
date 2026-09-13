@@ -1,0 +1,49 @@
+{
+ "id": 586573,
+ "name": "Gadabay",
+ "ascii": "Gadabay",
+ "name_ru": "Кедабек",
+ "alt_ru": [
+  "Кедабек",
+  "Кядабек"
+ ],
+ "lat": 40.57055,
+ "lon": 45.81229,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Gadabay District",
+ "population": 14500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-27",
+ "geohash": "tp0wf3",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.551,
+  45.7865,
+  40.5901,
+  45.8381
+ ],
+ "radius_km": 2.2,
+ "preset": "cityhub",
+ "osm_total": 146,
+ "osm_named": 133,
+ "osm_with_site": 11,
+ "osm_with_hours": 4,
+ "osm_with_socials": 5,
+ "niches": {
+  "shop": 73,
+  "coffee": 23,
+  "med": 11,
+  "art": 5,
+  "music": 3,
+  "food": 11,
+  "travel": 11,
+  "beauty": 5,
+  "kids": 1,
+  "gym": 3
+ },
+ "collected": "2026-09-13 09:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,43 @@
+{
+ "id": 616244,
+ "name": "Sevkar",
+ "ascii": "Sevkar",
+ "name_ru": "Севкар",
+ "alt_ru": [
+  "Гараташ",
+  "Карадаш",
+  "Каракая",
+  "Севкар",
+  "Харадах"
+ ],
+ "lat": 41.01599,
+ "lon": 45.14185,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 2234,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-06-21",
+ "geohash": "tp2174",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.998,
+  45.118,
+  41.034,
+  45.1657
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 06:53",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

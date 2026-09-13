@@ -1,0 +1,38 @@
+{
+ "id": 823748,
+ "name": "Azatamut",
+ "ascii": "Azatamut",
+ "name_ru": "Азатамут",
+ "alt_ru": [
+  "Азатамут",
+  "Бентонит комбинати аван"
+ ],
+ "lat": 40.98847,
+ "lon": 45.2067,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 2923,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "tp21ht",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.9705,
+  45.1828,
+  41.0065,
+  45.2306
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:57",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

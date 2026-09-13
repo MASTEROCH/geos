@@ -1,0 +1,41 @@
+{
+ "id": 616329,
+ "name": "Ohanavan",
+ "ascii": "Ohanavan",
+ "name_ru": "Оганаван",
+ "alt_ru": [
+  "Оганаван"
+ ],
+ "lat": 40.3485,
+ "lon": 44.38717,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 2738,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szptd1",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3305,
+  44.3635,
+  40.3665,
+  44.4108
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 12,
+ "osm_named": 10,
+ "osm_with_site": 4,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 3,
+  "travel": 5,
+  "gym": 4
+ },
+ "collected": "2026-09-13 06:33",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

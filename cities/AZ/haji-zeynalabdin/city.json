@@ -1,0 +1,45 @@
+{
+ "id": 585379,
+ "name": "Haji Zeynalabdin",
+ "ascii": "Haji Zeynalabdin",
+ "name_ru": "Гаджи-Зейналабдин",
+ "alt_ru": [
+  "Гаджи-Зейналабдин"
+ ],
+ "lat": 40.62333,
+ "lon": 49.55861,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Sumqayit",
+ "population": 29900,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5ppe",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5952,
+  49.5216,
+  40.6515,
+  49.5957
+ ],
+ "radius_km": 3.1,
+ "preset": "cityhub",
+ "osm_total": 93,
+ "osm_named": 89,
+ "osm_with_site": 1,
+ "osm_with_hours": 3,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 7,
+  "shop": 62,
+  "coffee": 11,
+  "travel": 5,
+  "food": 6,
+  "music": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 08:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

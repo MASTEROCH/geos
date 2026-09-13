@@ -1,0 +1,49 @@
+{
+ "id": 586631,
+ "name": "Jorat",
+ "ascii": "Jorat",
+ "name_ru": "Джорат",
+ "alt_ru": [
+  "Джорат"
+ ],
+ "lat": 40.57176,
+ "lon": 49.70509,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Sumqayit",
+ "population": 18500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5qg1",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5496,
+  49.676,
+  40.5939,
+  49.7342
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 295,
+ "osm_named": 249,
+ "osm_with_site": 14,
+ "osm_with_hours": 32,
+ "osm_with_socials": 4,
+ "niches": {
+  "med": 26,
+  "gym": 7,
+  "food": 67,
+  "shop": 126,
+  "coffee": 32,
+  "kids": 4,
+  "art": 2,
+  "beauty": 9,
+  "bar": 4,
+  "travel": 3,
+  "sea": 15
+ },
+ "collected": "2026-09-13 08:55",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

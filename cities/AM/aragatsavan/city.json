@@ -1,0 +1,39 @@
+{
+ "id": 616945,
+ "name": "Aragatsavan",
+ "ascii": "Aragatsavan",
+ "name_ru": "Арагац",
+ "alt_ru": [
+  "Арагац"
+ ],
+ "lat": 40.32121,
+ "lon": 43.66205,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 6580,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-30",
+ "geohash": "szpj3s",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3032,
+  43.6384,
+  40.3392,
+  43.6857
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 3
+ },
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

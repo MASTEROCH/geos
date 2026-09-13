@@ -1,0 +1,49 @@
+{
+ "id": 586318,
+ "name": "Ismayilli",
+ "ascii": "Ismayilli",
+ "name_ru": "Исмаилли",
+ "alt_ru": [
+  "Исмаилли",
+  "Исмаиллиси",
+  "Исмаиллы",
+  "Исмаилӣ"
+ ],
+ "lat": 40.78485,
+ "lon": 48.15141,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Ismayilli District",
+ "population": 27500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp60p8",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.7579,
+  48.1158,
+  40.8118,
+  48.187
+ ],
+ "radius_km": 3.0,
+ "preset": "cityhub",
+ "osm_total": 87,
+ "osm_named": 83,
+ "osm_with_site": 3,
+ "osm_with_hours": 4,
+ "osm_with_socials": 2,
+ "niches": {
+  "art": 9,
+  "food": 17,
+  "shop": 42,
+  "travel": 2,
+  "music": 3,
+  "coffee": 3,
+  "med": 8,
+  "gym": 3
+ },
+ "collected": "2026-09-13 08:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

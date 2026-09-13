@@ -1,0 +1,40 @@
+{
+ "id": 585892,
+ "name": "Gilazi",
+ "ascii": "Gilazi",
+ "name_ru": "Килязи",
+ "alt_ru": [
+  "Килязи"
+ ],
+ "lat": 40.87392,
+ "lon": 49.34376,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Xızı",
+ "population": 3400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp70db",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.8559,
+  49.3199,
+  40.8919,
+  49.3676
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

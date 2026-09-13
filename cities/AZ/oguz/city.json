@@ -1,0 +1,49 @@
+{
+ "id": 585333,
+ "name": "Oğuz",
+ "ascii": "Oguz",
+ "name_ru": "Огуз",
+ "alt_ru": [
+  "Варташен",
+  "Огуз"
+ ],
+ "lat": 41.07128,
+ "lon": 47.46528,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Oğuz",
+ "population": 6600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-21",
+ "geohash": "tp3c8h",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.0533,
+  47.4414,
+  41.0893,
+  47.4892
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 98,
+ "osm_named": 95,
+ "osm_with_site": 2,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 61,
+  "med": 7,
+  "bar": 1,
+  "coffee": 12,
+  "beauty": 4,
+  "food": 5,
+  "art": 5,
+  "music": 1,
+  "travel": 1,
+  "gym": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

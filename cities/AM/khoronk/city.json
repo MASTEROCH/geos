@@ -1,0 +1,37 @@
+{
+ "id": 616484,
+ "name": "Khoronk",
+ "ascii": "Khoronk",
+ "name_ru": "Хоронк",
+ "alt_ru": [
+  "Хоронк"
+ ],
+ "lat": 40.13611,
+ "lon": 44.24731,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2964,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpkqf",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1181,
+  44.2237,
+  40.1541,
+  44.2709
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:56",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,37 @@
+{
+ "id": 616061,
+ "name": "Yeghegnut",
+ "ascii": "Yeghegnut",
+ "name_ru": "Ехегнут",
+ "alt_ru": [
+  "Ехегнут"
+ ],
+ "lat": 40.08893,
+ "lon": 44.16669,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2379,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-31",
+ "geohash": "szpkj1",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0709,
+  44.1431,
+  40.1069,
+  44.1902
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 06:47",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

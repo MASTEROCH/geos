@@ -1,0 +1,41 @@
+{
+ "id": 616682,
+ "name": "Geghanist",
+ "ascii": "Geghanist",
+ "name_ru": "Геханист",
+ "alt_ru": [
+  "Геханист"
+ ],
+ "lat": 40.14587,
+ "lon": 44.43048,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 3419,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szps7h",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1279,
+  44.4069,
+  40.1639,
+  44.4541
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 16,
+ "osm_named": 10,
+ "osm_with_site": 5,
+ "osm_with_hours": 6,
+ "osm_with_socials": 3,
+ "niches": {
+  "shop": 13,
+  "beauty": 1,
+  "art": 2
+ },
+ "collected": "2026-09-13 05:39",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,40 @@
+{
+ "id": 823793,
+ "name": "Sasunik",
+ "ascii": "Sasunik",
+ "name_ru": "Сасуник",
+ "alt_ru": [
+  "Сасуник"
+ ],
+ "lat": 40.25012,
+ "lon": 44.34448,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 2571,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpscp",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2321,
+  44.3209,
+  40.2681,
+  44.3681
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 4,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 3,
+  "food": 1
+ },
+ "collected": "2026-09-13 06:41",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

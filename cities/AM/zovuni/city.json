@@ -1,0 +1,48 @@
+{
+ "id": 823795,
+ "name": "Zovuni",
+ "ascii": "Zovuni",
+ "name_ru": "Зовуни",
+ "alt_ru": [
+  "Зовуни"
+ ],
+ "lat": 40.23307,
+ "lon": 44.51129,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 7483,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-20",
+ "geohash": "szpsuu",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2151,
+  44.4877,
+  40.2511,
+  44.5349
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 140,
+ "osm_named": 102,
+ "osm_with_site": 20,
+ "osm_with_hours": 43,
+ "osm_with_socials": 8,
+ "niches": {
+  "shop": 87,
+  "med": 16,
+  "food": 10,
+  "kids": 2,
+  "coffee": 9,
+  "beauty": 5,
+  "art": 4,
+  "gym": 4,
+  "travel": 2,
+  "bar": 1
+ },
+ "collected": "2026-09-13 05:12",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

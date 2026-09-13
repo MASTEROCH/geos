@@ -1,0 +1,42 @@
+{
+ "id": 147425,
+ "name": "Neftçala",
+ "ascii": "Neftcala",
+ "name_ru": "Нефтчала",
+ "alt_ru": [
+  "Нефтечала",
+  "Нефтчала",
+  "Нефтчола"
+ ],
+ "lat": 39.3768,
+ "lon": 49.247,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Neftçala",
+ "population": 18661,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp5008",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3546,
+  49.2183,
+  39.399,
+  49.2757
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1,
+  "med": 2
+ },
+ "collected": "2026-09-13 08:55",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

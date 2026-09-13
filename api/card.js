@@ -5,6 +5,7 @@
 //   Клиент шлёт только id: ни названия, ни картинки, ни цены — подменить карточку нельзя.
 
 const PLACES = require("./_data/places.json");
+const osm = require("./_osm.js");
 const CAT = {coffee:"Кофе и десерты",food:"Еда",bar:"Бары и ночь",gym:"Спорт",beauty:"Красота",spa:"СПА и бани",shop:"Магазины",sea:"Пляжи и вода",art:"Музеи и искусство",music:"Музыка и сцена",travel:"Что посмотреть",med:"Здоровье и аптеки",kids:"Детям",_unmapped:"Место"};
 const esc = s => String(s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let byId = null;
@@ -12,8 +13,11 @@ let byId = null;
 module.exports = async (req, res) => {
   if (!byId) { byId = new Map(); for (const p of PLACES) byId.set(p.i, p); }
   const id = String(req.query.id || "");
-  const p = byId.get(id);
+  let p = byId.get(id);
   const host = `https://${req.headers["x-forwarded-host"] || req.headers.host}`;
+  if (!p) { // места нет в собранных городах — живая карточка из OSM по id (любой объект планеты)
+    try { const r = await osm.byId(id); if (r) p = { i: id, n: r[0], c: osm.NICHE_KEYS[r[15]], la: r[1], lo: r[2], ci: r[3] || "OpenStreetMap", p: r[4], s: r[5], h: r[6], so: r[7] }; } catch {}
+  }
   if (!p) { res.setHeader("Cache-Control", "public, s-maxage=600"); return res.status(404).send("Нет такого места"); }
   const ua = String(req.headers["user-agent"] || "");
   const bot = /Telegram|facebookexternalhit|WhatsApp|Twitterbot|Slackbot|Discordbot|LinkedIn|vkShare|bot|preview/i.test(ua);

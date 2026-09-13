@@ -1,0 +1,45 @@
+{
+ "id": 616721,
+ "name": "Jrvezh",
+ "ascii": "Jrvezh",
+ "name_ru": "Джрвеж",
+ "alt_ru": [
+  "Джрвеж"
+ ],
+ "lat": 40.18889,
+ "lon": 44.62414,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 6987,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpsxk",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1709,
+  44.6006,
+  40.2069,
+  44.6477
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 26,
+ "osm_named": 21,
+ "osm_with_site": 1,
+ "osm_with_hours": 7,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 17,
+  "shop": 2,
+  "art": 1,
+  "travel": 3,
+  "coffee": 1,
+  "kids": 1,
+  "music": 1
+ },
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

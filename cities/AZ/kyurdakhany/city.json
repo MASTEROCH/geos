@@ -1,0 +1,46 @@
+{
+ "id": 585688,
+ "name": "Kyurdakhany",
+ "ascii": "Kyurdakhany",
+ "name_ru": "Куьрдаьхани",
+ "alt_ru": [
+  "Куьрдаьхани",
+  "Кюрдаханы"
+ ],
+ "lat": 40.54833,
+ "lon": 49.92194,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 6600,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-21",
+ "geohash": "tp5w8j",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5303,
+  49.8982,
+  40.5663,
+  49.9457
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 55,
+ "osm_named": 54,
+ "osm_with_site": 1,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 40,
+  "med": 3,
+  "coffee": 5,
+  "food": 4,
+  "gym": 1,
+  "music": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

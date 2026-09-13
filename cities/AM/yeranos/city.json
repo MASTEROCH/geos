@@ -1,0 +1,37 @@
+{
+ "id": 616056,
+ "name": "Yeranos",
+ "ascii": "Yeranos",
+ "name_ru": "Еранос",
+ "alt_ru": [
+  "Еранос"
+ ],
+ "lat": 40.20428,
+ "lon": 45.19209,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 5337,
+ "elevation": 2000,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-30",
+ "geohash": "tp0hsq",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1863,
+  45.1685,
+  40.2223,
+  45.2157
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

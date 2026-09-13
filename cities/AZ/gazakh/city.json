@@ -1,0 +1,50 @@
+{
+ "id": 585226,
+ "name": "Gazakh",
+ "ascii": "Gazakh",
+ "name_ru": "Газах",
+ "alt_ru": [
+  "Газах",
+  "Казак",
+  "Казах"
+ ],
+ "lat": 41.09246,
+ "lon": 45.36561,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Qazax",
+ "population": 20800,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp23b2",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.069,
+  45.3345,
+  41.1159,
+  45.3967
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 265,
+ "osm_named": 249,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 156,
+  "art": 10,
+  "med": 33,
+  "coffee": 39,
+  "travel": 8,
+  "food": 13,
+  "gym": 3,
+  "music": 1,
+  "bar": 1,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 08:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

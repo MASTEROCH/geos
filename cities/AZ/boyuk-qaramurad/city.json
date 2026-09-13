@@ -1,0 +1,40 @@
+{
+ "id": 615469,
+ "name": "Böyük Qaramurad",
+ "ascii": "Boyuk Qaramurad",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 40.57626,
+ "lon": 45.63727,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Gadabay District",
+ "population": 2684,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-27",
+ "geohash": "tp0qyd",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5582,
+  45.6135,
+  40.5943,
+  45.661
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 6,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 2,
+  "shop": 2,
+  "coffee": 1,
+  "music": 1
+ },
+ "collected": "2026-09-13 09:30",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

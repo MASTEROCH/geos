@@ -1,0 +1,39 @@
+{
+ "id": 174713,
+ "name": "Vostan",
+ "ascii": "Vostan",
+ "name_ru": "Востан",
+ "alt_ru": [
+  "Востан"
+ ],
+ "lat": 39.96515,
+ "lon": 44.55937,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 3272,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpemg",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.9471,
+  44.5359,
+  39.9832,
+  44.5829
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 2,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2
+ },
+ "collected": "2026-09-13 05:39",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

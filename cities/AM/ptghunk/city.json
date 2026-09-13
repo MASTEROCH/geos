@@ -1,0 +1,43 @@
+{
+ "id": 616289,
+ "name": "Ptghunk",
+ "ascii": "Ptghunk",
+ "name_ru": "Птгунк",
+ "alt_ru": [
+  "Птгунк"
+ ],
+ "lat": 40.16388,
+ "lon": 44.36389,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2006,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szps3x",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1459,
+  44.3403,
+  40.1819,
+  44.3875
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 22,
+ "osm_named": 4,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 14,
+  "beauty": 2,
+  "med": 2,
+  "food": 2,
+  "art": 2
+ },
+ "collected": "2026-09-13 07:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

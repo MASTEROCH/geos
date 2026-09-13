@@ -1,0 +1,47 @@
+{
+ "id": 585145,
+ "name": "Saray",
+ "ascii": "Saray",
+ "name_ru": "Сарай",
+ "alt_ru": [
+  "Сарай"
+ ],
+ "lat": 40.53299,
+ "lon": 49.71681,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 37800,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5qe6",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5014,
+  49.6752,
+  40.5646,
+  49.7584
+ ],
+ "radius_km": 3.5,
+ "preset": "cityhub",
+ "osm_total": 175,
+ "osm_named": 175,
+ "osm_with_site": 6,
+ "osm_with_hours": 8,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 129,
+  "bar": 1,
+  "art": 2,
+  "food": 16,
+  "med": 7,
+  "coffee": 13,
+  "beauty": 5,
+  "gym": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 08:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

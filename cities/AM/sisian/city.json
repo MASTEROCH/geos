@@ -1,0 +1,45 @@
+{
+ "id": 174763,
+ "name": "Sisian",
+ "ascii": "Sisian",
+ "name_ru": "Сисиан",
+ "alt_ru": [
+  "Сисиан"
+ ],
+ "lat": 39.52191,
+ "lon": 46.02696,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Syunik",
+ "population": 13176,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-03",
+ "geohash": "tp08z6",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.5032,
+  46.0028,
+  39.5406,
+  46.0512
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 45,
+ "osm_named": 24,
+ "osm_with_site": 3,
+ "osm_with_hours": 5,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 21,
+  "med": 7,
+  "art": 6,
+  "coffee": 4,
+  "beauty": 2,
+  "food": 4,
+  "travel": 1
+ },
+ "collected": "2026-09-13 05:07",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

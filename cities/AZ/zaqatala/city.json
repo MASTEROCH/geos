@@ -1,0 +1,50 @@
+{
+ "id": 584596,
+ "name": "Zaqatala",
+ "ascii": "Zaqatala",
+ "name_ru": "Загатала",
+ "alt_ru": [
+  "Загатала",
+  "Закатала",
+  "Закаталы"
+ ],
+ "lat": 41.6316,
+ "lon": 46.64479,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Zaqatala District",
+ "population": 32171,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-09-01",
+ "geohash": "tp3hv6",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.6024,
+  46.6058,
+  41.6608,
+  46.6838
+ ],
+ "radius_km": 3.2,
+ "preset": "cityhub",
+ "osm_total": 107,
+ "osm_named": 103,
+ "osm_with_site": 7,
+ "osm_with_hours": 7,
+ "osm_with_socials": 4,
+ "niches": {
+  "gym": 3,
+  "art": 8,
+  "food": 18,
+  "shop": 49,
+  "med": 12,
+  "coffee": 7,
+  "travel": 5,
+  "music": 3,
+  "bar": 1,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 08:34",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

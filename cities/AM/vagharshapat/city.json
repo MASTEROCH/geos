@@ -1,0 +1,48 @@
+{
+ "id": 616062,
+ "name": "Vagharshapat",
+ "ascii": "Vagharshapat",
+ "name_ru": "Вагаршапат",
+ "alt_ru": [
+  "Вагаршапат",
+  "Эчмиадзин",
+  "Эчмиацин"
+ ],
+ "lat": 40.16557,
+ "lon": 44.29462,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 47989,
+ "elevation": 853,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpkrz",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1299,
+  44.248,
+  40.2012,
+  44.3412
+ ],
+ "radius_km": 4.0,
+ "preset": "cityhub",
+ "osm_total": 275,
+ "osm_named": 136,
+ "osm_with_site": 21,
+ "osm_with_hours": 45,
+ "osm_with_socials": 8,
+ "niches": {
+  "art": 12,
+  "med": 28,
+  "food": 22,
+  "shop": 172,
+  "beauty": 17,
+  "kids": 3,
+  "coffee": 17,
+  "travel": 4
+ },
+ "collected": "2026-09-13 05:00",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

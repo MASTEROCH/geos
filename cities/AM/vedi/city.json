@@ -1,0 +1,45 @@
+{
+ "id": 174725,
+ "name": "Vedi",
+ "ascii": "Vedi",
+ "name_ru": "Веди",
+ "alt_ru": [
+  "Веди",
+  "Веды"
+ ],
+ "lat": 39.91291,
+ "lon": 44.72083,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 12060,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpg19",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8949,
+  44.6973,
+  39.9309,
+  44.7443
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 45,
+ "osm_named": 18,
+ "osm_with_site": 1,
+ "osm_with_hours": 4,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 26,
+  "coffee": 11,
+  "med": 5,
+  "music": 1,
+  "food": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 05:09",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

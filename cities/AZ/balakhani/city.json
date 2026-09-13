@@ -1,0 +1,48 @@
+{
+ "id": 587071,
+ "name": "Balakhani",
+ "ascii": "Balakhani",
+ "name_ru": "Балаханы",
+ "alt_ru": [
+  "Балаханы"
+ ],
+ "lat": 40.46344,
+ "lon": 49.91893,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 10863,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-26",
+ "geohash": "tp5qpy",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4454,
+  49.8952,
+  40.4815,
+  49.9426
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 109,
+ "osm_named": 109,
+ "osm_with_site": 0,
+ "osm_with_hours": 4,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 72,
+  "coffee": 18,
+  "art": 1,
+  "travel": 2,
+  "beauty": 1,
+  "med": 6,
+  "food": 6,
+  "gym": 1,
+  "music": 1,
+  "bar": 1
+ },
+ "collected": "2026-09-13 09:19",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

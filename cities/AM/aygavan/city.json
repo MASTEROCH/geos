@@ -1,0 +1,41 @@
+{
+ "id": 174968,
+ "name": "Aygavan",
+ "ascii": "Aygavan",
+ "name_ru": "Айгаван",
+ "alt_ru": [
+  "Айгаван"
+ ],
+ "lat": 39.87327,
+ "lon": 44.66984,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 4547,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpfb6",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8553,
+  44.6464,
+  39.8913,
+  44.6933
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1,
+  "shop": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

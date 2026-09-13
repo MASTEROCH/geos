@@ -1,0 +1,49 @@
+{
+ "id": 586925,
+ "name": "Buzovna",
+ "ascii": "Buzovna",
+ "name_ru": "Бузовна",
+ "alt_ru": [
+  "Бузовна"
+ ],
+ "lat": 40.51903,
+ "lon": 50.11438,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 24795,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2014-06-27",
+ "geohash": "tp5ws2",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4934,
+  50.0807,
+  40.5446,
+  50.1481
+ ],
+ "radius_km": 2.8,
+ "preset": "cityhub",
+ "osm_total": 251,
+ "osm_named": 239,
+ "osm_with_site": 5,
+ "osm_with_hours": 13,
+ "osm_with_socials": 3,
+ "niches": {
+  "food": 30,
+  "shop": 133,
+  "med": 28,
+  "coffee": 25,
+  "music": 3,
+  "beauty": 6,
+  "gym": 4,
+  "art": 3,
+  "bar": 5,
+  "travel": 2,
+  "sea": 12
+ },
+ "collected": "2026-09-13 08:38",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

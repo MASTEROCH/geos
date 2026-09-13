@@ -1,0 +1,49 @@
+{
+ "id": 616220,
+ "name": "Shnogh",
+ "ascii": "Shnogh",
+ "name_ru": "Шаних",
+ "alt_ru": [
+  "Шаних",
+  "Шен",
+  "Шиниз",
+  "Шиних",
+  "Шинох",
+  "Шноз",
+  "Шнох"
+ ],
+ "lat": 41.14693,
+ "lon": 44.84043,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Lori",
+ "population": 2758,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-10",
+ "geohash": "szrfh6",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.1289,
+  44.8165,
+  41.1649,
+  44.8644
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 7,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 2,
+  "coffee": 1,
+  "music": 1,
+  "kids": 2,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 06:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

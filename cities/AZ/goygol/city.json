@@ -1,0 +1,49 @@
+{
+ "id": 584716,
+ "name": "Goygol",
+ "ascii": "Goygol",
+ "name_ru": "Ханлар",
+ "alt_ru": [
+  "Гейгель",
+  "Гёйгёль",
+  "Еленендорф",
+  "Ханлар"
+ ],
+ "lat": 40.58584,
+ "lon": 46.3189,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Goygol Rayon",
+ "population": 19800,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-08-29",
+ "geohash": "tp0yyh",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.563,
+  46.2888,
+  40.6087,
+  46.349
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 82,
+ "osm_named": 78,
+ "osm_with_site": 1,
+ "osm_with_hours": 4,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 3,
+  "coffee": 14,
+  "med": 12,
+  "shop": 27,
+  "food": 16,
+  "art": 7,
+  "gym": 2,
+  "music": 1
+ },
+ "collected": "2026-09-13 08:51",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

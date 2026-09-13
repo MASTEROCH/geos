@@ -1,0 +1,44 @@
+{
+ "id": 616309,
+ "name": "Panik",
+ "ascii": "Panik",
+ "name_ru": "Паник",
+ "alt_ru": [
+  "Зварчадзор",
+  "Кафтарлы",
+  "Паник"
+ ],
+ "lat": 40.66388,
+ "lon": 43.97089,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 2883,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-14",
+ "geohash": "szpr2d",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.6459,
+  43.9471,
+  40.6819,
+  43.9946
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 2,
+  "shop": 1,
+  "art": 2,
+  "kids": 1
+ },
+ "collected": "2026-09-13 06:18",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

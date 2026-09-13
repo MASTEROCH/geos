@@ -1,0 +1,41 @@
+{
+ "id": 174828,
+ "name": "Malishka",
+ "ascii": "Malishka",
+ "name_ru": "Малишка",
+ "alt_ru": [
+  "Малишка"
+ ],
+ "lat": 39.73787,
+ "lon": 45.39058,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Vayots Dzor",
+ "population": 4585,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "tp060f",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.7199,
+  45.3671,
+  39.7559,
+  45.414
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 5,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "shop": 3,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 05:22",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

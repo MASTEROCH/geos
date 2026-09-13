@@ -1,0 +1,45 @@
+{
+ "id": 616785,
+ "name": "Charentsavan",
+ "ascii": "Charentsavan",
+ "name_ru": "Чаренцаван",
+ "alt_ru": [
+  "Чаренцаван",
+  "Чарэнцаван"
+ ],
+ "lat": 40.40289,
+ "lon": 44.64447,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 22071,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-06-24",
+ "geohash": "szptzg",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.3787,
+  44.6127,
+  40.4271,
+  44.6762
+ ],
+ "radius_km": 2.7,
+ "preset": "cityhub",
+ "osm_total": 66,
+ "osm_named": 58,
+ "osm_with_site": 2,
+ "osm_with_hours": 4,
+ "osm_with_socials": 2,
+ "niches": {
+  "med": 3,
+  "food": 4,
+  "bar": 1,
+  "shop": 56,
+  "art": 1,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 05:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

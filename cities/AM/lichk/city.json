@@ -1,0 +1,41 @@
+{
+ "id": 616471,
+ "name": "Lichk",
+ "ascii": "Lichk",
+ "name_ru": "Личк",
+ "alt_ru": [
+  "Гёлкенд",
+  "Личк"
+ ],
+ "lat": 40.15933,
+ "lon": 45.23467,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 5292,
+ "elevation": 1940,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-22",
+ "geohash": "tp0hmq",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1413,
+  45.2111,
+  40.1773,
+  45.2582
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 2,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "shop": 3
+ },
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

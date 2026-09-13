@@ -1,0 +1,37 @@
+{
+ "id": 146862,
+ "name": "Geytepe",
+ "ascii": "Geytepe",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 39.11998,
+ "lon": 48.59383,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Jalilabad",
+ "population": 13340,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2021-08-31",
+ "geohash": "tnfw9c",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.1012,
+  48.5696,
+  39.1388,
+  48.618
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 09:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

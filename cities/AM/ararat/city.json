@@ -1,0 +1,42 @@
+{
+ "id": 174991,
+ "name": "Ararat",
+ "ascii": "Ararat",
+ "name_ru": "Арарат",
+ "alt_ru": [
+  "Арарат"
+ ],
+ "lat": 39.85494,
+ "lon": 44.6947,
+ "feature": "PPLA2",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 17598,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-16",
+ "geohash": "szpf9p",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.8334,
+  44.6666,
+  39.8765,
+  44.7228
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 30,
+ "osm_named": 27,
+ "osm_with_site": 3,
+ "osm_with_hours": 8,
+ "osm_with_socials": 2,
+ "niches": {
+  "shop": 19,
+  "med": 8,
+  "coffee": 2,
+  "food": 1
+ },
+ "collected": "2026-09-13 05:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

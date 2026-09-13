@@ -1,0 +1,41 @@
+{
+ "id": 146961,
+ "name": "Yardımlı",
+ "ascii": "Yardimli",
+ "name_ru": "Йардимли",
+ "alt_ru": [
+  "Йардимли",
+  "Йардымлы",
+  "Ярдымлы"
+ ],
+ "lat": 38.90771,
+ "lon": 48.24052,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Yardimli District",
+ "population": 7623,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tnfm3d",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.8897,
+  48.2174,
+  38.9257,
+  48.2637
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "med": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

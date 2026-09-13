@@ -1,0 +1,47 @@
+{
+ "id": 616412,
+ "name": "Mets Mantash",
+ "ascii": "Mets Mantash",
+ "name_ru": "Мец Арихвали",
+ "alt_ru": [
+  "Большой Арихвали",
+  "Манташ",
+  "Мец Айлур",
+  "Мец Арихвали",
+  "Мец Манташ"
+ ],
+ "lat": 40.64376,
+ "lon": 44.05653,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 2147,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-09",
+ "geohash": "szpr4w",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.6257,
+  44.0328,
+  40.6618,
+  44.0803
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 12,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "bar": 1,
+  "shop": 8,
+  "food": 1,
+  "coffee": 1,
+  "med": 1
+ },
+ "collected": "2026-09-13 06:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

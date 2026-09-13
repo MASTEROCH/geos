@@ -1,0 +1,48 @@
+{
+ "id": 147105,
+ "name": "Shusha",
+ "ascii": "Shusha",
+ "name_ru": "Суса",
+ "alt_ru": [
+  "Суса",
+  "Суша",
+  "Шуша"
+ ],
+ "lat": 39.76006,
+ "lon": 46.74989,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Shusha",
+ "population": 19400,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp14py",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.7374,
+  46.7204,
+  39.7827,
+  46.7794
+ ],
+ "radius_km": 2.5,
+ "preset": "cityhub",
+ "osm_total": 24,
+ "osm_named": 20,
+ "osm_with_site": 4,
+ "osm_with_hours": 5,
+ "osm_with_socials": 3,
+ "niches": {
+  "shop": 7,
+  "travel": 4,
+  "art": 3,
+  "music": 1,
+  "coffee": 3,
+  "med": 4,
+  "kids": 1,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 08:52",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

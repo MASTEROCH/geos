@@ -1,0 +1,46 @@
+{
+ "id": 616877,
+ "name": "Ashtarak",
+ "ascii": "Ashtarak",
+ "name_ru": "Аштарак",
+ "alt_ru": [
+  "Аштарак",
+  "Ащарак"
+ ],
+ "lat": 40.2976,
+ "lon": 44.36152,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 17600,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpt1r",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.276,
+  44.3332,
+  40.3192,
+  44.3898
+ ],
+ "radius_km": 2.4,
+ "preset": "cityhub",
+ "osm_total": 89,
+ "osm_named": 57,
+ "osm_with_site": 7,
+ "osm_with_hours": 10,
+ "osm_with_socials": 5,
+ "niches": {
+  "food": 14,
+  "art": 5,
+  "med": 16,
+  "shop": 44,
+  "coffee": 5,
+  "travel": 4,
+  "music": 1
+ },
+ "collected": "2026-09-13 05:05",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

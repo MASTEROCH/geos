@@ -1,0 +1,43 @@
+{
+ "id": 12238134,
+ "name": "28 May",
+ "ascii": "28 May",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 40.45761,
+ "lon": 49.64438,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 7100,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-03-18",
+ "geohash": "tp5q1t",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4396,
+  49.6207,
+  40.4756,
+  49.6681
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 65,
+ "osm_named": 63,
+ "osm_with_site": 3,
+ "osm_with_hours": 7,
+ "osm_with_socials": 2,
+ "niches": {
+  "food": 2,
+  "med": 6,
+  "coffee": 4,
+  "shop": 50,
+  "beauty": 1,
+  "art": 1,
+  "music": 1
+ },
+ "collected": "2026-09-13 09:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

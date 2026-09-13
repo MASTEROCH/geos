@@ -1,0 +1,41 @@
+{
+ "id": 616441,
+ "name": "Marmarashen",
+ "ascii": "Marmarashen",
+ "name_ru": "Мармарашен",
+ "alt_ru": [
+  "Мармарашен"
+ ],
+ "lat": 40.05829,
+ "lon": 44.47229,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 3689,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpegu",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0403,
+  44.4487,
+  40.0763,
+  44.4958
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 6,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 1,
+  "med": 1,
+  "shop": 4
+ },
+ "collected": "2026-09-13 05:34",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

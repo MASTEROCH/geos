@@ -1,0 +1,41 @@
+{
+ "id": 586935,
+ "name": "Bum",
+ "ascii": "Bum",
+ "name_ru": "Бум",
+ "alt_ru": [
+  "Бум"
+ ],
+ "lat": 41.01444,
+ "lon": 47.77806,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Qabala District",
+ "population": 5095,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2025-05-11",
+ "geohash": "tp3cr4",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.9964,
+  47.7542,
+  41.0325,
+  47.8019
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 4,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "gym": 2,
+  "art": 1,
+  "food": 1
+ },
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

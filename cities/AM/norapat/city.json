@@ -1,0 +1,42 @@
+{
+ "id": 11224304,
+ "name": "Norapat",
+ "ascii": "Norapat",
+ "name_ru": "Норапат",
+ "alt_ru": [
+  "Норапат"
+ ],
+ "lat": 40.14172,
+ "lon": 44.03332,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Armavir",
+ "population": 2466,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpk65",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1237,
+  44.0098,
+  40.1597,
+  44.0569
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 17,
+ "osm_named": 13,
+ "osm_with_site": 2,
+ "osm_with_hours": 0,
+ "osm_with_socials": 2,
+ "niches": {
+  "med": 2,
+  "coffee": 2,
+  "shop": 9,
+  "food": 4
+ },
+ "collected": "2026-09-13 06:44",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,50 @@
+{
+ "id": 585630,
+ "name": "Lokbatan",
+ "ascii": "Lokbatan",
+ "name_ru": "Локбатан",
+ "alt_ru": [
+  "Локбатан",
+  "Лоькбатан"
+ ],
+ "lat": 40.3256,
+ "lon": 49.73376,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 30694,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2021-06-02",
+ "geohash": "tp5m7t",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.2971,
+  49.6964,
+  40.3541,
+  49.7711
+ ],
+ "radius_km": 3.2,
+ "preset": "cityhub",
+ "osm_total": 370,
+ "osm_named": 284,
+ "osm_with_site": 10,
+ "osm_with_hours": 17,
+ "osm_with_socials": 2,
+ "niches": {
+  "food": 26,
+  "coffee": 39,
+  "art": 3,
+  "med": 37,
+  "shop": 242,
+  "travel": 9,
+  "beauty": 8,
+  "music": 1,
+  "gym": 3,
+  "bar": 1,
+  "sea": 1
+ },
+ "collected": "2026-09-13 08:34",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

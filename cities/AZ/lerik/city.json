@@ -1,0 +1,46 @@
+{
+ "id": 147611,
+ "name": "Lerik",
+ "ascii": "Lerik",
+ "name_ru": "Лерик",
+ "alt_ru": [
+  "Лерик"
+ ],
+ "lat": 38.77388,
+ "lon": 48.41497,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Lerik District",
+ "population": 87000,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tnfktd",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  38.7259,
+  48.3534,
+  38.8219,
+  48.4765
+ ],
+ "radius_km": 5.3,
+ "preset": "cityhub",
+ "osm_total": 30,
+ "osm_named": 24,
+ "osm_with_site": 9,
+ "osm_with_hours": 10,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 5,
+  "med": 3,
+  "food": 4,
+  "gym": 1,
+  "bar": 1,
+  "shop": 14,
+  "beauty": 1,
+  "coffee": 1
+ },
+ "collected": "2026-09-13 07:36",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

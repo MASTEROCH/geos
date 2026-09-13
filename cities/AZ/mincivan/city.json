@@ -1,0 +1,37 @@
+{
+ "id": 147504,
+ "name": "Mincivan",
+ "ascii": "Mincivan",
+ "name_ru": "Миндживан",
+ "alt_ru": [
+  "Миндживан"
+ ],
+ "lat": 39.03023,
+ "lon": 46.72329,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Zangilan District",
+ "population": 6353,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-01-23",
+ "geohash": "tncnp1",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.0122,
+  46.7001,
+  39.0482,
+  46.7465
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:26",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

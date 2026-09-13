@@ -1,0 +1,46 @@
+{
+ "id": 587378,
+ "name": "Ağdaş",
+ "ascii": "Agdas",
+ "name_ru": "Агдаш",
+ "alt_ru": [
+  "Агдаш"
+ ],
+ "lat": 40.64699,
+ "lon": 47.4738,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Ağdaş",
+ "population": 23528,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tp1z0r",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.622,
+  47.4409,
+  40.6719,
+  47.5067
+ ],
+ "radius_km": 2.8,
+ "preset": "cityhub",
+ "osm_total": 85,
+ "osm_named": 84,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 48,
+  "coffee": 14,
+  "med": 14,
+  "gym": 2,
+  "food": 4,
+  "art": 1,
+  "music": 1,
+  "travel": 1
+ },
+ "collected": "2026-09-13 08:45",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

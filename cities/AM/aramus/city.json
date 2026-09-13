@@ -1,0 +1,40 @@
+{
+ "id": 616936,
+ "name": "Aramus",
+ "ascii": "Aramus",
+ "name_ru": "Арамус",
+ "alt_ru": [
+  "Арамус"
+ ],
+ "lat": 40.25095,
+ "lon": 44.66351,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 4129,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpubr",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2329,
+  44.6399,
+  40.269,
+  44.6871
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 18,
+ "osm_named": 17,
+ "osm_with_site": 0,
+ "osm_with_hours": 1,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 14,
+  "food": 4
+ },
+ "collected": "2026-09-13 05:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,46 @@
+{
+ "id": 616801,
+ "name": "Berdavan",
+ "ascii": "Berdavan",
+ "name_ru": "Бердаван",
+ "alt_ru": [
+  "Берда",
+  "Бердаван",
+  "Бердагюх",
+  "Калача",
+  "Халайчи",
+  "Халача"
+ ],
+ "lat": 41.20503,
+ "lon": 44.99967,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 3343,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "szrfrv",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.187,
+  44.9757,
+  41.223,
+  45.0236
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 2,
+ "osm_with_socials": 0,
+ "niches": {
+  "art": 1,
+  "food": 1,
+  "shop": 1
+ },
+ "collected": "2026-09-13 05:39",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

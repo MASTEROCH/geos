@@ -1,0 +1,38 @@
+{
+ "id": 147307,
+ "name": "Qaraçala",
+ "ascii": "Qaracala",
+ "name_ru": null,
+ "alt_ru": [],
+ "lat": 39.81614,
+ "lon": 48.93792,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Salyan District",
+ "population": 4211,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp4f98",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.7981,
+  48.9145,
+  39.8342,
+  48.9614
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 3,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "coffee": 1,
+  "shop": 2
+ },
+ "collected": "2026-09-13 09:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

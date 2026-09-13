@@ -1,0 +1,44 @@
+{
+ "id": 586432,
+ "name": "Goradil",
+ "ascii": "Goradil",
+ "name_ru": "Гоьраьдил",
+ "alt_ru": [
+  "Гоьраьдил"
+ ],
+ "lat": 40.54861,
+ "lon": 49.82972,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 2000,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-05-21",
+ "geohash": "tp5qtv",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.5306,
+  49.806,
+  40.5666,
+  49.8534
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 51,
+ "osm_named": 47,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 9,
+  "shop": 22,
+  "sea": 6,
+  "travel": 2,
+  "med": 4,
+  "coffee": 8
+ },
+ "collected": "2026-09-13 09:45",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

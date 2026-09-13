@@ -1,0 +1,43 @@
+{
+ "id": 616404,
+ "name": "Mkhchyan",
+ "ascii": "Mkhchyan",
+ "name_ru": "Мхчян",
+ "alt_ru": [
+  "Мхчян"
+ ],
+ "lat": 40.02228,
+ "lon": 44.4917,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 5022,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-01",
+ "geohash": "szpesm",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.0043,
+  44.4682,
+  40.0403,
+  44.5152
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 13,
+ "osm_named": 8,
+ "osm_with_site": 1,
+ "osm_with_hours": 1,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 7,
+  "coffee": 1,
+  "med": 2,
+  "food": 2,
+  "travel": 1
+ },
+ "collected": "2026-09-13 05:14",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

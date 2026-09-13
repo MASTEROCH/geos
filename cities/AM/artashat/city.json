@@ -1,0 +1,44 @@
+{
+ "id": 174979,
+ "name": "Artashat",
+ "ascii": "Artashat",
+ "name_ru": "Арташат",
+ "alt_ru": [
+  "Арташат"
+ ],
+ "lat": 39.95484,
+ "lon": 44.54874,
+ "feature": "PPLA",
+ "cc": "AM",
+ "admin1": "Ararat",
+ "population": 22800,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-04-13",
+ "geohash": "szpem9",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  39.9303,
+  44.5167,
+  39.9794,
+  44.5808
+ ],
+ "radius_km": 2.7,
+ "preset": "cityhub",
+ "osm_total": 81,
+ "osm_named": 38,
+ "osm_with_site": 6,
+ "osm_with_hours": 14,
+ "osm_with_socials": 2,
+ "niches": {
+  "food": 6,
+  "shop": 61,
+  "med": 10,
+  "beauty": 2,
+  "music": 1,
+  "art": 1
+ },
+ "collected": "2026-09-13 05:02",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

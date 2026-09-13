@@ -1,0 +1,41 @@
+{
+ "id": 586692,
+ "name": "Zayam",
+ "ascii": "Zayam",
+ "name_ru": "Дзегам",
+ "alt_ru": [
+  "Дзегам",
+  "Заьйаьм"
+ ],
+ "lat": 40.9033,
+ "lon": 45.88564,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Şǝmkir",
+ "population": 8300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp28sn",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.8853,
+  45.8618,
+  40.9213,
+  45.9095
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 10,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 9,
+  "med": 1
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

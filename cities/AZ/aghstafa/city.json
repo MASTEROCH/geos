@@ -1,0 +1,48 @@
+{
+ "id": 587362,
+ "name": "Aghstafa",
+ "ascii": "Aghstafa",
+ "name_ru": "Агстафа",
+ "alt_ru": [
+  "Агстафа",
+  "Акстафа"
+ ],
+ "lat": 41.11889,
+ "lon": 45.45389,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Ağstafa",
+ "population": 12200,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp23fm",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.1009,
+  45.43,
+  41.1369,
+  45.4778
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 155,
+ "osm_named": 150,
+ "osm_with_site": 1,
+ "osm_with_hours": 5,
+ "osm_with_socials": 1,
+ "niches": {
+  "shop": 99,
+  "art": 5,
+  "food": 11,
+  "coffee": 17,
+  "travel": 2,
+  "med": 16,
+  "gym": 2,
+  "music": 1,
+  "beauty": 2
+ },
+ "collected": "2026-09-13 09:17",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,39 @@
+{
+ "id": 616431,
+ "name": "Mastara",
+ "ascii": "Mastara",
+ "name_ru": "Мастара",
+ "alt_ru": [
+  "Мастара"
+ ],
+ "lat": 40.4471,
+ "lon": 43.8817,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Aragatsotn",
+ "population": 2745,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-09-04",
+ "geohash": "szpnne",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.4291,
+  43.858,
+  40.4651,
+  43.9054
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 1,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 1
+ },
+ "collected": "2026-09-13 06:31",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

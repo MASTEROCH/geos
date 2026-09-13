@@ -1,0 +1,39 @@
+{
+ "id": 147305,
+ "name": "Qubadlı",
+ "ascii": "Qubadli",
+ "name_ru": "Кубадли",
+ "alt_ru": [
+  "Кубадли",
+  "Кубадлы",
+  "Кубатлы"
+ ],
+ "lat": 39.34441,
+ "lon": 46.58183,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Qubadlı",
+ "population": 6890,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-04-13",
+ "geohash": "tncpgf",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  39.3264,
+  46.5585,
+  39.3624,
+  46.6051
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 09:25",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

@@ -1,0 +1,50 @@
+{
+ "id": 585152,
+ "name": "Shamkhir",
+ "ascii": "Shamkhir",
+ "name_ru": "Шамки́р",
+ "alt_ru": [
+  "Шамки́р",
+  "Шамкир",
+  "Шамхор"
+ ],
+ "lat": 40.82975,
+ "lon": 46.0178,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Şǝmkir",
+ "population": 41300,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-30",
+ "geohash": "tp28r0",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.7967,
+  45.9741,
+  40.8628,
+  46.0615
+ ],
+ "radius_km": 3.7,
+ "preset": "cityhub",
+ "osm_total": 127,
+ "osm_named": 123,
+ "osm_with_site": 2,
+ "osm_with_hours": 4,
+ "osm_with_socials": 2,
+ "niches": {
+  "travel": 4,
+  "shop": 69,
+  "coffee": 15,
+  "bar": 2,
+  "med": 16,
+  "art": 3,
+  "food": 13,
+  "music": 2,
+  "gym": 2,
+  "beauty": 1
+ },
+ "collected": "2026-09-13 08:28",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

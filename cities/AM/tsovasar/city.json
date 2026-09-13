@@ -1,0 +1,37 @@
+{
+ "id": 616174,
+ "name": "Tsovasar",
+ "ascii": "Tsovasar",
+ "name_ru": "Цовасар",
+ "alt_ru": [
+  "Цовасар"
+ ],
+ "lat": 40.1382,
+ "lon": 45.19096,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Gegharkunik",
+ "population": 2891,
+ "elevation": 2100,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-20",
+ "geohash": "tp0hk6",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.1202,
+  45.1674,
+  40.1562,
+  45.2145
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 0,
+ "osm_named": 0,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {},
+ "collected": "2026-09-13 05:57",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

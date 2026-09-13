@@ -1,0 +1,45 @@
+{
+ "id": 587207,
+ "name": "Pirallahı",
+ "ascii": "Pirallahi",
+ "name_ru": "Артем-Остров",
+ "alt_ru": [
+  "Артем-Остров"
+ ],
+ "lat": 40.47013,
+ "lon": 50.32476,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Baki",
+ "population": 13435,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2020-06-10",
+ "geohash": "tp5y1p",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4513,
+  50.3,
+  40.489,
+  50.3495
+ ],
+ "radius_km": 2.1,
+ "preset": "cityhub",
+ "osm_total": 71,
+ "osm_named": 70,
+ "osm_with_site": 2,
+ "osm_with_hours": 2,
+ "osm_with_socials": 2,
+ "niches": {
+  "food": 2,
+  "shop": 44,
+  "art": 6,
+  "coffee": 10,
+  "music": 1,
+  "med": 6,
+  "travel": 2
+ },
+ "collected": "2026-09-13 09:08",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

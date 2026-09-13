@@ -1,0 +1,45 @@
+{
+ "id": 8572256,
+ "name": "Mehdiabad",
+ "ascii": "Mehdiabad",
+ "name_ru": "Мехдиабад",
+ "alt_ru": [
+  "Мехдиабад"
+ ],
+ "lat": 40.49691,
+ "lon": 49.8517,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Abşeron",
+ "population": 20500,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-25",
+ "geohash": "tp5qqk",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.4736,
+  49.8211,
+  40.5202,
+  49.8823
+ ],
+ "radius_km": 2.6,
+ "preset": "cityhub",
+ "osm_total": 102,
+ "osm_named": 99,
+ "osm_with_site": 6,
+ "osm_with_hours": 8,
+ "osm_with_socials": 2,
+ "niches": {
+  "food": 12,
+  "med": 8,
+  "shop": 68,
+  "beauty": 1,
+  "art": 1,
+  "coffee": 11,
+  "gym": 1
+ },
+ "collected": "2026-09-13 08:50",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

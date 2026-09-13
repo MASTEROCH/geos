@@ -1,0 +1,47 @@
+{
+ "id": 823796,
+ "name": "Kasakh",
+ "ascii": "Kasakh",
+ "name_ru": "Касах",
+ "alt_ru": [
+  "Касах"
+ ],
+ "lat": 40.23555,
+ "lon": 44.45162,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Kotayk",
+ "population": 6756,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-08-13",
+ "geohash": "szpsgs",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.2175,
+  44.428,
+  40.2536,
+  44.4752
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 25,
+ "osm_named": 14,
+ "osm_with_site": 1,
+ "osm_with_hours": 7,
+ "osm_with_socials": 0,
+ "niches": {
+  "food": 2,
+  "shop": 12,
+  "coffee": 1,
+  "beauty": 1,
+  "med": 4,
+  "gym": 2,
+  "travel": 1,
+  "art": 1,
+  "kids": 1
+ },
+ "collected": "2026-09-13 05:13",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

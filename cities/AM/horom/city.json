@@ -1,0 +1,43 @@
+{
+ "id": 612561,
+ "name": "Horom",
+ "ascii": "Horom",
+ "name_ru": "Ором",
+ "alt_ru": [
+  "Ором",
+  "Хоромь"
+ ],
+ "lat": 40.65973,
+ "lon": 43.89032,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Shirak",
+ "population": 2162,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2025-12-09",
+ "geohash": "szppq9",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  40.6417,
+  43.8666,
+  40.6777,
+  43.9141
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 10,
+ "osm_named": 5,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "travel": 1,
+  "shop": 5,
+  "med": 2,
+  "food": 2
+ },
+ "collected": "2026-09-13 06:59",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

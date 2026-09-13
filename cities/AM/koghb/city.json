@@ -1,0 +1,46 @@
+{
+ "id": 616525,
+ "name": "Koghb",
+ "ascii": "Koghb",
+ "name_ru": "Кульн",
+ "alt_ru": [
+  "Кохб",
+  "Кохбакар",
+  "Кульби",
+  "Кульн",
+  "Кульп",
+  "Новый Кохб",
+  "Нор Кохб"
+ ],
+ "lat": 41.18184,
+ "lon": 44.97608,
+ "feature": "PPL",
+ "cc": "AM",
+ "admin1": "Tavush",
+ "population": 4621,
+ "elevation": null,
+ "tz": "Asia/Yerevan",
+ "updated": "2026-03-29",
+ "geohash": "szrfr2",
+ "country": "Armenia",
+ "country_ru": "Армения",
+ "bbox": [
+  41.1638,
+  44.9521,
+  41.1999,
+  45.0
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 3,
+ "osm_named": 1,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 2,
+  "med": 1
+ },
+ "collected": "2026-09-13 05:21",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

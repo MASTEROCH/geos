@@ -1,0 +1,50 @@
+{
+ "id": 585514,
+ "name": "Mingachevir",
+ "ascii": "Mingachevir",
+ "name_ru": "Мингачевир",
+ "alt_ru": [
+  "Мингачевир",
+  "Мингечаур"
+ ],
+ "lat": 40.76422,
+ "lon": 47.06227,
+ "feature": "PPLA",
+ "cc": "AZ",
+ "admin1": "Mingacevir City",
+ "population": 106048,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2026-06-26",
+ "geohash": "tp1ryu",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  40.7113,
+  46.9923,
+  40.8172,
+  47.1322
+ ],
+ "radius_km": 5.9,
+ "preset": "cityhub",
+ "osm_total": 206,
+ "osm_named": 174,
+ "osm_with_site": 9,
+ "osm_with_hours": 13,
+ "osm_with_socials": 5,
+ "niches": {
+  "travel": 4,
+  "shop": 83,
+  "med": 39,
+  "food": 31,
+  "beauty": 3,
+  "coffee": 26,
+  "bar": 1,
+  "art": 8,
+  "gym": 6,
+  "music": 3,
+  "sea": 2
+ },
+ "collected": "2026-09-13 07:29",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}

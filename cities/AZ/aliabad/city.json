@@ -1,0 +1,43 @@
+{
+ "id": 587319,
+ "name": "Aliabad",
+ "ascii": "Aliabad",
+ "name_ru": "Алиабад",
+ "alt_ru": [
+  "Алиабад"
+ ],
+ "lat": 41.4829,
+ "lon": 46.63483,
+ "feature": "PPL",
+ "cc": "AZ",
+ "admin1": "Zaqatala District",
+ "population": 9103,
+ "elevation": null,
+ "tz": "Asia/Baku",
+ "updated": "2024-01-11",
+ "geohash": "tp35vp",
+ "country": "Azerbaijan",
+ "country_ru": "Азербайджан",
+ "bbox": [
+  41.4649,
+  46.6108,
+  41.5009,
+  46.6589
+ ],
+ "radius_km": 2.0,
+ "preset": "cityhub",
+ "osm_total": 16,
+ "osm_named": 16,
+ "osm_with_site": 0,
+ "osm_with_hours": 0,
+ "osm_with_socials": 0,
+ "niches": {
+  "shop": 5,
+  "coffee": 4,
+  "food": 3,
+  "music": 1,
+  "med": 3
+ },
+ "collected": "2026-09-13 09:24",
+ "attribution": "© OpenStreetMap contributors (ODbL); GeoNames (CC BY 4.0)"
+}
