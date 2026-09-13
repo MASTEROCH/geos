@@ -9,6 +9,10 @@
   {
    "source": "/p/(.*)",
    "destination": "/api/card?id=$1"
+  },
+  {
+   "source": "/c/:cc/:slug",
+   "destination": "/api/city?cc=:cc&slug=:slug"
   }
  ],
  "headers": [
@@ -22,16 +26,7 @@
    ]
   },
   {
-   "source": "/earth/(.*)",
-   "headers": [
-    {
-     "key": "Cache-Control",
-     "value": "public, max-age=2592000, immutable"
-    }
-   ]
-  },
-  {
-   "source": "/api/(og|venue|street|recommend|event|leads)(.*)",
+   "source": "/api/(og|venue|street|recommend|event|leads|mcp)(.*)",
    "headers": [
     {
      "key": "Cache-Control",
@@ -45,6 +40,15 @@
     {
      "key": "Cache-Control",
      "value": "public, max-age=0, must-revalidate, s-maxage=300"
+    }
+   ]
+  },
+  {
+   "source": "/earth/(.*)",
+   "headers": [
+    {
+     "key": "Cache-Control",
+     "value": "public, max-age=2592000, immutable"
     }
    ]
   }

@@ -4,6 +4,16 @@
 > 235 747 городов (GeoNames). Рекомендации по вкусу с причинами, настоящее состояние места (Google, рантайм), лиды для бизнеса.
 > Данные — © OpenStreetMap contributors (ODbL), GeoNames (CC BY 4.0). Ничего не выдумывается: если данных нет, поле пустое.
 
+## Как цитировать
+
+Страница места: https://geos-six.vercel.app/p/<osmId> (JSON-LD LocalBusiness, часы, контакты, координаты). Страница города: https://geos-six.vercel.app/c/<CC>/<slug> (оглавление по категориям).
+Источник данных — OpenStreetMap (ODbL), снимок с датой на каждой странице; GEOS ничего не выдумывает: пустое поле = данных нет. Актуальное состояние места можно проверить по id через /api/area?id=.
+
+## Подключение агентов
+
+- Удалённый MCP (Streamable HTTP, без ключа): POST https://geos-six.vercel.app/api/mcp — инструменты geos_recommend, geos_places_near, geos_place_by_id, geos_street_view, geos_event, geos_card_url
+- Локальный MCP (stdio): templates/mcp/geos-mcp.js в скилле ГЕО
+
 ## API (JSON, CORS открыт)
 
 - https://geos-six.vercel.app/api/recommend?lat=41.64&lon=41.63&n=10&taste=coffee:1,bar:.6&cat=&radius=6&project=geos — ранжированные места с why

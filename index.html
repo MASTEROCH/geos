@@ -6,6 +6,8 @@
 <meta name="apple-mobile-web-app-title" content="GEOS">
 <link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <meta name="description" content="GEOS: каждый город Земли и места вокруг — контакты, часы, фото, маршрут. База мест и навигация «куда пойти именно тебе».">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml"><link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://geos-six.vercel.app/#site","name":"GEOS","url":"https://geos-six.vercel.app/","inLanguage":"ru","description":"База мест планеты и навигация «куда пойти именно тебе»: 235 747 городов, заведения из OpenStreetMap с контактами и часами, целевые рекомендации и лиды для бизнеса.","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://geos-six.vercel.app/api/recommend?lat={lat}&lon={lon}&cat={cat}"},"query-input":["required name=lat","required name=lon","name=cat"]}},{"@type":"Dataset","@id":"https://geos-six.vercel.app/#dataset","name":"GEOS — места планеты","description":"Заведения и достопримечательности городов мира с контактами, часами работы и координатами; реестр 235 747 городов GeoNames. Живой слой: любое место планеты по id OpenStreetMap.","url":"https://geos-six.vercel.app/llms.txt","license":"https://opendatacommons.org/licenses/odbl/","isAccessibleForFree":true,"creator":{"@type":"Organization","name":"OpenStreetMap contributors"},"distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://geos-six.vercel.app/openapi.json"}],"spatialCoverage":"Earth"},{"@type":"WebApplication","name":"GEOS","url":"https://geos-six.vercel.app/","applicationCategory":"TravelApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}]}</script>
 <title>GEOS</title>
 <style>
 :root{color-scheme:dark;
@@ -196,6 +198,7 @@ p.desc small{display:block;color:var(--ink3);font-size:12px;margin-top:4px}
 <canvas id="stars"></canvas><div id="halo"></div><canvas id="gl"></canvas><canvas id="ov"></canvas>
 <div id="intro"><div class="ring"></div><b>GEOS</b><span>загружаю планету…</span></div>
 <div id="nogl"><h2>Нужен WebGL</h2><p>Этот браузер не рисует 3D. Плоская карта: <a href="world.html">открыть</a>.</p></div>
+<noscript><main style="max-width:640px;margin:0 auto;padding:24px 16px;color:#fff;font:16px/1.5 system-ui"><h1>GEOS — база мест планеты</h1><p>235 747 городов Земли и заведения вокруг — контакты, часы работы, координаты, маршрут. Данные — © участники OpenStreetMap (ODbL) и GeoNames (CC BY 4.0).</p><p>Страницы мест: <code>/p/&lt;osmId&gt;</code>. Страницы городов: <code>/c/&lt;CC&gt;/&lt;slug&gt;</code>. Для агентов: <a href="/llms.txt">llms.txt</a>, <a href="/openapi.json">OpenAPI</a>, MCP по адресу <code>/api/mcp</code>. Карта сайта: <a href="/sitemap.xml">sitemap.xml</a>.</p></main></noscript>
 
 <div id="brand" class="glass"><i></i>GEOS<small class="num" id="ttl"></small></div>
 <div id="ctl">
