@@ -41,6 +41,9 @@ function localNow(tz) { try { const p = new Intl.DateTimeFormat("en-GB", { timeZ
 
 function parseTaste(s) { const t = {}; for (const kv of String(s || "").split(",")) { const [k, v] = kv.split(":"); if (CATS.includes(k)) t[k] = Math.max(0, Math.min(1, parseFloat(v) || 0)); } return t; }
 
+// время суток как контекст: утром кофе, в обед и вечером еда, ночью бары — множитель и причина
+const TOD = {coffee:[[6,12,1.3,'утро'],[15,18,1.1,'']],food:[[12,15,1.25,'время обеда'],[18,22,1.25,'время ужина']],bar:[[19,27,1.35,'вечер']],music:[[18,24,1.2,'вечер']],art:[[10,18,1.15,'']],travel:[[9,18,1.15,'']],sea:[[9,19,1.2,'день']],beauty:[[10,20,1.1,'']],shop:[[10,20,1.1,'']],gym:[[7,22,1.05,'']],spa:[[12,22,1.1,'']],kids:[[10,19,1.15,'']],med:[[8,20,1.05,'']]};
+function tod(cat,hour){const h=hour<6?hour+24:hour;for(const [a,b,f,l] of TOD[cat]||[])if(h>=a&&h<b)return [f,l];return [0.9,'']}
 module.exports = async (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Cache-Control", "private, no-store");
@@ -63,7 +66,8 @@ module.exports = async (req, res) => {
     // контекст: открыто сейчас и расстояние
     const [wd, now] = q.hour ? [parseInt(q.wd || "0", 10), parseInt(q.hour, 10) * 60] : localNow(p.tz);
     const open = openAt(p.h, wd, now);
-    const ctx = (open === true ? 1.0 : open === false ? 0.45 : 0.8) * Math.exp(-d / 2.5);
+    const [tf, tl] = tod(p.c, now / 60); if (tl && !cat) why.push(tl);
+    const ctx = (open === true ? 1.0 : open === false ? 0.45 : 0.8) * Math.exp(-d / 2.5) * tf;
     if (open === true) why.push("открыто сейчас"); if (d < 0.6) why.push(`${Math.round(d * 1000)} м`); else why.push(`${d.toFixed(1)} км`);
     // качество записи: чем полнее, тем надёжнее (настоящий рейтинг — через api/venue)
     const qual = 0.7 + 0.1 * (!!p.h + !!p.s + !!p.p);
